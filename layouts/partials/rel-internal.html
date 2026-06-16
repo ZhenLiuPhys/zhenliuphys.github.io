@@ -1,0 +1,10 @@
+{{- /* Resolve internal paths for subdirectory hosting (e.g. /homepage on GitHub project Pages). */ -}}
+{{- /* Hugo relURL treats leading "/" as host-root-relative; strip it first. */ -}}
+{{- $href := .href -}}
+{{- if and $href (not (hasPrefix $href "http://")) (not (hasPrefix $href "https://")) (not (hasPrefix $href "//")) (not (hasPrefix $href "mailto:")) (not (hasPrefix $href "tel:")) -}}
+  {{- if hasPrefix $href "/" -}}
+    {{- $href = strings.TrimPrefix "/" $href -}}
+  {{- end -}}
+  {{- $href = $href | relURL -}}
+{{- end -}}
+{{- $href -}}

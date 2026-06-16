@@ -1,0 +1,41 @@
+{{ $pub := .pub }}
+{{ $title := replaceRE "\\s*\\(link\\)\\s*" "" $pub.title }}
+{{ $venueLine := $pub.venue_display | default $pub.venue }}
+{{ $journalHref := "" }}
+{{ with $pub.doi }}
+  {{ $journalHref = printf "https://doi.org/%s" . }}
+{{ else }}
+  {{ with $pub.journal_url }}
+    {{ $journalHref = . }}
+  {{ end }}
+{{ end }}
+{{ $status := $pub.status | default "" }}
+{{ $statusInVenue := false }}
+{{ if and $status $venueLine }}
+  {{ $statusInVenue = gt (len (findRE (printf "(?i)\\b%s\\b" $status) $venueLine)) 0 }}
+{{ end }}
+{{ $searchText := printf "%s %s %s %s %s %s %v %s %s" $title $pub.venue $pub.venue_display $pub.authors $pub.arxiv $pub.doi $pub.year $pub.status $pub.journal }}
+<article class="pub-row" data-search-text="{{ $searchText | lower | htmlEscape }}">
+  <div class="pub-row-main">
+    <h3 class="pub-row-title">{{ partial "format-publication-title.html" $title }}</h3>
+    <p class="pub-row-meta">
+      {{ with $pub.year }}<span class="pub-year">{{ . }}</span>{{ end }}
+      {{ with $venueLine }}
+        {{ if $pub.year }} · {{ end }}
+        {{ if $journalHref }}
+          <a class="pub-inline-link pub-venue" href="{{ $journalHref }}" target="_blank" rel="noopener">{{ . }}</a>
+        {{ else }}
+          <span class="pub-venue">{{ . }}</span>
+        {{ end }}
+      {{ end }}
+      {{ with $pub.arxiv }}
+        · <a class="pub-inline-link pub-arxiv-id" href="https://arxiv.org/abs/{{ . }}" target="_blank" rel="noopener">arXiv:{{ . }}</a>
+      {{ end }}
+      {{ with $status }}
+        {{ if not $statusInVenue }}
+        · <span class="pub-status">{{ . }}</span>
+        {{ end }}
+      {{ end }}
+    </p>
+  </div>
+</article>

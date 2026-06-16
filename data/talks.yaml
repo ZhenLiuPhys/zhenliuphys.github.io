@@ -1,0 +1,4492 @@
+- id: talk-l6-001-scheduled-tbd
+  title: (scheduled) Future Colliders
+  year: 2026
+  date: '2026-09-01'
+  event: New directions EXploring the Unknown beyond the Standard Model (NEXUS 2026),
+    T.D. Lee Institute, Shanghai, China, Sept. 2026
+  host: T.D. Lee Institute
+  location: Shanghai, China
+  talk_type: talk
+  slides_url: https://indico.cern.ch/event/1619305/contributions/7039582/
+  video_url: ''
+  date_display: September 2026
+  venue: New directions EXploring the Unknown beyond the Standard Model (NEXUS 2026)
+  category: scheduled
+  scheduled: false
+  event_display: New directions EXploring the Unknown beyond the Standard Model (NEXUS
+    2026) · Shanghai, China · September 2026
+  placeholder: false
+- id: talk-l6-002-scheduled-massive-amplitudes-and-constructibility
+  title: (scheduled)Massive Amplitudes and Constructibility
+  year: 2026
+  date: '2026-08-01'
+  event: International Workshop on New Opportunities for Particle Physics 2026, IHEP,
+    Beijing, China, Aug. 2026
+  host: IHEP
+  location: Beijing, China
+  talk_type: talk
+  slides_url: https://indico.cern.ch/event/1619305/contributions/7039582/
+  video_url: ''
+  date_display: August 2026
+  venue: International Workshop on New Opportunities for Particle Physics 2026
+  category: scheduled
+  scheduled: false
+  event_display: International Workshop on New Opportunities for Particle Physics
+    2026 · Beijing, China · August 2026
+  placeholder: false
+- id: talk-lecture-sw-001-scheduled-collider-phenomenology-link
+  title: (scheduled) Collider Phenomenology
+  year: 2026
+  date: '2026-08-01'
+  event: Fudan Particle Physics Summer School 2026, Shanghai, China, Aug. 2026
+  host: ''
+  location: Shanghai, China
+  talk_type: talk
+  slides_url: https://indico.ihep.ac.cn/event/29307/
+  video_url: ''
+  date_display: August 2026
+  venue: Fudan Particle Physics Summer School 2026
+  category: lecture
+  scheduled: false
+  event_display: Fudan Particle Physics Summer School 2026 · Shanghai, China · August
+    2026
+  placeholder: false
+- id: talk-l6-003-a-busy-higgs-signal
+  title: A Busy Higgs Signal
+  year: 2026
+  date: '2026-06-01'
+  event: Extended Scalars Workshop, CERN, Geneva, Switzerland, Jun. 2026
+  host: CERN
+  location: Geneva, Switzerland
+  talk_type: talk
+  slides_url: https://indico.cern.ch/event/1619305/contributions/7039582/
+  video_url: ''
+  date_display: June 2026
+  venue: Extended Scalars Workshop
+  category: workshop
+  scheduled: false
+  event_display: Extended Scalars Workshop · Geneva, Switzerland · June 2026
+  placeholder: false
+- id: talk-l6-005-new-directions-in-collider-physics
+  title: New Directions in Collider Physics
+  year: 2026
+  date: '2026-05-01'
+  event: Pheno 2026, Pittsburgh, PA, May. 2026
+  host: ''
+  location: Pittsburgh, PA
+  talk_type: talk
+  slides_url: https://indico.global/event/16413/contributions/153975/
+  video_url: ''
+  date_display: May 2026
+  venue: Pheno 2026
+  category: other
+  scheduled: false
+  event_display: Pheno 2026 · Pittsburgh, PA · May 2026
+  placeholder: false
+- id: talk-l6-004-colored-resonances-with-tao-c
+  title: Colored Resonances with Tao c
+  year: 2026
+  date: '2026-05-01'
+  event: Taofest, Pittsburgh, PA, May. 2026
+  host: ''
+  location: Pittsburgh, PA
+  talk_type: talk
+  slides_url: https://indico.global/event/16891/contributions/152830/
+  video_url: ''
+  date_display: May 2026
+  venue: Taofest
+  category: other
+  scheduled: false
+  event_display: Taofest · Pittsburgh, PA · May 2026
+  placeholder: false
+- id: talk-l5-001-constructability-of-massive-helicity-amplitudes-and-the-alt-shift
+  title: Constructability of Massive Helicity Amplitudes and the ALT Shift
+  year: 2026
+  date: '2026-04-01'
+  event: University of Wisconsin-Madison, Madison, WI, Apr. 2026
+  host: University of Wisconsin-Madison
+  location: Madison, WI
+  talk_type: talk
+  slides_url: ''
+  video_url: ''
+  date_display: April 2026
+  venue: ''
+  category: other
+  scheduled: false
+  event_display: University of Wisconsin-Madison · Madison, WI · April 2026
+  placeholder: false
+- id: talk-l5-002-constructability-of-massive-helicity-amplitudes-and-the-alt-shift
+  title: Constructability of Massive Helicity Amplitudes and the ALT Shift
+  year: 2026
+  date: '2026-04-01'
+  event: Fermilab, Batavia, IL, Apr. 2026
+  host: Fermilab
+  location: Batavia, IL
+  talk_type: talk
+  slides_url: ''
+  video_url: ''
+  date_display: April 2026
+  venue: ''
+  category: other
+  scheduled: false
+  event_display: Fermilab · Batavia, IL · April 2026
+  placeholder: false
+- id: talk-l6-006-neutrinos-at-muon-colliders
+  title: Neutrinos at muon colliders
+  year: 2026
+  date: '2026-03-01'
+  event: the 2nd Hokkaido workshop on Particle Physics at the Crossroads, Hokkaido,
+    Japan, Mar. 2026
+  host: ''
+  location: Hokkaido, Japan
+  talk_type: talk
+  slides_url: https://indico.global/event/15552/contributions/137284/
+  video_url: ''
+  date_display: March 2026
+  venue: the 2nd Hokkaido workshop on Particle Physics at the Crossroads
+  category: workshop
+  scheduled: false
+  event_display: the 2nd Hokkaido workshop on Particle Physics at the Crossroads ·
+    Hokkaido, Japan · March 2026
+  placeholder: false
+- id: talk-l6-007-genai-enabled-representation-of-quantum-chromodynamics-qcd
+  title: GenAI-Enabled Representation of Quantum ChromoDynamics (QCD)
+  year: 2026
+  date: '2026-02-01'
+  event: talk at GenAI for Science & Engineering Workshop, University of Minnesota,
+    Minneapolis, MN, Feb. 2026
+  host: University of Minnesota
+  location: Minneapolis, MN
+  talk_type: talk
+  slides_url: ''
+  video_url: ''
+  date_display: February 2026
+  venue: GenAI for Science & Engineering Workshop
+  category: workshop
+  scheduled: false
+  event_display: GenAI for Science & Engineering Workshop · Minneapolis, MN · February
+    2026
+  placeholder: false
+- id: talk-l5-003-constructability-of-massive-helicity-amplitudes-and-the-alt-shift
+  title: Constructability of Massive Helicity Amplitudes and the ALT Shift
+  year: 2026
+  date: '2026-02-01'
+  event: CHEP seminar, Peking University, Beijing, China, Feb. 2026
+  host: Peking University
+  location: Beijing, China
+  talk_type: seminar
+  slides_url: ''
+  video_url: ''
+  date_display: February 2026
+  venue: CHEP seminar
+  category: seminar
+  scheduled: false
+  event_display: CHEP seminar · Beijing, China · February 2026
+  placeholder: false
+- id: talk-l6-008-slice-of-neutrinos-at-high-energy-muon-colliders
+  title: Slice of neutrinos at high-energy muon colliders
+  year: 2025
+  date: '2025-10-01'
+  event: 'Good nus: Neutrino Physics at a Muon Collider workshop, Pitt-PACC, University
+    of Pittsburgh, Pittsburgh, PA, Oct. 2025'
+  host: University of Pittsburgh
+  location: Pittsburgh, PA
+  talk_type: talk
+  slides_url: https://indico.global/event/15552/contributions/137284/
+  video_url: ''
+  date_display: October 2025
+  venue: 'Good nus: Neutrino Physics at a Muon Collider workshop, Pitt-PACC'
+  category: workshop
+  scheduled: false
+  event_display: 'Good nus: Neutrino Physics at a Muon Collider workshop, Pitt-PACC
+    · Pittsburgh, PA · October 2025'
+  placeholder: false
+- id: talk-l5-004-seeking-hidden-dynamics-across-frontiers
+  title: Seeking Hidden Dynamics Across Frontiers
+  year: 2025
+  date: '2025-10-01'
+  event: University of Oklahoma, Norman, OK, Oct. 2025
+  host: University of Oklahoma
+  location: Norman, OK
+  talk_type: talk
+  slides_url: ''
+  video_url: ''
+  date_display: October 2025
+  venue: ''
+  category: other
+  scheduled: false
+  event_display: University of Oklahoma · Norman, OK · October 2025
+  placeholder: false
+- id: talk-l6-009-probing-millicharged-particles-at-bdx-with-ultralow-threshold-sensors
+  title: Probing Millicharged Particles at BDX with Ultralow-Threshold Sensors
+  year: 2025
+  date: '2025-09-01'
+  event: invited talk (remote) at Secondary Beams at Jefferson Lab Workshop (BDX &
+    Beyond) workshop, Jefferson Lab, Newport News, VA, Sept. 2025
+  host: Jefferson Lab
+  location: Newport News, VA
+  talk_type: invited
+  slides_url: https://indico.jlab.org/event/951/contributions/17485/
+  video_url: ''
+  date_display: September 2025
+  venue: Jefferson Lab
+  category: workshop
+  scheduled: false
+  event_display: Jefferson Lab · Newport News, VA · September 2025
+  placeholder: false
+- id: talk-l6-010-thinking-outside-the-box-about-collider-experiments
+  title: Thinking ``Outside the box'' about collider experiments
+  year: 2025
+  date: '2025-08-01'
+  event: Physics At The Highest Energies With Colliders conference, Exploring the
+    energy frontier with muon beams program, Galileo Galilei Institute (GGI), Florence,
+    Italy, Jul.-Aug. 2025
+  host: Galileo Galilei Institute (GGI)
+  location: ''
+  talk_type: talk
+  slides_url: ''
+  video_url: https://www.youtube.com/watch?v=8hs7t0QfJ70&list=PL1CFLtxeIrQrRuIWxeLLBqX5IL7ZnM1qc&index=18
+  date_display: August 2025
+  venue: Physics At The Highest Energies With Colliders conference, Exploring the
+    energy frontier with muon beams program, Florence, Italy, Jul
+  category: workshop
+  scheduled: false
+  event_display: Physics At The Highest Energies With Colliders conference, Exploring
+    the energy frontier with muon beams program, Florence, Italy, Jul · August 2025
+  placeholder: false
+- id: talk-lecture-sw-002-future-colliders-lec1-lec2
+  title: Future Colliders (lec1) (lec2)
+  year: 2025
+  date: '2025-08-01'
+  event: Summer Institute 2025, Yoesu, Korea, Aug. 2025
+  host: Summer Institute 2025
+  location: Yoesu, Korea
+  talk_type: talk
+  slides_url: https://indico.ibs.re.kr/event/891/contributions/7835/
+  video_url: ''
+  date_display: August 2025
+  venue: ''
+  category: lecture
+  scheduled: false
+  event_display: Summer Institute 2025 · Yoesu, Korea · August 2025
+  placeholder: false
+- id: talk-lecture-sw-003-collider-probes-for-bsm-physics-lec1-lec2
+  title: Collider Probes for BSM Physics (lec1) (lec2)
+  year: 2025
+  date: '2025-07-01'
+  event: Summer School on Perturbative Quantum Field Theory and its Applications,
+    Shandong University, Qingdao, Shandong, China, Jul. 2025
+  host: Shandong University
+  location: Shandong, China
+  talk_type: talk
+  slides_url: https://indico.ihep.ac.cn/event/25318/contributions/194208/
+  video_url: ''
+  date_display: July 2025
+  venue: Summer School on Perturbative Quantum Field Theory and its Applications,
+    Qingdao
+  category: lecture
+  scheduled: false
+  event_display: Summer School on Perturbative Quantum Field Theory and its Applications,
+    Qingdao · Shandong, China · July 2025
+  placeholder: false
+- id: talk-l6-011-beam-power-sourced-millicharged-particles-and-dark-photons
+  title: Beam/Power Sourced Millicharged Particles and Dark Photons
+  year: 2025
+  date: '2025-06-01'
+  event: Simons Symposium on Illuminating Dark Matter, Munich, Germany, Jun. 2025
+  host: ''
+  location: Munich, Germany
+  talk_type: talk
+  slides_url: https://cdn.simonsfoundation.org/share/mps/symposia/2025/IDM/IDM2025-%20Liu.pdf
+  video_url: ''
+  date_display: June 2025
+  venue: Simons Symposium on Illuminating Dark Matter
+  category: workshop
+  scheduled: false
+  event_display: Simons Symposium on Illuminating Dark Matter · Munich, Germany ·
+    June 2025
+  placeholder: false
+- id: talk-l6-013-the-neutrino-slice-at-muon-colliders
+  title: The Neutrino Slice at Muon Colliders
+  year: 2025
+  date: '2025-05-01'
+  event: the Mitchell Conference on Collider, Dark Matter, and Neutrino Physics 2025,
+    Texas A&M, College Station, TX, May. 2025
+  host: the Mitchell Conference on Collider
+  location: College Station, TX
+  talk_type: talk
+  slides_url: https://indico.cern.ch/event/1488822/contributions/6480010/
+  video_url: ''
+  date_display: May 2025
+  venue: Dark Matter, and Neutrino Physics 2025, Texas A&M
+  category: workshop
+  scheduled: false
+  event_display: Dark Matter, and Neutrino Physics 2025, Texas A&M · College Station,
+    TX · May 2025
+  placeholder: false
+- id: talk-l6-012-solving-contact-term-ambiguities-for-massive-helicity-amplitudes
+  title: Solving Contact Term Ambiguities for Massive Helicity Amplitudes
+  year: 2025
+  date: '2025-05-01'
+  event: New Theory Developments session of Pheno2025, U of Pittsburgh, Pittsburgh,
+    PA, May. 2025
+  host: ''
+  location: Pittsburgh, PA
+  talk_type: talk
+  slides_url: https://indico.global/event/812/contributions/126633/
+  video_url: ''
+  date_display: May 2025
+  venue: New Theory Developments session of Pheno2025, U of Pittsburgh
+  category: other
+  scheduled: false
+  event_display: New Theory Developments session of Pheno2025, U of Pittsburgh · Pittsburgh,
+    PA · May 2025
+  placeholder: false
+- id: talk-l5-005-physics-opportunities-at-fcc
+  title: Physics Opportunities at FCC
+  year: 2025
+  date: '2025-04-01'
+  event: Fermilab Wine&Cheese Seminar, Fermilab, Batavia, IL, Apr. 2025
+  host: Fermilab
+  location: Batavia, IL
+  talk_type: seminar
+  slides_url: https://indico.fnal.gov/event/68627/
+  video_url: ''
+  date_display: April 2025
+  venue: Fermilab
+  category: seminar
+  scheduled: false
+  event_display: Fermilab · Batavia, IL · April 2025
+  placeholder: false
+- id: talk-l6-014-higgs-physics-at-fcc-ee
+  title: Higgs Physics at FCC-ee
+  year: 2025
+  date: '2025-04-01'
+  event: the Third Annual US Higgs Factory Future Circular Collider Workshop, Fermilab,
+    Batavia, IL, Apr. 2025
+  host: Fermilab
+  location: Batavia, IL
+  talk_type: talk
+  slides_url: https://indico.fnal.gov/event/67484/contributions/310857/
+  video_url: ''
+  date_display: April 2025
+  venue: the Third Annual US Higgs Factory Future Circular Collider Workshop
+  category: workshop
+  scheduled: false
+  event_display: the Third Annual US Higgs Factory Future Circular Collider Workshop
+    · Batavia, IL · April 2025
+  placeholder: false
+- id: talk-l6-015-lhc-new-channels-and-objects
+  title: LHC new Channels and Objects
+  year: 2024
+  date: '2024-12-01'
+  event: invited (remote) talk at CMS Exotica Group workshop, Imperial College, UK,
+    Dec. 2024
+  host: ''
+  location: Imperial College, UK
+  talk_type: invited
+  slides_url: ''
+  video_url: ''
+  date_display: December 2024
+  venue: invited (remote) talk at CMS Exotica Group workshop
+  category: workshop
+  scheduled: false
+  event_display: invited (remote) talk at CMS Exotica Group workshop · Imperial College,
+    UK · December 2024
+  placeholder: false
+- id: talk-l6-016-opportunities-in-long-lived-particles-at-current-and-future-colliders
+  title: Opportunities in Long-Lived Particles at Current and Future Colliders
+  year: 2024
+  date: '2024-10-01'
+  event: CEPC2024, Hangzhou, China, Oct. 2024
+  host: ''
+  location: Hangzhou, China
+  talk_type: talk
+  slides_url: https://indico.ihep.ac.cn/event/22089/contributions/167866/
+  video_url: ''
+  date_display: October 2024
+  venue: CEPC2024
+  category: other
+  scheduled: false
+  event_display: CEPC2024 · Hangzhou, China · October 2024
+  placeholder: false
+- id: talk-l6-017-accidental-suppression-of-wilson-coefficients-in-higgs-coupling
+  title: Accidental Suppression of Wilson Coefficients in Higgs Coupling
+  year: 2024
+  date: '2024-10-01'
+  event: Higgs section CEPC2024, Hangzhou, China, Oct. 2024
+  host: ''
+  location: Hangzhou, China
+  talk_type: talk
+  slides_url: https://indico.ihep.ac.cn/event/22089/contributions/170397/
+  video_url: ''
+  date_display: October 2024
+  venue: Higgs section CEPC2024
+  category: other
+  scheduled: false
+  event_display: Higgs section CEPC2024 · Hangzhou, China · October 2024
+  placeholder: false
+- id: talk-l6-018-accidental-suppression-of-wilson-coefficients-in-higgs-coupling
+  title: Accidental Suppression of Wilson Coefficients in Higgs Coupling
+  year: 2024
+  date: '2024-10-01'
+  event: the Extended Scalar Sectors From All Angles workshop, CERN, Geneva, Switzerland,
+    Oct. 2024
+  host: CERN
+  location: Geneva, Switzerland
+  talk_type: talk
+  slides_url: https://indico.cern.ch/event/1376030/timetable/#54-accidental-suppression-of-w
+  video_url: ''
+  date_display: October 2024
+  venue: the Extended Scalar Sectors From All Angles workshop
+  category: workshop
+  scheduled: false
+  event_display: the Extended Scalar Sectors From All Angles workshop · Geneva, Switzerland
+    · October 2024
+  placeholder: false
+- id: talk-l5-006-physics-landscape-and-opportunities-in-high-energy-colliders
+  title: Physics Landscape and Opportunities in High Energy Colliders
+  year: 2024
+  date: '2024-09-01'
+  event: School of Physics and Astronomy, University of Minnesota, Sept. 2024
+  host: University of Minnesota
+  location: ''
+  talk_type: talk
+  slides_url: ''
+  video_url: ''
+  date_display: September 2024
+  venue: University of Minnesota
+  category: workshop
+  scheduled: false
+  event_display: University of Minnesota · September 2024
+  placeholder: false
+- id: talk-l6-019-higgs-at-muon-colliders
+  title: Higgs at Muon Colliders
+  year: 2024
+  date: '2024-09-01'
+  event: the HDays2024, Santander, Spain, Sept. 2024
+  host: ''
+  location: Santander, Spain
+  talk_type: talk
+  slides_url: ''
+  video_url: ''
+  date_display: September 2024
+  venue: the HDays2024
+  category: other
+  scheduled: false
+  event_display: the HDays2024 · Santander, Spain · September 2024
+  placeholder: false
+- id: talk-l6-020-high-energy-muon-collider-physics-and-simulation
+  title: High Energy Muon Collider Physics and Simulation
+  year: 2024
+  date: '2024-08-01'
+  event: the Inaugural Workshop of the US Muon Collider Collaboration, Fermilab, Batavia,
+    IL, Aug. 2024
+  host: Fermilab
+  location: Batavia, IL
+  talk_type: talk
+  slides_url: https://indico.fnal.gov/event/64493/timetable/?view=standard#73-muon-collider-physics-and-s
+  video_url: ''
+  date_display: August 2024
+  venue: Fermilab
+  category: workshop
+  scheduled: false
+  event_display: Fermilab · Batavia, IL · August 2024
+  placeholder: false
+- id: talk-l6-021-the-muon-shot
+  title: The Muon Shot
+  year: 2024
+  date: '2024-07-01'
+  event: International Workshop on New Physics Opportunities in Particle Physics,
+    IHEP, Beijing, Jul. 2024
+  host: IHEP
+  location: ''
+  talk_type: talk
+  slides_url: https://indico.ihep.ac.cn/event/22187/contributions/158859/
+  video_url: ''
+  date_display: July 2024
+  venue: International Workshop on New Physics Opportunities in Particle Physics,
+    Beijing
+  category: workshop
+  scheduled: false
+  event_display: International Workshop on New Physics Opportunities in Particle Physics,
+    Beijing · July 2024
+  placeholder: false
+- id: talk-l6-022-journey-with-sourced-millicharged-particles-and-dark-photons
+  title: Journey with Sourced Millicharged Particles and Dark Photons
+  year: 2024
+  date: '2024-07-01'
+  event: CETUP*2024 program, Lead, SD, Jul. 2024
+  host: ''
+  location: Lead, SD
+  talk_type: talk
+  slides_url: https://indico.sanfordlab.org/event/69/timetable/?view=standard_inline_minutes#142-talk-journey-with-sourced
+  video_url: ''
+  date_display: July 2024
+  venue: CETUP*2024 program
+  category: other
+  scheduled: false
+  event_display: CETUP*2024 program · Lead, SD · July 2024
+  placeholder: false
+- id: talk-l5-007-mechanical-sensing-for-dark-matter
+  title: Mechanical Sensing for Dark Matter
+  year: 2024
+  date: '2024-05-01'
+  event: Enrico Fermi Institute (EFI) seminar, University of Chicago, May 2024
+  host: University of Chicago
+  location: ''
+  talk_type: seminar
+  slides_url: ''
+  video_url: ''
+  date_display: May 2024
+  venue: University of Chicago
+  category: seminar
+  scheduled: false
+  event_display: University of Chicago · May 2024
+  placeholder: false
+- id: talk-l6-023-maglev-for-dark-matter
+  title: MagLev for Dark Matter
+  year: 2024
+  date: '2024-05-01'
+  event: Pheno-DPF 2024, Pittsburgh, PA, May. 2024
+  host: ''
+  location: Pittsburgh, PA
+  talk_type: talk
+  slides_url: https://indico.cern.ch/event/1358339/contributions/5903734/
+  video_url: ''
+  date_display: May 2024
+  venue: Pheno-DPF 2024
+  category: other
+  scheduled: false
+  event_display: Pheno-DPF 2024 · Pittsburgh, PA · May 2024
+  placeholder: false
+- id: talk-l5-008-lhc-new-channels-new-observables
+  title: LHC New Channels & New Observables
+  year: 2024
+  date: '2024-05-01'
+  event: Seminar at Yang Institute of Theoretical Physics (YITP), SUNY-Stony Brook,
+    Long Island, NY, May. 2024
+  host: Yang Institute of Theoretical Physics (YITP)
+  location: Long Island, NY
+  talk_type: seminar
+  slides_url: ''
+  video_url: ''
+  date_display: May 2024
+  venue: SUNY-Stony Brook
+  category: seminar
+  scheduled: false
+  event_display: SUNY-Stony Brook · Long Island, NY · May 2024
+  placeholder: false
+- id: talk-l6-024-colliders-future-of-dark-matter
+  title: Colliders & Future of Dark Matter
+  year: 2024
+  date: '2024-04-01'
+  event: the future of dark matter workshop, Columbia U / CCA, Flatiron Institute,
+    NYC, Apr. 2024
+  host: Flatiron Institute
+  location: ''
+  talk_type: talk
+  slides_url: ''
+  video_url: ''
+  date_display: April 2024
+  venue: the future of dark matter workshop, Columbia U / CCA, NYC
+  category: workshop
+  scheduled: false
+  event_display: the future of dark matter workshop, Columbia U / CCA, NYC · April
+    2024
+  placeholder: false
+- id: talk-l6-025-portrait-of-higgs-with-inclusive-rate-via-forward-muon-detection
+  title: Portrait of Higgs with Inclusive Rate via Forward Muon Detection
+  year: 2024
+  date: '2024-03-01'
+  event: the Hokkaido Workshop on Particle Physics at Crossroads, Sapporo, Hokkaido,
+    Japan, Mar. 2024
+  host: ''
+  location: Hokkaido, Japan
+  talk_type: talk
+  slides_url: https://conference-indico.kek.jp/event/248/contributions/5083/
+  video_url: ''
+  date_display: March 2024
+  venue: the Hokkaido Workshop on Particle Physics at Crossroads, Sapporo
+  category: workshop
+  scheduled: false
+  event_display: the Hokkaido Workshop on Particle Physics at Crossroads, Sapporo
+    · Hokkaido, Japan · March 2024
+  placeholder: false
+- id: talk-l5-009-landscape-of-future-colliders
+  title: Landscape of Future Colliders
+  year: 2024
+  date: '2024-03-01'
+  event: (remote) colloquium at the special event for 100th birthday of physicist
+    Wenzhu Li, Zhejiang University, Zhejiang, Mar. 2024
+  host: Zhejiang University
+  location: ''
+  talk_type: seminar
+  slides_url: ''
+  video_url: ''
+  date_display: March 2024
+  venue: the special event for 100th birthday of physicist Wenzhu Li, Zhejiang
+  category: colloquium
+  scheduled: false
+  event_display: the special event for 100th birthday of physicist Wenzhu Li, Zhejiang
+    · March 2024
+  placeholder: false
+- id: talk-l5-010-the-next-leap-physics-landscape-of-future-colliders
+  title: 'The Next Leap: Physics Landscape of Future Colliders'
+  year: 2024
+  date: '2024-02-01'
+  event: Physics Division Research Progress Meeting (RPM) colloquium, Lawrence Berkeley
+    National Laboratory, Berkeley, California, Feb. 2024
+  host: Lawrence Berkeley National Laboratory
+  location: Berkeley, California
+  talk_type: seminar
+  slides_url: ''
+  video_url: ''
+  date_display: February 2024
+  venue: Physics Division Research Progress Meeting (RPM) colloquium
+  category: colloquium
+  scheduled: false
+  event_display: Physics Division Research Progress Meeting (RPM) colloquium · Berkeley,
+    California · February 2024
+  placeholder: false
+- id: talk-l6-026-inclusive-higgs-rate
+  title: Inclusive Higgs Rate
+  year: 2024
+  date: '2024-01-01'
+  event: Higgs Width and Couplings with Forward Muon Detector (remote) invited talk
+    at Physics and Detector simulation and MuCol WP2 meeting, Jan. 2024
+  host: ''
+  location: ''
+  talk_type: invited
+  slides_url: https://indico.cern.ch/event/1368548/#2-higgs-width-with-forward-muo
+  video_url: ''
+  date_display: January 2024
+  venue: Higgs Width and Couplings with Forward Muon Detector (remote) invited talk
+    at Physics and Detector simulation and MuCol WP2 meeting
+  category: workshop
+  scheduled: false
+  event_display: Higgs Width and Couplings with Forward Muon Detector (remote) invited
+    talk at Physics and Detector simulation and MuCol WP2 meeting · January 2024
+  placeholder: false
+- id: talk-l5-012-unique-physics-at-muon-colliders
+  title: Unique Physics at Muon Colliders
+  year: 2023
+  date: '2023-11-01'
+  event: (remote) Sydney-CPPC seminar, Nov. 2023
+  host: ''
+  location: ''
+  talk_type: seminar
+  slides_url: ''
+  video_url: ''
+  date_display: November 2023
+  venue: Sydney-CPPC seminar
+  category: seminar
+  scheduled: false
+  event_display: Sydney-CPPC seminar · November 2023
+  placeholder: false
+- id: talk-l5-011-hunting-gluonic-alps
+  title: Hunting Gluonic ALPs
+  year: 2023
+  date: '2023-11-01'
+  event: (remote) HEPPA seminar at Colorado State University Colorado, Nov. 2023
+  host: ''
+  location: ''
+  talk_type: seminar
+  slides_url: ''
+  video_url: ''
+  date_display: November 2023
+  venue: HEPPA seminar at Colorado State University Colorado
+  category: seminar
+  scheduled: false
+  event_display: HEPPA seminar at Colorado State University Colorado · November 2023
+  placeholder: false
+- id: talk-l6-027-pheno-opportunities-in-l1-trigger
+  title: Pheno Opportunities in L1 Trigger
+  year: 2023
+  date: '2023-09-01'
+  event: (remote) invited review talk at Level 1 Scouting Workshop, Centro Congressi
+    di Sappada, Italy, Sept. 2023
+  host: ''
+  location: Centro Congressi di Sappada, Italy
+  talk_type: invited
+  slides_url: https://indico.cern.ch/event/1288327/timetable/#1-are-there-new-physics-signat
+  video_url: ''
+  date_display: September 2023
+  venue: invited review talk at Level 1 Scouting Workshop
+  category: workshop
+  scheduled: false
+  event_display: invited review talk at Level 1 Scouting Workshop · Centro Congressi
+    di Sappada, Italy · September 2023
+  placeholder: false
+- id: talk-l6-028-higgs-and-z-exotic-decays
+  title: Higgs and Z Exotic Decays
+  year: 2023
+  date: '2023-08-01'
+  event: (remote) invited talk at CEPC Flavor and New Physics workshop, Fudan U, Shanghai,
+    China, Aug. 2023
+  host: ''
+  location: Shanghai, China
+  talk_type: invited
+  slides_url: https://indico.ihep.ac.cn/event/19839/contributions/138752/
+  video_url: ''
+  date_display: August 2023
+  venue: CEPC Flavor and New Physics workshop, Fudan U
+  category: workshop
+  scheduled: false
+  event_display: CEPC Flavor and New Physics workshop, Fudan U · Shanghai, China ·
+    August 2023
+  placeholder: false
+- id: talk-l6-029-new-physics-opportunities-at-lhc-and-beyond
+  title: New Physics Opportunities at LHC and Beyond
+  year: 2023
+  date: '2023-07-01'
+  event: Lepton Photon Conference, Melbourne, Australia, Jul. 2023
+  host: ''
+  location: Melbourne, Australia
+  talk_type: talk
+  slides_url: https://indico.cern.ch/event/1114856/timetable/#156-new-physics-opportunities
+  video_url: ''
+  date_display: July 2023
+  venue: Lepton Photon Conference
+  category: workshop
+  scheduled: false
+  event_display: Lepton Photon Conference · Melbourne, Australia · July 2023
+  placeholder: false
+- id: talk-l5-013-opportunities-strike-hep-advancements-and-prospects-in-high-energy-physics
+  title: 'Opportunities Strike HEP: Advancements and Prospects in High Energy Physics'
+  year: 2023
+  date: '2023-06-01'
+  event: Aspen Center for Physics, June. 2023
+  host: Aspen Center for Physics
+  location: ''
+  talk_type: talk
+  slides_url: ''
+  video_url: ''
+  date_display: June 2023
+  venue: ''
+  category: other
+  scheduled: false
+  event_display: Aspen Center for Physics · June 2023
+  placeholder: false
+- id: talk-l5-014-journey-with-sourced-millicharged-particles-and-dark-photons
+  title: Journey with Sourced Millicharged Particles and Dark Photons
+  year: 2023
+  date: '2023-06-01'
+  event: (remote) HET seminar , Nanjing U, June. 2023
+  host: ''
+  location: ''
+  talk_type: seminar
+  slides_url: ''
+  video_url: ''
+  date_display: June 2023
+  venue: HET seminar, Nanjing U
+  category: seminar
+  scheduled: false
+  event_display: HET seminar, Nanjing U · June 2023
+  placeholder: false
+- id: talk-l6-030-new-physics-at-future-colliders
+  title: New Physics at Future Colliders
+  year: 2023
+  date: '2023-05-01'
+  event: Beyond the SM from Colliders to Early Universe, University of Chicago/Fermilab,
+    Chicago, Illinois, May. 2023
+  host: University of Chicago/Fermilab
+  location: Chicago, Illinois
+  talk_type: talk
+  slides_url: https://indico.fnal.gov/event/57619/contributions/256752/
+  video_url: ''
+  date_display: May 2023
+  venue: Beyond the SM from Colliders to Early Universe
+  category: other
+  scheduled: false
+  event_display: Beyond the SM from Colliders to Early Universe · Chicago, Illinois
+    · May 2023
+  placeholder: false
+- id: talk-l6-033-millicharged-particles
+  title: Millicharged Particles
+  year: 2023
+  date: '2023-05-01'
+  event: the PIP-II workshop, Fermilab, Batavia, IL, May. 2023
+  host: Fermilab
+  location: Batavia, IL
+  talk_type: talk
+  slides_url: https://indico.fnal.gov/event/59430/#5-millicharged-particles
+  video_url: ''
+  date_display: May 2023
+  venue: the PIP-II workshop
+  category: workshop
+  scheduled: false
+  event_display: the PIP-II workshop · Batavia, IL · May 2023
+  placeholder: false
+- id: talk-l6-031-long-lived-particles-benchmarks
+  title: Long-Lived Particles Benchmarks
+  year: 2023
+  date: '2023-05-01'
+  event: the Muon Collider Physics forum, online, May. 2023
+  host: ''
+  location: ''
+  talk_type: talk
+  slides_url: https://indico.cern.ch/event/1281579/#6-long-lived-particles-benchma
+  video_url: ''
+  date_display: May 2023
+  venue: the Muon Collider Physics forum, online
+  category: workshop
+  scheduled: false
+  event_display: the Muon Collider Physics forum, online · May 2023
+  placeholder: false
+- id: talk-l5-015-journey-with-sourced-millicharged-particles-and-dark-photons
+  title: Journey with Sourced Millicharged Particles and Dark Photons
+  year: 2023
+  date: '2023-05-01'
+  event: Enrico Fermi Institute (EFI) seminar , University of Chicago, May. 2023
+  host: University of Chicago
+  location: ''
+  talk_type: seminar
+  slides_url: ''
+  video_url: ''
+  date_display: May 2023
+  venue: University of Chicago
+  category: seminar
+  scheduled: false
+  event_display: University of Chicago · May 2023
+  placeholder: false
+- id: talk-l5-016-journey-with-sourced-millicharged-particles-and-dark-photons
+  title: Journey with Sourced Millicharged Particles and Dark Photons
+  year: 2023
+  date: '2023-05-01'
+  event: HET seminar , University of Oregon, May. 2023
+  host: University of Oregon
+  location: ''
+  talk_type: seminar
+  slides_url: ''
+  video_url: ''
+  date_display: May 2023
+  venue: HET seminar
+  category: seminar
+  scheduled: false
+  event_display: HET seminar · May 2023
+  placeholder: false
+- id: talk-l6-032-hnl-at-muon-colliders
+  title: HNL at Muon Colliders
+  year: 2023
+  date: '2023-05-01'
+  event: Mitchell Conference, TAMU, College Station, Texas, May. 2023
+  host: Mitchell Conference
+  location: College Station, Texas
+  talk_type: talk
+  slides_url: https://indico.cern.ch/event/1252762/contributions/5395628/
+  video_url: ''
+  date_display: May 2023
+  venue: TAMU
+  category: workshop
+  scheduled: false
+  event_display: TAMU · College Station, Texas · May 2023
+  placeholder: false
+- id: talk-l6-034-enhancing-searches-for-heavy-qcd-axions-via-dimuon-final-states
+  title: Enhancing Searches for Heavy QCD Axions via Dimuon Final States
+  year: 2023
+  date: '2023-05-01'
+  event: contributed parallel talk at Pheno 2023, University of Pittsburgh, Pittsburgh,
+    Pennsylvania, May. 2023
+  host: University of Pittsburgh
+  location: Pittsburgh, Pennsylvania
+  talk_type: contributed
+  slides_url: https://indico.cern.ch/event/1218225/contributions/5383847/
+  video_url: ''
+  date_display: May 2023
+  venue: contributed parallel talk at Pheno 2023
+  category: other
+  scheduled: false
+  event_display: contributed parallel talk at Pheno 2023 · Pittsburgh, Pennsylvania
+    · May 2023
+  placeholder: false
+- id: talk-l6-037-pheno-requirement-for-muon-colliders
+  title: Pheno Requirement for Muon colliders
+  year: 2023
+  date: '2023-03-01'
+  event: the KITP muon collider program, Santa Babara, California, Mar. 2023
+  host: the KITP muon collider program
+  location: Santa Babara, California
+  talk_type: talk
+  slides_url: ''
+  video_url: ''
+  date_display: March 2023
+  venue: ''
+  category: other
+  scheduled: false
+  event_display: the KITP muon collider program · Santa Babara, California · March
+    2023
+  placeholder: false
+- id: talk-l6-036-long-lived-signatures-at-the-lhc
+  title: Long-lived signatures at the LHC
+  year: 2023
+  date: '2023-03-01'
+  event: Moriond QCD, La Thulie, Italy, Mar. 2023
+  host: ''
+  location: La Thulie, Italy
+  talk_type: talk
+  slides_url: ''
+  video_url: ''
+  date_display: March 2023
+  venue: Moriond QCD
+  category: other
+  scheduled: false
+  event_display: Moriond QCD · La Thulie, Italy · March 2023
+  placeholder: false
+- id: talk-l6-035-dark-srf-pathfinder-results-and-beyond
+  title: Dark SRF pathfinder results and Beyond
+  year: 2023
+  date: '2023-03-01'
+  event: Winter Aspen Program, Aspen, Co, Mar. 2023
+  host: ''
+  location: ''
+  talk_type: talk
+  slides_url: https://indico.fnal.gov/event/21471/contributions/62984/
+  video_url: ''
+  date_display: March 2023
+  venue: Winter Aspen Program, Aspen, Co
+  category: other
+  scheduled: false
+  event_display: Winter Aspen Program, Aspen, Co · March 2023
+  placeholder: false
+- id: talk-l6-038-theory-adventures-with-w-mass
+  title: Theory Adventures with W Mass
+  year: 2023
+  date: '2023-02-01'
+  event: invited keynote talk at Lake Louise Winter Institute 2023, Lake Louise, AB,
+    Canada, Feb. 2023
+  host: invited keynote talk at Lake Louise Winter Institute 2023
+  location: AB, Canada
+  talk_type: invited
+  slides_url: https://indico.cern.ch/event/1205624/contributions/5232210/
+  video_url: ''
+  date_display: February 2023
+  venue: Lake Louise
+  category: other
+  scheduled: false
+  event_display: Lake Louise · AB, Canada · February 2023
+  placeholder: false
+- id: talk-l6-040-seeking-hidden-dynamics-across-frontiers
+  title: Seeking Hidden Dynamics Across Frontiers
+  year: 2023
+  date: '2023-01-01'
+  event: the dual CP program, University of Colima, Colima, Mexico, Jan. 2023
+  host: University of Colima
+  location: ''
+  talk_type: talk
+  slides_url: ''
+  video_url: ''
+  date_display: January 2023
+  venue: the dual CP program, Colima, Mexico
+  category: other
+  scheduled: false
+  event_display: the dual CP program, Colima, Mexico · January 2023
+  placeholder: false
+- id: talk-l6-039-physics-demands-for-future-colliders
+  title: Physics Demands for Future Colliders
+  year: 2023
+  date: '2023-01-01'
+  event: the HK-IAS HEP program, HKUST, Hong Kong, China, Jan. 2023
+  host: ''
+  location: Hong Kong, China
+  talk_type: talk
+  slides_url: https://indico.cern.ch/event/1215937/timetable/#417-pheno-demands-for-future-c
+  video_url: ''
+  date_display: January 2023
+  venue: the HK-IAS HEP program, HKUST
+  category: other
+  scheduled: false
+  event_display: the HK-IAS HEP program, HKUST · Hong Kong, China · January 2023
+  placeholder: false
+- id: talk-l5-017-physics-potential-for-future-muon-colliders
+  title: Physics Potential for Future Muon Colliders
+  year: 2022
+  date: '2022-12-01'
+  event: (remote) HET seminar , Brookhaven National Laboratory (BNL), Dec. 2022
+  host: Brookhaven National Laboratory (BNL)
+  location: ''
+  talk_type: seminar
+  slides_url: ''
+  video_url: ''
+  date_display: December 2022
+  venue: HET seminar
+  category: seminar
+  scheduled: false
+  event_display: HET seminar · December 2022
+  placeholder: false
+- id: talk-l6-042-pheno-demands-for-muon-colliders
+  title: Pheno Demands for Muon Colliders
+  year: 2022
+  date: '2022-12-01'
+  event: the Muon Collider Physics and Detector workshop, Fermilab, Batavia, IL, Dec.
+    2022
+  host: Fermilab
+  location: Batavia, IL
+  talk_type: talk
+  slides_url: https://indico.fnal.gov/event/56615/timetable/#12-pheno-requirements
+  video_url: ''
+  date_display: December 2022
+  venue: the Muon Collider Physics and Detector workshop
+  category: workshop
+  scheduled: false
+  event_display: the Muon Collider Physics and Detector workshop · Batavia, IL · December
+    2022
+  placeholder: false
+- id: talk-l6-041-hunting-high-quality-axions
+  title: Hunting High-Quality Axions
+  year: 2022
+  date: '2022-12-01'
+  event: (remote) invited talk at MEPA, China, Dec. 2022
+  host: ''
+  location: MEPA, China
+  talk_type: invited
+  slides_url: https://indico-tdli.sjtu.edu.cn/event/1130/contributions/5912/
+  video_url: ''
+  date_display: December 2022
+  venue: ''
+  category: other
+  scheduled: false
+  event_display: MEPA, China · December 2022
+  placeholder: false
+- id: talk-l5-018-seeking-dark-sector-physics-across-frontiers
+  title: Seeking Dark Sector Physics Across Frontiers
+  year: 2022
+  date: '2022-11-01'
+  event: School of Physics and Astronomy, University of Minnesota, Nov. 2022
+  host: University of Minnesota
+  location: ''
+  talk_type: talk
+  slides_url: ''
+  video_url: ''
+  date_display: November 2022
+  venue: University of Minnesota
+  category: workshop
+  scheduled: false
+  event_display: University of Minnesota · November 2022
+  placeholder: false
+- id: talk-l6-044-sqms-quantum-sensing-experimental-results-overview
+  title: SQMS Quantum Sensing Experimental results overview
+  year: 2022
+  date: '2022-10-01'
+  event: invited talk (jointly with experimentalists) at the SQMS annual meeting,
+    SQMS, FNAL, Batavia, Illinois, Oct.2022
+  host: FNAL
+  location: Batavia, Illinois
+  talk_type: invited
+  slides_url: ''
+  video_url: ''
+  date_display: October 2022
+  venue: invited talk (jointly with experimentalists) at the SQMS annual meeting,
+    SQMS
+  category: workshop
+  scheduled: false
+  event_display: invited talk (jointly with experimentalists) at the SQMS annual meeting,
+    SQMS · Batavia, Illinois · October 2022
+  placeholder: false
+- id: talk-l6-043-hunting-gluonic-alps
+  title: Hunting Gluonic ALPs
+  year: 2022
+  date: '2022-10-01'
+  event: the Particle Physics on the Plains workshop, Kansas University, Lawrence,
+    Kansas, Oct.2022
+  host: Kansas University
+  location: Lawrence, Kansas
+  talk_type: talk
+  slides_url: https://indico.cern.ch/event/1191939/contributions/5087447/
+  video_url: ''
+  date_display: October 2022
+  venue: the Particle Physics on the Plains workshop
+  category: workshop
+  scheduled: false
+  event_display: the Particle Physics on the Plains workshop · Lawrence, Kansas ·
+    October 2022
+  placeholder: false
+- id: talk-l6-047-minimal-dark-matter
+  title: Minimal Dark Matter
+  year: 2022
+  date: '2022-07-01'
+  event: invited overview talk in the Energy Frontier Dark Matter parallel session,
+    CSS, UW-Seattle, Jul. 2022
+  host: UW-Seattle
+  location: ''
+  talk_type: invited
+  slides_url: https://indico.fnal.gov/event/22303/timetable/?view=standard#367-minimal-wimp
+  video_url: ''
+  date_display: July 2022
+  venue: invited overview talk in the Energy Frontier Dark Matter parallel session,
+    CSS
+  category: other
+  scheduled: false
+  event_display: invited overview talk in the Energy Frontier Dark Matter parallel
+    session, CSS · July 2022
+  placeholder: false
+- id: talk-l6-045-higgs-couplings-at-future-colliders
+  title: Higgs Couplings at Future Colliders
+  year: 2022
+  date: '2022-07-01'
+  event: (remote) invited talk at Higgs Potential 2022, Peking U, Jul. 2022
+  host: ''
+  location: ''
+  talk_type: invited
+  slides_url: ''
+  video_url: ''
+  date_display: July 2022
+  venue: Higgs Potential 2022, Peking U
+  category: other
+  scheduled: false
+  event_display: Higgs Potential 2022, Peking U · July 2022
+  placeholder: false
+- id: talk-l6-048-future-colliders-for-new-discoveries
+  title: Future Colliders for New Discoveries
+  year: 2022
+  date: '2022-07-01'
+  event: the 19th Kavli Frontiers of Science Symposium (China-US), National Academy
+    of Sciences, Beckman Center, Irvine, CA, Jul. 2022
+  host: ''
+  location: Irvine, CA
+  talk_type: talk
+  slides_url: ''
+  video_url: ''
+  date_display: July 2022
+  venue: the 19th Kavli Frontiers of Science Symposium (China-US), National Academy
+    of Sciences, Beckman Center
+  category: workshop
+  scheduled: false
+  event_display: the 19th Kavli Frontiers of Science Symposium (China-US), National
+    Academy of Sciences, Beckman Center · Irvine, CA · July 2022
+  placeholder: false
+- id: talk-l6-046-ef-bsm-summary
+  title: EF BSM summary
+  year: 2022
+  date: '2022-07-01'
+  event: summary talk (representing the collective work by EF TG 08-09-10 conveners
+    and editors) in the Energy Frontier parallel session, CSS, UW-Seattle, Jul. 2022
+  host: UW-Seattle
+  location: ''
+  talk_type: contributed
+  slides_url: https://indico.fnal.gov/event/22303/timetable/?view=standard#353-bsm-report
+  video_url: ''
+  date_display: July 2022
+  venue: summary talk (representing the collective work by EF TG 08-09-10 conveners
+    and editors) in the Energy Frontier parallel session, CSS
+  category: other
+  scheduled: false
+  event_display: summary talk (representing the collective work by EF TG 08-09-10
+    conveners and editors) in the Energy Frontier parallel session, CSS · July 2022
+  placeholder: false
+- id: talk-lecture-sw-004-bsm-collider-probes-videos-lecture-notes
+  title: BSM Collider Probes (videos) (lecture notes)
+  year: 2022
+  date: '2022-07-01'
+  event: TASI 2022, Boulder, Colorado, Jun.-Jul. 2022
+  host: ''
+  location: Colorado, Jun
+  talk_type: talk
+  slides_url: ''
+  video_url: https://www.youtube.com/playlist?list=PL1TnhG8zyyNyLC7ypMdHWYiX0Y5NTd-8C
+  date_display: July 2022
+  venue: TASI 2022, Boulder
+  category: lecture
+  scheduled: false
+  event_display: TASI 2022, Boulder · Colorado, Jun · July 2022
+  placeholder: false
+- id: talk-l6-049-hh-theory-overview
+  title: HH Theory Overview
+  year: 2022
+  date: '2022-06-01'
+  event: the Higgs Pairs workshop (Higgs Pairs 2022), Dubrovnik, Croatia, Jun. 2022
+  host: ''
+  location: ''
+  talk_type: talk
+  slides_url: https://indico.cern.ch/event/1001391/timetable/#11-theory-overview
+  video_url: ''
+  date_display: June 2022
+  venue: the Higgs Pairs workshop (Higgs Pairs 2022), Dubrovnik, Croatia
+  category: workshop
+  scheduled: false
+  event_display: the Higgs Pairs workshop (Higgs Pairs 2022), Dubrovnik, Croatia ·
+    June 2022
+  placeholder: false
+- id: talk-l6-050-w-mass-interpretations-and-future-experiments
+  title: W mass interpretations and future experiments
+  year: 2022
+  date: '2022-05-01'
+  event: (remote) invited plenary talk at Joint Workshop of the CEPC Physics, Software
+    and New Detector Concept in 2022, Beijing, China, May. 2022
+  host: ''
+  location: Beijing, China
+  talk_type: invited
+  slides_url: https://indico.ihep.ac.cn/event/16509/session/21/contribution/74/material/slides/0.pdf
+  video_url: ''
+  date_display: May 2022
+  venue: Joint Workshop of the CEPC Physics, Software and New Detector Concept in
+    2022
+  category: plenary
+  scheduled: false
+  event_display: Joint Workshop of the CEPC Physics, Software and New Detector Concept
+    in 2022 · Beijing, China · May 2022
+  placeholder: false
+- id: talk-l6-052-physics-at-muon-colliders
+  title: Physics at Muon Colliders
+  year: 2022
+  date: '2022-05-01'
+  event: '(remote) invited review talk in Upgrades and Future Projects: Future experiments
+    session (parallel) at 10th LHCP (LHCP2022), May. 2022'
+  host: ''
+  location: ''
+  talk_type: invited
+  slides_url: https://indico.cern.ch/event/1109611/timetable/?view=standard_inline_minutes#747-physics-at-muon-colliders
+  video_url: ''
+  date_display: May 2022
+  venue: 'invited review talk in Upgrades and Future Projects: Future experiments
+    session (parallel) at 10th LHCP (LHCP2022)'
+  category: other
+  scheduled: false
+  event_display: 'invited review talk in Upgrades and Future Projects: Future experiments
+    session (parallel) at 10th LHCP (LHCP2022) · May 2022'
+  placeholder: false
+- id: talk-l5-019-hunting-gluonic-alps
+  title: Hunting Gluonic ALPs
+  year: 2022
+  date: '2022-05-01'
+  event: (remote) HET seminar , Carleton University, Canada, May. 2022
+  host: Carleton University
+  location: Carleton University, Canada
+  talk_type: seminar
+  slides_url: ''
+  video_url: ''
+  date_display: May 2022
+  venue: HET seminar
+  category: seminar
+  scheduled: false
+  event_display: HET seminar · Carleton University, Canada · May 2022
+  placeholder: false
+- id: talk-l5-020-hunting-gluonic-alps
+  title: Hunting Gluonic ALPs
+  year: 2022
+  date: '2022-05-01'
+  event: (remote) HET seminar , University of California--Davis, May. 2022
+  host: University of California--Davis
+  location: ''
+  talk_type: seminar
+  slides_url: ''
+  video_url: ''
+  date_display: May 2022
+  venue: HET seminar
+  category: seminar
+  scheduled: false
+  event_display: HET seminar · May 2022
+  placeholder: false
+- id: talk-l6-051-higgs-precision-at-a-125-gev-muon-collider
+  title: Higgs Precision at a 125 GeV Muon Collider
+  year: 2022
+  date: '2022-05-01'
+  event: contributed parallel talk at Phenomenology Symposium (Pheno2022), University
+    of Pittsburgh, Pittsburgh, PA, May. 2022
+  host: University of Pittsburgh
+  location: Pittsburgh, PA
+  talk_type: contributed
+  slides_url: https://indico.cern.ch/event/1089132/contributions/4855520/attachments/2441145/4182504/MuCHiggs_Pheno2022_ZhenLiu.pdf
+  video_url: ''
+  date_display: May 2022
+  venue: contributed parallel talk at Phenomenology Symposium (Pheno2022)
+  category: workshop
+  scheduled: false
+  event_display: contributed parallel talk at Phenomenology Symposium (Pheno2022)
+    · Pittsburgh, PA · May 2022
+  placeholder: false
+- id: talk-l5-021-hunting-gluonic-alps
+  title: Hunting Gluonic ALPs
+  year: 2022
+  date: '2022-04-01'
+  event: HET seminar , Texas A&M University, Apr. 2022
+  host: Texas A&M University
+  location: ''
+  talk_type: seminar
+  slides_url: ''
+  video_url: ''
+  date_display: April 2022
+  venue: HET seminar
+  category: seminar
+  scheduled: false
+  event_display: HET seminar · April 2022
+  placeholder: false
+- id: talk-l5-022-hunting-gluonic-alps
+  title: Hunting Gluonic ALPs
+  year: 2022
+  date: '2022-03-01'
+  event: HET seminar , Florida University, Mar. 2022
+  host: Florida University
+  location: ''
+  talk_type: seminar
+  slides_url: ''
+  video_url: ''
+  date_display: March 2022
+  venue: HET seminar
+  category: seminar
+  scheduled: false
+  event_display: HET seminar · March 2022
+  placeholder: false
+- id: talk-l6-053-higgs-couplings-at-muon-colliders
+  title: Higgs Couplings at Muon Colliders
+  year: 2022
+  date: '2022-03-01'
+  event: invited review talk at the Energy Frontier Workshop, Brown University, Providence,
+    RI, Mar. 2022
+  host: Brown University
+  location: Providence, RI
+  talk_type: invited
+  slides_url: https://indico.fnal.gov/event/52465/timetable/#26-higgs-couplings-at-a-muon-c
+  video_url: ''
+  date_display: March 2022
+  venue: invited review talk at the Energy Frontier Workshop
+  category: workshop
+  scheduled: false
+  event_display: invited review talk at the Energy Frontier Workshop · Providence,
+    RI · March 2022
+  placeholder: false
+- id: talk-l6-054-top-and-higgs-physics-considerations-at-cepc-ttbar-run
+  title: Top and Higgs Physics Considerations at CEPC ttbar run
+  year: 2021
+  date: '2021-11-01'
+  event: (remote) invited review talk at Higgs session (parallel) of CEPC 2021, Nanjing,
+    China, Nov. 2021
+  host: ''
+  location: Nanjing, China
+  talk_type: invited
+  slides_url: https://indico.ihep.ac.cn/event/14938/session/4/contribution/174/material/slides/0.pdf
+  video_url: ''
+  date_display: November 2021
+  venue: invited review talk at Higgs session (parallel) of CEPC 2021
+  category: other
+  scheduled: false
+  event_display: invited review talk at Higgs session (parallel) of CEPC 2021 · Nanjing,
+    China · November 2021
+  placeholder: false
+- id: talk-l6-055-heavy-dark-matter-at-colliders
+  title: Heavy Dark Matter at Colliders
+  year: 2021
+  date: '2021-10-01'
+  event: (remote) invited plenary talk at the TeVPA 2021 Conference, Sichuan, China,
+    Oct. 2021
+  host: ''
+  location: Sichuan, China
+  talk_type: invited
+  slides_url: https://indico.ihep.ac.cn/event/11934/session/5/contribution/48
+  video_url: ''
+  date_display: October 2021
+  venue: the TeVPA 2021 Conference
+  category: plenary
+  scheduled: false
+  event_display: the TeVPA 2021 Conference · Sichuan, China · October 2021
+  placeholder: false
+- id: talk-l5-023-enhancing-or-delaying-electroweak-phase-transitions-via-simple-scalar-extensions
+  title: Enhancing or Delaying Electroweak Phase Transitions via Simple Scalar Extensions
+  year: 2021
+  date: '2021-10-01'
+  event: (remote) HET seminar , Brookhaven National Laboratory (BNL), Oct. 2021
+  host: Brookhaven National Laboratory (BNL)
+  location: ''
+  talk_type: seminar
+  slides_url: ''
+  video_url: ''
+  date_display: October 2021
+  venue: HET seminar
+  category: seminar
+  scheduled: false
+  event_display: HET seminar · October 2021
+  placeholder: false
+- id: talk-l6-056-bsm-higgs-new-states
+  title: 'BSM Higgs: new states'
+  year: 2021
+  date: '2021-10-01'
+  event: exotic and invisible decays (remote) invited plenary talk at the Higgs 2021
+    Conference, Stony Brook University, Oct. 2021
+  host: Stony Brook University
+  location: ''
+  talk_type: invited
+  slides_url: https://indico.cern.ch/event/1030068/contributions/4408842/
+  video_url: ''
+  date_display: October 2021
+  venue: exotic and invisible decays (remote) invited plenary talk at the Higgs 2021
+    Conference
+  category: plenary
+  scheduled: false
+  event_display: exotic and invisible decays (remote) invited plenary talk at the
+    Higgs 2021 Conference · October 2021
+  placeholder: false
+- id: talk-l6-057-higgs-physics-at-muon-colliders
+  title: Higgs Physics at Muon Colliders
+  year: 2021
+  date: '2021-09-01'
+  event: (remote) invited review talk at the EF01-02 joint session, Snowmass Energy
+    Frontier workshop, Sep. 2021
+  host: ''
+  location: ''
+  talk_type: invited
+  slides_url: https://indico.fnal.gov/event/49756/contributions/222375/
+  video_url: ''
+  date_display: September 2021
+  venue: invited review talk at the EF01-02 joint session, Snowmass Energy Frontier
+    workshop
+  category: workshop
+  scheduled: false
+  event_display: invited review talk at the EF01-02 joint session, Snowmass Energy
+    Frontier workshop · September 2021
+  placeholder: false
+- id: talk-l6-058-physics-at-the-125-gev-muon-collider
+  title: Physics at the 125 GeV Muon Collider
+  year: 2021
+  date: '2021-08-01'
+  event: (remote) invited review talk at the Snowmass Muon Collider Forum, Aug. 2021
+  host: ''
+  location: ''
+  talk_type: invited
+  slides_url: https://indico.fnal.gov/event/50346/contributions/221153/attachments/146493/187071/muon125Higgs_MuCForum_Aug2021_ZhenLiu.pdf
+  video_url: ''
+  date_display: August 2021
+  venue: invited review talk at the Snowmass Muon Collider Forum
+  category: workshop
+  scheduled: false
+  event_display: invited review talk at the Snowmass Muon Collider Forum · August
+    2021
+  placeholder: false
+- id: talk-l6-059-millicharged-particles-in-liquid-argon-neutrino-experiments
+  title: Millicharged particles in liquid argon neutrino experiments
+  year: 2021
+  date: '2021-08-01'
+  event: (remote) invited plenary talk at the Lomonosov Conferences on Elementary
+    Particle Physics, Moscow State University, Aug. 2021
+  host: Moscow State University
+  location: ''
+  talk_type: invited
+  slides_url: ''
+  video_url: ''
+  date_display: August 2021
+  venue: the Lomonosov Conferences on Elementary Particle Physics
+  category: plenary
+  scheduled: false
+  event_display: the Lomonosov Conferences on Elementary Particle Physics · August
+    2021
+  placeholder: false
+- id: talk-l6-060-new-adventures-at-the-lhc
+  title: New Adventures at the LHC
+  year: 2021
+  date: '2021-07-01'
+  event: (remote) invited plenary talk at the DPF meeting, Florida State University,
+    Jul. 2021
+  host: Florida State University
+  location: ''
+  talk_type: invited
+  slides_url: https://indico.cern.ch/event/1034469/contributions/4430780/
+  video_url: ''
+  date_display: July 2021
+  venue: the DPF meeting
+  category: plenary
+  scheduled: false
+  event_display: the DPF meeting · July 2021
+  placeholder: false
+- id: talk-l6-061-heavy-axion-at-dune
+  title: Heavy Axion at DUNE
+  year: 2021
+  date: '2021-05-01'
+  event: (remote) contributed contributed parallel talk Pheno 2021, University of
+    Pittsburgh, May. 2021
+  host: University of Pittsburgh
+  location: ''
+  talk_type: contributed
+  slides_url: https://indico.cern.ch/event/982783/contributions/4362247/
+  video_url: ''
+  date_display: May 2021
+  venue: contributed contributed parallel talk Pheno 2021
+  category: other
+  scheduled: false
+  event_display: contributed contributed parallel talk Pheno 2021 · May 2021
+  placeholder: false
+- id: talk-l6-062-wimps-at-high-energy-muon-colliders
+  title: WIMPs at High Energy Muon Colliders
+  year: 2021
+  date: '2021-04-01'
+  event: (remote) contributed parallel talk at APS April Meeting, Muon Symposium I,
+    Apr. 2021
+  host: ''
+  location: ''
+  talk_type: contributed
+  slides_url: https://indico.fnal.gov/event/48798/#11-b0800004-wimps-at-high-ener
+  video_url: ''
+  date_display: April 2021
+  venue: contributed parallel talk at APS April Meeting, Muon Symposium I
+  category: workshop
+  scheduled: false
+  event_display: contributed parallel talk at APS April Meeting, Muon Symposium I
+    · April 2021
+  placeholder: false
+- id: talk-l6-065-ultra-light-dm-theory-overview
+  title: 'Ultra-light DM: theory overview'
+  year: 2021
+  date: '2021-04-01'
+  event: (remote) invited overview talk at Optomechanics for dark matter detection
+    - 2nd edition, Apr. 2021
+  host: ''
+  location: ''
+  talk_type: invited
+  slides_url: https://indico.fnal.gov/event/47969/contributions/209290/
+  video_url: ''
+  date_display: April 2021
+  venue: invited overview talk at Optomechanics for dark matter detection - 2nd edition
+  category: other
+  scheduled: false
+  event_display: invited overview talk at Optomechanics for dark matter detection
+    - 2nd edition · April 2021
+  placeholder: false
+- id: talk-l6-064-top-coupling-measurement-with-360-gev-at-cepc
+  title: Top coupling measurement with 360 GeV at CEPC
+  year: 2021
+  date: '2021-04-01'
+  event: (remote) invited talk at physics sessions, Joint Workshop of the CEPC Physics,
+    Software and New Detector Concept, Apr. 2021
+  host: ''
+  location: ''
+  talk_type: invited
+  slides_url: https://indico.ihep.ac.cn/event/13888/session/13/contribution/75/material/slides/0.pdf
+  video_url: ''
+  date_display: April 2021
+  venue: physics sessions, Joint Workshop of the CEPC Physics, Software and New Detector
+    Concept
+  category: workshop
+  scheduled: false
+  event_display: physics sessions, Joint Workshop of the CEPC Physics, Software and
+    New Detector Concept · April 2021
+  placeholder: false
+- id: talk-l5-025-physics-potential-for-high-energy-muon-colliders
+  title: Physics Potential for High Energy Muon Colliders
+  year: 2021
+  date: '2021-04-01'
+  event: (remote) HEP/PA Seminar, University of Maryland, Apr. 2021
+  host: University of Maryland
+  location: ''
+  talk_type: seminar
+  slides_url: ''
+  video_url: ''
+  date_display: April 2021
+  venue: HEP/PA Seminar
+  category: seminar
+  scheduled: false
+  event_display: HEP/PA Seminar · April 2021
+  placeholder: false
+- id: talk-l6-063-low-scale-partial-composite-neutrinos-and-cepc-tests
+  title: Low scale partial composite Neutrinos and CEPC tests
+  year: 2021
+  date: '2021-04-01'
+  event: (remote) invited talk at physics sessions, Joint Workshop of the CEPC Physics,
+    Software and New Detector Concept, Apr. 2021
+  host: ''
+  location: ''
+  talk_type: invited
+  slides_url: https://indico.ihep.ac.cn/event/13888/session/16/contribution/141/material/slides/0.pdf
+  video_url: ''
+  date_display: April 2021
+  venue: physics sessions, Joint Workshop of the CEPC Physics, Software and New Detector
+    Concept
+  category: workshop
+  scheduled: false
+  event_display: physics sessions, Joint Workshop of the CEPC Physics, Software and
+    New Detector Concept · April 2021
+  placeholder: false
+- id: talk-l5-024-lhc-opportunities-in-long-lived-signatures
+  title: LHC Opportunities in Long-Lived Signatures
+  year: 2021
+  date: '2021-04-01'
+  event: (remote) SITP Seminar , Stanford University, Apr. 2021
+  host: Stanford University
+  location: ''
+  talk_type: seminar
+  slides_url: ''
+  video_url: https://www.youtube.com/watch?v=xgcV2oZ6aQE
+  date_display: April 2021
+  venue: SITP Seminar
+  category: seminar
+  scheduled: false
+  event_display: SITP Seminar · April 2021
+  placeholder: false
+- id: talk-l5-026-opto-mechanical-quantum-sensing-for-ultralight-dark-matter
+  title: Opto-mechanical quantum sensing for ultralight dark matter
+  year: 2021
+  date: '2021-02-01'
+  event: (remote) High Energy Experiment Seminar, Boston University, Feb. 2021
+  host: Boston University
+  location: ''
+  talk_type: seminar
+  slides_url: ''
+  video_url: ''
+  date_display: February 2021
+  venue: High Energy Experiment Seminar
+  category: seminar
+  scheduled: false
+  event_display: High Energy Experiment Seminar · February 2021
+  placeholder: false
+- id: talk-l5-027-lhc-opportunities-in-long-lived-signatures
+  title: LHC Opportunities in Long-Lived Signatures
+  year: 2021
+  date: '2021-02-01'
+  event: (remote) HEP-Astro Seminar, University of Michigan--Ann Arbor, Feb. 2021
+  host: University of Michigan--Ann Arbor
+  location: ''
+  talk_type: seminar
+  slides_url: ''
+  video_url: ''
+  date_display: February 2021
+  venue: HEP-Astro Seminar
+  category: seminar
+  scheduled: false
+  event_display: HEP-Astro Seminar · February 2021
+  placeholder: false
+- id: talk-l5-028-physics-potential-for-high-energy-muon-colliders
+  title: Physics Potential for High Energy Muon Colliders
+  year: 2021
+  date: '2021-01-01'
+  event: (remote) Particle Theory Seminar, University of Michigan--Ann Arbor, Jan.
+    2021
+  host: University of Michigan--Ann Arbor
+  location: ''
+  talk_type: seminar
+  slides_url: ''
+  video_url: ''
+  date_display: January 2021
+  venue: Particle Theory Seminar
+  category: seminar
+  scheduled: false
+  event_display: Particle Theory Seminar · January 2021
+  placeholder: false
+- id: talk-l5-029-opportunities-in-long-lived-signatures
+  title: Opportunities in Long-Lived Signatures
+  year: 2021
+  date: '2021-01-01'
+  event: (remote) High Energy Physics Center Seminar, Peking University, Jan. 2021
+  host: Peking University
+  location: ''
+  talk_type: seminar
+  slides_url: ''
+  video_url: ''
+  date_display: January 2021
+  venue: High Energy Physics Center Seminar
+  category: seminar
+  scheduled: false
+  event_display: High Energy Physics Center Seminar · January 2021
+  placeholder: false
+- id: talk-l6-066-physics-at-higgs-factories
+  title: Physics at Higgs factories
+  year: 2020
+  date: '2020-12-01'
+  event: '(remote) invited overview talk at PITT-PACC workshop: Muon Collider Physics,
+    PITT-PACC, University of Pittsburgh, Dec. 2020'
+  host: University of Pittsburgh
+  location: ''
+  talk_type: invited
+  slides_url: https://indico.cern.ch/event/969815/timetable/?layout=room#58-physics-at-higgs-factories
+  video_url: ''
+  date_display: December 2020
+  venue: 'invited overview talk at PITT-PACC workshop: Muon Collider Physics, PITT-PACC'
+  category: workshop
+  scheduled: false
+  event_display: 'invited overview talk at PITT-PACC workshop: Muon Collider Physics,
+    PITT-PACC · December 2020'
+  placeholder: false
+- id: talk-l6-067-summary-and-future-plans-of-working-group-3
+  title: Summary and Future Plans of Working Group 3
+  year: 2020
+  date: '2020-11-01'
+  event: (remote) summary talk at the 17th Workshop of the LHC Higgs Working Group,
+    CERN, Nov. 2020
+  host: CERN
+  location: ''
+  talk_type: talk
+  slides_url: https://indico.cern.ch/event/922192/contributions/4078382/
+  video_url: ''
+  date_display: November 2020
+  venue: summary talk at the 17th Workshop of the LHC Higgs Working Group
+  category: workshop
+  scheduled: false
+  event_display: summary talk at the 17th Workshop of the LHC Higgs Working Group
+    · November 2020
+  placeholder: false
+- id: talk-l5-030-physics-potential-for-high-energy-muon-colliders
+  title: Physics Potential for High Energy Muon Colliders
+  year: 2020
+  date: '2020-11-01'
+  event: (remote) SLAC EPP Theory Seminar, SLAC, Nov. 2020
+  host: ''
+  location: ''
+  talk_type: seminar
+  slides_url: ''
+  video_url: ''
+  date_display: November 2020
+  venue: SLAC
+  category: seminar
+  scheduled: false
+  event_display: SLAC · November 2020
+  placeholder: false
+- id: talk-l6-068-higgs-rare-decays-into-dark-sectors
+  title: Higgs Rare Decays into Dark Sectors
+  year: 2020
+  date: '2020-11-01'
+  event: (remote) parallel talk at CEPC2020, Shanghai Jiaotong University, Nov. 2020
+  host: Shanghai Jiaotong University
+  location: ''
+  talk_type: contributed
+  slides_url: https://indico.ihep.ac.cn/event/11444/session/2/contribution/202/material/slides/
+  video_url: ''
+  date_display: November 2020
+  venue: CEPC2020
+  category: other
+  scheduled: false
+  event_display: CEPC2020 · November 2020
+  placeholder: false
+- id: talk-l6-071-wimps-at-future-high-energy-muon-colliders
+  title: WIMPs at future high energy muon colliders
+  year: 2020
+  date: '2020-10-01'
+  event: '(remote) talk at Energy Frontier in Particle Physics: LHC and Future Colliders,
+    National Taiwan University, Oct. 2020'
+  host: National Taiwan University
+  location: ''
+  talk_type: talk
+  slides_url: ''
+  video_url: ''
+  date_display: October 2020
+  venue: 'Energy Frontier in Particle Physics: LHC and Future Colliders'
+  category: other
+  scheduled: false
+  event_display: 'Energy Frontier in Particle Physics: LHC and Future Colliders ·
+    October 2020'
+  placeholder: false
+- id: talk-l6-069-interference-effects-in-heavy-higgs-searches
+  title: Interference effects in heavy Higgs searches
+  year: 2020
+  date: '2020-10-01'
+  event: (remote) parallel talk at Higgs2020, Oct. 2020
+  host: ''
+  location: ''
+  talk_type: contributed
+  slides_url: https://indico.cern.ch/event/856696/timetable/?view=standard#172-theory-overview-long-lived
+  video_url: ''
+  date_display: October 2020
+  venue: Higgs2020
+  category: other
+  scheduled: false
+  event_display: Higgs2020 · October 2020
+  placeholder: false
+- id: talk-l6-070-higgs-rare-decays-into-dark-sectors
+  title: Higgs Rare Decays into Dark Sectors
+  year: 2020
+  date: '2020-10-01'
+  event: (remote) talk at American Linear Collider Workshop, SLAC, Oct. 2020
+  host: SLAC
+  location: ''
+  talk_type: talk
+  slides_url: ''
+  video_url: ''
+  date_display: October 2020
+  venue: American Linear Collider Workshop
+  category: workshop
+  scheduled: false
+  event_display: American Linear Collider Workshop · October 2020
+  placeholder: false
+- id: talk-l6-072-dark-srf-theory-preliminary-results
+  title: Dark SRF Theory & Preliminary Results
+  year: 2020
+  date: '2020-10-01'
+  event: (remote) talk at the first meeting of the Superconducting Quantum Materials
+    and Systems Center, Fermilab, Oct. 2020
+  host: Fermilab
+  location: ''
+  talk_type: talk
+  slides_url: ''
+  video_url: ''
+  date_display: October 2020
+  venue: the first meeting of the Superconducting Quantum Materials and Systems Center
+  category: workshop
+  scheduled: false
+  event_display: the first meeting of the Superconducting Quantum Materials and Systems
+    Center · October 2020
+  placeholder: false
+- id: talk-l5-031-a-high-energy-muon-collider-looming-physics-potential-for-high-energy-muon-colliders
+  title: A high energy muon collider looming? Physics Potential for High Energy Muon
+    Colliders
+  year: 2020
+  date: '2020-10-01'
+  event: (remote) virtual Particle Physics on the Plains Theory seminar , Kansas University,
+    Oct. 2020
+  host: Kansas University
+  location: ''
+  talk_type: seminar
+  slides_url: ''
+  video_url: ''
+  date_display: October 2020
+  venue: virtual Particle Physics on the Plains Theory seminar
+  category: seminar
+  scheduled: false
+  event_display: virtual Particle Physics on the Plains Theory seminar · October 2020
+  placeholder: false
+- id: talk-lecture-sw-005-hadron-collider-physics-1-basic-concepts-2-advanced-topics-link-remote
+  title: 'Hadron Collider Physics 1: Basic Concepts; & 2: Advanced Topics (remote)'
+  year: 2020
+  date: '2020-08-01'
+  event: KEK-PH Lectures and Workshops, KEK, Aug. 2020
+  host: ''
+  location: ''
+  talk_type: talk
+  slides_url: https://conference-indico.kek.jp/event/117/timetable/#b-927-kek-ph-collider-lecture
+  video_url: ''
+  date_display: August 2020
+  venue: KEK-PH Lectures and Workshops, KEK
+  category: lecture
+  scheduled: false
+  event_display: KEK-PH Lectures and Workshops, KEK · August 2020
+  placeholder: false
+- id: talk-l5-032-seeking-hidden-sector-physics-at-multiple-frontiers
+  title: Seeking Hidden Sector Physics at Multiple Frontiers
+  year: 2020
+  date: '2020-07-01'
+  event: (remote) Departmental Colloquium, Zhejiang University, Jul. 2020
+  host: Zhejiang University
+  location: ''
+  talk_type: seminar
+  slides_url: ''
+  video_url: ''
+  date_display: July 2020
+  venue: Zhejiang University
+  category: colloquium
+  scheduled: false
+  event_display: Zhejiang University · July 2020
+  placeholder: false
+- id: talk-l6-073-theory-overview-long-lived-particles
+  title: 'Theory Overview: Long-Lived Particles'
+  year: 2020
+  date: '2020-05-01'
+  event: (remote) parallel talk BSM2 sessions at LHCP2020, Paris, May. 2020
+  host: ''
+  location: ''
+  talk_type: contributed
+  slides_url: https://indico.cern.ch/event/856696/timetable/?view=standard#172-theory-overview-long-lived
+  video_url: ''
+  date_display: May 2020
+  venue: parallel talk BSM2 sessions at LHCP2020, Paris
+  category: other
+  scheduled: false
+  event_display: parallel talk BSM2 sessions at LHCP2020, Paris · May 2020
+  placeholder: false
+- id: talk-l5-033-opto-mechanical-quantum-sensing-for-ultralight-dark-matter-slides
+  title: Opto-Mechanical Quantum sensing for ultralight dark matter (slides)
+  year: 2020
+  date: '2020-05-01'
+  event: (remote) Joint AMO-HEP seminar , University of Oklahoma , May. 2020
+  host: University of Oklahoma
+  location: ''
+  talk_type: seminar
+  slides_url: ''
+  video_url: ''
+  date_display: May 2020
+  venue: Joint AMO-HEP seminar
+  category: seminar
+  scheduled: false
+  event_display: Joint AMO-HEP seminar · May 2020
+  placeholder: false
+- id: talk-l6-074-bsm-opportunities-at-the-lhc
+  title: BSM opportunities at the LHC
+  year: 2020
+  date: '2020-05-01'
+  event: (remote) plenary talk at Pheno 2020, University of Pittsburgh, May. 2020
+  host: University of Pittsburgh
+  location: ''
+  talk_type: invited
+  slides_url: https://indico.cern.ch/event/858682/contributions/3840423/
+  video_url: ''
+  date_display: May 2020
+  venue: Pheno 2020
+  category: plenary
+  scheduled: false
+  event_display: Pheno 2020 · May 2020
+  placeholder: false
+- id: talk-l5-034-seeking-hidden-sector-physics-at-multiple-frontiers
+  title: Seeking Hidden Sector Physics at Multiple Frontiers
+  year: 2020
+  date: '2020-02-01'
+  event: Departmental Colloquium , Utah University, Salt Lake City, Utah, Feb. 2020
+  host: Utah University
+  location: Salt Lake City, Utah
+  talk_type: seminar
+  slides_url: ''
+  video_url: ''
+  date_display: February 2020
+  venue: Utah University
+  category: colloquium
+  scheduled: false
+  event_display: Utah University · Salt Lake City, Utah · February 2020
+  placeholder: false
+- id: talk-l5-035-hunting-hidden-messengers
+  title: Hunting Hidden Messengers
+  year: 2020
+  date: '2020-02-01'
+  event: Seminar , University of Minnesota, Minneapolis, MN, Feb. 2020
+  host: University of Minnesota
+  location: Minneapolis, MN
+  talk_type: seminar
+  slides_url: ''
+  video_url: ''
+  date_display: February 2020
+  venue: Seminar
+  category: seminar
+  scheduled: false
+  event_display: Seminar · Minneapolis, MN · February 2020
+  placeholder: false
+- id: talk-l5-036-hunting-hidden-messengers
+  title: Hunting Hidden Messengers
+  year: 2020
+  date: '2020-02-01'
+  event: HEP Seminar , University of Maryland, College Park, MD, Feb. 2020
+  host: University of Maryland
+  location: College Park, MD
+  talk_type: seminar
+  slides_url: ''
+  video_url: ''
+  date_display: February 2020
+  venue: HEP Seminar
+  category: seminar
+  scheduled: false
+  event_display: HEP Seminar · College Park, MD · February 2020
+  placeholder: false
+- id: talk-l6-075-probing-a-high-quality-axion-at-the-lhc
+  title: Probing a High Quality Axion at the LHC
+  year: 2020
+  date: '2020-01-01'
+  event: (remote) talk at the CMS Long-Lived Particles workshop, CERN, Geneva, Switzerland,
+    Jan. 2020
+  host: CERN
+  location: Geneva, Switzerland
+  talk_type: talk
+  slides_url: ''
+  video_url: ''
+  date_display: January 2020
+  venue: the CMS Long-Lived Particles workshop
+  category: workshop
+  scheduled: false
+  event_display: the CMS Long-Lived Particles workshop · Geneva, Switzerland · January
+    2020
+  placeholder: false
+- id: talk-l6-076-probing-a-high-quality-axion-at-the-lhc
+  title: Probing a High Quality Axion at the LHC
+  year: 2020
+  date: '2020-01-01'
+  event: parallel talk at the IAS HEP program conference, HKIAS/HKUST, Hong Kong,
+    China, Jan. 2020
+  host: ''
+  location: Hong Kong, China
+  talk_type: contributed
+  slides_url: http://ias.ust.hk/program/shared\_doc/2020/202001hep/conf/20200121\_2042\_pm\_Zhen\_LIU.pdf
+  video_url: ''
+  date_display: January 2020
+  venue: the IAS HEP program conference, HKIAS/HKUST
+  category: workshop
+  scheduled: false
+  event_display: the IAS HEP program conference, HKIAS/HKUST · Hong Kong, China ·
+    January 2020
+  placeholder: false
+- id: talk-l6-079-probing-non-universal-theories-through-higgs-processes-at-hadron-colliders
+  title: Probing Non-Universal Theories Through Higgs Processes at Hadron Colliders
+  year: 2020
+  date: '2020-01-01'
+  event: talk at the 3rd FCC Physics and Experiments Workshop, CERN, Geneva, Switzerland,
+    Jan. 2020
+  host: CERN
+  location: Geneva, Switzerland
+  talk_type: talk
+  slides_url: https://indico.cern.ch/event/838435/timetable/?layout=room#52-probing-non-universal-theor
+  video_url: ''
+  date_display: January 2020
+  venue: the 3rd FCC Physics and Experiments Workshop
+  category: workshop
+  scheduled: false
+  event_display: the 3rd FCC Physics and Experiments Workshop · Geneva, Switzerland
+    · January 2020
+  placeholder: false
+- id: talk-l6-077-higgs-top-couplings
+  title: Higgs-Top Couplings
+  year: 2020
+  date: '2020-01-01'
+  event: talk at the Physics Potential Study for Future e+e- Higgs Factories miniworkshop,
+    HKIAS/HKUST, Hong Kong, China, Jan. 2020
+  host: ''
+  location: Hong Kong, China
+  talk_type: talk
+  slides_url: http://ias.ust.hk/program/shared\_doc/2020/202001hep/workshop/Meeting/20200118\_2042\_pm\_Zhen\_LIU.pdf
+  video_url: ''
+  date_display: January 2020
+  venue: the Physics Potential Study for Future e+e- Higgs Factories miniworkshop,
+    HKIAS/HKUST
+  category: workshop
+  scheduled: false
+  event_display: the Physics Potential Study for Future e+e- Higgs Factories miniworkshop,
+    HKIAS/HKUST · Hong Kong, China · January 2020
+  placeholder: false
+- id: talk-l6-078-higgs-exotic-decays-meets-electroweak-phase-transition
+  title: Higgs Exotic Decays meets Electroweak Phase Transition
+  year: 2020
+  date: '2020-01-01'
+  event: talk at the 3rd FCC Physics and Experiments Workshop, CERN, Geneva, Switzerland,
+    Jan. 2020
+  host: CERN
+  location: Geneva, Switzerland
+  talk_type: talk
+  slides_url: https://indico.cern.ch/event/838435/timetable/?layout=room#48-electroweak-phase-transitio
+  video_url: ''
+  date_display: January 2020
+  venue: the 3rd FCC Physics and Experiments Workshop
+  category: workshop
+  scheduled: false
+  event_display: the 3rd FCC Physics and Experiments Workshop · Geneva, Switzerland
+    · January 2020
+  placeholder: false
+- id: talk-l6-080-physics-cases-for-e-e-350-365-gev-runs
+  title: Physics cases for e+e- 350 365 GeV runs
+  year: 2019
+  date: '2019-12-01'
+  event: (remote) talk at Physics potential for top threshold run at e+e- collider,
+    IHEP, Beijing, Dec. 2019
+  host: IHEP
+  location: ''
+  talk_type: talk
+  slides_url: https://indico.ihep.ac.cn/event/11160/
+  video_url: ''
+  date_display: December 2019
+  venue: Physics potential for top threshold run at e+e- collider, Beijing
+  category: other
+  scheduled: false
+  event_display: Physics potential for top threshold run at e+e- collider, Beijing
+    · December 2019
+  placeholder: false
+- id: talk-l5-037-lhc-opportunities-in-long-lived-signatures-from-hidden-sectors
+  title: LHC opportunities in long-lived signatures from hidden sectors
+  year: 2019
+  date: '2019-12-01'
+  event: Nuclear and Particle Physics seminar , Rice University, Houston, TX, Dec.
+    2019
+  host: Rice University
+  location: Houston, TX
+  talk_type: seminar
+  slides_url: ''
+  video_url: ''
+  date_display: December 2019
+  venue: Nuclear and Particle Physics seminar
+  category: seminar
+  scheduled: false
+  event_display: Nuclear and Particle Physics seminar · Houston, TX · December 2019
+  placeholder: false
+- id: talk-l5-038-lhc-opportunities-in-long-lived-signatures-from-hidden-sectors
+  title: LHC opportunities in long-lived signatures from hidden sectors
+  year: 2019
+  date: '2019-12-01'
+  event: Seminar , Perimeter Institute for Theoretical Physics, Waterloo, Ontario,
+    Canada, Dec. 2019
+  host: Perimeter Institute for Theoretical Physics
+  location: Ontario, Canada
+  talk_type: seminar
+  slides_url: ''
+  video_url: ''
+  date_display: December 2019
+  venue: Seminar, Waterloo
+  category: seminar
+  scheduled: false
+  event_display: Seminar, Waterloo · Ontario, Canada · December 2019
+  placeholder: false
+- id: talk-l5-039-opening-the-window-to-the-hidden-world
+  title: Opening the Window to the Hidden World
+  year: 2019
+  date: '2019-11-01'
+  event: Physics department colloquium , University of Colima, Colima, Mexico, Nov.
+    2019
+  host: University of Colima
+  location: ''
+  talk_type: seminar
+  slides_url: ''
+  video_url: ''
+  date_display: November 2019
+  venue: Colima, Mexico
+  category: colloquium
+  scheduled: false
+  event_display: Colima, Mexico · November 2019
+  placeholder: false
+- id: talk-l6-081-llp-theory-overview
+  title: LLP Theory Overview
+  year: 2019
+  date: '2019-11-01'
+  event: '(remote) plenary overview talk at the Searching for long-lived particles
+    at the LHC: Sixth workshop of the LHC LLP Community, Ghent University, Belgium,
+    Nov, 2019'
+  host: Ghent University
+  location: ''
+  talk_type: invited
+  slides_url: https://indico.cern.ch/event/849129/timetable/#13-theory-overview
+  video_url: ''
+  date_display: November 2019
+  venue: 'plenary overview talk at the Searching for long-lived particles at the LHC:
+    Sixth workshop of the LHC LLP Community, Belgium, Nov, 2019'
+  category: plenary
+  scheduled: false
+  event_display: 'plenary overview talk at the Searching for long-lived particles
+    at the LHC: Sixth workshop of the LHC LLP Community, Belgium, Nov, 2019 · November
+    2019'
+  placeholder: false
+- id: talk-l6-082-higgs-exotic-decays-meets-electroweak-phase-transition
+  title: Higgs Exotic Decays meets Electroweak Phase Transition
+  year: 2019
+  date: '2019-11-01'
+  event: parallel talk at CEPC 2019, IHEP, Beijing, China, Nov. 2019
+  host: IHEP
+  location: Beijing, China
+  talk_type: contributed
+  slides_url: https://indico.ihep.ac.cn/event/9960/session/11/contribution/42
+  video_url: ''
+  date_display: November 2019
+  venue: CEPC 2019
+  category: other
+  scheduled: false
+  event_display: CEPC 2019 · Beijing, China · November 2019
+  placeholder: false
+- id: talk-l6-084-higgs-opportunities-at-the-lhc
+  title: Higgs Opportunities at the LHC
+  year: 2019
+  date: '2019-10-01'
+  event: plenary vision/outlook talk at the 16th workshop of the LHC Higgs Cross Section
+    Working Group, CERN, Geneva, Switzerland, Oct. 2019
+  host: CERN
+  location: Geneva, Switzerland
+  talk_type: invited
+  slides_url: https://indico.cern.ch/event/826136/contributions/3567959/
+  video_url: ''
+  date_display: October 2019
+  venue: plenary vision/outlook talk at the 16th workshop of the LHC Higgs Cross Section
+    Working Group
+  category: plenary
+  scheduled: false
+  event_display: plenary vision/outlook talk at the 16th workshop of the LHC Higgs
+    Cross Section Working Group · Geneva, Switzerland · October 2019
+  placeholder: false
+- id: talk-l6-083-direct-bsm-search-opportunities-theory-overview
+  title: Direct BSM Search Opportunities Theory Overview
+  year: 2019
+  date: '2019-10-01'
+  event: overview talk at West Coast LHC Jamboree, SLAC, Palo Alto, CA, Oct. 2019
+  host: SLAC
+  location: Palo Alto, CA
+  talk_type: talk
+  slides_url: https://indico.cern.ch/event/848030/contributions/3581392/
+  video_url: ''
+  date_display: October 2019
+  venue: overview talk at West Coast LHC Jamboree
+  category: other
+  scheduled: false
+  event_display: overview talk at West Coast LHC Jamboree · Palo Alto, CA · October
+    2019
+  placeholder: false
+- id: talk-l6-086-quantum-sensing-for-ultralight-dark-matter
+  title: Quantum sensing for ultralight dark matter
+  year: 2019
+  date: '2019-08-01'
+  event: 'talk at Searching for New Physics: Leaving No Stone Unturned, Utah University,
+    Salt Lake City, UT, Aug. 2019'
+  host: Utah University
+  location: Salt Lake City, UT
+  talk_type: talk
+  slides_url: http://www.physics.utah.edu/\~zhaoyue/workshop/slides/1\_QSDM\_ZhenLiu\_Uath\_2019.pdf
+  video_url: ''
+  date_display: August 2019
+  venue: 'Searching for New Physics: Leaving No Stone Unturned'
+  category: other
+  scheduled: false
+  event_display: 'Searching for New Physics: Leaving No Stone Unturned · Salt Lake
+    City, UT · August 2019'
+  placeholder: false
+- id: talk-l6-085-overview-of-llps-llp-opportunities-at-the-lhc
+  title: Overview of LLPs & LLP Opportunities at the LHC
+  year: 2019
+  date: '2019-08-01'
+  event: plenary overview talk at Dark Matter @ LHC 2019 workshop, University of Washington
+    at Seattle, Seattle, WA, Aug.2019
+  host: University of Washington at Seattle
+  location: Seattle, WA
+  talk_type: invited
+  slides_url: https://indico.cern.ch/event/783977/contributions/3439575/
+  video_url: ''
+  date_display: August 2019
+  venue: plenary overview talk at Dark Matter @ LHC 2019 workshop
+  category: plenary
+  scheduled: false
+  event_display: plenary overview talk at Dark Matter @ LHC 2019 workshop · Seattle,
+    WA · August 2019
+  placeholder: false
+- id: talk-l6-088-higgs-session-summary-outlook
+  title: Higgs Session Summary & Outlook
+  year: 2019
+  date: '2019-07-01'
+  event: plenary talk at KAIST-KAIX Workshop for Future Particle Accelerators, KAIST,
+    Daejeon, South Korea, Jul. 2019
+  host: ''
+  location: Daejeon, South Korea
+  talk_type: invited
+  slides_url: https://indico.cern.ch/event/801577/contributions/3436014/
+  video_url: ''
+  date_display: July 2019
+  venue: KAIST-KAIX Workshop for Future Particle Accelerators, KAIST
+  category: plenary
+  scheduled: false
+  event_display: KAIST-KAIX Workshop for Future Particle Accelerators, KAIST · Daejeon,
+    South Korea · July 2019
+  placeholder: false
+- id: talk-l6-090-higgs-precision-fits-towards-cepc-tdr
+  title: Higgs Precision Fits towards CEPC TDR
+  year: 2019
+  date: '2019-07-01'
+  event: (remote) talk at ``CEPC Precision Workshop'', Peking University, Beijing,
+    China, Jul.2019
+  host: Peking University
+  location: Beijing, China
+  talk_type: talk
+  slides_url: ''
+  video_url: ''
+  date_display: July 2019
+  venue: '``CEPC Precision Workshop'''''
+  category: workshop
+  scheduled: false
+  event_display: '``CEPC Precision Workshop'''' · Beijing, China · July 2019'
+  placeholder: false
+- id: talk-l6-087-higgs-exotic-decays-at-future-e-e-higgs-factories
+  title: Higgs Exotic Decays at future e^+e^- Higgs factories
+  year: 2019
+  date: '2019-07-01'
+  event: parallel talk at DPF meeting 2019, Northeastern University, Boston, MA, JUl.
+    2019
+  host: Northeastern University
+  location: Boston, MA
+  talk_type: contributed
+  slides_url: https://indico.cern.ch/event/782953/contributions/3458011/attachments/1887866/3113549/15-DPF19_HiggsExotic_ZhenLiu.pdf
+  video_url: ''
+  date_display: July 2019
+  venue: DPF meeting 2019
+  category: workshop
+  scheduled: false
+  event_display: DPF meeting 2019 · Boston, MA · July 2019
+  placeholder: false
+- id: talk-l6-089-higgs-exotic-decays
+  title: Higgs Exotic Decays
+  year: 2019
+  date: '2019-07-01'
+  event: plenary talk at KAIST-KAIX Workshop for Future Particle Accelerators, KAIST,
+    Daejeon, South Korea, Jul. 2019
+  host: ''
+  location: Daejeon, South Korea
+  talk_type: invited
+  slides_url: https://indico.cern.ch/event/801577/contributions/3489801/
+  video_url: ''
+  date_display: July 2019
+  venue: KAIST-KAIX Workshop for Future Particle Accelerators, KAIST
+  category: plenary
+  scheduled: false
+  event_display: KAIST-KAIX Workshop for Future Particle Accelerators, KAIST · Daejeon,
+    South Korea · July 2019
+  placeholder: false
+- id: talk-l6-091-non-wimp-dark-matter
+  title: Non-WIMP Dark Matter
+  year: 2019
+  date: '2019-06-01'
+  event: talk at IFT program ``Opportunities at Future High Energy Colliders'', IFT-Madrid,
+    Madrid, Spain, Jun. 2019
+  host: ''
+  location: Madrid, Spain
+  talk_type: talk
+  slides_url: https://indico.cern.ch/event/773621/contributions/3450849/
+  video_url: ''
+  date_display: June 2019
+  venue: IFT program ``Opportunities at Future High Energy Colliders'', IFT-Madrid
+  category: other
+  scheduled: false
+  event_display: IFT program ``Opportunities at Future High Energy Colliders'', IFT-Madrid
+    · Madrid, Spain · June 2019
+  placeholder: false
+- id: talk-l6-092-higgs-exotic-decays-at-future-colliders
+  title: Higgs exotic decays at future colliders
+  year: 2019
+  date: '2019-06-01'
+  event: talk at IFT program ``Opportunities at Future High Energy Colliders'', IFT-Madrid,
+    Madrid, Spain, Jun. 2019
+  host: ''
+  location: Madrid, Spain
+  talk_type: talk
+  slides_url: https://indico.cern.ch/event/773621/contributions/3461368/
+  video_url: ''
+  date_display: June 2019
+  venue: IFT program ``Opportunities at Future High Energy Colliders'', IFT-Madrid
+  category: other
+  scheduled: false
+  event_display: IFT program ``Opportunities at Future High Energy Colliders'', IFT-Madrid
+    · Madrid, Spain · June 2019
+  placeholder: false
+- id: talk-l6-094-seeking-for-sterile-neutrinos-with-displaced-leptons-at-the-lhc
+  title: Seeking for sterile neutrinos with displaced leptons at the LHC
+  year: 2019
+  date: '2019-05-01'
+  event: parallel talk at 5th CERN LLP workshop, CERN, Geneva, Switzerland, May. 2019
+  host: CERN
+  location: Geneva, Switzerland
+  talk_type: contributed
+  slides_url: https://indico.cern.ch/event/792346/contributions/3446200/attachments/1851796/3040271/1\_HNL\_LHC\_ZhenLiu\_CERN2019.pdf
+  video_url: ''
+  date_display: May 2019
+  venue: CERN
+  category: workshop
+  scheduled: false
+  event_display: CERN · Geneva, Switzerland · May 2019
+  placeholder: false
+- id: talk-l6-095-new-ideas-and-new-opportunities-on-long-lived-particle-searches
+  title: New ideas and new opportunities on Long-lived particle searches
+  year: 2019
+  date: '2019-05-01'
+  event: talk at The 4th NPIKI workshop, Korea University, Seoul, South Korea, May.
+    2019
+  host: Korea University
+  location: Seoul, South Korea
+  talk_type: talk
+  slides_url: https://indico.cern.ch/event/558411/contributions/3420672/
+  video_url: ''
+  date_display: May 2019
+  venue: The 4th NPIKI workshop
+  category: workshop
+  scheduled: false
+  event_display: The 4th NPIKI workshop · Seoul, South Korea · May 2019
+  placeholder: false
+- id: talk-l5-040-millicharged-particles-in-liquid-argon-neutrino-experiments
+  title: Millicharged Particles in Liquid Argon Neutrino Experiments
+  year: 2019
+  date: '2019-05-01'
+  event: SBN-Theory seminar (remote) , Fermilab, Batavia, Illinois, May. 2019
+  host: Fermilab
+  location: Batavia, Illinois
+  talk_type: seminar
+  slides_url: ''
+  video_url: ''
+  date_display: May 2019
+  venue: SBN-Theory seminar (remote)
+  category: seminar
+  scheduled: false
+  event_display: SBN-Theory seminar (remote) · Batavia, Illinois · May 2019
+  placeholder: false
+- id: talk-l6-096-millicharged-particles-in-liquid-argon-neutrino-experiments
+  title: Millicharged Particles in Liquid Argon Neutrino Experiments
+  year: 2019
+  date: '2019-05-01'
+  event: parallel talk at Phenomenology Symposium (Pheno2019), U of Pittsburgh, Pittsburgh,
+    Pennsylvania, May. 2019
+  host: ''
+  location: Pittsburgh, Pennsylvania
+  talk_type: contributed
+  slides_url: https://indico.cern.ch/event/777988/contributions/3410506/
+  video_url: ''
+  date_display: May 2019
+  venue: Phenomenology Symposium (Pheno2019), U of Pittsburgh
+  category: workshop
+  scheduled: false
+  event_display: Phenomenology Symposium (Pheno2019), U of Pittsburgh · Pittsburgh,
+    Pennsylvania · May 2019
+  placeholder: false
+- id: talk-l6-093-llp-opportunities-at-hl-lhc
+  title: LLP Opportunities at HL-LHC
+  year: 2019
+  date: '2019-05-01'
+  event: plenary talk at 5th CERN LLP workshop, CERN, Geneva, Switzerland, May. 2019
+  host: CERN
+  location: Geneva, Switzerland
+  talk_type: invited
+  slides_url: https://indico.cern.ch/event/792346/contributions/3426226/attachments/1852203/3041097/14\_TimingLLP\_ZhenLiu\_CERNLLP2019.pdf
+  video_url: ''
+  date_display: May 2019
+  venue: CERN
+  category: plenary
+  scheduled: false
+  event_display: CERN · Geneva, Switzerland · May 2019
+  placeholder: false
+- id: talk-l5-041-exploring-the-universe-through-quantum-interference-effects
+  title: Exploring the universe through quantum interference effects
+  year: 2019
+  date: '2019-04-01'
+  event: Physics department colloquium, Oklahoma State University, Still Water, Oklahoma,
+    Apr. 2019
+  host: Oklahoma State University
+  location: Still Water, Oklahoma
+  talk_type: seminar
+  slides_url: ''
+  video_url: ''
+  date_display: April 2019
+  venue: Oklahoma State University
+  category: colloquium
+  scheduled: false
+  event_display: Oklahoma State University · Still Water, Oklahoma · April 2019
+  placeholder: false
+- id: talk-l6-097-new-ideas-on-long-lived-particle-searches
+  title: New ideas on Long-Lived Particle Searches
+  year: 2019
+  date: '2019-03-01'
+  event: talk at Aspen Winter Conference ``In Pursuit of New Particles and Paradigms'',
+    Aspen, CO, Mar.2019
+  host: ''
+  location: Aspen, CO
+  talk_type: talk
+  slides_url: https://indico.cern.ch/event/748043/timetable/?view=standard#44-new-ideas-to-enhance-lhc-se
+  video_url: ''
+  date_display: March 2019
+  venue: Aspen Winter Conference ``In Pursuit of New Particles and Paradigms''
+  category: workshop
+  scheduled: false
+  event_display: Aspen Winter Conference ``In Pursuit of New Particles and Paradigms''
+    · Aspen, CO · March 2019
+  placeholder: false
+- id: talk-l5-043-exploring-the-universe-through-quantum-interference-effects
+  title: Exploring the universe through quantum interference effects
+  year: 2019
+  date: '2019-03-01'
+  event: Physics department colloquium, University of Notre Dame, Notre Dame, Indiana,
+    Mar. 2019
+  host: University of Notre Dame
+  location: Notre Dame, Indiana
+  talk_type: seminar
+  slides_url: ''
+  video_url: ''
+  date_display: March 2019
+  venue: University of Notre Dame
+  category: colloquium
+  scheduled: false
+  event_display: University of Notre Dame · Notre Dame, Indiana · March 2019
+  placeholder: false
+- id: talk-l5-042-a-pathway-to-the-next-discovery
+  title: A pathway to the next discovery
+  year: 2019
+  date: '2019-03-01'
+  event: Particle Physics Seminar, University of Notre Dame, Notre Dame, Indiana,
+    Mar. 2019
+  host: University of Notre Dame
+  location: Notre Dame, Indiana
+  talk_type: seminar
+  slides_url: ''
+  video_url: ''
+  date_display: March 2019
+  venue: Particle Physics Seminar
+  category: seminar
+  scheduled: false
+  event_display: Particle Physics Seminar · Notre Dame, Indiana · March 2019
+  placeholder: false
+- id: talk-l5-044-a-pathway-to-the-next-discovery
+  title: A Pathway to the next discovery
+  year: 2019
+  date: '2019-02-01'
+  event: Special EFI seminar, U of Chicago, Chicago, IL, Feb. 2019
+  host: ''
+  location: Chicago, IL
+  talk_type: seminar
+  slides_url: ''
+  video_url: ''
+  date_display: February 2019
+  venue: Special EFI seminar, U of Chicago
+  category: seminar
+  scheduled: false
+  event_display: Special EFI seminar, U of Chicago · Chicago, IL · February 2019
+  placeholder: false
+- id: talk-l5-045-timing-for-bsm-signals-at-the-lhc
+  title: Timing for BSM signals at the LHC
+  year: 2018
+  date: '2018-11-01'
+  event: Joint Johns Hopkins U and U of Maryland particle physics seminar, U of Maryland,
+    College Park, MD, Nov. 2018
+  host: ''
+  location: College Park, MD
+  talk_type: seminar
+  slides_url: ''
+  video_url: ''
+  date_display: November 2018
+  venue: Joint Johns Hopkins U and U of Maryland particle physics seminar, U of Maryland
+  category: seminar
+  scheduled: false
+  event_display: Joint Johns Hopkins U and U of Maryland particle physics seminar,
+    U of Maryland · College Park, MD · November 2018
+  placeholder: false
+- id: talk-l5-046-revealing-new-physics-through-higgs-on-shell-interference-effects
+  title: Revealing new physics through Higgs on-shell interference effects
+  year: 2018
+  date: '2018-11-01'
+  event: Particle Physics Seminar, Florida State University, Tallahassee, FL, Nov.
+    2018
+  host: Florida State University
+  location: Tallahassee, FL
+  talk_type: seminar
+  slides_url: ''
+  video_url: ''
+  date_display: November 2018
+  venue: Particle Physics Seminar
+  category: seminar
+  scheduled: false
+  event_display: Particle Physics Seminar · Tallahassee, FL · November 2018
+  placeholder: false
+- id: talk-l6-098-new-ideas-on-long-lived-particle-searches
+  title: New ideas on Long-Lived Particle Searches
+  year: 2018
+  date: '2018-11-01'
+  event: (remote) talk at ``CMS Exotic/BSM Higgs Workshop'', CERN, Switzerland, Nov.
+    2018
+  host: CERN
+  location: CERN, Switzerland
+  talk_type: talk
+  slides_url: ''
+  video_url: ''
+  date_display: November 2018
+  venue: '``CMS Exotic/BSM Higgs Workshop'''''
+  category: workshop
+  scheduled: false
+  event_display: '``CMS Exotic/BSM Higgs Workshop'''' · CERN, Switzerland · November
+    2018'
+  placeholder: false
+- id: talk-l6-099-higgs-trilinear-at-bsm-interpretations-at-cepc
+  title: Higgs trilinear at BSM interpretations at CEPC
+  year: 2018
+  date: '2018-11-01'
+  event: parallel talk at CEPC workshop 2018, IHEP, Beijing, China, Nov. 2018
+  host: IHEP
+  location: Beijing, China
+  talk_type: contributed
+  slides_url: ''
+  video_url: ''
+  date_display: November 2018
+  venue: CEPC workshop 2018
+  category: workshop
+  scheduled: false
+  event_display: CEPC workshop 2018 · Beijing, China · November 2018
+  placeholder: false
+- id: talk-l6-100-higgs-physics-interpretations-at-cepc
+  title: Higgs physics interpretations at CEPC
+  year: 2018
+  date: '2018-11-01'
+  event: parallel talk at CEPC workshop 2018, IHEP, Beijing, China, Nov. 2018
+  host: IHEP
+  location: Beijing, China
+  talk_type: contributed
+  slides_url: ''
+  video_url: ''
+  date_display: November 2018
+  venue: CEPC workshop 2018
+  category: workshop
+  scheduled: false
+  event_display: CEPC workshop 2018 · Beijing, China · November 2018
+  placeholder: false
+- id: talk-l5-047-timing-for-bsm-signals-at-the-lhc
+  title: Timing for BSM signals at the LHC
+  year: 2018
+  date: '2018-10-01'
+  event: Particle Physics Seminar, Cornell University, Ithaca, NY, Oct. 2018
+  host: Cornell University
+  location: Ithaca, NY
+  talk_type: seminar
+  slides_url: ''
+  video_url: ''
+  date_display: October 2018
+  venue: Particle Physics Seminar
+  category: seminar
+  scheduled: false
+  event_display: Particle Physics Seminar · Ithaca, NY · October 2018
+  placeholder: false
+- id: talk-l6-102-precision-higgs-physics-high-energy-probes
+  title: 'Precision Higgs Physics: High Energy probes'
+  year: 2018
+  date: '2018-10-01'
+  event: Higgs Width and Mass, (remote) talk at Higgs @ HL/HE-LHC-Autumn WG2 meeting,
+    CERN, Switzerland, Oct. 2018
+  host: CERN
+  location: CERN, Switzerland
+  talk_type: talk
+  slides_url: ''
+  video_url: ''
+  date_display: October 2018
+  venue: Higgs Width and Mass, (remote) talk at Higgs @ HL/HE-LHC-Autumn WG2 meeting
+  category: workshop
+  scheduled: false
+  event_display: Higgs Width and Mass, (remote) talk at Higgs @ HL/HE-LHC-Autumn WG2
+    meeting · CERN, Switzerland · October 2018
+  placeholder: false
+- id: talk-l6-101-a-global-view-on-the-higgs-self-coupling-at-lepton-colliders
+  title: A global view on the Higgs self-coupling at lepton colliders
+  year: 2018
+  date: '2018-10-01'
+  event: parallel talk at Linear Collider WorkShop 2018, U Texas-Arlington, Arlington,
+    TX, Oct. 2018
+  host: ''
+  location: Arlington, TX
+  talk_type: contributed
+  slides_url: ''
+  video_url: ''
+  date_display: October 2018
+  venue: Linear Collider WorkShop 2018, U Texas-Arlington
+  category: workshop
+  scheduled: false
+  event_display: Linear Collider WorkShop 2018, U Texas-Arlington · Arlington, TX
+    · October 2018
+  placeholder: false
+- id: talk-l5-048-entering-a-new-world-through-the-higgs-portal
+  title: Entering a new world through the Higgs portal
+  year: 2018
+  date: '2018-09-01'
+  event: Physics department colloquium, the University of Texas at Arlington, Arlington,
+    TX, Sep. 2018
+  host: the University of Texas at Arlington
+  location: Arlington, TX
+  talk_type: seminar
+  slides_url: ''
+  video_url: ''
+  date_display: September 2018
+  venue: the University of Texas at Arlington
+  category: colloquium
+  scheduled: false
+  event_display: the University of Texas at Arlington · Arlington, TX · September
+    2018
+  placeholder: false
+- id: talk-l5-049-timing-for-bsm
+  title: Timing for BSM
+  year: 2018
+  date: '2018-08-01'
+  event: Seminar at Aspen Physics Center, Aspen, CO, Aug. 2018
+  host: ''
+  location: Aspen, CO
+  talk_type: seminar
+  slides_url: ''
+  video_url: ''
+  date_display: August 2018
+  venue: Aspen Physics Center
+  category: seminar
+  scheduled: false
+  event_display: Aspen Physics Center · Aspen, CO · August 2018
+  placeholder: false
+- id: talk-l6-104-long-lived-particle-searches-at-the-lhc
+  title: Long-lived particle searches at the LHC
+  year: 2018
+  date: '2018-07-01'
+  event: Special theory talk at CMS weekly meeting, CERN, Geneva, Switzerland, Jul.
+    2018
+  host: CERN
+  location: Geneva, Switzerland
+  talk_type: talk
+  slides_url: ''
+  video_url: ''
+  date_display: July 2018
+  venue: Special theory talk at CMS weekly meeting
+  category: workshop
+  scheduled: false
+  event_display: Special theory talk at CMS weekly meeting · Geneva, Switzerland ·
+    July 2018
+  placeholder: false
+- id: talk-l5-050-higgs-exotic-decays
+  title: Higgs Exotic Decays
+  year: 2018
+  date: '2018-07-01'
+  event: Seminar at the CERN-CKC summer workshop, CERN, Geneva, Switzerland, Jul.
+    2018
+  host: CERN
+  location: Geneva, Switzerland
+  talk_type: seminar
+  slides_url: ''
+  video_url: ''
+  date_display: July 2018
+  venue: CERN
+  category: seminar
+  scheduled: false
+  event_display: CERN · Geneva, Switzerland · July 2018
+  placeholder: false
+- id: talk-l6-103-higgs-exotic-decay
+  title: Higgs Exotic Decay
+  year: 2018
+  date: '2018-07-01'
+  event: talk at Higgs Hunting workshop, LAL-Paris, Paris, France, Jul. 2018
+  host: ''
+  location: Paris, France
+  talk_type: talk
+  slides_url: ''
+  video_url: ''
+  date_display: July 2018
+  venue: Higgs Hunting workshop, LAL-Paris
+  category: workshop
+  scheduled: false
+  event_display: Higgs Hunting workshop, LAL-Paris · Paris, France · July 2018
+  placeholder: false
+- id: talk-l5-051-long-lived-particle-searches-at-the-lhc-and-timing-for-llp
+  title: Long-lived particle searches at the LHC (and timing for LLP)
+  year: 2018
+  date: '2018-06-01'
+  event: LPC Topic Of The Week (TOTW) seminar, Fermilab, Batavia, IL, Jun. 2018
+  host: Fermilab
+  location: Batavia, IL
+  talk_type: seminar
+  slides_url: ''
+  video_url: ''
+  date_display: June 2018
+  venue: LPC Topic Of The Week (TOTW) seminar
+  category: seminar
+  scheduled: false
+  event_display: LPC Topic Of The Week (TOTW) seminar · Batavia, IL · June 2018
+  placeholder: false
+- id: talk-l6-105-enhanced-di-higgs-production-and-the-electroweak-phase-transition
+  title: Enhanced Di-Higgs Production and the Electroweak Phase Transition
+  year: 2018
+  date: '2018-06-01'
+  event: parallel talk at PASCOS 2018, Case Western Reserve University, Cleveland,
+    Ohio, Jun. 2018
+  host: Case Western Reserve University
+  location: Cleveland, Ohio
+  talk_type: contributed
+  slides_url: ''
+  video_url: ''
+  date_display: June 2018
+  venue: PASCOS 2018
+  category: other
+  scheduled: false
+  event_display: PASCOS 2018 · Cleveland, Ohio · June 2018
+  placeholder: false
+- id: talk-l6-107-timing-the-pulses-of-bsm-signals
+  title: Timing the pulses of BSM signals
+  year: 2018
+  date: '2018-05-01'
+  event: parallel talk at Phenomenology Symposium (Pheno2018), U of Pittsburgh, Pittsburgh,
+    Pennsylvania, May. 2018
+  host: ''
+  location: Pittsburgh, Pennsylvania
+  talk_type: contributed
+  slides_url: ''
+  video_url: ''
+  date_display: May 2018
+  venue: Phenomenology Symposium (Pheno2018), U of Pittsburgh
+  category: workshop
+  scheduled: false
+  event_display: Phenomenology Symposium (Pheno2018), U of Pittsburgh · Pittsburgh,
+    Pennsylvania · May 2018
+  placeholder: false
+- id: talk-l6-106-timing-bsm
+  title: Timing BSM
+  year: 2018
+  date: '2018-05-01'
+  event: (remote) lightning round talk at the 3rd workshop for LLP community, CERN,
+    Geneva, Switzerland, May. 2018
+  host: CERN
+  location: Geneva, Switzerland
+  talk_type: talk
+  slides_url: ''
+  video_url: ''
+  date_display: May 2018
+  venue: lightning round talk at the 3rd workshop for LLP community
+  category: workshop
+  scheduled: false
+  event_display: lightning round talk at the 3rd workshop for LLP community · Geneva,
+    Switzerland · May 2018
+  placeholder: false
+- id: talk-l5-053-revealing-new-physics-through-higgs-on-shell-interference-effects
+  title: Revealing new physics through Higgs on-shell interference effects
+  year: 2018
+  date: '2018-05-01'
+  event: 'HETG Seminar, Harvard University, Cambridge, MA, May. 2018 personal remark:
+    100th talk since in academia!'
+  host: Harvard University
+  location: ''
+  talk_type: seminar
+  slides_url: ''
+  video_url: ''
+  date_display: May 2018
+  venue: 'HETG Seminar, Cambridge, MA, personal remark: 100th talk since in academia!'
+  category: seminar
+  scheduled: false
+  event_display: 'HETG Seminar, Cambridge, MA, personal remark: 100th talk since in
+    academia! · May 2018'
+  placeholder: false
+- id: talk-l5-052-physics-at-future-lepton-colliders-muon-collider-link-fnal-access-slides
+  title: Physics at future lepton colliders (muon collider) link(fnal access) slides
+  year: 2018
+  date: '2018-05-01'
+  event: Energy frontier planning at Fermilab, Batavia, IL, May. 2018
+  host: Energy frontier planning at Fermilab
+  location: Batavia, IL
+  talk_type: talk
+  slides_url: https://indico.cern.ch/event/728878/
+  video_url: ''
+  date_display: May 2018
+  venue: ''
+  category: other
+  scheduled: false
+  event_display: Energy frontier planning at Fermilab · Batavia, IL · May 2018
+  placeholder: false
+- id: talk-l5-055-timing-bsm-signals-at-the-lhc
+  title: Timing BSM Signals at the LHC
+  year: 2018
+  date: '2018-04-01'
+  event: Theory seminar--Particle Physics Lunch talk, University of Chicago, Chicago,
+    IL, Apr. 2018
+  host: University of Chicago
+  location: Chicago, IL
+  talk_type: seminar
+  slides_url: ''
+  video_url: ''
+  date_display: April 2018
+  venue: Theory seminar--Particle Physics Lunch talk
+  category: seminar
+  scheduled: false
+  event_display: Theory seminar--Particle Physics Lunch talk · Chicago, IL · April
+    2018
+  placeholder: false
+- id: talk-l5-054-revealing-new-physics-through-higgs-on-shell-interference-effects
+  title: Revealing new physics through Higgs on-shell interference effects
+  year: 2018
+  date: '2018-04-01'
+  event: Particle Physics Seminar, University of Michigan, Ann Arbor, MI, Apr. 2018
+  host: University of Michigan
+  location: Ann Arbor, MI
+  talk_type: seminar
+  slides_url: ''
+  video_url: ''
+  date_display: April 2018
+  venue: Particle Physics Seminar
+  category: seminar
+  scheduled: false
+  event_display: Particle Physics Seminar · Ann Arbor, MI · April 2018
+  placeholder: false
+- id: talk-l6-108-exotic-higgs-decays-at-he-hl-lhc
+  title: Exotic Higgs Decays at HE/HL-LHC
+  year: 2018
+  date: '2018-04-01'
+  event: parallel talk at the HL/HE LHC meeting, Fermilab, Batavia, Illinois, Apr.
+    2018
+  host: Fermilab
+  location: Batavia, Illinois
+  talk_type: contributed
+  slides_url: ''
+  video_url: ''
+  date_display: April 2018
+  venue: the HL/HE LHC meeting
+  category: workshop
+  scheduled: false
+  event_display: the HL/HE LHC meeting · Batavia, Illinois · April 2018
+  placeholder: false
+- id: talk-l5-056-strong-phase-at-colliders-new-physics-opportunities-in-higgs-physics
+  title: 'Strong phase at colliders: new physics opportunities in Higgs Physics'
+  year: 2018
+  date: '2018-02-01'
+  event: High Energy Theory Seminar, Rutgers University, New Brunswick, NJ, Feb. 2018
+  host: Rutgers University
+  location: New Brunswick, NJ
+  talk_type: seminar
+  slides_url: ''
+  video_url: ''
+  date_display: February 2018
+  venue: High Energy Theory Seminar
+  category: seminar
+  scheduled: false
+  event_display: High Energy Theory Seminar · New Brunswick, NJ · February 2018
+  placeholder: false
+- id: talk-l6-109-probing-the-electroweak-phase-transition-via-enhanced-di-higgs-production
+  title: Probing the Electroweak Phase Transition via Enhanced Di-Higgs Production
+  year: 2018
+  date: '2018-01-01'
+  event: parallel talk at the conference of the HKIAS HEP program, HKUST, Hong Kong,
+    China, Jan. 2018
+  host: ''
+  location: Hong Kong, China
+  talk_type: contributed
+  slides_url: ''
+  video_url: ''
+  date_display: January 2018
+  venue: the conference of the HKIAS HEP program, HKUST
+  category: workshop
+  scheduled: false
+  event_display: the conference of the HKIAS HEP program, HKUST · Hong Kong, China
+    · January 2018
+  placeholder: false
+- id: talk-l6-111-higgs-top-couplings
+  title: Higgs-Top couplings
+  year: 2018
+  date: '2018-01-01'
+  event: talk at the Mini-workshop on Theory of the HKIAS HEP program, HKUST, Hong
+    Kong, China, Jan. 2018
+  host: ''
+  location: Hong Kong, China
+  talk_type: talk
+  slides_url: ''
+  video_url: ''
+  date_display: January 2018
+  venue: the Mini-workshop on Theory of the HKIAS HEP program, HKUST
+  category: workshop
+  scheduled: false
+  event_display: the Mini-workshop on Theory of the HKIAS HEP program, HKUST · Hong
+    Kong, China · January 2018
+  placeholder: false
+- id: talk-l6-110-higgs-self-coupling-at-ee-from-nlo-global-fit-of-single-higgs-processes
+  title: Higgs self-coupling at ee from NLO global fit of single Higgs processes
+  year: 2018
+  date: '2018-01-01'
+  event: talk at the 2nd FCC physics workshop, CERN, Geneva, Switzerland, Jan. 2018
+  host: CERN
+  location: Geneva, Switzerland
+  talk_type: talk
+  slides_url: ''
+  video_url: ''
+  date_display: January 2018
+  venue: the 2nd FCC physics workshop
+  category: workshop
+  scheduled: false
+  event_display: the 2nd FCC physics workshop · Geneva, Switzerland · January 2018
+  placeholder: false
+- id: talk-l5-057-strong-phase-at-colliders-new-physics-opportunities-in-higgs-physics
+  title: 'Strong phase at colliders: new physics opportunities in Higgs Physics'
+  year: 2017
+  date: '2017-11-01'
+  event: High Energy Physics Seminar, the University of Illinois at Chicago, Chicago,
+    IL, Nov. 2017
+  host: the University of Illinois at Chicago
+  location: Chicago, IL
+  talk_type: seminar
+  slides_url: ''
+  video_url: ''
+  date_display: November 2017
+  venue: High Energy Physics Seminar
+  category: seminar
+  scheduled: false
+  event_display: High Energy Physics Seminar · Chicago, IL · November 2017
+  placeholder: false
+- id: talk-l6-112-higgs-top-anomalous-couplings
+  title: Higgs Top anomalous couplings
+  year: 2017
+  date: '2017-11-01'
+  event: parallel talk at the CEPC workshop 2017, IHEP, Beijing, China, Nov. 2017
+  host: IHEP
+  location: Beijing, China
+  talk_type: contributed
+  slides_url: ''
+  video_url: ''
+  date_display: November 2017
+  venue: the CEPC workshop 2017
+  category: workshop
+  scheduled: false
+  event_display: the CEPC workshop 2017 · Beijing, China · November 2017
+  placeholder: false
+- id: talk-l5-058-exploring-the-universe-with-quantum-interference-effects
+  title: Exploring the universe with quantum interference effects
+  year: 2017
+  date: '2017-11-01'
+  event: Physics department colloquium, the University of Texas at Arlington, Arlington,
+    TX, Nov. 2017
+  host: the University of Texas at Arlington
+  location: Arlington, TX
+  talk_type: seminar
+  slides_url: ''
+  video_url: ''
+  date_display: November 2017
+  venue: the University of Texas at Arlington
+  category: colloquium
+  scheduled: false
+  event_display: the University of Texas at Arlington · Arlington, TX · November 2017
+  placeholder: false
+- id: talk-l6-114-probing-higgs-physics-through-interference-effects
+  title: Probing Higgs Physics Through Interference Effects
+  year: 2017
+  date: '2017-10-01'
+  event: parallel talk at Brookhaven Forum (BF2017), BNL, Upton, New York, Oct. 2017
+  host: ''
+  location: Upton, New York
+  talk_type: contributed
+  slides_url: ''
+  video_url: ''
+  date_display: October 2017
+  venue: Brookhaven Forum (BF2017), BNL
+  category: workshop
+  scheduled: false
+  event_display: Brookhaven Forum (BF2017), BNL · Upton, New York · October 2017
+  placeholder: false
+- id: talk-l6-113-higgs-exotic-decays-semi-invisible-and-long-lived
+  title: 'Higgs Exotic Decays: semi-invisible and long-lived'
+  year: 2017
+  date: '2017-10-01'
+  event: (remote) talk at CMS Exotic Higgs Workshop, CERN, Geneva, Switzerland, Oct.
+    2017
+  host: CERN
+  location: Geneva, Switzerland
+  talk_type: talk
+  slides_url: ''
+  video_url: ''
+  date_display: October 2017
+  venue: CMS Exotic Higgs Workshop
+  category: workshop
+  scheduled: false
+  event_display: CMS Exotic Higgs Workshop · Geneva, Switzerland · October 2017
+  placeholder: false
+- id: talk-l5-059-the-exciting-journey-ahead-at-the-lhc
+  title: The exciting journey ahead at the LHC
+  year: 2017
+  date: '2017-06-01'
+  event: Joint Experimental-Theoretical Physics Seminar (Wine & Cheese), Fermilab,
+    Batavia, IL, Jun. 2017
+  host: Fermilab
+  location: Batavia, IL
+  talk_type: seminar
+  slides_url: ''
+  video_url: ''
+  date_display: June 2017
+  venue: Joint Experimental-Theoretical Physics Seminar (Wine & Cheese)
+  category: seminar
+  scheduled: false
+  event_display: Joint Experimental-Theoretical Physics Seminar (Wine & Cheese) ·
+    Batavia, IL · June 2017
+  placeholder: false
+- id: talk-l6-115-strong-phase-in-higgs-physics
+  title: Strong Phase in Higgs Physics
+  year: 2017
+  date: '2017-05-01'
+  event: parallel talk at Phenomenology Symposium (Pheno2017), U of Pittsburgh, Pittsburgh,
+    Pennsylvania, May. 2017
+  host: ''
+  location: Pittsburgh, Pennsylvania
+  talk_type: contributed
+  slides_url: ''
+  video_url: ''
+  date_display: May 2017
+  venue: Phenomenology Symposium (Pheno2017), U of Pittsburgh
+  category: workshop
+  scheduled: false
+  event_display: Phenomenology Symposium (Pheno2017), U of Pittsburgh · Pittsburgh,
+    Pennsylvania · May 2017
+  placeholder: false
+- id: talk-l5-060-strong-phase-at-colliders-new-physics-opportunities-for-ttbar-resonance-searches-and-higgs-physi
+  title: 'Strong phase at colliders: new physics opportunities for ttbar resonance
+    searches and Higgs physics'
+  year: 2017
+  date: '2017-04-01'
+  event: Particle and Astro-particle physics seminar, CERN, Geneva, Switzerland, Apr.2017
+  host: CERN
+  location: Geneva, Switzerland
+  talk_type: seminar
+  slides_url: ''
+  video_url: ''
+  date_display: April 2017
+  venue: Particle and Astro-particle physics seminar
+  category: seminar
+  scheduled: false
+  event_display: Particle and Astro-particle physics seminar · Geneva, Switzerland
+    · April 2017
+  placeholder: false
+- id: talk-l5-061-strong-phase-at-colliders-new-physics-opportunities-for-ttbar-resonance-searches-and-higgs-physi
+  title: 'Strong phase at colliders: new physics opportunities for ttbar resonance
+    searches and Higgs physics'
+  year: 2017
+  date: '2017-04-01'
+  event: HEP seminar, U of Maryland, DC, Apr. 2017
+  host: ''
+  location: U of Maryland, DC
+  talk_type: seminar
+  slides_url: ''
+  video_url: ''
+  date_display: April 2017
+  venue: HEP seminar
+  category: seminar
+  scheduled: false
+  event_display: HEP seminar · U of Maryland, DC · April 2017
+  placeholder: false
+- id: talk-l6-117-new-physics-opportunities-for-ttbar-resonance-searches-at-the-lhc
+  title: New Physics Opportunities for ttbar resonance searches at the LHC
+  year: 2017
+  date: '2017-04-01'
+  event: talk at New Physics Interpretations at the LHC workshop ANL, Lemont, IL,
+    Apr. 2017
+  host: ''
+  location: Lemont, IL
+  talk_type: talk
+  slides_url: ''
+  video_url: ''
+  date_display: April 2017
+  venue: New Physics Interpretations at the LHC workshop ANL
+  category: workshop
+  scheduled: false
+  event_display: New Physics Interpretations at the LHC workshop ANL · Lemont, IL
+    · April 2017
+  placeholder: false
+- id: talk-l6-116-exotic-signatures-theory
+  title: Exotic signatures - theory
+  year: 2017
+  date: '2017-04-01'
+  event: plenary talk at Searches for long-lived particles at the LHC workshop, CERN,
+    Geneva, Switzerland, Apr. 2017
+  host: CERN
+  location: Geneva, Switzerland
+  talk_type: invited
+  slides_url: ''
+  video_url: ''
+  date_display: April 2017
+  venue: Searches for long-lived particles at the LHC workshop
+  category: plenary
+  scheduled: false
+  event_display: Searches for long-lived particles at the LHC workshop · Geneva, Switzerland
+    · April 2017
+  placeholder: false
+- id: talk-l5-062-strong-phase-at-colliders-new-physics-opportunities-for-ttbar-resonance-searches-and-higgs-physi
+  title: 'Strong phase at colliders: new physics opportunities for ttbar resonance
+    searches and Higgs physics'
+  year: 2017
+  date: '2017-03-01'
+  event: UCI physics seminar, UC Irvine, Orange County, CA, Mar. 2017
+  host: ''
+  location: Orange County, CA
+  talk_type: seminar
+  slides_url: ''
+  video_url: ''
+  date_display: March 2017
+  venue: UCI physics seminar, UC Irvine
+  category: seminar
+  scheduled: false
+  event_display: UCI physics seminar, UC Irvine · Orange County, CA · March 2017
+  placeholder: false
+- id: talk-l5-064-new-physics-opportunities-through-the-ttbar-resonance-searches-at-the-lhc
+  title: New physics opportunities through the ttbar resonance searches at the LHC
+  year: 2017
+  date: '2017-02-01'
+  event: Particle theory seminar, Lawrence Berkeley National Laboratory Particle,
+    Berkeley, CA, Feb. 2017
+  host: Lawrence Berkeley National Laboratory Particle
+  location: Berkeley, CA
+  talk_type: seminar
+  slides_url: ''
+  video_url: ''
+  date_display: February 2017
+  venue: Particle theory seminar
+  category: seminar
+  scheduled: false
+  event_display: Particle theory seminar · Berkeley, CA · February 2017
+  placeholder: false
+- id: talk-l5-063-new-ideas-on-long-lived-superparticles-with-hadronic-decays-at-the-lhc
+  title: New ideas on long-lived superparticles with hadronic decays at the LHC
+  year: 2017
+  date: '2017-02-01'
+  event: LHC group lunch seminar, Lawrence Berkeley National Laboratory Particle,
+    Berkeley, CA, Feb. 2017
+  host: Lawrence Berkeley National Laboratory Particle
+  location: Berkeley, CA
+  talk_type: seminar
+  slides_url: ''
+  video_url: ''
+  date_display: February 2017
+  venue: LHC group lunch seminar
+  category: seminar
+  scheduled: false
+  event_display: LHC group lunch seminar · Berkeley, CA · February 2017
+  placeholder: false
+- id: talk-l6-119-new-ideas-on-long-lived-superparticles-with-hadronic-decays-at-the-lhc
+  title: New ideas on long-lived superparticles with hadronic decays at the LHC
+  year: 2017
+  date: '2017-02-01'
+  event: talk at the LHC Theory Initiative Fellows Meeting 2017, SLAC, Menlo Park,
+    CA, Feb. 2017
+  host: SLAC
+  location: Menlo Park, CA
+  talk_type: talk
+  slides_url: ''
+  video_url: ''
+  date_display: February 2017
+  venue: the LHC Theory Initiative Fellows Meeting 2017
+  category: workshop
+  scheduled: false
+  event_display: the LHC Theory Initiative Fellows Meeting 2017 · Menlo Park, CA ·
+    February 2017
+  placeholder: false
+- id: talk-l6-118-new-physics-opportunities-for-ttbar-resonance-searches-at-the-lhc
+  title: New Physics Opportunities for ttbar resonance searches at the LHC
+  year: 2017
+  date: '2017-02-01'
+  event: talk at KEK Theory Meeting on Particle Physics Phenomenology (KEK-PH2017),
+    KEK, Tsukuba, Japan, Feb. 2017
+  host: ''
+  location: Tsukuba, Japan
+  talk_type: talk
+  slides_url: ''
+  video_url: ''
+  date_display: February 2017
+  venue: KEK Theory Meeting on Particle Physics Phenomenology (KEK-PH2017), KEK
+  category: workshop
+  scheduled: false
+  event_display: KEK Theory Meeting on Particle Physics Phenomenology (KEK-PH2017),
+    KEK · Tsukuba, Japan · February 2017
+  placeholder: false
+- id: talk-l6-121-exploring-bsm-physics-through-the-eye-of-higgs-boson-at-cepc
+  title: Exploring BSM Physics through the eye of Higgs boson at CEPC
+  year: 2017
+  date: '2017-01-01'
+  event: talk at the HKIAS HEP program 2017, HKUST, Hong Kong, Jan. 2017
+  host: ''
+  location: ''
+  talk_type: talk
+  slides_url: ''
+  video_url: ''
+  date_display: January 2017
+  venue: the HKIAS HEP program 2017, HKUST, Hong Kong
+  category: other
+  scheduled: false
+  event_display: the HKIAS HEP program 2017, HKUST, Hong Kong · January 2017
+  placeholder: false
+- id: talk-l6-120-exotic-higgs-decays-at-higgs-factories
+  title: Exotic Higgs Decays at Higgs Factories
+  year: 2017
+  date: '2017-01-01'
+  event: parallel talk at the HKIAS HEP conference 2017, HKUST, Hong Kong, Jan. 2017
+  host: ''
+  location: ''
+  talk_type: contributed
+  slides_url: ''
+  video_url: ''
+  date_display: January 2017
+  venue: the HKIAS HEP conference 2017, HKUST, Hong Kong
+  category: workshop
+  scheduled: false
+  event_display: the HKIAS HEP conference 2017, HKUST, Hong Kong · January 2017
+  placeholder: false
+- id: talk-l6-124-new-ideas-on-long-lived-superparticles-with-hadronic-decays-at-the-lhc
+  title: New ideas on Long-Lived Superparticles with Hadronic Decays at the LHC
+  year: 2016
+  date: '2016-12-01'
+  event: talk (2.5 hrs) at Focus Meeting on Collider Phenomenology, IBS-CTPU-PTC,
+    Daejeon, Korea, Dec. 2016
+  host: ''
+  location: Daejeon, Korea
+  talk_type: talk
+  slides_url: ''
+  video_url: ''
+  date_display: December 2016
+  venue: talk (2.5 hrs) at Focus Meeting on Collider Phenomenology, IBS-CTPU-PTC
+  category: workshop
+  scheduled: false
+  event_display: talk (2.5 hrs) at Focus Meeting on Collider Phenomenology, IBS-CTPU-PTC
+    · Daejeon, Korea · December 2016
+  placeholder: false
+- id: talk-l6-125-interplay-of-the-lhc-and-the-lc-in-higgs-physics
+  title: Interplay of the LHC and the LC in Higgs physics
+  year: 2016
+  date: '2016-12-01'
+  event: invited theory overview talk at the Higgs/EW parallel session of LCWS2016,
+    Morioka, Iwate, Japan, Dec. 2016
+  host: ''
+  location: Iwate, Japan
+  talk_type: invited
+  slides_url: ''
+  video_url: ''
+  date_display: December 2016
+  venue: invited theory overview talk at the Higgs/EW parallel session of LCWS2016,
+    Morioka
+  category: other
+  scheduled: false
+  event_display: invited theory overview talk at the Higgs/EW parallel session of
+    LCWS2016, Morioka · Iwate, Japan · December 2016
+  placeholder: false
+- id: talk-l6-123-higgs-top-couplings
+  title: Higgs-top couplings
+  year: 2016
+  date: '2016-12-01'
+  event: talk at the Workshop on CEPC physics, Beijing, China, Dec. 2016
+  host: ''
+  location: Beijing, China
+  talk_type: talk
+  slides_url: ''
+  video_url: ''
+  date_display: December 2016
+  venue: the Workshop on CEPC physics
+  category: workshop
+  scheduled: false
+  event_display: the Workshop on CEPC physics · Beijing, China · December 2016
+  placeholder: false
+- id: talk-l6-122-heavy-scalar-searches-in-the-ttbar-channel-at-the-lhc
+  title: Heavy scalar searches in the ttbar channel at the LHC
+  year: 2016
+  date: '2016-12-01'
+  event: remote talk at LHC Dark Matter WG public meeting, CERN, Dec. 2016
+  host: CERN
+  location: ''
+  talk_type: talk
+  slides_url: ''
+  video_url: ''
+  date_display: December 2016
+  venue: remote talk at LHC Dark Matter WG public meeting
+  category: workshop
+  scheduled: false
+  event_display: remote talk at LHC Dark Matter WG public meeting · December 2016
+  placeholder: false
+- id: talk-l6-126-digging-out-un-familiar-heavy-scalars-from-the-ttbar-channel-at-the-lhc
+  title: Digging out (un)familiar heavy scalars from the ttbar channel at the LHC
+  year: 2016
+  date: '2016-11-01'
+  event: parallel talk at Higgs Couplings workshop, Menlo Park, California, Nov. 2016
+  host: ''
+  location: Menlo Park, California
+  talk_type: contributed
+  slides_url: ''
+  video_url: ''
+  date_display: November 2016
+  venue: Higgs Couplings workshop
+  category: workshop
+  scheduled: false
+  event_display: Higgs Couplings workshop · Menlo Park, California · November 2016
+  placeholder: false
+- id: talk-l5-066-understanding-interference-effects-in-bsm-heavy-resonance-searches
+  title: Understanding interference effects in BSM heavy resonance searches
+  year: 2016
+  date: '2016-10-01'
+  event: Fermilab LPC coffee hour whiteboard talk (joint talk series with M. Carena),
+    Batavia, IL, Oct. 2016 Higgs physics opportunities at future e+e- collider
+  host: Fermilab LPC coffee hour whiteboard talk (joint talk series with M. Carena)
+  location: ''
+  talk_type: talk
+  slides_url: ''
+  video_url: ''
+  date_display: October 2016
+  venue: Batavia, IL, Higgs physics opportunities at future e+e- collider
+  category: other
+  scheduled: false
+  event_display: Batavia, IL, Higgs physics opportunities at future e+e- collider
+    · October 2016
+  placeholder: false
+- id: talk-l5-065-long-lived-superparticle-with-hadronic-decays-at-the-lhc
+  title: Long-lived superparticle with hadronic decays at the LHC
+  year: 2016
+  date: '2016-10-01'
+  event: Argonne National Laboratory, Lemont, IL, Oct. 2016
+  host: Argonne National Laboratory
+  location: Lemont, IL
+  talk_type: talk
+  slides_url: ''
+  video_url: ''
+  date_display: October 2016
+  venue: ''
+  category: other
+  scheduled: false
+  event_display: Argonne National Laboratory · Lemont, IL · October 2016
+  placeholder: false
+- id: talk-l6-128-higgs-physics-at-future-machines-precision-and-discovery-program
+  title: 'Higgs physics at future machines: precision and discovery program'
+  year: 2016
+  date: '2016-10-01'
+  event: invited theory overview for the parallel session, Caltech, California, Oct.
+    2016
+  host: ''
+  location: Caltech, California
+  talk_type: invited
+  slides_url: ''
+  video_url: ''
+  date_display: October 2016
+  venue: invited theory overview for the parallel session
+  category: other
+  scheduled: false
+  event_display: invited theory overview for the parallel session · Caltech, California
+    · October 2016
+  placeholder: false
+- id: talk-l6-127-digging-out-un-familiar-heavy-scalars-from-the-ttbar-channel-at-the-lhc
+  title: Digging out (un)familiar heavy scalars from the ttbar channel at the LHC
+  year: 2016
+  date: '2016-10-01'
+  event: talk at Beyond the Standard Model workshop, Ann Arbor, Michigan, Oct. 2016
+  host: ''
+  location: Ann Arbor, Michigan
+  talk_type: talk
+  slides_url: ''
+  video_url: ''
+  date_display: October 2016
+  venue: Beyond the Standard Model workshop
+  category: workshop
+  scheduled: false
+  event_display: Beyond the Standard Model workshop · Ann Arbor, Michigan · October
+    2016
+  placeholder: false
+- id: talk-l6-129-digging-out-un-familiar-heavy-scalars-from-the-ttbar-channel-at-the-lhc
+  title: Digging out (un)familiar heavy scalars from the ttbar channel at the LHC
+  year: 2016
+  date: '2016-09-01'
+  event: talk at Simplicity II workshop, Batavia, Illinois, Sep. 2016
+  host: ''
+  location: Batavia, Illinois
+  talk_type: talk
+  slides_url: ''
+  video_url: ''
+  date_display: September 2016
+  venue: Simplicity II workshop
+  category: workshop
+  scheduled: false
+  event_display: Simplicity II workshop · Batavia, Illinois · September 2016
+  placeholder: false
+- id: talk-l6-130-challenges-and-opportunities-of-the-ttbar-resonance-search-at-the-lhc
+  title: Challenges and opportunities of the ttbar resonance search at the LHC
+  year: 2016
+  date: '2016-08-01'
+  event: parallel talk at ICHEP2016, Chicago, Illinois, Aug. 2016
+  host: ''
+  location: Chicago, Illinois
+  talk_type: contributed
+  slides_url: ''
+  video_url: ''
+  date_display: August 2016
+  venue: ICHEP2016
+  category: other
+  scheduled: false
+  event_display: ICHEP2016 · Chicago, Illinois · August 2016
+  placeholder: false
+- id: talk-l6-131-higgs-exotic-decays-at-future-lepton-colliders
+  title: Higgs Exotic Decays at future lepton colliders
+  year: 2016
+  date: '2016-07-01'
+  event: talk at KITPC-TEV conference, Beijing, China, Jul. 2016
+  host: KITPC-TEV conference
+  location: Beijing, China
+  talk_type: talk
+  slides_url: ''
+  video_url: ''
+  date_display: July 2016
+  venue: ''
+  category: workshop
+  scheduled: false
+  event_display: KITPC-TEV conference · Beijing, China · July 2016
+  placeholder: false
+- id: talk-l6-132-challenges-and-opportunities-of-the-ttbar-resonance-search-at-the-lhc
+  title: Challenges and opportunities of the ttbar resonance search at the LHC
+  year: 2016
+  date: '2016-07-01'
+  event: talk at KITPC-TEV conference, Beijing, China, Jul. 2016
+  host: KITPC-TEV conference
+  location: Beijing, China
+  talk_type: talk
+  slides_url: ''
+  video_url: ''
+  date_display: July 2016
+  venue: ''
+  category: workshop
+  scheduled: false
+  event_display: KITPC-TEV conference · Beijing, China · July 2016
+  placeholder: false
+- id: talk-l6-134-diboson-excess-theory-updates
+  title: Diboson Excess Theory Updates
+  year: 2016
+  date: '2016-05-01'
+  event: talk at New Physics Interpretations workshop, ANL, Lemont, Illinois, May.
+    2016
+  host: ''
+  location: Lemont, Illinois
+  talk_type: talk
+  slides_url: ''
+  video_url: ''
+  date_display: May 2016
+  venue: New Physics Interpretations workshop, ANL
+  category: workshop
+  scheduled: false
+  event_display: New Physics Interpretations workshop, ANL · Lemont, Illinois · May
+    2016
+  placeholder: false
+- id: talk-l6-133-challenges-and-opportunities-of-the-ttbar-resonance-search-at-the-lhc
+  title: Challenges and opportunities of the ttbar resonance search at the LHC
+  year: 2016
+  date: '2016-05-01'
+  event: parallel talk at Phenomenology 2016 Symposium (Pheno2016), Pittsburgh, Pennsylvania,
+    May. 2016
+  host: ''
+  location: Pittsburgh, Pennsylvania
+  talk_type: contributed
+  slides_url: ''
+  video_url: ''
+  date_display: May 2016
+  venue: Phenomenology 2016 Symposium (Pheno2016)
+  category: workshop
+  scheduled: false
+  event_display: Phenomenology 2016 Symposium (Pheno2016) · Pittsburgh, Pennsylvania
+    · May 2016
+  placeholder: false
+- id: talk-l5-067-higgs-physics-opportunities-at-future-e-e-collider
+  title: Higgs physics opportunities at future e^+e^- collider
+  year: 2016
+  date: '2016-03-01'
+  event: University of Wisconsin-Madison, Madison, Wisconsin, Mar. 2016
+  host: University of Wisconsin-Madison
+  location: Madison, Wisconsin
+  talk_type: talk
+  slides_url: ''
+  video_url: ''
+  date_display: March 2016
+  venue: ''
+  category: other
+  scheduled: false
+  event_display: University of Wisconsin-Madison · Madison, Wisconsin · March 2016
+  placeholder: false
+- id: talk-l5-068-higgs-physics-opportunities-at-future-e-e-collider
+  title: Higgs physics opportunities at future e^+e^- collider
+  year: 2016
+  date: '2016-02-01'
+  event: Particle physics seminar, University of Illinois at Urbana-Champaign, Champaign,
+    Illinois, Feb. 2016
+  host: University of Illinois at Urbana-Champaign
+  location: Champaign, Illinois
+  talk_type: seminar
+  slides_url: ''
+  video_url: ''
+  date_display: February 2016
+  venue: Particle physics seminar
+  category: seminar
+  scheduled: false
+  event_display: Particle physics seminar · Champaign, Illinois · February 2016
+  placeholder: false
+- id: talk-l6-135-running-after-diphoton
+  title: Running after Diphoton
+  year: 2016
+  date: '2016-01-01'
+  event: special talk at HKIAS meeting, HKUST, Hong Kong, China, Jan.2016
+  host: ''
+  location: Hong Kong, China
+  talk_type: talk
+  slides_url: ''
+  video_url: ''
+  date_display: January 2016
+  venue: special talk at HKIAS meeting, HKUST
+  category: workshop
+  scheduled: false
+  event_display: special talk at HKIAS meeting, HKUST · Hong Kong, China · January
+    2016
+  placeholder: false
+- id: talk-l6-136-probing-the-higgs-with-angular-observables-at-future-e-e-colliders
+  title: Probing the Higgs with Angular Observables at Future e+e- Colliders
+  year: 2016
+  date: '2016-01-01'
+  event: parallel talk at HKIAS meeting, HKUST, Hong Kong, China, Jan.2016
+  host: ''
+  location: Hong Kong, China
+  talk_type: contributed
+  slides_url: ''
+  video_url: ''
+  date_display: January 2016
+  venue: HKIAS meeting, HKUST
+  category: workshop
+  scheduled: false
+  event_display: HKIAS meeting, HKUST · Hong Kong, China · January 2016
+  placeholder: false
+- id: talk-l5-069-long-lived-superparticle-with-hadronic-decays-at-the-lhc
+  title: Long-lived superparticle with hadronic decays at the LHC
+  year: 2016
+  date: '2016-01-01'
+  event: CFHEP particle physics seminar, IHEP, Beijing, China, Jan. 2016
+  host: IHEP
+  location: Beijing, China
+  talk_type: seminar
+  slides_url: ''
+  video_url: ''
+  date_display: January 2016
+  venue: CFHEP particle physics seminar
+  category: seminar
+  scheduled: false
+  event_display: CFHEP particle physics seminar · Beijing, China · January 2016
+  placeholder: false
+- id: talk-l5-070-higgs-physics-opportunities-at-future-e-e-collider
+  title: Higgs physics opportunities at future e^+e^- collider
+  year: 2015
+  date: '2015-11-01'
+  event: Particle Physics Seminar, Northwestern University, Evanston, Illinois, Nov.
+    2015
+  host: Northwestern University
+  location: Evanston, Illinois
+  talk_type: seminar
+  slides_url: ''
+  video_url: ''
+  date_display: November 2015
+  venue: Particle Physics Seminar
+  category: seminar
+  scheduled: false
+  event_display: Particle Physics Seminar · Evanston, Illinois · November 2015
+  placeholder: false
+- id: talk-l6-137-exciting-opportunities-in-a-boosted-hadronic-diboson-excess
+  title: Exciting opportunities in a boosted hadronic diboson excess
+  year: 2015
+  date: '2015-11-01'
+  event: invited young physicist lightning talk, US LUA 2015, Batavia, Nov.2015
+  host: ''
+  location: ''
+  talk_type: invited
+  slides_url: ''
+  video_url: ''
+  date_display: November 2015
+  venue: invited young physicist lightning talk, US LUA 2015, Batavia
+  category: other
+  scheduled: false
+  event_display: invited young physicist lightning talk, US LUA 2015, Batavia · November
+    2015
+  placeholder: false
+- id: talk-l5-072-interpreting-recent-2-tev-excesses-at-the-lhc
+  title: Interpreting recent 2 TeV excesses at the LHC
+  year: 2015
+  date: '2015-09-01'
+  event: Particle Physics Seminar, University of Notre Dame, Notre Dame, Indiana,
+    Sep. 2015
+  host: University of Notre Dame
+  location: Notre Dame, Indiana
+  talk_type: seminar
+  slides_url: ''
+  video_url: ''
+  date_display: September 2015
+  venue: Particle Physics Seminar
+  category: seminar
+  scheduled: false
+  event_display: Particle Physics Seminar · Notre Dame, Indiana · September 2015
+  placeholder: false
+- id: talk-l5-073-interpreting-recent-2-tev-excesses-at-the-lhc
+  title: Interpreting recent 2 TeV excesses at the LHC
+  year: 2015
+  date: '2015-09-01'
+  event: HEP Seminar, Stanford Linear Accelerator Laboratory, Menlo Park, California,
+    Sep. 2015
+  host: Stanford Linear Accelerator Laboratory
+  location: Menlo Park, California
+  talk_type: seminar
+  slides_url: ''
+  video_url: ''
+  date_display: September 2015
+  venue: HEP Seminar
+  category: seminar
+  scheduled: false
+  event_display: HEP Seminar · Menlo Park, California · September 2015
+  placeholder: false
+- id: talk-l5-074-interpreting-recent-2-tev-excesses-at-the-lhc
+  title: Interpreting recent 2 TeV excesses at the LHC
+  year: 2015
+  date: '2015-09-01'
+  event: HEP Seminar, Michigan State University, East Lansing, Michigan, Sep. 2015
+  host: Michigan State University
+  location: East Lansing, Michigan
+  talk_type: seminar
+  slides_url: ''
+  video_url: ''
+  date_display: September 2015
+  venue: HEP Seminar
+  category: seminar
+  scheduled: false
+  event_display: HEP Seminar · East Lansing, Michigan · September 2015
+  placeholder: false
+- id: talk-l5-071-closer-look-at-the-hadronic-diboson-excess-at-the-lhc
+  title: Closer look at the hadronic diboson excess at the LHC
+  year: 2015
+  date: '2015-09-01'
+  event: LHC result forum, Remote talk hosted by University of Texas-Austin, Sep.
+    2015
+  host: Remote talk hosted by University of Texas-Austin
+  location: ''
+  talk_type: talk
+  slides_url: ''
+  video_url: ''
+  date_display: September 2015
+  venue: LHC result forum
+  category: workshop
+  scheduled: false
+  event_display: LHC result forum · September 2015
+  placeholder: false
+- id: talk-l6-138-closer-look-at-the-hadronic-diboson-excess-at-the-lhc
+  title: Closer look at the hadronic diboson excess at the LHC
+  year: 2015
+  date: '2015-09-01'
+  event: LHC result forum, Remote talk hosted by University of Texas-Austin, Sep.
+    2015
+  host: Remote talk hosted by University of Texas-Austin
+  location: ''
+  talk_type: talk
+  slides_url: ''
+  video_url: ''
+  date_display: September 2015
+  venue: LHC result forum
+  category: workshop
+  scheduled: false
+  event_display: LHC result forum · September 2015
+  placeholder: false
+- id: talk-l6-139-long-lived-superparticles-with-hadronic-decays-at-the-lhc
+  title: Long-Lived Superparticles with Hadronic Decays at the LHC
+  year: 2015
+  date: '2015-08-01'
+  event: parallel talk at SUSY 2015, Lake Tahoe, California, Aug.2015
+  host: ''
+  location: Lake Tahoe, California
+  talk_type: contributed
+  slides_url: ''
+  video_url: ''
+  date_display: August 2015
+  venue: SUSY 2015
+  category: other
+  scheduled: false
+  event_display: SUSY 2015 · Lake Tahoe, California · August 2015
+  placeholder: false
+- id: talk-l6-141-long-lived-superparticles-with-hadronic-decays-at-the-lhc
+  title: Long-Lived Superparticles with Hadronic Decays at the LHC
+  year: 2015
+  date: '2015-08-01'
+  event: parallel talk at DPF meeting 2015, Ann Arbor, Michigan, Aug.2015
+  host: ''
+  location: Ann Arbor, Michigan
+  talk_type: contributed
+  slides_url: ''
+  video_url: ''
+  date_display: August 2015
+  venue: DPF meeting 2015
+  category: workshop
+  scheduled: false
+  event_display: DPF meeting 2015 · Ann Arbor, Michigan · August 2015
+  placeholder: false
+- id: talk-l5-075-interpreting-recent-2-tev-excesses-at-the-lhc
+  title: Interpreting recent 2 TeV excesses at the LHC
+  year: 2015
+  date: '2015-08-01'
+  event: Particle Physics Seminar, University of Pittsburgh, Pittsburgh, Pennsylvania,
+    Aug. 2015
+  host: University of Pittsburgh
+  location: Pittsburgh, Pennsylvania
+  talk_type: seminar
+  slides_url: ''
+  video_url: ''
+  date_display: August 2015
+  venue: Particle Physics Seminar
+  category: seminar
+  scheduled: false
+  event_display: Particle Physics Seminar · Pittsburgh, Pennsylvania · August 2015
+  placeholder: false
+- id: talk-l6-140-anatomizing-bsm-effects-with-differential-higgsstrahlung-observables
+  title: Anatomizing BSM effects with differential Higgsstrahlung observables
+  year: 2015
+  date: '2015-08-01'
+  event: parallel talk at DPF meeting 2015, Ann Arbor, Michigan, Aug.2015
+  host: ''
+  location: Ann Arbor, Michigan
+  talk_type: contributed
+  slides_url: ''
+  video_url: ''
+  date_display: August 2015
+  venue: DPF meeting 2015
+  category: workshop
+  scheduled: false
+  event_display: DPF meeting 2015 · Ann Arbor, Michigan · August 2015
+  placeholder: false
+- id: talk-l6-142-new-physics-opportunities-from-tau-lepton
+  title: New Physics Opportunities from Tau lepton
+  year: 2015
+  date: '2015-07-01'
+  event: talk at LPC Tau HATS (Tau Hands-on Tutorial Sessions), Fermilab, Illinois,
+    Jul.2015
+  host: Fermilab
+  location: Fermilab, Illinois
+  talk_type: talk
+  slides_url: ''
+  video_url: ''
+  date_display: July 2015
+  venue: LPC Tau HATS (Tau Hands-on Tutorial Sessions)
+  category: other
+  scheduled: false
+  event_display: LPC Tau HATS (Tau Hands-on Tutorial Sessions) · Fermilab, Illinois
+    · July 2015
+  placeholder: false
+- id: talk-l5-076-a-model-for-2-tev-w
+  title: A Model for 2 TeV W^
+  year: 2015
+  date: '2015-07-01'
+  event: LPC Physics Forum, Fermilab, Illinois, Jul.2015
+  host: Fermilab
+  location: Fermilab, Illinois
+  talk_type: talk
+  slides_url: ''
+  video_url: ''
+  date_display: July 2015
+  venue: LPC Physics Forum
+  category: workshop
+  scheduled: false
+  event_display: LPC Physics Forum · Fermilab, Illinois · July 2015
+  placeholder: false
+- id: talk-l6-143-dark-matter-and-higgs-bosons-in-the-mssm-b-s-mumu-implication
+  title: Dark Matter and Higgs Bosons in the MSSM + B_s->mumu implication
+  year: 2015
+  date: '2015-06-01'
+  event: talk at Chicagoland ATLAS-Pheno Meeting, ANL, Illinois, Jun.2015
+  host: ''
+  location: ANL, Illinois
+  talk_type: talk
+  slides_url: ''
+  video_url: ''
+  date_display: June 2015
+  venue: Chicagoland ATLAS-Pheno Meeting
+  category: workshop
+  scheduled: false
+  event_display: Chicagoland ATLAS-Pheno Meeting · ANL, Illinois · June 2015
+  placeholder: false
+- id: talk-l6-144-long-lived-superparticles-with-hadronic-decays-at-the-lhc
+  title: Long-Lived Superparticles with Hadronic Decays at the LHC
+  year: 2015
+  date: '2015-05-01'
+  event: parallel talk at Phenomenology 2015 Symposium (Pheno2015), Pittsburgh, Pennsylvania,
+    May.2015
+  host: ''
+  location: Pittsburgh, Pennsylvania
+  talk_type: contributed
+  slides_url: ''
+  video_url: ''
+  date_display: May 2015
+  venue: Phenomenology 2015 Symposium (Pheno2015)
+  category: workshop
+  scheduled: false
+  event_display: Phenomenology 2015 Symposium (Pheno2015) · Pittsburgh, Pennsylvania
+    · May 2015
+  placeholder: false
+- id: talk-l6-145-higgs-coupling-fits
+  title: Higgs Coupling Fits
+  year: 2015
+  date: '2015-03-01'
+  event: talk at Higgs/Z-factory meeting, Institute of Theoretical Physics Chinese
+    Academy of Sciences (ITP-CAS), Beijing, China, Mar.2015
+  host: Institute of Theoretical Physics Chinese Academy of Sciences (ITP-CAS)
+  location: Beijing, China
+  talk_type: talk
+  slides_url: ''
+  video_url: ''
+  date_display: March 2015
+  venue: Higgs/Z-factory meeting
+  category: workshop
+  scheduled: false
+  event_display: Higgs/Z-factory meeting · Beijing, China · March 2015
+  placeholder: false
+- id: talk-l5-077-a-selected-review-on-higgs-couplings
+  title: A Selected Review on Higgs Couplings
+  year: 2015
+  date: '2015-03-01'
+  event: Institute of High Energy Physics (IHEP), Beijing, China, Mar. 2015
+  host: Institute of High Energy Physics (IHEP)
+  location: Beijing, China
+  talk_type: talk
+  slides_url: ''
+  video_url: ''
+  date_display: March 2015
+  venue: ''
+  category: other
+  scheduled: false
+  event_display: Institute of High Energy Physics (IHEP) · Beijing, China · March
+    2015
+  placeholder: false
+- id: talk-l5-078-some-aspects-of-higgs-couplings-at-colliders
+  title: Some Aspects of Higgs Couplings at Colliders
+  year: 2015
+  date: '2015-02-01'
+  event: Michigan State University, East Lansing, Michigan, Feb. 2015
+  host: Michigan State University
+  location: East Lansing, Michigan
+  talk_type: talk
+  slides_url: ''
+  video_url: ''
+  date_display: February 2015
+  venue: ''
+  category: other
+  scheduled: false
+  event_display: Michigan State University · East Lansing, Michigan · February 2015
+  placeholder: false
+- id: talk-l5-079-neutralino-dark-matter-in-the-n-mssm-direct-indirect-detection-and-collider-searches
+  title: 'Neutralino Dark Matter in the (N)MSSM: Direct/Indirect Detection and Collider
+    Searches'
+  year: 2014
+  date: '2014-11-01'
+  event: Argonne National Laboratory, Lemont, Illinois, Nov. 2014
+  host: Argonne National Laboratory
+  location: Lemont, Illinois
+  talk_type: talk
+  slides_url: ''
+  video_url: ''
+  date_display: November 2014
+  venue: ''
+  category: other
+  scheduled: false
+  event_display: Argonne National Laboratory · Lemont, Illinois · November 2014
+  placeholder: false
+- id: talk-l5-080-neutralino-dark-matter-in-the-n-mssm-direct-indirect-detection-and-collider-searches
+  title: 'Neutralino Dark Matter in the (N)MSSM: Direct/Indirect Detection and Collider
+    Searches'
+  year: 2014
+  date: '2014-09-01'
+  event: Brookhaven National Laboratory, Upton, New York, Sep. 2014
+  host: Brookhaven National Laboratory
+  location: Upton, New York
+  talk_type: talk
+  slides_url: ''
+  video_url: ''
+  date_display: September 2014
+  venue: ''
+  category: other
+  scheduled: false
+  event_display: Brookhaven National Laboratory · Upton, New York · September 2014
+  placeholder: false
+- id: talk-l6-146-zprime-at-100-tev-collider
+  title: ZPrime at 100 TeV Collider
+  year: 2014
+  date: '2014-08-01'
+  event: talk at Next steps in the Energy Frontier - Hadron Colliders, Workshop at
+    LPC@FNAL, Fermilab, Illinois, Aug. 2014
+  host: Workshop at LPC@FNAL
+  location: Fermilab, Illinois
+  talk_type: talk
+  slides_url: ''
+  video_url: ''
+  date_display: August 2014
+  venue: Next steps in the Energy Frontier - Hadron Colliders
+  category: workshop
+  scheduled: false
+  event_display: Next steps in the Energy Frontier - Hadron Colliders · Fermilab,
+    Illinois · August 2014
+  placeholder: false
+- id: talk-l5-081-neutralino-dark-matter-in-the-n-mssm-direct-indirect-detection-and-collider-searches
+  title: 'Neutralino Dark Matter in the (N)MSSM: Direct/Indirect Detection and Collider
+    Searches'
+  year: 2014
+  date: '2014-08-01'
+  event: Institute for Particle Physics Phenomenology (IPPP) seminar, Durham University,
+    United Kingdom, Aug. 2014
+  host: ''
+  location: Durham University, United Kingdom
+  talk_type: seminar
+  slides_url: ''
+  video_url: ''
+  date_display: August 2014
+  venue: Institute for Particle Physics Phenomenology (IPPP) seminar
+  category: seminar
+  scheduled: false
+  event_display: Institute for Particle Physics Phenomenology (IPPP) seminar · Durham
+    University, United Kingdom · August 2014
+  placeholder: false
+- id: talk-l5-082-neutralino-dark-matter-in-the-n-mssm-direct-indirect-detection-and-collider-searches
+  title: 'Neutralino Dark Matter in the (N)MSSM: Direct/Indirect Detection and Collider
+    Searches'
+  year: 2014
+  date: '2014-08-01'
+  event: Southampton High Energy Physics (SHEP) seminar, Southampton University, United
+    Kingdom, Aug. 2014
+  host: Southampton University
+  location: Southampton University, United Kingdom
+  talk_type: seminar
+  slides_url: ''
+  video_url: ''
+  date_display: August 2014
+  venue: Southampton High Energy Physics (SHEP) seminar
+  category: seminar
+  scheduled: false
+  event_display: Southampton High Energy Physics (SHEP) seminar · Southampton University,
+    United Kingdom · August 2014
+  placeholder: false
+- id: talk-l6-147-the-case-of-light-neutralino-dark-matter
+  title: The Case of Light Neutralino Dark matter
+  year: 2014
+  date: '2014-07-01'
+  event: parallel talk at SUSY 2014, University of Manchester, Manchester, UK, Jul.
+    2014
+  host: University of Manchester
+  location: Manchester, UK
+  talk_type: contributed
+  slides_url: ''
+  video_url: ''
+  date_display: July 2014
+  venue: SUSY 2014
+  category: other
+  scheduled: false
+  event_display: SUSY 2014 · Manchester, UK · July 2014
+  placeholder: false
+- id: talk-l5-083-neutralino-dark-matter-in-the-n-mssm-direct-indirect-detection-and-collider-searches
+  title: 'Neutralino Dark Matter in the (N)MSSM: Direct/Indirect Detection and Collider
+    Searches'
+  year: 2014
+  date: '2014-07-01'
+  event: HEP phenomenology joint Cavendish-DAMTP seminar, Cambridge University, United
+    Kingdom, Jul. 2014
+  host: Cambridge University
+  location: Cambridge University, United Kingdom
+  talk_type: seminar
+  slides_url: ''
+  video_url: ''
+  date_display: July 2014
+  venue: HEP phenomenology joint Cavendish-DAMTP seminar
+  category: seminar
+  scheduled: false
+  event_display: HEP phenomenology joint Cavendish-DAMTP seminar · Cambridge University,
+    United Kingdom · July 2014
+  placeholder: false
+- id: talk-l6-149-the-case-of-light-neutralino-dark-matter
+  title: The Case of Light Neutralino Dark matter
+  year: 2014
+  date: '2014-05-01'
+  event: parallel talk at Phenomenology 2014 Symposium (Pheno2014) , Pittsburgh, Pennsylvania,
+    May.2014
+  host: ''
+  location: Pittsburgh, Pennsylvania
+  talk_type: contributed
+  slides_url: ''
+  video_url: ''
+  date_display: May 2014
+  venue: Phenomenology 2014 Symposium (Pheno2014)
+  category: workshop
+  scheduled: false
+  event_display: Phenomenology 2014 Symposium (Pheno2014) · Pittsburgh, Pennsylvania
+    · May 2014
+  placeholder: false
+- id: talk-l6-148-higgs-physics-at-the-muon-collider
+  title: Higgs Physics at the Muon Collider
+  year: 2014
+  date: '2014-05-01'
+  event: parallel talk at MAP 2014 Spring Meeting, Fermilab, Illinois, May. 2014
+  host: Fermilab
+  location: Fermilab, Illinois
+  talk_type: contributed
+  slides_url: ''
+  video_url: ''
+  date_display: May 2014
+  venue: MAP 2014 Spring Meeting
+  category: workshop
+  scheduled: false
+  event_display: MAP 2014 Spring Meeting · Fermilab, Illinois · May 2014
+  placeholder: false
+- id: talk-l5-084-shiny-heavy-higgs-boson-at-muon-collider
+  title: Shiny Heavy Higgs Boson at Muon Collider
+  year: 2014
+  date: '2014-03-01'
+  event: PITT-PACC Group Seminar, Pittsburgh, Pennsylvania, Mar.2014
+  host: ''
+  location: Pittsburgh, Pennsylvania
+  talk_type: seminar
+  slides_url: ''
+  video_url: ''
+  date_display: March 2014
+  venue: PITT-PACC Group Seminar
+  category: seminar
+  scheduled: false
+  event_display: PITT-PACC Group Seminar · Pittsburgh, Pennsylvania · March 2014
+  placeholder: false
+- id: talk-l6-150-light-neutralino-dark-matter-in-the-nmssm
+  title: Light Neutralino Dark Matter (in the NMSSM)
+  year: 2013
+  date: '2013-11-01'
+  event: talk at Determining the Next Scale in High Energy Physics workshop, Pittsburgh,
+    Pennsylvania, Nov.2013
+  host: ''
+  location: Pittsburgh, Pennsylvania
+  talk_type: talk
+  slides_url: ''
+  video_url: ''
+  date_display: November 2013
+  venue: Determining the Next Scale in High Energy Physics workshop
+  category: workshop
+  scheduled: false
+  event_display: Determining the Next Scale in High Energy Physics workshop · Pittsburgh,
+    Pennsylvania · November 2013
+  placeholder: false
+- id: talk-l5-085-higgs-bosons-and-the-n-mssm
+  title: Higgs Bosons and the (N)MSSM
+  year: 2013
+  date: '2013-09-01'
+  event: Zhejiang University, Hangzhou, China, Sep.2013
+  host: Zhejiang University
+  location: Hangzhou, China
+  talk_type: talk
+  slides_url: ''
+  video_url: ''
+  date_display: September 2013
+  venue: ''
+  category: other
+  scheduled: false
+  event_display: Zhejiang University · Hangzhou, China · September 2013
+  placeholder: false
+- id: talk-l6-151-higgs-physics-at-the-muon-collider
+  title: Higgs Physics at the Muon Collider
+  year: 2013
+  date: '2013-08-01'
+  event: talk at International Symposium on Higgs Physics , Beijing, China, Aug.2013
+  host: ''
+  location: Beijing, China
+  talk_type: talk
+  slides_url: ''
+  video_url: ''
+  date_display: August 2013
+  venue: International Symposium on Higgs Physics
+  category: workshop
+  scheduled: false
+  event_display: International Symposium on Higgs Physics · Beijing, China · August
+    2013
+  placeholder: false
+- id: talk-l6-153-mu-mu-collider
+  title: mu-mu Collider
+  year: 2013
+  date: '2013-06-01'
+  event: parallel talk at Snowmass Workshop at Seattle , UW-Seattle, Washington, Jun.2013
+  host: ''
+  location: UW-Seattle, Washington
+  talk_type: contributed
+  slides_url: ''
+  video_url: ''
+  date_display: June 2013
+  venue: Snowmass Workshop at Seattle
+  category: workshop
+  scheduled: false
+  event_display: Snowmass Workshop at Seattle · UW-Seattle, Washington · June 2013
+  placeholder: false
+- id: talk-l6-152-zprime-parallel-talk-at-snowmass-workshop-at-seattle-uw-seattle-washington-jun-2013
+  title: ZPrime
+  year: 2013
+  date: '2013-06-01'
+  event: ''
+  host: Washington · · UW-Seattle
+  location: UW-Seattle, Washington
+  talk_type: talk
+  slides_url: ''
+  video_url: ''
+  date_display: June 2013
+  venue: Washington ·
+  category: other
+  scheduled: false
+  event_display: Washington · · UW-Seattle, Washington · June 2013
+  placeholder: false
+- id: talk-l6-154-dark-matter-and-higgs-bosons-in-the-mssm
+  title: Dark Matter and Higgs Bosons in the MSSM
+  year: 2013
+  date: '2013-06-01'
+  event: talk at Snowmass on the Pacific , UCSB, California, Jun.2013
+  host: ''
+  location: UCSB, California
+  talk_type: talk
+  slides_url: ''
+  video_url: ''
+  date_display: June 2013
+  venue: Snowmass on the Pacific
+  category: workshop
+  scheduled: false
+  event_display: Snowmass on the Pacific · UCSB, California · June 2013
+  placeholder: false
+- id: talk-l6-155-dark-matter-and-higgs-bosons-in-the-mssm
+  title: Dark Matter and Higgs Bosons in the MSSM
+  year: 2013
+  date: '2013-05-01'
+  event: 'talk at Dark Matter: from Space to Supercolliders , OSU, Ohio, May.2013'
+  host: ''
+  location: OSU, Ohio
+  talk_type: talk
+  slides_url: ''
+  video_url: ''
+  date_display: May 2013
+  venue: 'Dark Matter: from Space to Supercolliders'
+  category: other
+  scheduled: false
+  event_display: 'Dark Matter: from Space to Supercolliders · OSU, Ohio · May 2013'
+  placeholder: false
+- id: talk-l6-156-dark-matter-and-higgs-bosons-in-the-mssm
+  title: Dark Matter and Higgs Bosons in the MSSM
+  year: 2013
+  date: '2013-05-01'
+  event: parallel talk at Phenomenology Symposium 2013 , Pittsburgh, Pennsylvania,
+    May.2013
+  host: ''
+  location: Pittsburgh, Pennsylvania
+  talk_type: contributed
+  slides_url: ''
+  video_url: ''
+  date_display: May 2013
+  venue: Phenomenology Symposium 2013
+  category: workshop
+  scheduled: false
+  event_display: Phenomenology Symposium 2013 · Pittsburgh, Pennsylvania · May 2013
+  placeholder: false
+- id: talk-l6-157-nmssm-higgs-physics
+  title: NMSSM Higgs Physics
+  year: 2013
+  date: '2013-04-01'
+  event: parallel talk at Snowmass Energy Frontier Workshop , BNL, New York, Apr.2013
+  host: ''
+  location: BNL, New York
+  talk_type: contributed
+  slides_url: ''
+  video_url: ''
+  date_display: April 2013
+  venue: Snowmass Energy Frontier Workshop
+  category: workshop
+  scheduled: false
+  event_display: Snowmass Energy Frontier Workshop · BNL, New York · April 2013
+  placeholder: false
+- id: talk-l6-158-direct-measurement-of-the-higgs-boson
+  title: Direct Measurement of the Higgs Boson
+  year: 2013
+  date: '2013-03-01'
+  event: plenary talk at Higgs Factory Muon Collider Workshop , UCLA, California,
+    Mar.2013
+  host: ''
+  location: UCLA, California
+  talk_type: invited
+  slides_url: ''
+  video_url: ''
+  date_display: March 2013
+  venue: Higgs Factory Muon Collider Workshop
+  category: plenary
+  scheduled: false
+  event_display: Higgs Factory Muon Collider Workshop · UCLA, California · March 2013
+  placeholder: false
+- id: talk-l5-086-dark-matter-and-the-higgs-bosons-in-the-mssm
+  title: Dark Matter and the Higgs Bosons in the MSSM
+  year: 2013
+  date: '2013-03-01'
+  event: Brookhaven National Laboratory, New York, Mar.2013
+  host: Brookhaven National Laboratory
+  location: New York
+  talk_type: talk
+  slides_url: ''
+  video_url: ''
+  date_display: March 2013
+  venue: ''
+  category: other
+  scheduled: false
+  event_display: Brookhaven National Laboratory · New York · March 2013
+  placeholder: false
+- id: talk-l6-159-dark-matter-and-the-higgs-bosons-in-the-mssm
+  title: Dark Matter and the Higgs Bosons in the MSSM
+  year: 2013
+  date: '2013-03-01'
+  event: talk at LHC-Theoretical Initiative (LHC-TI) Meeting 2013 , SUNY-SB, New York,
+    Mar.2013
+  host: ''
+  location: SUNY-SB, New York
+  talk_type: talk
+  slides_url: ''
+  video_url: ''
+  date_display: March 2013
+  venue: LHC-Theoretical Initiative (LHC-TI) Meeting 2013
+  category: workshop
+  scheduled: false
+  event_display: LHC-Theoretical Initiative (LHC-TI) Meeting 2013 · SUNY-SB, New York
+    · March 2013
+  placeholder: false
+- id: talk-l5-087-direct-measurement-of-higgs-width-at-muon-collider
+  title: Direct Measurement of Higgs Width at Muon Collider
+  year: 2012
+  date: '2012-11-01'
+  event: PITT-PACC Group Seminar, Pittsburgh, Pennsylvania, Nov.2012
+  host: ''
+  location: Pittsburgh, Pennsylvania
+  talk_type: seminar
+  slides_url: ''
+  video_url: ''
+  date_display: November 2012
+  venue: PITT-PACC Group Seminar
+  category: seminar
+  scheduled: false
+  event_display: PITT-PACC Group Seminar · Pittsburgh, Pennsylvania · November 2012
+  placeholder: false
+- id: talk-l6-160-direct-measurement-of-higgs-width-at-muon-collider
+  title: Direct Measurement of Higgs Width at Muon Collider
+  year: 2012
+  date: '2012-11-01'
+  event: remote talk at Muon Collider Physics and Detector , Fermilab, Illinois, Nov.2012
+  host: Fermilab
+  location: Fermilab, Illinois
+  talk_type: talk
+  slides_url: ''
+  video_url: ''
+  date_display: November 2012
+  venue: remote talk at Muon Collider Physics and Detector
+  category: other
+  scheduled: false
+  event_display: remote talk at Muon Collider Physics and Detector · Fermilab, Illinois
+    · November 2012
+  placeholder: false
+- id: talk-l5-088-lhc-implications-for-the-nmssm
+  title: LHC Implications for the NMSSM
+  year: 2012
+  date: '2012-10-01'
+  event: PITT-PACC Group Seminar, Pittsburgh, Pennsylvania, Oct.2012
+  host: ''
+  location: Pittsburgh, Pennsylvania
+  talk_type: seminar
+  slides_url: ''
+  video_url: ''
+  date_display: October 2012
+  venue: PITT-PACC Group Seminar
+  category: seminar
+  scheduled: false
+  event_display: PITT-PACC Group Seminar · Pittsburgh, Pennsylvania · October 2012
+  placeholder: false
+- id: talk-l6-161-lhc-implications-for-the-nmssm
+  title: LHC Implications for the NMSSM
+  year: 2012
+  date: '2012-10-01'
+  event: talk at, PITT-PACC Workshop--The Higgs Boson and the Next Discovery , Pittsburgh,
+    Pennsylvania, Oct.2012
+  host: ''
+  location: Pittsburgh, Pennsylvania
+  talk_type: talk
+  slides_url: ''
+  video_url: ''
+  date_display: October 2012
+  venue: talk at, PITT-PACC Workshop--The Higgs Boson and the Next Discovery
+  category: workshop
+  scheduled: false
+  event_display: talk at, PITT-PACC Workshop--The Higgs Boson and the Next Discovery
+    · Pittsburgh, Pennsylvania · October 2012
+  placeholder: false
+- id: talk-l6-162-lhc-implications-for-the-nmssm
+  title: LHC Implications for the NMSSM
+  year: 2012
+  date: '2012-08-01'
+  event: parallel talk at 20th International Conference on Supersymmetry and Unification
+    of Fundamental Interactions (SUSY2012) , Beijing, China, Aug.2012
+  host: ''
+  location: Beijing, China
+  talk_type: contributed
+  slides_url: ''
+  video_url: ''
+  date_display: August 2012
+  venue: 20th International Conference on Supersymmetry and Unification of Fundamental
+    Interactions (SUSY2012)
+  category: workshop
+  scheduled: false
+  event_display: 20th International Conference on Supersymmetry and Unification of
+    Fundamental Interactions (SUSY2012) · Beijing, China · August 2012
+  placeholder: false
+- id: talk-l6-163-lhc-implications-for-the-nmssm
+  title: LHC Implications for the NMSSM
+  year: 2012
+  date: '2012-08-01'
+  event: parallel talk at The International Conference on Flavor Physics and Cosmophysics
+    2012 (ICFPC2012) , Weihai, China, Aug.2012
+  host: ''
+  location: Weihai, China
+  talk_type: contributed
+  slides_url: ''
+  video_url: ''
+  date_display: August 2012
+  venue: The International Conference on Flavor Physics and Cosmophysics 2012 (ICFPC2012)
+  category: workshop
+  scheduled: false
+  event_display: The International Conference on Flavor Physics and Cosmophysics 2012
+    (ICFPC2012) · Weihai, China · August 2012
+  placeholder: false
+- id: talk-l6-164-lhc-implications-for-the-nmssm
+  title: LHC Implications for the NMSSM
+  year: 2012
+  date: '2012-05-01'
+  event: parallel talk at Phenomenology 2012 Symposium (Pheno2012) , Pittsburgh, Pennsylvania,
+    May.2012
+  host: ''
+  location: Pittsburgh, Pennsylvania
+  talk_type: contributed
+  slides_url: ''
+  video_url: ''
+  date_display: May 2012
+  venue: Phenomenology 2012 Symposium (Pheno2012)
+  category: workshop
+  scheduled: false
+  event_display: Phenomenology 2012 Symposium (Pheno2012) · Pittsburgh, Pennsylvania
+    · May 2012
+  placeholder: false
+- id: talk-l6-165-diagnosis-on-colored-resonances
+  title: Diagnosis on Colored Resonances
+  year: 2012
+  date: '2012-03-01'
+  event: student talk at Pan-American Advanced Studies Institute 2012 (PASI2012) ,
+    Buenos Aires, Argentina, Mar.2012
+  host: student talk at Pan-American Advanced Studies Institute 2012 (PASI2012)
+  location: ''
+  talk_type: talk
+  slides_url: ''
+  video_url: ''
+  date_display: March 2012
+  venue: Buenos Aires, Argentina
+  category: other
+  scheduled: false
+  event_display: Buenos Aires, Argentina · March 2012
+  placeholder: false
+- id: talk-l5-089-diagnosis-on-colored-resonances
+  title: Diagnosis on Colored Resonances
+  year: 2011
+  date: '2011-12-01'
+  event: Zhejiang University, Hangzhou, China, Dec.2011
+  host: Zhejiang University
+  location: Hangzhou, China
+  talk_type: talk
+  slides_url: ''
+  video_url: ''
+  date_display: December 2011
+  venue: ''
+  category: other
+  scheduled: false
+  event_display: Zhejiang University · Hangzhou, China · December 2011
+  placeholder: false
+- id: talk-l5-090-diagnosis-on-colored-resonances
+  title: Diagnosis on Colored Resonances
+  year: 2011
+  date: '2011-12-01'
+  event: PITT-PACC, Pittsburgh, Pennsylvania, Dec.2011
+  host: ''
+  location: Pittsburgh, Pennsylvania
+  talk_type: talk
+  slides_url: ''
+  video_url: ''
+  date_display: December 2011
+  venue: PITT-PACC
+  category: other
+  scheduled: false
+  event_display: PITT-PACC · Pittsburgh, Pennsylvania · December 2011
+  placeholder: false
+- id: talk-l6-166-diagnosis-on-colored-resonances
+  title: Diagnosis on Colored Resonances
+  year: 2011
+  date: '2011-10-01'
+  event: talk at LHC-Theoretical Initiative (LHC-TI) Meeting 2011 , SLAC, California,
+    Oct.2011
+  host: ''
+  location: SLAC, California
+  talk_type: talk
+  slides_url: ''
+  video_url: ''
+  date_display: October 2011
+  venue: LHC-Theoretical Initiative (LHC-TI) Meeting 2011
+  category: workshop
+  scheduled: false
+  event_display: LHC-Theoretical Initiative (LHC-TI) Meeting 2011 · SLAC, California
+    · October 2011
+  placeholder: false
+- id: talk-l6-167-colored-resonances-at-the-lhc
+  title: Colored Resonances at the LHC
+  year: 2011
+  date: '2011-08-01'
+  event: parallel talk at String Phenomenology Symposium 2011 (StringPheno2011) ,
+    UW-Madison, Wisconsin, Aug.2011
+  host: ''
+  location: UW-Madison, Wisconsin
+  talk_type: contributed
+  slides_url: ''
+  video_url: ''
+  date_display: August 2011
+  venue: String Phenomenology Symposium 2011 (StringPheno2011)
+  category: workshop
+  scheduled: false
+  event_display: String Phenomenology Symposium 2011 (StringPheno2011) · UW-Madison,
+    Wisconsin · August 2011
+  placeholder: false
+- id: talk-l6-168-colored-resonances-at-the-lhc
+  title: Colored Resonances at the LHC
+  year: 2011
+  date: '2011-06-01'
+  event: student talk at Theoretical Advanced Studies Institute in Elementary Particle
+    Physics 2011 (TASI2011) , Boulder, Colorado, Jun.2011
+  host: student talk at Theoretical Advanced Studies Institute in Elementary Particle
+    Physics 2011 (TASI2011)
+  location: Boulder, Colorado
+  talk_type: talk
+  slides_url: ''
+  video_url: ''
+  date_display: June 2011
+  venue: ''
+  category: other
+  scheduled: false
+  event_display: student talk at Theoretical Advanced Studies Institute in Elementary
+    Particle Physics 2011 (TASI2011) · Boulder, Colorado · June 2011
+  placeholder: false

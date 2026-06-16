@@ -1,0 +1,11 @@
+{{ $p := hugo.Data.source.profile }}
+{{ $short := .short | default false }}
+<h1>{{ $p.name }}</h1>
+<p class="subtitle">{{ $p.title }} · University of Minnesota</p>
+<p class="hero-text">
+  {{ if $short }}
+    {{ $p.hero_lead }}
+  {{ else }}
+    {{ $p.research_summary }}
+  {{ end }}
+</p>

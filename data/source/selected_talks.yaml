@@ -1,0 +1,67 @@
+# Curated Selected Talks block on /talks/ (newest first). Prefer talk_id to match data/talks.yaml.
+- talk_id: talk-l6-007-genai-enabled-representation-of-quantum-chromodynamics-qcd
+  title: GenAI-Enabled Representation of Quantum ChromoDynamics (QCD)
+  year: 2026
+  type: workshop
+  venue: GenAI for Science & Engineering Workshop
+  location: Minneapolis, MN
+- talk_id: talk-l6-005-new-directions-in-collider-physics
+  title: New Directions in Collider Physics
+  year: 2026
+  type: plenary
+  venue: Pheno 2026
+  location: Pittsburgh, PA
+- talk_id: talk-l6-010-thinking-outside-the-box-about-collider-experiments
+  title: Thinking ``Outside the box'' about collider experiments
+  year: 2025
+  type: workshop
+  venue: Physics At The Highest Energies With Colliders conference, Exploring the energy frontier with muon beams program, Florence, Italy, Jul
+  location: Florence, Italy
+- talk_id: talk-l6-011-beam-power-sourced-millicharged-particles-and-dark-photons
+  title: Beam/Power Sourced Millicharged Particles and Dark Photons
+  year: 2025
+  type: workshop
+  venue: Simons Symposium on Illuminating Dark Matter
+  location: Munich, Germany
+- talk_id: talk-l6-016-opportunities-in-long-lived-particles-at-current-and-future-colliders
+  title: Opportunities in Long-Lived Particles at Current and Future Colliders
+  year: 2024
+  type: plenary
+  venue: CEPC2024
+  location: Hangzhou, China
+- talk_id: talk-l5-007-mechanical-sensing-for-dark-matter
+  title: Mechanical Sensing for Dark Matter
+  year: 2024
+  type: seminar
+  venue: University of Chicago
+  location: Chicago, IL
+- talk_id: talk-l6-029-new-physics-opportunities-at-lhc-and-beyond
+  title: New Physics Opportunities at LHC and Beyond
+  year: 2023
+  type: plenary
+  venue: Lepton Photon Conference
+  location: Melbourne, Australia
+- talk_id: talk-l6-035-dark-srf-pathfinder-results-and-beyond
+  title: Dark SRF pathfinder results and Beyond
+  year: 2023
+  type: other
+  venue: Winter Aspen Program, Aspen, Co
+  location: Aspen, CO
+- talk_id: talk-l6-058-physics-at-the-125-gev-muon-collider
+  title: Physics at the 125 GeV Muon Collider
+  year: 2021
+  type: workshop
+  venue: invited review talk at the Snowmass Muon Collider Forum
+  location: ""
+- talk_id: talk-l6-114-probing-higgs-physics-through-interference-effects
+  title: Probing Higgs Physics Through Interference Effects
+  year: 2017
+  type: workshop
+  venue: Brookhaven Forum (BF2017), BNL
+  location: Upton, New York
+- talk_id: talk-l5-090-diagnosis-on-colored-resonances
+  title: Diagnosis on Colored Resonances
+  year: 2011
+  type: other
+  venue: PITT-PACC
+  location: Pittsburgh, Pennsylvania

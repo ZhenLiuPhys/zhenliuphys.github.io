@@ -1,0 +1,9 @@
+{{ $arxiv := .arxiv }}
+{{ $pubs := where hugo.Data.publications "arxiv" $arxiv }}
+{{ $pub := cond (gt (len $pubs) 0) (index $pubs 0) nil }}
+{{ if $pub }}
+  {{ $title := replaceRE "\\s*\\(link\\)\\s*" "" $pub.title }}
+  <a href="https://arxiv.org/abs/{{ $arxiv }}" target="_blank" rel="noopener">{{ $title }}</a>
+{{ else }}
+  <a href="https://arxiv.org/abs/{{ $arxiv }}" target="_blank" rel="noopener">arXiv:{{ $arxiv }}</a>
+{{ end }}

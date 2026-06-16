@@ -1,0 +1,5 @@
+{{ $p := hugo.Data.source.profile }}
+<p class="hero-profiles-inline">
+  <span class="hero-profiles-inline-label">Profiles:</span>
+  <a href="{{ $p.external_links.google_scholar }}" target="_blank" rel="noopener">Google Scholar</a><span class="hero-profiles-sep" aria-hidden="true">·</span><a href="{{ $p.external_links.inspire }}" target="_blank" rel="noopener">inSPIRE</a><span class="hero-profiles-sep" aria-hidden="true">·</span><a href="{{ $p.external_links.arxiv }}" target="_blank" rel="noopener">arXiv</a><span class="hero-profiles-sep" aria-hidden="true">·</span><a href="{{ $p.external_links.github }}" target="_blank" rel="noopener">GitHub</a><span class="hero-profiles-sep" aria-hidden="true">·</span><a href="{{ partial "rel-internal.html" (dict "href" "/cv/") }}">CV</a><span class="hero-profiles-sep" aria-hidden="true">·</span><a href="{{ partial "rel-internal.html" (dict "href" "/contact/") }}">Contact</a>
+</p>

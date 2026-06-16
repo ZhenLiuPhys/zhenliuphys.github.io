@@ -1,0 +1,3 @@
+{{/* dict "date" "2026-05" or "2024" */}}
+{{ $d := .date | default "" }}
+{{ if ge (len $d) 7 }}{{ slicestr $d 0 7 }}{{ else }}{{ $d }}{{ end }}

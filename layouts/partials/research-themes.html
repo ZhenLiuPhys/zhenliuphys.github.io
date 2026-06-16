@@ -1,0 +1,10 @@
+{{/* papers in research_themes.yaml is curation metadata — not rendered here. */}}
+<div class="theme-grid">
+  {{ range hugo.Data.source.research_themes }}
+    <article class="theme-card">
+      <h2>{{ .title }}</h2>
+      {{ $direction := .direction_note | default .summary }}
+      <p class="theme-direction">{{ $direction }}</p>
+    </article>
+  {{ end }}
+</div>

@@ -1,0 +1,114 @@
+# Selected publications (reverse chronological, newest first). Homepage showcase via
+# layouts/partials/featured-publications.html (year, linked title, arXiv, journal).
+# topic, theme_ids, and highlight_note are curation metadata for /publications/ cards.
+# Homepage figures: drop static/images/plots/{arxiv}.png (or .webp/.jpg/.svg); optional
+# figure: block below for caption and alt only.
+- arxiv: "2604.14284"
+  title: "A Busy Higgs Signal"
+  year: 2026
+  topic: higgs
+  theme_ids: ["muon-colliders"]
+  highlight_note: "Higgs-sector signals with rich final-state structure at future colliders."
+- arxiv: "2412.14115"
+  title: "The Neutrino Slice at Muon Colliders"
+  year: 2024
+  topic: muon_colliders
+  theme_ids: ["muon-colliders"]
+  highlight_note: "Neutrino-induced backgrounds and the neutrino-slice framework at muon colliders."
+  figure:
+    alt: "Neutrino-slice geometry at a high-energy muon collider"
+    caption: |
+      Schematic of the neutrino-slice geometry at a high-energy muon collider,
+      highlighting forward muon detection and associated systematic budgets.
+- arxiv: "2403.15538"
+  title: "Momentum shift and on-shell constructible massive amplitudes"
+  year: 2024
+  topic: amplitudes
+  theme_ids: ["amplitudes-bsm"]
+  highlight_note: "Momentum-shift framework for on-shell constructible massive amplitudes."
+- arxiv: "2301.11512"
+  title: "New Exclusion Limit for Dark Photons from an SRF Cavity-Based Search (Dark SRF)"
+  year: 2023
+  topic: dark_sector
+  theme_ids: ["dark-sector"]
+  highlight_note: "SRF cavity search setting a new exclusion limit on dark photons (Dark SRF)."
+  figure:
+    alt: "Dark photon exclusion limit from the Dark SRF cavity search"
+    caption: |
+      Exclusion region for dark photons from the superconducting RF cavity search (Dark SRF).
+- arxiv: "2207.08448"
+  title: "First constraints on Heavy QCD Axions with a Liquid Argon Time Projection Chamber using the ArgoNeuT Experiment"
+  year: 2022
+  topic: axions
+  theme_ids: ["dark-sector"]
+  highlight_note: "First heavy QCD axion limits with ArgoNeuT liquid-argon TPC data."
+- arxiv: "2009.11287"
+  title: "WIMPs at High Energy Muon Colliders"
+  year: 2020
+  topic: dark_sector
+  theme_ids: ["muon-colliders", "dark-sector"]
+  highlight_note: "WIMP phenomenology at high-energy muon colliders."
+- arxiv: "1911.07996"
+  title: "Improved Limits on Millicharged Particles Using the ArgoNeuT Experiment at Fermilab"
+  year: 2019
+  topic: dark_sector
+  theme_ids: ["dark-sector"]
+  highlight_note: "New millicharged-particle limits from the ArgoNeuT experiment at Fermilab."
+- arxiv: "1908.04797"
+  title: "Ultralight Dark Matter Detection with Mechanical Quantum Sensors"
+  year: 2019
+  topic: dark_sector
+  theme_ids: ["dark-sector"]
+  highlight_note: "Mechanical quantum sensors for ultralight dark matter detection."
+- arxiv: "1805.05957"
+  title: "Long-lived particles at the LHC: catching them in time"
+  year: 2018
+  topic: bsm
+  theme_ids: ["amplitudes-bsm"]
+  highlight_note: "Timing-based strategies for catching long-lived particles at the LHC."
+  figure:
+    alt: "Long-lived particle detection timing strategy at the LHC"
+    caption: |
+      Timing-based approach for catching long-lived particles at the LHC.
+- arxiv: "1704.08259"
+  title: "Interference in the gg-> h -> gammagamma On-Shell Rate and the Higgs Boson Total Width"
+  year: 2017
+  topic: higgs
+  theme_ids: ["muon-colliders"]
+  highlight_note: "Interference effects in h→γγ and constraints on the Higgs total width."
+- arxiv: "1612.09284"
+  title: "Exotic decays of the 125 GeV Higgs boson at future e^+e^- colliders"
+  year: 2016
+  topic: higgs
+  theme_ids: ["muon-colliders"]
+  highlight_note: "Exotic 125 GeV Higgs decays at future e⁺e⁻ colliders."
+- arxiv: "1608.07282"
+  title: "Challenges and opportunities for heavy scalar searches in the ttbar channel at the LHC"
+  year: 2016
+  topic: bsm
+  theme_ids: ["amplitudes-bsm"]
+  highlight_note: "Heavy scalar searches in tt̄ at the LHC: challenges and opportunities."
+- arxiv: "1503.05923"
+  title: "The Fate of Long-Lived Superparticles with Hadronic Decays after LHC Run 1"
+  year: 2015
+  topic: bsm
+  theme_ids: ["amplitudes-bsm"]
+  highlight_note: "Post–Run 1 LHC constraints on long-lived superparticles with hadronic decays."
+- arxiv: "1406.1181"
+  title: "Light Neutralino Dark Matter: Direct/Indirect Detection and Collider Searches"
+  year: 2014
+  topic: bsm
+  theme_ids: ["dark-sector", "amplitudes-bsm"]
+  highlight_note: "Light neutralino dark matter across direct, indirect, and collider probes."
+- arxiv: "1311.7155"
+  title: "Potential Precision on Higgs Couplings and Total Width at the ILC"
+  year: 2013
+  topic: higgs
+  theme_ids: ["muon-colliders"]
+  highlight_note: "Precision projections for Higgs couplings and total width at the ILC."
+- arxiv: "1010.4309"
+  title: "Colored Resonant Signals at the LHC: Largest Rate and Simplest Topology"
+  year: 2010
+  topic: bsm
+  theme_ids: ["amplitudes-bsm"]
+  highlight_note: "Benchmark colored resonance signatures with largest LHC rates in the simplest topology."

@@ -1,0 +1,31 @@
+{{ define "main" }}
+<article class="container single">
+  {{ if not .IsHome }}
+    <p class="section-eyebrow">{{ .Section | default "Page" | title }}</p>
+  {{ end }}
+  {{ if .Date }}<p class="small">{{ .Date.Format "Jan 02, 2006" }}</p>{{ end }}
+  <h1>{{ .Title }}</h1>
+  <div class="content">{{ .Content }}</div>
+
+  {{ if .Params.authors }}
+    <p><strong>Authors:</strong> {{ .Params.authors }}</p>
+  {{ end }}
+  {{ if .Params.venue }}
+    <p><strong>Venue:</strong> {{ .Params.venue }}</p>
+  {{ end }}
+  {{ if .Params.event }}
+    <p><strong>Event:</strong> {{ .Params.event }}</p>
+  {{ end }}
+  {{ if .Params.location }}
+    <p><strong>Location:</strong> {{ .Params.location }}</p>
+  {{ end }}
+  <ul class="links">
+    {{ with .Params.arxiv }}<li><a target="_blank" rel="noopener" href="https://arxiv.org/abs/{{ . }}">arXiv: {{ . }}</a></li>{{ end }}
+    {{ with .Params.doi }}<li><a target="_blank" rel="noopener" href="https://doi.org/{{ . }}">DOI: {{ . }}</a></li>{{ end }}
+    {{ with .Params.journal_url }}<li><a target="_blank" rel="noopener" href="{{ . }}">Journal Link</a></li>{{ end }}
+    {{ with .Params.slides_url }}<li><a target="_blank" rel="noopener" href="{{ . }}">Slides</a></li>{{ end }}
+    {{ with .Params.video_url }}<li><a target="_blank" rel="noopener" href="{{ . }}">Video</a></li>{{ end }}
+    {{ with .Params.external_url }}<li><a target="_blank" rel="noopener" href="{{ . }}">Read More</a></li>{{ end }}
+  </ul>
+</article>
+{{ end }}

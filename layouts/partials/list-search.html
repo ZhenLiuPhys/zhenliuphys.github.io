@@ -1,0 +1,18 @@
+{{/* dict: inputId, label, placeholder, scopeId, statusId, itemLabel (e.g. "publications"), recentHideId (optional) */}}
+<div class="list-search-wrap" data-list-search-root>
+  <label class="list-search-label" for="{{ .inputId }}">{{ .label }}</label>
+  <input
+    type="search"
+    id="{{ .inputId }}"
+    class="list-search"
+    autocomplete="off"
+    placeholder="{{ .placeholder }}"
+    aria-controls="{{ .scopeId }}"
+    data-list-search-input
+    data-list-search-scope="{{ .scopeId }}"
+    data-list-search-status="{{ .statusId }}"
+    data-list-search-item-label="{{ .itemLabel }}"
+    {{ with .recentHideId }}data-list-search-recent-hide="{{ . }}"{{ end }}
+  >
+  <p id="{{ .statusId }}" class="list-search-status small" role="status" aria-live="polite"></p>
+</div>

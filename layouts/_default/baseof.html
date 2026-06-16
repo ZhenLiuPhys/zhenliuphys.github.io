@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
+  <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ with .Summary }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}{{ end }}">
+  {{ partial "head-social.html" . }}
+  {{ partial "analytics.html" . }}
+  <meta name="theme-color" content="#13294b">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;600;700&family=Source+Sans+3:wght@400;500;600&display=swap" rel="stylesheet">
+  {{ with resources.Get "css/main.css" }}
+  <link rel="stylesheet" href="{{ (. | minify).RelPermalink }}">
+  {{ end }}
+</head>
+<body class="site-body">
+  {{ partial "header.html" . }}
+  <main class="page">
+    {{ block "main" . }}{{ end }}
+  </main>
+  {{ partial "footer.html" . }}
+  <script src="{{ "js/nav.js" | relURL }}" defer></script>
+  {{ block "footer-scripts" . }}{{ end }}
+</body>
+</html>

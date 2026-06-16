@@ -1,0 +1,58 @@
+{{ define "main" }}
+<section class="container section-header">
+  <p class="section-eyebrow">News</p>
+  <h1>{{ .Title }}</h1>
+  {{ with .Content }}<div class="section-intro">{{ . }}</div>{{ end }}
+</section>
+
+<section class="container page-panel">
+  <article class="section-block">
+    <div class="feed-list">
+      {{ range sort (where hugo.Data.news "pinned" true) "date" "desc" }}
+        <article class="feed-item">
+          <time datetime="{{ .date }}">{{ partial "feed-date.html" (dict "date" .date) }}</time>
+          <p>{{ .text }}{{ with .url }} <a href="{{ partial "rel-internal.html" (dict "href" .) }}">→</a>{{ end }}</p>
+        </article>
+      {{ else }}
+        <p class="small">No announcements yet. Add items to <code>data/news.yaml</code>.</p>
+      {{ end }}
+    </div>
+  </article>
+</section>
+
+{{ $other := where hugo.Data.news "pinned" "ne" true }}
+{{ if gt (len $other) 0 }}
+<section class="container page-panel">
+  <article class="section-block">
+    {{ partial "card-header.html" (dict "title" "Archive") }}
+    <div class="feed-list">
+      {{ range sort $other "date" "desc" }}
+        <article class="feed-item">
+          <time datetime="{{ .date }}">{{ partial "feed-date.html" (dict "date" .date) }}</time>
+          <p>{{ .text }}{{ with .url }} <a href="{{ partial "rel-internal.html" (dict "href" .) }}">→</a>{{ end }}</p>
+        </article>
+      {{ end }}
+    </div>
+  </article>
+</section>
+{{ end }}
+
+{{ $media := hugo.Data.source.media }}
+{{ if $media }}
+<section class="container page-panel" id="media-coverage">
+  <article class="section-block">
+    {{ partial "card-header.html" (dict "title" "Media coverage") }}
+    <p class="small">Selected press and institutional stories (newest first).</p>
+    <ul class="media-list">
+      {{ range sort $media "date" "desc" }}
+        <li class="media-item">
+          <time datetime="{{ .date }}">{{ partial "feed-date.html" (dict "date" .date) }}</time>
+          <span class="media-outlet">{{ .outlet }}</span>
+          <a href="{{ .url }}" target="_blank" rel="noopener">{{ .title }}</a>
+        </li>
+      {{ end }}
+    </ul>
+  </article>
+</section>
+{{ end }}
+{{ end }}

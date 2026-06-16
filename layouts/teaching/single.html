@@ -1,0 +1,78 @@
+{{ define "main" }}
+{{ $courses := hugo.Data.source.teaching.courses_umn | default (slice) }}
+{{ $allTalks := where hugo.Data.talks "placeholder" false }}
+{{ $allTalks = sort $allTalks "date" "desc" }}
+{{ $lectureTalks := slice }}
+{{ range $allTalks }}
+  {{ if eq (lower (default "" .category)) "lecture" }}
+    {{ $lectureTalks = $lectureTalks | append . }}
+  {{ end }}
+{{ end }}
+
+<section class="container section-header">
+  <p class="section-eyebrow">Teaching</p>
+  <h1>{{ .Title }}</h1>
+  {{ with .Content }}<div class="section-intro">{{ . }}</div>{{ end }}
+</section>
+
+<section class="container page-panel">
+  <article class="section-block">
+    {{ partial "card-header.html" (dict "eyebrow" "University of Minnesota" "title" "Courses taught") }}
+    {{ if gt (len $courses) 0 }}
+      <div class="teaching-course-list">
+        {{ range $courses }}
+          {{ if reflect.IsMap . }}
+            {{ $code := .code | default "" }}
+            {{ $title := .title | default "" }}
+            {{ $terms := .terms | default (slice) }}
+            <article class="teaching-course-row">
+              <div class="teaching-course-main">
+                <h3 class="teaching-course-title">
+                  {{ if and $code $title }}
+                    <span class="teaching-course-code">{{ $code }}</span> · {{ $title }}
+                  {{ else if $code }}
+                    <span class="teaching-course-code">{{ $code }}</span>
+                  {{ else }}
+                    {{ $title }}
+                  {{ end }}
+                </h3>
+                {{ if gt (len $terms) 0 }}
+                  <p class="teaching-term-chips">
+                    {{ range $terms }}
+                      <span class="teaching-term-chip">{{ . }}</span>
+                    {{ end }}
+                  </p>
+                {{ end }}
+              </div>
+              <div class="teaching-course-aside">
+                {{ with .course_material_url }}
+                  <a class="link-badge" href="{{ . }}" target="_blank" rel="noopener">Course Material</a>
+                {{ end }}
+              </div>
+            </article>
+          {{ else }}
+            <article class="teaching-course-row">
+              <div class="teaching-course-main">
+                <h3 class="teaching-course-title">{{ . }}</h3>
+              </div>
+            </article>
+          {{ end }}
+        {{ end }}
+      </div>
+    {{ else }}
+      <p class="small">No courses found in the latest CV import.</p>
+    {{ end }}
+  </article>
+</section>
+
+<section class="container page-panel" id="teaching-lectures">
+  <article class="section-block">
+    {{ partial "card-header.html" (dict "eyebrow" "Lectures" "title" "Summer and Winter School Lectures") }}
+    {{ if gt (len $lectureTalks) 0 }}
+      {{ partial "talk-list-by-year.html" (dict "talks" $lectureTalks "grouped" false) }}
+    {{ else }}
+      <p class="small">No lecture entries are available yet.</p>
+    {{ end }}
+  </article>
+</section>
+{{ end }}

@@ -1,0 +1,88 @@
+{{ define "main" }}
+{{ $m := hugo.Data.source.mentoring }}
+{{ $grad := $m.graduate_students | default (slice) }}
+{{ $postdocs := $m.postdocs | default (slice) }}
+{{ $resGrad := $m.research_graduates | default (slice) }}
+{{ $resUndergrad := $m.research_undergraduates | default (slice) }}
+<section class="container section-header">
+  <p class="section-eyebrow">Research Group</p>
+  <h1>{{ .Title }}</h1>
+  {{ with .Content }}<div class="section-intro">{{ . }}</div>{{ end }}
+</section>
+
+<section class="container mentoring-grid">
+  <article class="section-block page-panel mentoring-tile mentoring-tile--core">
+    {{ partial "card-header.html" (dict "title" "Graduate Students") }}
+    {{ if gt (len $grad) 0 }}
+      <div class="mentoring-core-list">
+        {{ range $grad }}
+          <article class="mentoring-core-row">
+            <h3 class="mentoring-core-name">
+              {{ if .profile_url }}<a href="{{ .profile_url }}" target="_blank" rel="noopener">{{ .name }}</a>{{ else }}{{ .name }}{{ end }}
+            </h3>
+            {{ with .notes }}<p class="mentoring-core-note">{{ . }}</p>{{ end }}
+            <p class="mentoring-core-meta"><span class="mentoring-core-label">UMN period:</span> {{ .umn_period }}</p>
+            {{ with .leaving_institution }}<p class="mentoring-core-meta"><span class="mentoring-core-label">Leaving UMN:</span> {{ . }}</p>{{ end }}
+            {{ with .current_institution }}<p class="mentoring-core-meta"><span class="mentoring-core-label">Current:</span> {{ . }}</p>{{ end }}
+          </article>
+        {{ end }}
+      </div>
+    {{ else }}
+      <p class="small">No graduate student entries configured.</p>
+    {{ end }}
+  </article>
+
+  <article class="section-block page-panel mentoring-tile mentoring-tile--core">
+    {{ partial "card-header.html" (dict "title" "Postdocs") }}
+    <p class="small mentoring-tile-subnote">Only local postdocs with whom I worked directly at UMN are listed.</p>
+    {{ if gt (len $postdocs) 0 }}
+      <div class="mentoring-core-list">
+        {{ range $postdocs }}
+          <article class="mentoring-core-row">
+            <h3 class="mentoring-core-name">
+              {{ if .profile_url }}<a href="{{ .profile_url }}" target="_blank" rel="noopener">{{ .name }}</a>{{ else }}{{ .name }}{{ end }}
+            </h3>
+            <p class="mentoring-core-meta"><span class="mentoring-core-label">UMN period:</span> {{ .umn_period }}</p>
+            {{ with .leaving_institution }}<p class="mentoring-core-meta"><span class="mentoring-core-label">Leaving UMN:</span> {{ . }}</p>{{ end }}
+            {{ with .current_institution }}<p class="mentoring-core-meta"><span class="mentoring-core-label">Current:</span> {{ . }}</p>{{ end }}
+          </article>
+        {{ end }}
+      </div>
+    {{ else }}
+      <p class="small">No postdoc entries configured.</p>
+    {{ end }}
+  </article>
+
+  <article class="section-block page-panel mentoring-tile">
+    {{ partial "card-header.html" (dict "title" "Research Graduates") }}
+    {{ if gt (len $resGrad) 0 }}
+      <ul class="mentoring-compact-list">
+        {{ range $resGrad }}
+          <li>
+            <span class="mentoring-compact-name">{{ .name }}</span>
+            <span class="mentoring-compact-meta"> · {{ .institution }}{{ with .program }}, {{ . }}{{ end }}{{ with .umn_period }}, {{ . }}{{ end }}</span>
+          </li>
+        {{ end }}
+      </ul>
+    {{ else }}
+      <p class="small">No research graduate entries configured.</p>
+    {{ end }}
+  </article>
+
+  <article class="section-block page-panel mentoring-tile">
+    {{ partial "card-header.html" (dict "title" "Research Undergraduates") }}
+    {{ if gt (len $resUndergrad) 0 }}
+      <ul class="mentoring-compact-list">
+        {{ range $resUndergrad }}
+          <li>
+            <span class="mentoring-compact-name">{{ .name }}</span>
+            <span class="mentoring-compact-meta"> · {{ .institution }}{{ with .program }}, {{ . }}{{ end }}{{ with .umn_period }}, {{ . }}{{ end }}</span>
+          </li>
+        {{ end }}
+      </ul>
+    {{ else }}
+      <p class="small">No research undergraduate entries configured.</p>
+    {{ end }}
+  </article>
+</section>
+{{ end }}

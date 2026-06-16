@@ -1,0 +1,18 @@
+{{- $title := . | default "" -}}
+{{- $title = replaceRE "\\s*\\(link\\)\\s*" "" $title -}}
+
+{{- /* Normalize common TeX-derived tokens before symbol formatting. */ -}}
+{{- $title = replaceRE "(?i)gammagamma" "gamma gamma" $title -}}
+{{- $title = replaceRE "(?i)gg\\s*->\\s*h\\s*->\\s*gamma\\s+gamma" "gg -> h -> gamma gamma" $title -}}
+
+{{- /* Render common HEP title math tokens using safe inline HTML. */ -}}
+{{- $title = replaceRE "(?i)e\\+e\\-" "e<sup>+</sup>e<sup>-</sup>" $title -}}
+{{- $title = replaceRE "(?i)gg\\s*->\\s*h\\s*->\\s*gamma\\s+gamma" "gg&rarr;h&rarr;&gamma;&gamma;" $title -}}
+{{- $title = replaceRE "(?i)gamma\\s+gamma" "&gamma;&gamma;" $title -}}
+{{- $title = replaceRE "\\b([A-Za-z])_([0-9]+)\\b" "$1<sub>$2</sub>" $title -}}
+{{- $title = replaceRE "\\b([A-Za-z])\\^([0-9]+)\\b" "$1<sup>$2</sup>" $title -}}
+{{- $title = replaceRE "\\b([A-Za-z])\\^prime\\b" "$1&prime;" $title -}}
+{{- $title = replaceRE "\\bttbar\\b" "tt&#772;" $title -}}
+{{- $title = replaceRE "\\bbbar\\b" "b&#772;" $title -}}
+
+{{- $title | safeHTML -}}

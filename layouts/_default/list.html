@@ -1,0 +1,48 @@
+{{ define "main" }}
+<section class="container section-header">
+  <h1>{{ .Title }}</h1>
+  {{ with .Content }}<div class="section-intro">{{ . }}</div>{{ end }}
+</section>
+
+<section class="container">
+  {{ if eq .Section "publications" }}
+    {{ range .Pages.GroupByParam "year" }}
+      <h2>{{ .Key }}</h2>
+      <div class="cards">
+        {{ range .Pages.ByDate.Reverse }}
+          <article class="card">
+            <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+            <p class="small">{{ .Params.authors }}</p>
+            <p class="small">{{ .Params.venue }}</p>
+            {{ with .Params.topics }}<p class="small">Topics: {{ delimit . ", " }}</p>{{ end }}
+          </article>
+        {{ end }}
+      </div>
+    {{ end }}
+  {{ else if eq .Section "talks" }}
+    {{ range .Pages.GroupByParam "year" }}
+      <h2>{{ .Key }}</h2>
+      <div class="cards">
+        {{ range .Pages.ByDate.Reverse }}
+          <article class="card">
+            <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+            <p class="small">{{ .Params.event }} · {{ .Params.location }}</p>
+            <p class="small">{{ .Params.talk_type | title }}</p>
+            {{ with .Params.topics }}<p class="small">Topics: {{ delimit . ", " }}</p>{{ end }}
+          </article>
+        {{ end }}
+      </div>
+    {{ end }}
+  {{ else }}
+    <div class="cards">
+      {{ range .Pages.ByDate.Reverse }}
+        <article class="card">
+          <p class="small">{{ .Date.Format "Jan 02, 2006" }}</p>
+          <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+          <p>{{ .Summary }}</p>
+        </article>
+      {{ end }}
+    </div>
+  {{ end }}
+</section>
+{{ end }}

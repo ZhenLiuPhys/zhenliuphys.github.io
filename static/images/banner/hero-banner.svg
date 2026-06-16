@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 200">
+  <rect width="1200" height="200" fill="#eef4ff"/>
+  <g opacity="0.8">
+    <circle cx="180" cy="100" r="74" fill="#c7d9ff"/>
+    <circle cx="320" cy="95" r="64" fill="#b3ccff"/>
+    <circle cx="460" cy="90" r="54" fill="#98bbff"/>
+  </g>
+  <polyline points="620,150 710,125 800,130 890,95 980,80 1070,65" fill="none" stroke="#3b82f6" stroke-width="8"/>
+  <text x="40" y="36" font-family="Arial" font-size="24" fill="#1e3a8a">Optional banner slot</text>
+</svg>

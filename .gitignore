@@ -1,0 +1,25 @@
+/public/
+/public-mirror/
+/resources/
+.hugo_build.lock
+.DS_Store
+.venv/
+__pycache__/
+*.pyc
+
+# Local-only CV source (not in public repo)
+Material/ZhenLiu_CV.tex
+Material/Zhen_Liu_CV.html
+Material/Zhen_Liu_CV.htm
+Zhen_Liu_CV.pdf
+zhen_liu_CV.pdf
+
+# Unused alternate portraits
+Material/profilephoto2.jpg
+Material/profilephoto3.jpg
+
+# Local-only backups and internal tooling (never commit)
+backups/
+hugo.staging.toml
+hugo.mirror.toml
+local/

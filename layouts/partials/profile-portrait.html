@@ -1,0 +1,6 @@
+{{/* Prefer Material-synced portrait; fallback avoids a broken hero when assets are not synced yet. */}}
+{{ $src := "images/profile/profilephoto.jpg" }}
+{{ if not (fileExists (printf "static/%s" $src)) }}
+  {{ $src = "images/photos/placeholder-photo.svg" }}
+{{ end }}
+<img src="{{ $src | relURL }}" alt="Portrait of Zhen Liu" width="300" height="375" fetchpriority="high">

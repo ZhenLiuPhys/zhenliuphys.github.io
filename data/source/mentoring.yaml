@@ -1,0 +1,110 @@
+graduate_students:
+- name: Peiran Li
+  profile_url: ''
+  umn_period: Apr 2022-Aug 2026
+  leaving_institution: Perimeter Institute (Postdoc, Sept 2026)
+  current_institution: Perimeter Institute
+- name: Ishmam Mahbub
+  profile_url: ''
+  umn_period: Apr 2022-present
+  current_institution: University of Minnesota
+- name: Yuxin Liu
+  profile_url: ''
+  umn_period: Mar 2025-Feb 2026
+  leaving_institution: Theory Division, Fermilab (Postdoc, 2026)
+  current_institution: Fermilab
+  notes: Visiting graduate student (UCAS fellowship)
+postdocs:
+- name: Kunfeng Lyu
+  profile_url: ''
+  umn_period: Sept 2021-Sept 2024
+  leaving_institution: University of Utah
+  current_institution: University of Oklahoma
+- name: Saarik Kalia
+  profile_url: ''
+  umn_period: Sept 2022-Aug 2025
+  leaving_institution: IFAE Barcelona
+  current_institution: Fermilab / University of Chicago
+- name: Raymond Co
+  profile_url: ''
+  umn_period: Sept 2020-Sept 2023
+  leaving_institution: Indiana University (Assistant Professor)
+  current_institution: Indiana University (Assistant Professor)
+- name: Matheus Hostert
+  profile_url: ''
+  umn_period: Sept 2020-Aug 2023
+  leaving_institution: Harvard University (Postdoc)
+  current_institution: University of Iowa (Assistant Professor)
+- name: Yohei Ema
+  profile_url: ''
+  umn_period: Sept 2021-Aug 2024
+  leaving_institution: CERN (Postdoc)
+  current_institution: University of Florida (Assistant Professor)
+- name: Wenqi Ke
+  profile_url: ''
+  umn_period: Sept 2023-Aug 2026
+  leaving_institution: IFAE Barcelona (Postdoc)
+  current_institution: IFAE Barcelona
+research_graduates:
+- name: Zong-En Chen
+  institution: University of Minnesota
+  umn_period: May 2026-present
+- name: Abhinaya Sinha
+  institution: University of Minnesota
+  umn_period: May 2025-Aug 2025
+- name: Haoran Cui
+  institution: University of Minnesota
+  umn_period: Feb 2024-Oct 2024
+- name: Abay Zhakenuly
+  institution: University of Minnesota
+  umn_period: May 2024-Aug 2024
+- name: Stephen Henrich
+  institution: University of Minnesota
+  umn_period: Apr 2023-Oct 2023
+- name: Colin Weber
+  institution: University of Minnesota
+  umn_period: Apr 2022-Sept 2022
+- name: Ibrahim Atilla
+  institution: University of Minnesota
+  umn_period: May 2021-Nov 2021
+- name: Yaren Aksel
+  institution: University of Minnesota
+  umn_period: May 2021-Sept 2021
+- name: Onuray Sancar
+  institution: University of Minnesota
+  umn_period: May 2021-Sept 2021
+- name: Saif Ullah Baig
+  institution: University of Minnesota
+  umn_period: May 2021-Sept 2021
+research_undergraduates:
+- name: Nick Mazzoni
+  institution: UMass Amherst
+  umn_period: Jun 2025-Jan 2026
+  program: NSF REU
+- name: Edward Morell
+  institution: Florida International University
+  umn_period: Jun 2024-Aug 2024
+  program: NSF REU
+- name: Yiheng Jiang
+  institution: Zhejiang University
+  umn_period: May 2024-May 2025
+- name: Collin (Wade) Hernandez
+  institution: Appalachian State University
+  umn_period: Jun 2023-Aug 2023
+  program: NSF REU
+- name: Yifan Fei
+  institution: Fudan University
+  umn_period: Jun 2023-Sept 2023
+- name: Tong Shen
+  institution: Fudan University
+  umn_period: Jun 2023-Sept 2023
+- name: Tiago Sereno
+  institution: Binghamton University
+  umn_period: May 2022-Aug 2022
+  program: NSF REU
+- name: Jett Johnson
+  institution: University of Minnesota, Morris
+  umn_period: Oct 2021-Aug 2023
+- name: Tong Wu
+  institution: University of Science and Technology of China
+  umn_period: Aug 2021-Jan 2022

@@ -1,0 +1,49 @@
+# papers lists are curation metadata — not displayed on the homepage.
+- id: muon-colliders
+  title: "Future colliders & electroweak physics"
+  direction_note: >
+    High-energy muon colliders offer a distinctive electroweak laboratory: Higgs
+    widths and couplings, top-Yukawa precision, and backgrounds from the neutrino
+    slice. We develop theory predictions and analysis strategies tied to forward-muon
+    detection and concrete benchmarks at CEPC, FCC, and muon-collider designs.
+  summary: >
+    High-energy muon colliders open a distinctive window on electroweak precision:
+    Higgs couplings and widths, top-Yukawa measurements, and neutrino-induced
+    backgrounds in the neutrino-slice framework. My group develops theory predictions
+    and analysis strategies that connect forward-muon detection to concrete electroweak
+    benchmarks at future machines.
+  papers:
+    - "2412.14115"
+    - "2401.08756"
+- id: dark-sector
+  title: "Dark sector & quantum sensing"
+  direction_note: >
+    Hidden-sector models link collider phenomenology to high-intensity and
+    quantum-sensing experiments. We compare EFT descriptions, lattice/QCD inputs,
+    and experimental targets on equal footing—with recent focus on dark photons,
+    axion-like particles, and millicharged particles in programs such as Dark SRF
+    and ultralow-threshold sensing.
+  summary: >
+    Hidden-sector models link collider phenomenology to small-scale experiments and
+    quantum-sensing platforms. Recent work includes dark-photon sensitivity with the
+    Dark SRF program and QCD axion production at muon colliders—building pipelines
+    where lattice/QCD inputs, EFT descriptions, and experimental targets are compared
+    on equal footing.
+  papers:
+    - "2510.02427"
+    - "2509.10605"
+- id: amplitudes-bsm
+  title: "Amplitudes, BSM, and collider signatures"
+  direction_note: >
+    On-shell methods, momentum shifts, and positivity constraints expose analytic
+    structure in QFT and sharpen EFT interpretations of BSM physics. We translate
+    these tools into collider observables—heavy resonances, long-lived particles,
+    and positivity-guided search strategies—for present and near-future data.
+  summary: >
+    From positivity constraints and helicity methods to heavy resonances and long-lived
+    particles, I study how analytic structure guides BSM searches at hadron and future
+    colliders. The goal is signatures that are testable now or in the next collider
+    generation—not only model-by-model plots, but robust handles on new physics.
+  papers:
+    - "2512.04336"
+    - "2306.00079"

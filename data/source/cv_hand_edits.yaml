@@ -1,0 +1,12 @@
+talks:
+  talk-l5-007-mechanical-sensing-for-dark-matter:
+    event: true
+    venue: true
+mentoring:
+  research_undergraduates|Nick Mazzoni:
+    umn_period: true
+  research_undergraduates|Yiheng Jiang:
+    umn_period: true
+  research_graduates|Zong-En Chen:
+    umn_period: true
+    institution: true

@@ -1,0 +1,12 @@
+{{ $eyebrow := .eyebrow }}
+{{ $title := .title }}
+{{ $href := .href }}
+<header class="card-header">
+  <div>
+    {{ with $eyebrow }}<p class="section-eyebrow">{{ . }}</p>{{ end }}
+    <h2>{{ $title }}</h2>
+  </div>
+  {{ with $href }}
+    <a class="card-header-link" href="{{ . }}">View all</a>
+  {{ end }}
+</header>

@@ -1,0 +1,15 @@
+{{ define "main" }}
+<section class="container section-header">
+  <h1>{{ .Title }}</h1>
+</section>
+<section class="container">
+  <div class="cards">
+    {{ range .Data.Terms.Alphabetical }}
+      <article class="card">
+        <h3><a href="{{ .Page.RelPermalink }}">{{ .Page.Title }}</a></h3>
+        <p class="small">{{ .Count }} items</p>
+      </article>
+    {{ end }}
+  </div>
+</section>
+{{ end }}

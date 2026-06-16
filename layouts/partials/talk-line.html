@@ -1,0 +1,32 @@
+{{ $talk := .talk }}
+{{ $title := replaceRE "\\s*\\(link\\)\\s*" "" $talk.title }}
+{{ $venue := $talk.venue | default "" }}
+{{ $host := $talk.host | default "" }}
+{{ $location := $talk.location | default "" }}
+{{ $dateLabel := $talk.date_display | default $talk.year }}
+{{ $category := $talk.category | default "other" }}
+{{ $scheduled := cond (or $talk.scheduled (eq $category "scheduled")) "true" "false" }}
+{{ $searchText := printf "%s %s %s %s %s %s %s %v %s %s" $title $talk.event $talk.event_display $venue $host $location $talk.date $talk.year $talk.talk_type $category }}
+<article class="talk-row{{ if $talk.placeholder }} talk-row--placeholder{{ end }}" data-search-text="{{ $searchText | lower | htmlEscape }}" data-talk-category="{{ $category }}" data-talk-year="{{ $talk.year }}" data-scheduled="{{ $scheduled }}">
+  <div class="talk-row-main">
+    <h3 class="talk-row-title">{{ $title }}</h3>
+    <p class="talk-row-meta">
+      {{- with $venue -}}
+        <span class="talk-venue">{{ . }}</span>
+      {{- else -}}
+        {{- with $host -}}
+          <span class="talk-host">{{ . }}</span>
+        {{- end -}}
+      {{- end -}}
+      {{- with $host -}}
+        {{- if $venue }} · <span class="talk-host">{{ . }}</span>{{ end -}}
+      {{- end -}}
+      {{- with $location }} · <span class="talk-location">{{ . }}</span>{{ end -}}
+      {{- with $dateLabel }} · <time datetime="{{ $talk.date }}">{{ . }}</time>{{ end -}}
+    </p>
+  </div>
+  <div class="talk-row-aside">
+    {{ with $talk.slides_url }}<a class="link-badge" href="{{ . }}" target="_blank" rel="noopener">Slides</a>{{ end }}
+    {{ with $talk.video_url }}<a class="link-badge" href="{{ . }}" target="_blank" rel="noopener">Video</a>{{ end }}
+  </div>
+</article>

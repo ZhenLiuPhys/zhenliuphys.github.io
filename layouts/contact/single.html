@@ -1,0 +1,22 @@
+{{ define "main" }}
+{{ $p := hugo.Data.source.profile }}
+<section class="container section-header">
+  <p class="section-eyebrow">Contact</p>
+  <h1>{{ .Title }}</h1>
+</section>
+
+<section class="container page-panel">
+  <article class="section-block">
+    <h2>Contact information</h2>
+    <ul>
+      <li><strong>Email:</strong> {{ delimit $p.email ", " }}</li>
+      <li><strong>Office Phone:</strong> {{ $p.office_phone }}</li>
+      <li><strong>Address:</strong> {{ $p.affiliation }}, {{ $p.address }}</li>
+    </ul>
+    <h2>External profiles</h2>
+    <div class="hero-cta">
+      {{ partial "profile-cta.html" . }}
+    </div>
+  </article>
+</section>
+{{ end }}

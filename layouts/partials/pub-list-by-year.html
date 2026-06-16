@@ -1,0 +1,6 @@
+{{ $items := sort .items "date" "desc" }}
+<div class="pub-list">
+  {{ range $items }}
+    {{ partial "publication-line.html" (dict "pub" .) }}
+  {{ end }}
+</div>

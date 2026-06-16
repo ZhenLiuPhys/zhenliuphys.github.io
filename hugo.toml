@@ -1,0 +1,28 @@
+baseURL = "https://zhenliu.net/"
+locale = "en-us"
+title = "Zhen Liu"
+enableRobotsTXT = true
+
+[params]
+  author = "Zhen Liu"
+  description = "Associate Professor of Physics at the University of Minnesota. Research in particle phenomenology, collider physics, and beyond the Standard Model."
+  og_image = "/images/profile/profilephoto.jpg"
+  highlightTitle = "Selected Publications"
+  ga4_id = "G-H476ZMS7TD"
+
+[taxonomies]
+  topic = "topics"
+  year = "years"
+
+[permalinks]
+  publications = "/publications/:slug/"
+  news = "/news/:slug/"
+
+[outputs]
+  home = ["HTML", "RSS"]
+  section = ["HTML", "RSS"]
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

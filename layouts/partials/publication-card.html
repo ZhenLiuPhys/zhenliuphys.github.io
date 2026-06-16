@@ -1,0 +1,45 @@
+{{ $pub := .pub }}
+{{ $selected := .selected | default (dict) }}
+{{ $title := replaceRE "\\s*\\(link\\)\\s*" "" $pub.title }}
+{{ $venueLine := $pub.venue_display | default $pub.venue }}
+{{ $journalHref := "" }}
+{{ with $pub.doi }}
+  {{ $journalHref = printf "https://doi.org/%s" . }}
+{{ else }}
+  {{ with $pub.journal_url }}
+    {{ $journalHref = . }}
+  {{ end }}
+{{ end }}
+<article class="pub-card">
+  <h3 class="pub-card-title">{{ partial "format-publication-title.html" $title }}</h3>
+  <p class="pub-card-venue">
+    {{ with $pub.year }}<span class="pub-card-year">{{ . }}</span>{{ end }}
+    {{ with $venueLine }}
+      {{ if $pub.year }} · {{ end }}
+      {{ if $journalHref }}
+        <a class="pub-inline-link pub-card-inline-link" href="{{ $journalHref }}" target="_blank" rel="noopener">{{ . }}</a>
+      {{ else }}
+        <span>{{ . }}</span>
+      {{ end }}
+    {{ end }}
+    {{ with $pub.arxiv }}
+      · <a class="pub-inline-link pub-card-inline-link" href="https://arxiv.org/abs/{{ . }}" target="_blank" rel="noopener">arXiv:{{ . }}</a>
+    {{ end }}
+  </p>
+  {{ with $selected.highlight_note }}
+    <p class="pub-card-note">{{ . }}</p>
+  {{ end }}
+  {{ $themeIds := $selected.theme_ids | default (slice) }}
+  {{ if gt (len $themeIds) 0 }}
+    <div class="pub-card-tags">
+      {{ range $themeIds }}
+        {{ $themeMatches := where hugo.Data.source.research_themes "id" . }}
+        {{ if gt (len $themeMatches) 0 }}
+          <span class="pub-card-tag">{{ (index $themeMatches 0).title }}</span>
+        {{ else }}
+          <span class="pub-card-tag">{{ . }}</span>
+        {{ end }}
+      {{ end }}
+    </div>
+  {{ end }}
+</article>

@@ -1,0 +1,107 @@
+{{ define "main" }}
+<section class="container section-header">
+  <p class="section-eyebrow">Service</p>
+  <h1>{{ .Title }}</h1>
+  {{ with .Content }}<div class="section-intro">{{ . }}</div>{{ end }}
+</section>
+
+{{ $s := hugo.Data.source.service }}
+
+<section class="container page-panel">
+  <nav class="service-jump-nav" aria-label="Service sections">
+    {{ if $s.workshops }}<a class="service-jump-btn" href="#service-workshops">Program &amp; Workshop Organizations</a>{{ end }}
+    {{ if $s.conference_sessions }}<a class="service-jump-btn" href="#service-conference-sessions">Conference Sessions</a>{{ end }}
+    {{ if $s.committee_membership }}<a class="service-jump-btn" href="#service-membership">Committee &amp; Membership</a>{{ end }}
+    {{ if $s.university_service }}<a class="service-jump-btn" href="#service-umn">Departmental &amp; University Service</a>{{ end }}
+    {{ if $s.editorial_referee }}<a class="service-jump-btn" href="#service-editorial">Journal Editorial Service</a>{{ end }}
+    {{ if $s.referee_journals }}<a class="service-jump-btn" href="#service-referee-journals">Journals Refereed</a>{{ end }}
+    {{ if $s.referee_services }}<a class="service-jump-btn" href="#service-other-reviews">Other Referee Services</a>{{ end }}
+    {{ if $s.grant_review }}<a class="service-jump-btn" href="#service-grants">Grant &amp; Proposal Review</a>{{ end }}
+    <a class="service-jump-btn" href="#outreach-history">Public Outreach</a>
+  </nav>
+</section>
+
+{{ if $s.workshops }}
+<section class="container page-panel" id="service-workshops">
+  <article class="section-block service-tile">
+    {{ partial "card-header.html" (dict "eyebrow" "Organization" "title" "Program and Workshop Organizations") }}
+    <ul class="service-list">{{ range $s.workshops }}<li>{{ . }}</li>{{ end }}</ul>
+  </article>
+</section>
+{{ end }}
+
+{{ if $s.conference_sessions }}
+<section class="container page-panel" id="service-conference-sessions">
+  <article class="section-block service-tile">
+    {{ partial "card-header.html" (dict "eyebrow" "Conferences" "title" "Conference and Workshop Session Organizations") }}
+    <ul class="service-list">{{ range $s.conference_sessions }}<li>{{ . }}</li>{{ end }}</ul>
+  </article>
+</section>
+{{ end }}
+
+{{ if $s.committee_membership }}
+<section class="container page-panel" id="service-membership">
+  <article class="section-block service-tile">
+    {{ partial "card-header.html" (dict "eyebrow" "Membership" "title" "Committee and Membership") }}
+    <ul class="service-list">{{ range $s.committee_membership }}<li>{{ . }}</li>{{ end }}</ul>
+  </article>
+</section>
+{{ end }}
+
+{{ if $s.university_service }}
+<section class="container page-panel" id="service-umn">
+  <article class="section-block service-tile">
+    {{ partial "card-header.html" (dict "eyebrow" "UMN" "title" "Departmental and University Service") }}
+    <ul class="service-list">{{ range $s.university_service }}<li>{{ . }}</li>{{ end }}</ul>
+  </article>
+</section>
+{{ end }}
+
+{{ if $s.editorial_referee }}
+<section class="container page-panel" id="service-editorial">
+  <article class="section-block service-tile">
+    {{ partial "card-header.html" (dict "eyebrow" "Editorial" "title" "Journal Editorial Service") }}
+    <ul class="service-list">{{ range $s.editorial_referee }}<li>{{ . }}</li>{{ end }}</ul>
+  </article>
+</section>
+{{ end }}
+
+{{ if $s.referee_journals }}
+<section class="container page-panel" id="service-referee-journals">
+  <article class="section-block service-tile">
+    {{ partial "card-header.html" (dict "eyebrow" "Referee" "title" "Journals Refereed (Full List)") }}
+    <ul class="service-list">{{ range $s.referee_journals }}<li>{{ . }}</li>{{ end }}</ul>
+  </article>
+</section>
+{{ end }}
+
+{{ if $s.referee_services }}
+<section class="container page-panel" id="service-other-reviews">
+  <article class="section-block service-tile">
+    {{ partial "card-header.html" (dict "eyebrow" "Other Reviews" "title" "Other Referee Services") }}
+    <ul class="service-list">{{ range $s.referee_services }}<li>{{ . }}</li>{{ end }}</ul>
+  </article>
+</section>
+{{ end }}
+
+{{ if $s.grant_review }}
+<section class="container page-panel" id="service-grants">
+  <article class="section-block service-tile">
+    {{ partial "card-header.html" (dict "eyebrow" "Grant Review" "title" "Grant and Proposal Review") }}
+    <ul class="service-list">{{ range $s.grant_review }}<li>{{ . }}</li>{{ end }}</ul>
+  </article>
+</section>
+{{ end }}
+
+<section class="container page-panel" id="outreach-history">
+  <article class="section-block service-tile">
+    {{ partial "card-header.html" (dict "eyebrow" "Outreach" "title" "Public Outreach") }}
+    <ul class="service-list">
+      <li>Guide, Muon g-2 experiment outreach (Saturday Morning Physics), Fermilab (2016-2017)</li>
+      <li>Guide, Grid Computing Center outreach, Fermilab (2016)</li>
+      <li>Guide, Magic of Light outreach, University of Pittsburgh (2014)</li>
+      <li>Leading Organizer, Physics Festivals, Zhejiang University (2005-2008)</li>
+    </ul>
+  </article>
+</section>
+{{ end }}

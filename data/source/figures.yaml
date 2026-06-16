@@ -1,0 +1,22 @@
+# Curated figures for the Research page gallery (Plots / figures tile).
+# Add image files under static/images/plots/ then list them here.
+#
+# Example with a long caption (use | for multiple lines):
+#
+# - file: /images/plots/example-figure.png
+#   caption: |
+#     Schematic of the neutrino-slice geometry at a high-energy muon collider,
+#     highlighting forward muon detection and the associated systematic budgets.
+#
+#     This figure accompanies Liu et al., arXiv:2412.14115.
+#   credit: "Zhen Liu et al."
+#   link: "https://arxiv.org/abs/2412.14115"
+
+- file: /images/plots/example-figure.png
+  caption: |
+    Schematic of the neutrino-slice geometry at a high-energy muon collider,
+    highlighting forward muon detection and the associated systematic budgets.
+
+    This figure accompanies Liu et al., arXiv:2412.14115.
+  credit: "Zhen Liu et al."
+  link: "https://arxiv.org/abs/2412.14115"

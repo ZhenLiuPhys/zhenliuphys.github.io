@@ -1,0 +1,36 @@
+- date: "2026-5"
+  text: "Plenary talk at Pheno 2026 on new directions in collider physics."
+  url: "/talks/"
+  pinned: true
+- date: "2026-5"
+  text: "New PRL on novel Neutron Star constraints on symmetric dark matter."
+  url: "https://arxiv.org/abs/2508.04961"
+  pinned: true
+- date: "2026-3"
+  text: "New PRL on improved dark photon sensitivity from the Dark SRF experiment."
+  url: "https://arxiv.org/abs/2510.02427"
+  pinned: true
+- date: "2025-12"
+  text: "LHC Shines on Positivity."
+  url: "https://arxiv.org/abs/2512.04336"
+  pinned: true
+- date: "2025-9"
+  text: "Promoted to Associate Professor at UMN."
+  #url: "https://arxiv.org/abs/2412.14115"
+  pinned: true
+- date: "2025-8"
+  text: "New PRL on Neutrnio Slice at Muon Colliders."
+  url: "https://arxiv.org/abs/2412.14115"
+  pinned: true
+- date: "2024-11"
+  text: "PRD Editors suggestions on our Massive Amplitudes works: electroweak"
+  url: "https://arxiv.org/abs/2407.14587"
+  pinned: true
+- date: "2024-11"
+  text: "PRD Editors suggestions on our Massive Amplitudes works: ALT Shift"
+  url: "https://arxiv.org/abs/2403.15538"
+  pinned: true
+- date: "2024-03"
+  text: "Awarded Sloan Research Fellowship."
+  url: "/news/sloan-research-fellowship-recognition/"
+  pinned: true

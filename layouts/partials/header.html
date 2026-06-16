@@ -1,0 +1,44 @@
+{{ $page := . }}
+{{ $primary := slice
+  (dict "name" "Home" "url" "/")
+  (dict "name" "Publications" "url" "/publications/")
+  (dict "name" "Talks" "url" "/talks/")
+  (dict "name" "Service" "url" "/service/")
+  (dict "name" "Teaching" "url" "/teaching/")
+  (dict "name" "Research Group" "url" "/mentoring/")
+  (dict "name" "Contact" "url" "/contact/")
+}}
+{{ $secondary := slice
+  (dict "name" "CV" "url" "/cv/")
+}}
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="{{ partial "rel-internal.html" (dict "href" "/") }}">
+      <span class="brand-name">{{ .Site.Title }}</span>
+      <span class="brand-sub">Particle Physics · UMN</span>
+    </a>
+
+    <nav class="nav-desktop" aria-label="Primary">
+      {{ range $primary }}
+        {{ $href := partial "rel-internal.html" (dict "href" .url) }}
+        <a href="{{ $href }}"{{ if or (and $page.IsHome (eq .url "/")) (eq $page.RelPermalink $href) }} class="is-active"{{ end }}>{{ .name }}</a>
+      {{ end }}
+    </nav>
+
+    <button type="button" class="nav-toggle" aria-expanded="false" aria-controls="nav-mobile" aria-label="Open menu">
+      <span class="nav-toggle-icon"></span>
+    </button>
+  </div>
+
+  <nav id="nav-mobile" class="nav-mobile" aria-label="Mobile" hidden>
+    {{ range $primary }}
+      {{ $href := partial "rel-internal.html" (dict "href" .url) }}
+      <a href="{{ $href }}"{{ if or (and $page.IsHome (eq .url "/")) (eq $page.RelPermalink $href) }} class="is-active"{{ end }}>{{ .name }}</a>
+    {{ end }}
+    <p class="nav-mobile-label">More</p>
+    {{ range $secondary }}
+      {{ $href := partial "rel-internal.html" (dict "href" .url) }}
+      <a href="{{ $href }}"{{ if eq $page.RelPermalink $href }} class="is-active"{{ end }}>{{ .name }}</a>
+    {{ end }}
+  </nav>
+</header>

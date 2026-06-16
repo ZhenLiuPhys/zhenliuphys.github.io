@@ -1,0 +1,110 @@
+{{/* Homepage selected publications feed. All entries render; JS picks 6 at random per load, sorted by year desc. */}}
+{{ $selected := sort hugo.Data.source.selected_publications "year" "desc" }}
+{{ $pubs := hugo.Data.publications }}
+{{ $figExts := slice "png" "webp" "jpg" "jpeg" "svg" }}
+<div id="featured-pub-showcase" class="feed-list feed-list--pub-showcase">
+  {{ range $entry := $selected }}
+    {{ $match := where $pubs "arxiv" $entry.arxiv }}
+    {{ $pub := cond (gt (len $match) 0) (index $match 0) nil }}
+    {{ $title := $entry.title }}
+    {{ if $pub }}
+      {{ $title = replaceRE "\\s*\\(link\\)\\s*" "" $pub.title }}
+    {{ end }}
+    {{ $venueLine := "" }}
+    {{ $journalHref := "" }}
+    {{ if $pub }}
+      {{ $venueLine = $pub.venue_display | default $pub.venue }}
+      {{ with $pub.doi }}
+        {{ $journalHref = printf "https://doi.org/%s" . }}
+      {{ else }}
+        {{ with $pub.journal_url }}
+          {{ $journalHref = . }}
+        {{ end }}
+      {{ end }}
+    {{ end }}
+    {{ $figPath := "" }}
+    {{ with $entry.arxiv }}
+      {{ range $figExts }}
+        {{ if not $figPath }}
+          {{ $staticPath := printf "static/images/plots/%s.%s" $entry.arxiv . }}
+          {{ if fileExists $staticPath }}
+            {{ $figPath = printf "/images/plots/%s.%s" $entry.arxiv . }}
+          {{ end }}
+        {{ end }}
+      {{ end }}
+    {{ end }}
+    {{ $figMeta := $entry.figure | default dict }}
+    {{ $figId := "" }}
+    {{ if $figPath }}
+      {{ $figId = printf "pub-figure-%s" (replace $entry.arxiv "." "-") }}
+    {{ end }}
+    <article class="feed-item feed-item--pub" data-showcase-item data-year="{{ $entry.year }}"{{ if $figPath }} data-has-figure="true"{{ end }} hidden>
+      {{ with $entry.year }}<time datetime="{{ . }}">{{ . }}</time>{{ end }}
+      <div class="feed-item-body">
+        {{ if $figPath }}
+        {{ $figAlt := $figMeta.alt | default $title }}
+        {{ $figSrc := strings.TrimPrefix "/" $figPath | relURL }}
+        <div class="feed-item-title-row">
+          <p class="feed-item-title">
+            {{ with $entry.arxiv }}
+              <a href="https://arxiv.org/abs/{{ . }}" target="_blank" rel="noopener">{{ partial "format-publication-title.html" $title }}</a>
+            {{ else }}
+              {{ partial "format-publication-title.html" $title }}
+            {{ end }}
+          </p>
+          <button type="button" class="pub-figure-toggle" data-pub-figure-toggle aria-expanded="false" aria-controls="{{ $figId }}">Show figure</button>
+        </div>
+        <figure class="pub-figure-panel" id="{{ $figId }}" data-pub-figure-panel hidden>
+          <button
+            type="button"
+            class="pub-figure-img-trigger"
+            data-pub-figure-img
+            data-full-src="{{ $figSrc }}"
+            data-full-alt="{{ $figAlt }}"
+            data-caption="{{ with $figMeta.caption }}{{ . }}{{ end }}"
+            aria-label="View full-size figure"
+          >
+            <img src="{{ $figSrc }}" alt="{{ $figAlt }}" loading="lazy" decoding="async">
+          </button>
+          {{ with $figMeta.caption }}
+            <figcaption class="pub-figure-caption">{{ . }}</figcaption>
+          {{ end }}
+        </figure>
+        {{ else }}
+        <p class="feed-item-title">
+          {{ with $entry.arxiv }}
+            <a href="https://arxiv.org/abs/{{ . }}" target="_blank" rel="noopener">{{ partial "format-publication-title.html" $title }}</a>
+          {{ else }}
+            {{ partial "format-publication-title.html" $title }}
+          {{ end }}
+        </p>
+        {{ end }}
+        {{ if or $entry.arxiv $venueLine }}
+          <p class="feed-item-meta">
+            {{ with $entry.arxiv }}
+              <a class="pub-inline-link" href="https://arxiv.org/abs/{{ . }}" target="_blank" rel="noopener">arXiv:{{ . }}</a>
+            {{ end }}
+            {{ with $venueLine }}
+              {{ if $entry.arxiv }} · {{ end }}
+              {{ if $journalHref }}
+                <a class="pub-inline-link" href="{{ $journalHref }}" target="_blank" rel="noopener">{{ . }}</a>
+              {{ else }}
+                <span>{{ . }}</span>
+              {{ end }}
+            {{ end }}
+          </p>
+        {{ end }}
+      </div>
+    </article>
+  {{ else }}
+    <p class="small">No selected publications configured. Edit <code>data/source/selected_publications.yaml</code>.</p>
+  {{ end }}
+</div>
+<div class="gallery-lightbox" id="pub-figure-lightbox" hidden>
+  <button type="button" class="gallery-lightbox-backdrop" id="pub-figure-lightbox-backdrop" aria-label="Close full image"></button>
+  <figure class="gallery-lightbox-panel">
+    <button type="button" class="gallery-lightbox-close" id="pub-figure-lightbox-close" aria-label="Close">×</button>
+    <img class="gallery-lightbox-img" id="pub-figure-lightbox-img" alt="">
+    <figcaption class="gallery-lightbox-caption" id="pub-figure-lightbox-caption"></figcaption>
+  </figure>
+</div>

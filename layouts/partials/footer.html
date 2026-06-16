@@ -1,0 +1,32 @@
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div class="footer-brand">
+      <p class="footer-name">Zhen Liu</p>
+      <p class="footer-affil">Associate Professor of Physics<br>University of Minnesota</p>
+    </div>
+    <div class="footer-col">
+      <p class="footer-label">Research</p>
+      <a href="{{ partial "rel-internal.html" (dict "href" "/") }}">Overview</a>
+      <a href="{{ partial "rel-internal.html" (dict "href" "/publications/") }}">Publications</a>
+      <a href="{{ partial "rel-internal.html" (dict "href" "/talks/") }}">Talks</a>
+      <a href="{{ partial "rel-internal.html" (dict "href" "/news/") }}">News</a>
+    </div>
+    <div class="footer-col">
+      <p class="footer-label">Site</p>
+      <a href="{{ partial "rel-internal.html" (dict "href" "/teaching/") }}">Teaching</a>
+      <a href="{{ partial "rel-internal.html" (dict "href" "/mentoring/") }}">Research Group</a>
+      <a href="{{ partial "rel-internal.html" (dict "href" "/contact/") }}">Contact</a>
+      <a href="{{ partial "rel-internal.html" (dict "href" "/cv/") }}">CV highlights</a>
+      <a href="{{ partial "rel-internal.html" (dict "href" "/service/") }}">Service</a>
+    </div>
+    <div class="footer-col">
+      <p class="footer-label">Profiles</p>
+      <a href="{{ hugo.Data.source.profile.external_links.google_scholar }}" target="_blank" rel="noopener">Google Scholar</a>
+      <a href="{{ hugo.Data.source.profile.external_links.inspire }}" target="_blank" rel="noopener">inSPIRE</a>
+      <a href="{{ hugo.Data.source.profile.external_links.github }}" target="_blank" rel="noopener">GitHub</a>
+    </div>
+  </div>
+  <div class="container footer-bottom">
+    <p>© {{ now.Year }} Zhen Liu · Built with Hugo</p>
+  </div>
+</footer>

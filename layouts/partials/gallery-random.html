@@ -1,0 +1,41 @@
+{{ $photos := hugo.Data.photos | default (slice) }}
+{{ $photoSrc := "images/photos/placeholder-photo.svg" }}
+{{ if gt (len $photos) 0 }}
+  {{ with (index $photos 0).file }}
+    {{ $photoSrc = strings.TrimPrefix "/" . }}
+  {{ end }}
+{{ end }}
+<div id="gallery-photo-data" hidden>
+  {{ range $photos }}
+  <article class="gallery-meta-item">
+    <span class="gallery-meta-file">{{ strings.TrimPrefix "/" .file | relURL }}</span>
+    <div class="gallery-meta-caption">{{ .caption }}</div>
+    <span class="gallery-meta-year">{{ .year }}</span>
+    <span class="gallery-meta-location">{{ .location }}</span>
+    {{ with .credit }}<span class="gallery-meta-credit">{{ . }}</span>{{ end }}
+    {{ with .link }}<span class="gallery-meta-link">{{ . }}</span>{{ end }}
+  </article>
+  {{ end }}
+</div>
+<div class="gallery-tile" id="gallery-tile" data-interval-ms="5000">
+  <button type="button" class="gallery-photo-trigger" id="gallery-photo-trigger" aria-label="View full image">
+    <img id="random-photo" src="{{ $photoSrc | relURL }}" alt="Gallery photo" loading="lazy" decoding="async">
+  </button>
+  <div class="gallery-timer" id="gallery-timer" aria-hidden="true"{{ if lt (len $photos) 2 }} hidden{{ end }}>
+    <div class="gallery-timer-bar" id="gallery-timer-bar"></div>
+  </div>
+  <div class="gallery-details" id="random-photo-details">
+    <div class="gallery-meta-chips" id="random-photo-chips" hidden></div>
+    <p id="random-photo-caption" class="gallery-caption gallery-caption--empty" aria-live="polite"></p>
+  </div>
+  <button type="button" class="btn btn--secondary btn--sm" id="next-photo"{{ if lt (len $photos) 2 }} disabled{{ end }}>Next photo</button>
+</div>
+<div class="gallery-lightbox" id="gallery-lightbox" hidden>
+  <button type="button" class="gallery-lightbox-backdrop" id="gallery-lightbox-backdrop" aria-label="Close full image"></button>
+  <figure class="gallery-lightbox-panel">
+    <button type="button" class="gallery-lightbox-close" id="gallery-lightbox-close" aria-label="Close">×</button>
+    <img class="gallery-lightbox-img" id="gallery-lightbox-img" alt="">
+    <figcaption class="gallery-lightbox-caption" id="gallery-lightbox-caption"></figcaption>
+  </figure>
+</div>
+<script src="{{ "js/gallery-carousel.js" | relURL }}" defer></script>

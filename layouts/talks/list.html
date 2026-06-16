@@ -1,0 +1,95 @@
+{{ define "main" }}
+{{ $allTalks := where hugo.Data.talks "placeholder" false }}
+{{ $allTalks = sort $allTalks "date" "desc" }}
+{{ $selectedTalks := hugo.Data.source.selected_talks | default (slice) }}
+
+<section class="container section-header">
+  <p class="section-eyebrow">Talks</p>
+  <h1>{{ .Title }}</h1>
+  {{ with .Content }}<div class="section-intro">{{ . }}</div>{{ end }}
+  <p class="section-intro"><a href="#full-talk-list">Jump to full talk list</a> ({{ len $allTalks }} entries from CV import).</p>
+</section>
+
+{{ if gt (len $selectedTalks) 0 }}
+{{ $selectedResolved := slice }}
+{{ range $selectedTalks }}
+  {{ $match := slice }}
+  {{ with .talk_id }}
+    {{ $match = where $allTalks "id" . }}
+  {{ end }}
+  {{ if and (eq (len $match) 0) .title .year }}
+    {{ $match = where (where $allTalks "title" .title) "year" .year }}
+  {{ end }}
+  {{ $sortDate := printf "%d-12-31" (int (.year | default 1900)) }}
+  {{ if gt (len $match) 0 }}
+    {{ with (index $match 0).date }}
+      {{ $sortDate = . }}
+    {{ end }}
+    {{ $selectedResolved = $selectedResolved | append (dict "talk" (index $match 0) "entry" . "sortDate" $sortDate) }}
+  {{ else }}
+    {{ $selectedResolved = $selectedResolved | append (dict "talk" nil "entry" . "sortDate" $sortDate) }}
+  {{ end }}
+{{ end }}
+{{ $selectedResolved = sort $selectedResolved "sortDate" "desc" }}
+<section class="container page-panel" id="talks-selected">
+  <article class="section-block">
+    {{ partial "card-header.html" (dict "eyebrow" "Featured" "title" "Selected talks") }}
+    <p class="small">A curated sample spanning distinct research topics—from collider phenomenology and dark-sector physics to formal methods and emerging applications. The full talk list follows below.</p>
+    <div class="talk-list">
+      {{ range $selectedResolved }}
+        {{ if .talk }}
+          {{ partial "talk-line.html" (dict "talk" .talk) }}
+        {{ else }}
+          {{ with .entry }}
+          <article class="talk-row" data-search-text="{{ printf "%s %s %s %v" (.title | default "") (.venue | default "") (.location | default "") (.year | default "") | lower | htmlEscape }}" data-talk-category="{{ .category | default .type | default "other" }}" data-scheduled="false">
+            <div class="talk-row-main">
+              <h3 class="talk-row-title">{{ .title }}</h3>
+              <p class="talk-row-meta">
+                {{ with .venue }}<span class="talk-venue">{{ . }}</span>{{ end }}
+                {{ with .location }} · <span class="talk-location">{{ . }}</span>{{ end }}
+                {{ with .year }} · <span>{{ . }}</span>{{ end }}
+              </p>
+            </div>
+          </article>
+          {{ end }}
+        {{ end }}
+      {{ end }}
+    </div>
+  </article>
+</section>
+{{ end }}
+
+<section class="container page-panel" id="full-talk-list">
+  {{ partial "list-search.html" (dict
+    "inputId" "talk-search"
+    "label" "Filter full talk list"
+    "placeholder" "Filter talks by title, event, location…"
+    "scopeId" "talk-full-list-scope"
+    "statusId" "talk-search-status"
+    "itemLabel" "talks"
+  ) }}
+
+  <div class="talk-view-toggle" data-talk-view-toggle="talk-full-list-scope" role="group" aria-label="Talk list layout">
+    <button type="button" class="talk-view-btn is-active" data-talk-view="list" aria-pressed="true">List</button>
+    <button type="button" class="talk-view-btn" data-talk-view="by-year" aria-pressed="false">By year</button>
+  </div>
+
+  <div class="talk-filter-tabs" data-talk-filter-scope="talk-full-list-scope" role="tablist" aria-label="Filter talks by category">
+    <button type="button" class="talk-filter-btn is-active" data-talk-filter-btn data-talk-filter-value="all" aria-selected="true">All</button>
+    <button type="button" class="talk-filter-btn" data-talk-filter-btn data-talk-filter-value="seminar" aria-selected="false">Seminars</button>
+    <button type="button" class="talk-filter-btn" data-talk-filter-btn data-talk-filter-value="plenary" aria-selected="false">Plenary talks</button>
+    <button type="button" class="talk-filter-btn" data-talk-filter-btn data-talk-filter-value="workshop" aria-selected="false">Workshop talks</button>
+    <button type="button" class="talk-filter-btn" data-talk-filter-btn data-talk-filter-value="scheduled" aria-selected="false">Scheduled talks</button>
+    <button type="button" class="talk-filter-btn" data-talk-filter-btn data-talk-filter-value="lecture" aria-selected="false">Lectures</button>
+    <button type="button" class="talk-filter-btn" data-talk-filter-btn data-talk-filter-value="colloquium" aria-selected="false">Colloquium</button>
+  </div>
+
+  <div id="talk-full-list-scope" class="section-collapse-body talks-view--list" data-talks-layout="list">
+    <p class="small">Full talk list ({{ len $allTalks }} entries). Includes seminars, colloquia, conference talks, and school lectures from CV import.</p>
+    {{ partial "talk-list-by-year.html" (dict "talks" $allTalks) }}
+  </div>
+</section>
+
+<script src="{{ "js/list-search.js" | relURL }}" defer></script>
+{{ end }}
+

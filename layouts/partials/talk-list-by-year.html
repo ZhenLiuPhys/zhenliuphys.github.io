@@ -1,0 +1,47 @@
+{{ $items := sort .talks "date" "desc" }}
+{{ $grouped := .grouped | default true }}
+{{ if not $grouped }}
+<div class="talk-list">
+  {{ range $items }}
+    {{ if not .placeholder }}
+      {{ partial "talk-line.html" (dict "talk" .) }}
+    {{ end }}
+  {{ end }}
+</div>
+{{ else }}
+{{ $years := slice }}
+{{ range $items }}
+  {{ if not .placeholder }}
+    {{ if not (in $years .year) }}
+      {{ $years = $years | append .year }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+<div class="talk-list-by-year">
+  {{ range $year := $years }}
+    {{ $yearTalks := where $items "year" $year }}
+    {{ $yearTalks = sort $yearTalks "date" "desc" }}
+    {{ $count := 0 }}
+    {{ range $yearTalks }}
+      {{ if not .placeholder }}
+        {{ $count = add $count 1 }}
+      {{ end }}
+    {{ end }}
+    <details class="talk-year-group" data-talk-year="{{ $year }}"{{ if eq $year (index $years 0) }} open{{ end }}>
+      <summary class="talk-year-summary">
+        <span>{{ $year }}</span>
+        <span class="section-count">{{ $count }}</span>
+      </summary>
+      <div class="talk-year-body">
+        <div class="talk-list">
+          {{ range $yearTalks }}
+            {{ if not .placeholder }}
+              {{ partial "talk-line.html" (dict "talk" .) }}
+            {{ end }}
+          {{ end }}
+        </div>
+      </div>
+    </details>
+  {{ end }}
+</div>
+{{ end }}

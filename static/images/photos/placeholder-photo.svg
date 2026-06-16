@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360">
+  <rect width="640" height="360" fill="#f3f6ff"/>
+  <circle cx="320" cy="150" r="72" fill="#cbd5e1"/>
+  <path d="M120 300 Q200 220 320 240 T520 300 L520 320 L120 320 Z" fill="#94a3b8"/>
+  <text x="92" y="345" font-family="Arial" font-size="18" fill="#1e3a8a">Add photos to static/images/photos/</text>
+</svg>

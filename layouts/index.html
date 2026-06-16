@@ -1,0 +1,107 @@
+{{ define "main" }}
+{{ $heroChips := hugo.Data.source.profile.hero_chips | default (slice
+  "Theoretical Particle Physics"
+  "Collider Phenomenology"
+  "LHC & Future Colliders"
+  "Scattering Amplitudes"
+  "Dark Sector"
+  "Quantum Sensing"
+  "Beyond Standard Model (BSM)"
+  "Higgs Physics"
+  "Long-Lived Particles"
+  "Electroweak Phase Transition"
+  "Millicharged Particles"
+  "Dark Matter"
+) }}
+{{ $sections := slice
+  (dict "label" "Research group" "href" "/mentoring/")
+  (dict "label" "Publications" "href" "/publications/")
+  (dict "label" "Talks" "href" "/talks/")
+  (dict "label" "Teaching" "href" "/teaching/")
+  (dict "label" "Service" "href" "/service/")
+}}
+<section class="hero-landing hero-landing--band">
+  <div class="container hero-landing-inner">
+    <div class="hero-copy">
+      {{ partial "profile-hero.html" (dict "short" true) }}
+      {{ partial "profile-cta.html" . }}
+      <nav class="hero-section-links" aria-label="Explore site sections">
+        {{ range $sections }}
+          <a class="btn btn-ghost" href="{{ partial "rel-internal.html" (dict "href" .href) }}">{{ .label }}</a>
+        {{ end }}
+      </nav>
+    </div>
+    <aside class="hero-aside">
+      <figure class="hero-portrait">
+        {{ partial "profile-portrait.html" . }}
+      </figure>
+    </aside>
+  </div>
+</section>
+
+<section class="container page-panel highlight-section">
+  <p class="section-eyebrow">Research</p>
+  <h2 class="section-title-inline">Research overview</h2>
+  <div class="research-overview">
+    {{ with hugo.Data.source.profile.research_intro }}
+      <p class="section-intro research-overview-intro">{{ . }}</p>
+    {{ end }}
+    <div class="chip-row chip-row--research" aria-label="Research keywords">
+      <span class="chip-row-label">Research keywords</span>
+      {{ range $heroChips }}
+        <span class="chip">{{ . }}</span>
+      {{ end }}
+    </div>
+  </div>
+  {{ partial "research-themes.html" . }}
+</section>
+
+<section class="bento-section">
+  <div class="container bento-grid">
+    <article class="bento-card bento-span-6">
+      {{ partial "card-header.html" (dict "eyebrow" "Publications" "title" .Site.Params.highlightTitle "href" (partial "rel-internal.html" (dict "href" "/publications/"))) }}
+      <p class="small">A rotating showcase of six highlighted works; one figure may appear per refresh. The full bibliography is on the publications page.</p>
+      {{ partial "featured-publications.html" . }}
+    </article>
+
+    <div class="bento-stack bento-span-6">
+      <article class="bento-card">
+        {{ partial "card-header.html" (dict "eyebrow" "News" "title" "Recent updates" "href" (partial "rel-internal.html" (dict "href" "/news/"))) }}
+        <div class="feed-list">
+          {{ range first 6 (sort (where hugo.Data.news "pinned" true) "date" "desc") }}
+            <article class="feed-item">
+              <time datetime="{{ .date }}">{{ partial "feed-date.html" (dict "date" .date) }}</time>
+              <p>{{ .text }}{{ with .url }} <a href="{{ partial "rel-internal.html" (dict "href" .) }}">→</a>{{ end }}</p>
+            </article>
+          {{ end }}
+        </div>
+      </article>
+
+      <article class="bento-card">
+        {{ partial "card-header.html" (dict "eyebrow" "Talks" "title" "Recent talks" "href" (partial "rel-internal.html" (dict "href" "/talks/"))) }}
+        <div class="talk-list">
+          {{ $cutoffYear := sub now.Year 5 }}
+          {{ $talks := where hugo.Data.talks "placeholder" false }}
+          {{ $talks = where $talks "year" "ge" $cutoffYear }}
+          {{ $talks = sort $talks "date" "desc" }}
+          {{ $shown := 0 }}
+          {{ range $talks }}
+            {{ if lt $shown 6 }}
+              {{ partial "talk-line.html" (dict "talk" .) }}
+              {{ $shown = add $shown 1 }}
+            {{ end }}
+          {{ end }}
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<script src="{{ "js/featured-pubs-showcase.js" | relURL }}" defer></script>
+
+<section class="container section-block page-panel">
+  <p class="section-eyebrow">Gallery</p>
+  <h2>Photos</h2>
+  {{ partial "gallery-random.html" . }}
+</section>
+{{ end }}

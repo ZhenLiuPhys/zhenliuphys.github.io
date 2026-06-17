@@ -9,5 +9,5 @@ exclude_arxiv:
   - "2103.14043"   # The Muon Smasher's Guide
   - "1806.07396"   # Long-Lived Particles at the Energy Frontier (MATHUSLA)
   - "1810.09037"   # Precision Higgs Physics at CEPC
-  - "1312.4992"    # Exotic Decays of the 125 GeV Higgs Boson
+#  - "1312.4992"    # Exotic Decays of the 125 GeV Higgs Boson
 

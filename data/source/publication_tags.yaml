@@ -6,7 +6,6 @@
   tags:
   - bsm
   - lhc
-  - amplitudes
 '1105.2838':
   tags:
   - bsm
@@ -29,7 +28,6 @@
   - bsm
   - supersymmetry
   - dark-sector
-  - amplitudes
 '1307.6129':
   tags:
   - higgs
@@ -134,6 +132,7 @@
 '1709.09605':
   tags:
   - bsm
+  - phase-transition
   - lhc
 '1711.03978':
   tags:
@@ -195,7 +194,6 @@
   tags:
   - bsm
   - dark-sector
-  - neutrinos
   - forward-physics
   - lhc
 '1903.04497':
@@ -239,6 +237,7 @@
   tags:
   - dark-sector
   - axions
+  - long-lived-particles
   - lhc
 '2003.07868':
   tags:
@@ -269,6 +268,7 @@
   - dark-sector
   - axions
   - beamdump
+  - long-lived-particles
 '2012.00774':
   tags:
   - bsm
@@ -288,7 +288,7 @@
 '2104.00638':
   tags:
   - bsm
-  - amplitudes
+  - phase-transition
 '2107.11405':
   tags:
   - bsm
@@ -336,8 +336,9 @@
   - lhc
 '2203.05375':
   tags:
-  - bsm
-  - lhc
+  - dark-sector
+  - qis
+  - quantum-sensing
 '2203.07242':
   tags:
   - bsm
@@ -406,6 +407,7 @@
   - dark-sector
   - axions
   - beamdump
+  - long-lived-particles
 '2209.01318':
   tags:
   - bsm
@@ -424,6 +426,7 @@
   tags:
   - dark-sector
   - axions
+  - long-lived-particles
 '2210.02591':
   tags:
   - bsm
@@ -431,12 +434,14 @@
 '2210.07291':
   tags:
   - dark-sector
+  - qis
   - quantum-sensing
   - eft
 '2210.16180':
   tags:
   - bsm
   - dark-sector
+  - qis
   - quantum-sensing
   - eft
 '2211.00664':
@@ -474,6 +479,7 @@
   - bsm
   - lhc
   - amplitudes
+  - ai-ml
 '2306.07315':
   tags:
   - bsm
@@ -486,10 +492,12 @@
   tags:
   - dark-sector
   - axions
+  - long-lived-particles
 '2310.18398':
   tags:
   - dark-sector
   - axions
+  - quantum-sensing
 '2311.09915':
   tags:
   - bsm
@@ -508,7 +516,7 @@
   - muon-collider
 '2403.15538':
   tags:
-  - bsm
+  - standard-model
   - amplitudes
 '2405.13778':
   tags:
@@ -525,12 +533,14 @@
   - axions
 '2407.14587':
   tags:
+  - standard-model
   - bsm
   - amplitudes
 '2407.15930':
   tags:
   - bsm
   - lhc
+  - ai-ml
 '2408.08948':
   tags:
   - higgs
@@ -540,6 +550,8 @@
   tags:
   - bsm
   - dark-sector
+  - axions
+  - quantum-sensing
 '2411.02966':
   tags:
   - bsm
@@ -573,7 +585,9 @@
 '2504.15307':
   tags:
   - bsm
-  - lhc
+  - dark-sector
+  - qis
+  - quantum-sensing
 '2504.21417':
   tags:
   - bsm

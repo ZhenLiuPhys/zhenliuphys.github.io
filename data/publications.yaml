@@ -284,7 +284,9 @@
   venue_display: Phys. Rev. D 113, 052008
   tags:
   - bsm
-  - lhc
+  - dark-sector
+  - qis
+  - quantum-sensing
 - id: pub-l3-006-united-states-muon-collider-community-white-paper-for-the-european-strategy-for-particle-physics
   title: United States Muon Collider Community White Paper for the European Strategy
     for Particle Physics Update
@@ -433,6 +435,8 @@
   tags:
   - bsm
   - dark-sector
+  - axions
+  - quantum-sensing
 - id: pub-l1-014-accidental-suppression-of-wilson-coefficients-in-higgs-coupling
   title: Accidental Suppression of Wilson Coefficients in Higgs Coupling
   year: 2024
@@ -470,6 +474,7 @@
   tags:
   - bsm
   - lhc
+  - ai-ml
 - id: pub-l1-016-momentum-shift-and-on-shell-recursion-relation-for-electroweak-theory
   title: Momentum shift and on-shell recursion relation for electroweak theory
   year: 2024
@@ -486,6 +491,7 @@
   status: ''
   venue_display: PhysRevD.110.105002 (editors' suggestion)
   tags:
+  - standard-model
   - bsm
   - amplitudes
 - id: pub-l3-011-interim-report-for-the-international-muon-collider-collaboration-imcc
@@ -557,7 +563,7 @@
   status: ''
   venue_display: PhysRevD.110.105003 (editors' suggestion)
   tags:
-  - bsm
+  - standard-model
   - amplitudes
 - id: pub-l1-019-higgs-width-and-couplings-at-high-energy-muon-colliders-with-forward-muon-detection
   title: Higgs Width and Couplings at High Energy Muon Colliders with Forward Muon
@@ -634,6 +640,7 @@
   tags:
   - dark-sector
   - axions
+  - quantum-sensing
 - id: pub-l1-022-top-yukawa-coupling-determination-at-high-energy-muon-collider
   title: Top Yukawa Coupling Determination at High Energy Muon Collider
   year: 2023
@@ -670,6 +677,7 @@
   tags:
   - dark-sector
   - axions
+  - long-lived-particles
 - id: pub-l1-023-heavy-neutral-leptons-from-stopped-muons-and-pions
   title: Heavy Neutral Leptons from Stopped Muons and Pions
   year: 2023
@@ -707,6 +715,7 @@
   - bsm
   - lhc
   - amplitudes
+  - ai-ml
 - id: pub-l1-025-sensei-search-for-millicharged-particles-produced-in-the-numi-beam
   title: 'SENSEI: Search for Millicharged Particles produced in the NuMI Beam'
   year: 2023
@@ -887,6 +896,7 @@
     Q. Zhuang, Commun Phys 6, 237
   tags:
   - dark-sector
+  - qis
   - quantum-sensing
   - eft
 - id: pub-l1-030-entanglement-enhanced-optomechanical-sensing
@@ -907,6 +917,7 @@
   tags:
   - bsm
   - dark-sector
+  - qis
   - quantum-sensing
   - eft
 - id: pub-l1-032-enhancing-searches-for-heavy-qcd-axions-via-dimuon-final-states
@@ -926,6 +937,7 @@
   tags:
   - dark-sector
   - axions
+  - long-lived-particles
 - id: pub-l2-004-report-of-the-topical-group-on-physics-beyond-the-standard-model-at-energy-frontier-for-snowmass
   title: Report of the Topical Group on Physics Beyond the Standard Model at Energy
     Frontier for Snowmass 2021
@@ -1001,6 +1013,7 @@
   - dark-sector
   - axions
   - beamdump
+  - long-lived-particles
 - id: pub-l2-005-the-physics-potential-of-the-cepc
   title: The Physics potential of the CEPC
   year: 2022
@@ -1319,8 +1332,9 @@
   status: ''
   venue_display: C. Gao, R. Harnik, Z. Liu, Z. Zhang, Q. Zhuang, PRX Quantum 3, 030333
   tags:
-  - bsm
-  - lhc
+  - dark-sector
+  - qis
+  - quantum-sensing
 - id: pub-l3-021-a-muon-collider-facility-for-physics-discovery
   title: A Muon Collider Facility for Physics Discovery
   year: 2022
@@ -1449,7 +1463,7 @@
   venue_display: Phys.Rev.D 104 (2021) 5, 055016
   tags:
   - bsm
-  - amplitudes
+  - phase-transition
 - id: pub-l1-042-the-muon-smasher-s-guide
   title: The Muon Smasher's Guide
   year: 2021
@@ -1526,6 +1540,7 @@
   - dark-sector
   - axions
   - beamdump
+  - long-lived-particles
 - id: pub-l1-046-wimps-at-high-energy-muon-colliders
   title: WIMPs at High Energy Muon Colliders
   year: 2020
@@ -1640,6 +1655,7 @@
   tags:
   - dark-sector
   - axions
+  - long-lived-particles
   - lhc
 - id: pub-l1-050-improved-limits-on-millicharged-particles-using-the-argoneut-experiment-at-fermilab
   title: Improved Limits on Millicharged Particles Using the ArgoNeuT Experiment at
@@ -1795,7 +1811,6 @@
   tags:
   - bsm
   - dark-sector
-  - neutrinos
   - forward-physics
   - lhc
 - id: pub-l3-030-higgs-physics-at-the-hl-lhc-and-he-lhc
@@ -2096,6 +2111,7 @@
   venue_display: Phys. Rev. D 97, 095032
   tags:
   - bsm
+  - phase-transition
   - lhc
 - id: pub-l1-061-would-a-deeply-bound-bbar-b-b-bar-b-tetraquark-meson-be-observed-at-the-lhc
   title: Would a Deeply Bound bbar b b bar b Tetraquark Meson be Observed at the LHC?
@@ -2113,6 +2129,7 @@
   venue_display: Z. Liu
   tags:
   - bsm
+  - phase-transition
   - lhc
 - id: pub-l1-062-learning-from-higgs-physics-at-future-higgs-factories
   title: Learning from Higgs Physics at Future Higgs Factories
@@ -2586,7 +2603,6 @@
   - bsm
   - supersymmetry
   - dark-sector
-  - amplitudes
 - id: pub-l1-079-potential-precision-of-a-direct-measurement-of-the-higgs-boson-total-width-at-a-muon-collider
   title: Potential precision of a direct measurement of the Higgs boson total width
     at a muon collider
@@ -2643,4 +2659,3 @@
   tags:
   - bsm
   - lhc
-  - amplitudes

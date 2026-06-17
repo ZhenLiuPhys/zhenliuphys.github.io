@@ -1,6 +1,35 @@
 {{ $items := sort .items "date" "desc" }}
+{{ $grouped := .grouped | default true }}
+{{ if not $grouped }}
 <div class="pub-list">
   {{ range $items }}
     {{ partial "publication-line.html" (dict "pub" .) }}
   {{ end }}
 </div>
+{{ else }}
+{{ $years := slice }}
+{{ range $items }}
+  {{ if not (in $years .year) }}
+    {{ $years = $years | append .year }}
+  {{ end }}
+{{ end }}
+<div class="pub-list-by-year">
+  {{ range $year := $years }}
+    {{ $yearItems := where $items "year" $year }}
+    {{ $yearItems = sort $yearItems "date" "desc" }}
+    <details class="pub-year-group" data-pub-year="{{ $year }}"{{ if eq $year (index $years 0) }} open{{ end }}>
+      <summary class="pub-year-summary">
+        <span>{{ $year }}</span>
+        <span class="section-count">{{ len $yearItems }}</span>
+      </summary>
+      <div class="pub-year-body">
+        <div class="pub-list">
+          {{ range $yearItems }}
+            {{ partial "publication-line.html" (dict "pub" .) }}
+          {{ end }}
+        </div>
+      </div>
+    </details>
+  {{ end }}
+</div>
+{{ end }}

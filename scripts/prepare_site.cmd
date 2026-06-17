@@ -16,6 +16,7 @@ if errorlevel 1 exit /b 1
 if errorlevel 1 exit /b 1
 
 "%PY%" scripts\sync_featured_publications.py
+"%PY%" scripts\sync_publication_tags.py
 if errorlevel 1 exit /b 1
 
 "%PY%" scripts\clean_bibliography_data.py

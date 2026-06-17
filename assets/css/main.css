@@ -795,7 +795,8 @@ summary:focus-visible {
 .feed-item[hidden],
 .year-divider[hidden],
 details.section-collapse[hidden],
-details.talk-year-group[hidden] {
+details.talk-year-group[hidden],
+details.pub-year-group[hidden] {
   display: none !important;
 }
 
@@ -1102,6 +1103,179 @@ details.talk-year-group[hidden] {
 }
 
 .talks-view--by-year .talk-year-body {
+  padding: 0 1.25rem 1.15rem;
+  border-top: 1px solid var(--border);
+}
+
+.bib-view-toggle,
+.pub-view-toggle,
+.talk-view-toggle {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+  margin: 0 0 0.65rem;
+}
+
+.bib-view-btn,
+.pub-view-btn,
+.talk-view-btn {
+  font-family: var(--font-heading);
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--muted);
+  background: var(--bg-elevated);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: 0.35rem 0.7rem;
+  cursor: pointer;
+}
+
+.bib-view-btn:hover,
+.pub-view-btn:hover,
+.talk-view-btn:hover {
+  color: var(--fg);
+  border-color: rgba(19, 41, 75, 0.25);
+  background: var(--accent-soft);
+}
+
+.bib-view-btn.is-active,
+.pub-view-btn.is-active,
+.talk-view-btn.is-active {
+  color: #fff;
+  background: var(--accent);
+  border-color: var(--accent);
+}
+
+.pub-filter-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+  margin: 0 0 0.65rem;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  padding-bottom: 0.15rem;
+}
+
+.pub-tag-filter-chips {
+  flex-wrap: nowrap;
+}
+
+@media (min-width: 900px) {
+  .pub-tag-filter-chips {
+    flex-wrap: wrap;
+  }
+}
+
+.pub-filter-btn {
+  font-family: var(--font-heading);
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--muted);
+  background: var(--bg-elevated);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: 0.35rem 0.7rem;
+  cursor: pointer;
+  white-space: nowrap;
+  flex: 0 0 auto;
+}
+
+.pub-filter-btn:hover {
+  color: var(--fg);
+  border-color: rgba(19, 41, 75, 0.25);
+  background: var(--accent-soft);
+}
+
+.pub-filter-btn.is-active {
+  color: #fff;
+  background: var(--accent);
+  border-color: var(--accent);
+}
+
+.pub-controls-panel {
+  display: grid;
+  gap: 0;
+}
+
+.pub-list-by-year {
+  display: flex;
+  flex-direction: column;
+}
+
+.pub-year-group {
+  margin: 0;
+}
+
+.pubs-view--list .pub-year-group {
+  background: transparent;
+  border: none;
+  box-shadow: none;
+  border-radius: 0;
+}
+
+.pubs-view--list .pub-year-summary {
+  display: block;
+  margin: 1.25rem 0 0.5rem;
+  padding: 0 0 0.35rem;
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: var(--accent);
+  font-family: var(--font-heading);
+  border-bottom: 2px solid var(--accent-soft);
+  cursor: default;
+  pointer-events: none;
+  list-style: none;
+}
+
+.pubs-view--list .pub-year-group:first-child .pub-year-summary {
+  margin-top: 0;
+}
+
+.pubs-view--list .pub-year-summary::-webkit-details-marker {
+  display: none;
+}
+
+.pubs-view--list .pub-year-body {
+  padding: 0;
+  border: none;
+}
+
+.pubs-view--list .pub-year-group .section-count {
+  display: none;
+}
+
+.pubs-view--by-year .pub-year-group {
+  background: var(--bg-elevated);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-sm);
+  margin-bottom: 0.75rem;
+  overflow: hidden;
+}
+
+.pubs-view--by-year .pub-year-group:last-child {
+  margin-bottom: 0;
+}
+
+.pubs-view--by-year .pub-year-summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 1rem 1.25rem;
+  cursor: default;
+  pointer-events: none;
+  font-family: var(--font-heading);
+  font-weight: 700;
+  font-size: 1.05rem;
+  list-style: none;
+}
+
+.pubs-view--by-year .pub-year-summary::-webkit-details-marker {
+  display: none;
+}
+
+.pubs-view--by-year .pub-year-body {
   padding: 0 1.25rem 1.15rem;
   border-top: 1px solid var(--border);
 }

@@ -15,6 +15,7 @@ if (Test-Path ".\.venv\Scripts\python.exe") {
 
 & $Py scripts/sync_material_media.py
 & $Py scripts/sync_featured_publications.py
+& $Py scripts/sync_publication_tags.py
 & $Py scripts/clean_bibliography_data.py
 & $Py scripts/sync_random_gallery_from_folders.py
 

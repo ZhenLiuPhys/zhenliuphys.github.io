@@ -9,12 +9,14 @@ Production: **`https://zhenliu.net/`** (GitHub Pages).
 ```bash
 chmod +x scripts/prepare_site.sh
 ./scripts/prepare_site.sh
+.venv/bin/python scripts/validate_publication_tags.py
 hugo --minify --cleanDestinationDir
-python3 scripts/check_internal_links.py
+.venv/bin/python scripts/check_internal_links.py
 ```
 
 Expected:
 - build succeeds,
+- `validate_publication_tags.py` reports 143/143 tagged,
 - `check_internal_links.py` reports 0 broken links,
 - no `public/files/zhen_liu_CV.pdf` artifact.
 
@@ -29,7 +31,7 @@ Open `http://localhost:1313` and verify:
 | Page | What to check |
 |------|----------------|
 | `/` | Hero intro text, research themes, featured highlights, Recent updates, Recent talks, photos-only gallery |
-| `/publications/` | Selected block + search/filter behavior on full list |
+| `/publications/` | Selected block + search/filter; List / By year toggle; topic + section chips; tag workflow in README |
 | `/talks/` | Selected talks, List / By year toggle, full-list filters |
 | `/news/` | Recent updates + archive + media coverage |
 | `/mentoring/` | Research Group page title (**Group Members**) and four member tiles |
@@ -87,5 +89,5 @@ Checklist:
 
 ```bash
 # Production build (matches CI)
-./scripts/prepare_site.sh && hugo --minify --cleanDestinationDir && python3 scripts/check_internal_links.py
+./scripts/prepare_site.sh && .venv/bin/python scripts/validate_publication_tags.py && hugo --minify --cleanDestinationDir && .venv/bin/python scripts/check_internal_links.py
 ```

@@ -58,11 +58,27 @@ CV source files stay on your machine (`Material/ZhenLiu_CV.tex` is gitignored). 
 
 ```bash
 .venv/bin/python scripts/parse_cv_html.py
+.venv/bin/python scripts/sync_publication_tags.py
 .venv/bin/python scripts/clean_bibliography_data.py
 ./scripts/prepare_site.sh
 hugo --minify
 .venv/bin/python scripts/check_internal_links.py
 ```
+
+Publication topic tags live in `data/source/publication_tags.yaml` (your **confirmed** standard). Validate with `python scripts/validate_publication_tags.py`.
+
+**Tag workflow**
+
+| Step | What happens |
+|------|----------------|
+| Confirmed tags | `data/source/publication_tags.yaml` — your approved tags; never auto-overwritten |
+| New CV papers | `sync_publication_tags.py` auto-drafts tags to `backups/publication-tag-proposals.yaml` (local, gitignored) |
+| Site build | Uses confirmed tags; falls back to provisional drafts for new papers until you confirm |
+| Your review | `python scripts/approve_publication_tags.py --list` |
+| Confirm | Edit `backups/publication-tag-approvals.json` (from `--write-template`), then `--approvals`; or edit `publication_tags.yaml` directly |
+| Bulk reset | `python scripts/generate_publication_tags.py --force` only if you intentionally replace all confirmed tags |
+
+Heuristic suggestions that differ from your confirmed tags are written to `backups/publication-tag-review.yaml` for optional review (informational only).
 
 If the parser reports conflicts with hand-edited YAML, review `backups/cv-conflict-approvals.json` (local, gitignored) and rerun with `--conflict-approvals` or `--approve-conflicts` after confirmation.
 
@@ -78,6 +94,7 @@ If the parser reports conflicts with hand-edited YAML, review `backups/cv-confli
 |------|---------|
 | Name, email, links | `data/source/profile.yaml` |
 | Homepage publication cards | `data/source/selected_publications.yaml` |
+| Publication topic filters | `data/source/publication_tags.yaml` (confirmed); provisional drafts in `backups/` |
 | Selected talks | `data/source/selected_talks.yaml` |
 | News feed | `data/news.yaml` |
 | Research themes | `data/source/research_themes.yaml` |

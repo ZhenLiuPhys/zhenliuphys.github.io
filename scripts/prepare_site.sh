@@ -24,6 +24,7 @@ else
 fi
 "$PY" scripts/sync_material_media.py
 "$PY" scripts/sync_featured_publications.py
+"$PY" scripts/sync_publication_tags.py
 "$PY" scripts/clean_bibliography_data.py
 "$PY" scripts/sync_random_gallery_from_folders.py
 

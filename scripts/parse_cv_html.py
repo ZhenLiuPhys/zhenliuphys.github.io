@@ -1318,6 +1318,12 @@ def main() -> None:
     service = resolved["service"]
     teaching = resolved["teaching"]
 
+    from sync_publication_tags import apply_publication_tags
+
+    tag_warnings = apply_publication_tags(publications, root)
+    for msg in tag_warnings:
+        print(f"Warning: {msg}", file=sys.stderr)
+
     pub_out.write_text(yaml.safe_dump(publications, sort_keys=False, allow_unicode=True), encoding="utf-8")
     talk_out.write_text(yaml.safe_dump(talks, sort_keys=False, allow_unicode=True), encoding="utf-8")
     if any(service.get(k) for k in service):

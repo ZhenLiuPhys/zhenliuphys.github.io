@@ -15,7 +15,8 @@
   {{ $statusInVenue = gt (len (findRE (printf "(?i)\\b%s\\b" $status) $venueLine)) 0 }}
 {{ end }}
 {{ $searchText := printf "%s %s %s %s %s %s %v %s %s" $title $pub.venue $pub.venue_display $pub.authors $pub.arxiv $pub.doi $pub.year $pub.status $pub.journal }}
-<article class="pub-row" data-search-text="{{ $searchText | lower | htmlEscape }}">
+{{ $tagList := $pub.tags | default (slice) }}
+<article class="pub-row" data-search-text="{{ $searchText | lower | htmlEscape }}" data-pub-year="{{ $pub.year }}" data-pub-section="{{ $pub.section }}" data-pub-tags="{{ delimit $tagList " " }}">
   <div class="pub-row-main">
     <h3 class="pub-row-title">{{ partial "format-publication-title.html" $title }}</h3>
     <p class="pub-row-meta">

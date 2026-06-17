@@ -1,144 +1,97 @@
 {{ define "main" }}
-
-<section class="container section-header">
-
-  <p class="section-eyebrow">Publications</p>
-
-  <h1>{{ .Title }}</h1>
-
-  {{ with .Content }}<div class="section-intro">{{ . }}</div>{{ end }}
-
-</section>
-
-
-
-<section class="container page-panel">
-
-  {{ partial "list-search.html" (dict
-
-    "inputId" "pub-search"
-
-    "label" "Filter full bibliography"
-
-    "placeholder" "Filter publications by title, author, arXiv, venue…"
-
-    "scopeId" "pub-bibliography"
-
-    "statusId" "pub-search-status"
-
-    "itemLabel" "publications"
-
-  ) }}
-
-</section>
-
-
-
+{{ $items := hugo.Data.publications }}
+{{ $tagVocab := hugo.Data.source.publication_tag_vocab | default (slice) }}
 {{ $sectionOrder := slice "refereed_journals" "other_publications_editor" "other_publications_contributor" }}
-
 {{ $sectionLabels := dict
-
   "refereed_journals" "Refereed Journal Articles"
-
   "other_publications_editor" "Other Publications (co-)Editor"
-
   "other_publications_contributor" "Other Publications (Contributor/Endorsor)"
-
+}}
+{{ $sectionChipLabels := dict
+  "refereed_journals" "Refereed"
+  "other_publications_editor" "Editor"
+  "other_publications_contributor" "Contributor"
 }}
 
-{{ $items := hugo.Data.publications }}
+<section class="container section-header">
+  <p class="section-eyebrow">Publications</p>
+  <h1>{{ .Title }}</h1>
+  {{ with .Content }}<div class="section-intro">{{ . }}</div>{{ end }}
+</section>
 
+<section class="container page-panel pub-controls-panel">
+  {{ partial "list-search.html" (dict
+    "inputId" "pub-search"
+    "label" "Filter full bibliography"
+    "placeholder" "Filter publications by title, author, arXiv, venue…"
+    "scopeId" "pub-bibliography"
+    "statusId" "pub-search-status"
+    "itemLabel" "publications"
+  ) }}
 
+  <div class="bib-view-toggle pub-view-toggle" data-pub-view-toggle="pub-bibliography" role="group" aria-label="Publication list layout">
+    <button type="button" class="bib-view-btn pub-view-btn is-active" data-pub-view="list" aria-pressed="true">List</button>
+    <button type="button" class="bib-view-btn pub-view-btn" data-pub-view="by-year" aria-pressed="false">By year</button>
+  </div>
 
-<div id="pub-bibliography">
+  <div class="pub-filter-chips pub-tag-filter-chips" data-pub-tag-filter-scope="pub-bibliography" role="tablist" aria-label="Filter publications by topic">
+    <button type="button" class="pub-filter-btn is-active" data-pub-tag-filter-btn data-pub-tag-filter-value="all" aria-selected="true">All</button>
+    {{ range $tagVocab }}
+      <button type="button" class="pub-filter-btn" data-pub-tag-filter-btn data-pub-tag-filter-value="{{ .id }}" aria-selected="false">{{ .label }}</button>
+    {{ end }}
+  </div>
 
+  <div class="pub-filter-chips pub-section-filter-chips" data-pub-section-filter-scope="pub-bibliography" role="tablist" aria-label="Filter publications by CV section">
+    <button type="button" class="pub-filter-btn is-active" data-pub-section-filter-btn data-pub-section-filter-value="all" aria-selected="true">All sections</button>
+    {{ range $sectionOrder }}
+      <button type="button" class="pub-filter-btn" data-pub-section-filter-btn data-pub-section-filter-value="{{ . }}" aria-selected="false">{{ index $sectionChipLabels . }}</button>
+    {{ end }}
+  </div>
+</section>
+
+<div id="pub-bibliography" class="pubs-view--list" data-pubs-layout="list">
 {{ range $sectionOrder }}
-
   {{ $sectionKey := . }}
-
   {{ $sectionItems := where $items "section" $sectionKey }}
-
   {{ if gt (len $sectionItems) 0 }}
-
     <section class="container page-panel">
-
-      <details class="section-collapse" data-default-open="{{ if eq $sectionKey "refereed_journals" }}true{{ else }}false{{ end }}"{{ if eq $sectionKey "refereed_journals" }} open{{ end }}>
-
+      <details class="section-collapse" data-pub-section="{{ $sectionKey }}" data-default-open="{{ if eq $sectionKey "refereed_journals" }}true{{ else }}false{{ end }}"{{ if eq $sectionKey "refereed_journals" }} open{{ end }}>
         <summary class="section-collapse-summary">
-
           <span>{{ index $sectionLabels $sectionKey }}</span>
-
           <span class="section-count">{{ len $sectionItems }}</span>
-
         </summary>
-
         <div class="section-collapse-body">
-
           {{ partial "pub-list-by-year.html" (dict "items" $sectionItems) }}
-
         </div>
-
       </details>
-
     </section>
-
   {{ end }}
-
 {{ end }}
-
-
 
 {{ $knownSections := $sectionOrder }}
-
 {{ $otherSections := slice }}
-
 {{ range $items }}
-
   {{ if not (in $knownSections .section) }}
-
     {{ $otherSections = $otherSections | append .section }}
-
   {{ end }}
-
 {{ end }}
-
 {{ $otherSections = $otherSections | uniq }}
-
 {{ range $otherSections }}
-
   {{ $sectionKey := . }}
-
   {{ $sectionItems := where $items "section" $sectionKey }}
-
   <section class="container page-panel">
-
-    <details class="section-collapse" data-default-open="false">
-
+    <details class="section-collapse" data-pub-section="{{ $sectionKey }}" data-default-open="false">
       <summary class="section-collapse-summary">
-
         <span>{{ replaceRE "_" " " $sectionKey | title }}</span>
-
         <span class="section-count">{{ len $sectionItems }}</span>
-
       </summary>
-
       <div class="section-collapse-body">
-
         {{ partial "pub-list-by-year.html" (dict "items" $sectionItems) }}
-
       </div>
-
     </details>
-
   </section>
-
 {{ end }}
-
 </div>
 
-
-
 <script src="{{ "js/list-search.js" | relURL }}" defer></script>
-
 {{ end }}
-

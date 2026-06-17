@@ -1,0 +1,41 @@
+# Canonical publication filter tags (chip order = list order).
+- id: higgs
+  label: Higgs
+- id: standard-model
+  label: Standard Model
+- id: bsm
+  label: BSM
+- id: supersymmetry
+  label: Supersymmetry
+- id: dark-sector
+  label: Dark sector
+- id: axions
+  label: Axions
+- id: neutrinos
+  label: Neutrinos
+- id: neutron-stars
+  label: Neutron stars
+- id: long-lived-particles
+  label: Long-lived particles
+- id: forward-physics
+  label: Forward physics
+- id: phase-transition
+  label: Phase transition
+- id: lhc
+  label: LHC
+- id: muon-collider
+  label: Muon collider
+- id: cepc-fcc
+  label: CEPC / FCC
+- id: beamdump
+  label: Beamdumps
+- id: qis
+  label: QIS
+- id: quantum-sensing
+  label: Quantum sensing
+- id: amplitudes
+  label: Amplitudes
+- id: eft
+  label: Effective field theory
+- id: ai-ml
+  label: AI / ML

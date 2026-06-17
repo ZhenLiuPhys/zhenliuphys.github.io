@@ -1,0 +1,525 @@
+# Confirmed publication tag assignments (arXiv-keyed; by_id for papers without arXiv).
+# This file is the standard — edits here are your approved tags.
+# New papers: auto-drafted to backups/publication-tag-proposals.yaml; confirm before merging here.
+# Workflow: python scripts/approve_publication_tags.py --list
+'1010.4309':
+  tags:
+  - bsm
+  - lhc
+'1105.2838':
+  tags:
+  - bsm
+  - lhc
+'1210.7803':
+  tags:
+  - higgs
+  - muon-collider
+'1303.2113':
+  tags:
+  - higgs
+  - lhc
+'1303.3040':
+  tags:
+  - higgs
+  - dark-sector
+'1307.6129':
+  tags:
+  - higgs
+  - muon-collider
+'1308.2143':
+  tags:
+  - higgs
+  - muon-collider
+'1308.2738':
+  tags:
+  - lhc
+  - cepc-fcc
+'1310.8361':
+  tags:
+  - higgs
+'1311.0299':
+  tags:
+  - bsm
+'1311.7155':
+  tags:
+  - higgs
+  - cepc-fcc
+'1312.4992':
+  tags:
+  - higgs
+  - bsm
+'1406.1181':
+  tags:
+  - bsm
+  - supersymmetry
+  - dark-sector
+'1408.5912':
+  tags:
+  - higgs
+  - muon-collider
+'1503.05923':
+  tags:
+  - supersymmetry
+  - long-lived-particles
+  - lhc
+'1504.01399':
+  tags:
+  - higgs
+  - cepc-fcc
+'1506.06736':
+  tags:
+  - lhc
+'1507.01923':
+  tags:
+  - higgs
+'1512.06877':
+  tags:
+  - higgs
+  - cepc-fcc
+'1512.07624':
+  tags:
+  - bsm
+'1607.03210':
+  tags:
+  - higgs
+  - cepc-fcc
+'1608.07282':
+  tags:
+  - higgs
+  - bsm
+  - lhc
+'1612.09284':
+  tags:
+  - higgs
+  - cepc-fcc
+'1704.08259':
+  tags:
+  - higgs
+  - standard-model
+  - lhc
+'1709.06103':
+  tags:
+  - higgs
+'1709.09605':
+  tags:
+  - lhc
+'1711.03978':
+  tags:
+  - higgs
+  - cepc-fcc
+'1805.05957':
+  tags:
+  - bsm
+  - long-lived-particles
+  - lhc
+'1806.07396':
+  tags:
+  - long-lived-particles
+'1808.10177':
+  tags:
+  - higgs
+  - bsm
+'1810.09037':
+  tags:
+  - higgs
+  - cepc-fcc
+'1811.10545':
+  tags:
+  - cepc-fcc
+'1811.11918':
+  tags:
+  - higgs
+  - supersymmetry
+'1812.02093':
+  tags:
+  - bsm
+'1812.07831':
+  tags:
+  - standard-model
+  - lhc
+'1901.04040':
+  tags:
+  - long-lived-particles
+  - lhc
+'1902.00134':
+  tags:
+  - higgs
+  - lhc
+'1902.03246':
+  tags:
+  - dark-sector
+  - neutrinos
+  - forward-physics
+'1903.04497':
+  tags:
+  - standard-model
+  - long-lived-particles
+  - lhc
+'1904.01020':
+  tags:
+  - neutrinos
+  - long-lived-particles
+  - lhc
+'1908.04797':
+  tags:
+  - dark-sector
+  - quantum-sensing
+'1909.04549':
+  tags:
+  - higgs
+  - lhc
+'1910.00012':
+  tags:
+  - higgs
+'1911.07996':
+  tags:
+  - dark-sector
+  - beamdump
+'1911.10206':
+  tags:
+  - phase-transition
+'1911.12364':
+  tags:
+  - axions
+  - lhc
+'2003.07868':
+  tags:
+  - bsm
+  - lhc
+'2005.10836':
+  tags:
+  - long-lived-particles
+  - lhc
+'2008.06074':
+  tags:
+  - dark-sector
+'2009.01693':
+  tags:
+  - long-lived-particles
+  - lhc
+'2009.11287':
+  tags:
+  - dark-sector
+  - muon-collider
+'2011.05995':
+  tags:
+  - axions
+'2012.00774':
+  tags:
+  - lhc
+  - eft
+'2012.01443':
+  tags:
+  - bsm
+  - neutrinos
+'2103.14043':
+  tags:
+  - bsm
+'2104.00638':
+  tags:
+  - bsm
+'2107.11405':
+  tags:
+  - long-lived-particles
+'2109.01682':
+  tags:
+  - bsm
+'2109.03294':
+  tags:
+  - higgs
+  - bsm
+  - lhc
+  - ai-ml
+'2109.06065':
+  tags:
+  - lhc
+'2109.10905':
+  tags:
+  - forward-physics
+'2203.01796':
+  tags:
+  - supersymmetry
+'2203.01955':
+  tags:
+  - neutrinos
+'2203.04324':
+  tags:
+  - higgs
+  - muon-collider
+'2203.05090':
+  tags:
+  - forward-physics
+  - lhc
+'2203.05375':
+  tags:
+  - bsm
+'2203.07242':
+  tags:
+  - bsm
+'2203.07256':
+  tags:
+  - muon-collider
+'2203.07261':
+  tags:
+  - muon-collider
+'2203.07351':
+  tags:
+  - dark-sector
+  - muon-collider
+'2203.07622':
+  tags:
+  - bsm
+'2203.07646':
+  tags:
+  - higgs
+  - cepc-fcc
+'2203.08033':
+  tags:
+  - muon-collider
+'2203.08126':
+  tags:
+  - long-lived-particles
+'2203.08206':
+  tags:
+  - higgs
+  - phase-transition
+'2203.12714':
+  tags:
+  - bsm
+'2203.14915':
+  tags:
+  - dark-sector
+'2204.05296':
+  tags:
+  - bsm
+'2205.00031':
+  tags:
+  - bsm
+'2205.08553':
+  tags:
+  - cepc-fcc
+'2207.08448':
+  tags:
+  - dark-sector
+  - axions
+'2209.01318':
+  tags:
+  - muon-collider
+'2209.07510':
+  tags:
+  - higgs
+'2209.13128':
+  tags:
+  - standard-model
+'2210.02462':
+  tags:
+  - axions
+'2210.02591':
+  tags:
+  - bsm
+'2210.07291':
+  tags:
+  - dark-sector
+  - quantum-sensing
+'2210.16180':
+  tags:
+  - bsm
+'2211.00664':
+  tags:
+  - bsm
+'2211.11084':
+  tags:
+  - bsm
+'2301.07117':
+  tags:
+  - muon-collider
+'2301.11512':
+  tags:
+  - dark-sector
+  - quantum-sensing
+'2303.08533':
+  tags:
+  - muon-collider
+'2304.08625':
+  tags:
+  - dark-sector
+  - forward-physics
+'2305.04964':
+  tags:
+  - dark-sector
+  - forward-physics
+'2306.00079':
+  tags:
+  - bsm
+  - amplitudes
+'2306.07315':
+  tags:
+  - bsm
+'2308.06323':
+  tags:
+  - muon-collider
+'2308.08589':
+  tags:
+  - axions
+'2310.18398':
+  tags:
+  - dark-sector
+  - axions
+'2311.09915':
+  tags:
+  - beamdump
+'2312.14363':
+  tags:
+  - cepc-fcc
+'2401.08756':
+  tags:
+  - higgs
+  - forward-physics
+  - muon-collider
+'2403.15538':
+  tags:
+  - bsm
+  - amplitudes
+'2405.13778':
+  tags:
+  - dark-sector
+'2407.12450':
+  tags:
+  - muon-collider
+'2407.12930':
+  tags:
+  - axions
+'2407.14587':
+  tags:
+  - amplitudes
+'2407.15930':
+  tags:
+  - bsm
+  - lhc
+'2408.08948':
+  tags:
+  - higgs
+'2408.15330':
+  tags:
+  - dark-sector
+'2411.02966':
+  tags:
+  - muon-collider
+'2412.09652':
+  tags:
+  - dark-sector
+  - forward-physics
+  - beamdump
+  - quantum-sensing
+'2412.14115':
+  tags:
+  - neutrinos
+  - muon-collider
+'2412.19743':
+  tags:
+  - cepc-fcc
+'2503.20893':
+  tags:
+  - long-lived-particles
+'2503.23695':
+  tags:
+  - muon-collider
+'2504.15307':
+  tags:
+  - bsm
+'2504.21417':
+  tags:
+  - muon-collider
+'2505.24810':
+  tags:
+  - bsm
+  - cepc-fcc
+'2506.02106':
+  tags:
+  - amplitudes
+'2508.04961':
+  tags:
+  - dark-sector
+  - neutron-stars
+'2509.10605':
+  tags:
+  - axions
+  - muon-collider
+'2510.02427':
+  tags:
+  - dark-sector
+  - quantum-sensing
+'2510.05260':
+  tags:
+  - cepc-fcc
+'2510.09652':
+  tags:
+  - beamdump
+'2510.27437':
+  tags:
+  - muon-collider
+'2512.04336':
+  tags:
+  - bsm
+  - lhc
+  - amplitudes
+'2602.17582':
+  tags:
+  - bsm
+  - ai-ml
+'2604.13156':
+  tags:
+  - standard-model
+  - lhc
+'2604.14284':
+  tags:
+  - higgs
+  - bsm
+  - lhc
+'2605.08433':
+  tags:
+  - higgs
+  - bsm
+  - eft
+'2605.13964':
+  tags:
+  - dark-sector
+  - forward-physics
+  - lhc
+by_id:
+  pub-l2-003-a-cool-route-to-the-higgs-boson-and-beyond-the-cool-copper-collider:
+    tags:
+    - higgs
+    - cepc-fcc
+  pub-l2-018-probing-the-higgs-with-angular-observables-at-future-e-e-colliders:
+    tags:
+    - higgs
+    - cepc-fcc
+  pub-l2-019-cepc-sppc-preliminary-conceptual-design-report-volume-i-physics-and-detector:
+    tags:
+    - bsm
+    - cepc-fcc
+  pub-l2-020-beyond-standard-model-physics-at-current-and-future-colliders:
+    tags:
+    - bsm
+    - lhc
+    - cepc-fcc
+  pub-l3-032-future-circular-collider-vol-1-physics-opportunities:
+    tags:
+    - bsm
+    - cepc-fcc
+  pub-l3-033-future-circular-collider-vol-2-the-lepton-collider-fcc-ee:
+    tags:
+    - higgs
+    - bsm
+    - cepc-fcc
+  pub-l3-034-future-circular-collider-vol-3-the-hadron-collider-fcc-hh:
+    tags:
+    - bsm
+    - lhc
+    - cepc-fcc
+  pub-l3-035-future-circular-collider-vol-4-the-high-energy-lhc-he-lhc:
+    tags:
+    - bsm
+    - lhc
+    - cepc-fcc

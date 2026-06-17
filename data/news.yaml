@@ -22,6 +22,10 @@
   text: "New PRL on Neutrnio Slice at Muon Colliders."
   url: "https://arxiv.org/abs/2412.14115"
   pinned: true
+- date: "2025-4"
+  text: "Wine&Cheese Seminar at Fermilab: Physics Opportunities at FCC."
+  url: "/talks/"
+  pinned: true
 - date: "2024-11"
   text: "PRD Editors suggestions on our Massive Amplitudes works: electroweak"
   url: "https://arxiv.org/abs/2407.14587"

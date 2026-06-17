@@ -11,7 +11,7 @@
   video_url: ''
   date_display: September 2026
   venue: New directions EXploring the Unknown beyond the Standard Model (NEXUS 2026)
-  category: scheduled
+  category: seminar
   scheduled: true
   event_display: New directions EXploring the Unknown beyond the Standard Model (NEXUS
     2026) · Shanghai, China · September 2026
@@ -29,7 +29,7 @@
   video_url: ''
   date_display: August 2026
   venue: International Workshop on New Opportunities for Particle Physics 2026
-  category: scheduled
+  category: workshop
   scheduled: true
   event_display: International Workshop on New Opportunities for Particle Physics
     2026 · Beijing, China · August 2026
@@ -79,7 +79,7 @@
   video_url: ''
   date_display: May 2026
   venue: Pheno 2026
-  category: workshop
+  category: plenary
   scheduled: false
   event_display: Pheno 2026 · Pittsburgh, PA · May 2026
   placeholder: false
@@ -406,7 +406,7 @@
   video_url: ''
   date_display: October 2024
   venue: CEPC2024
-  category: workshop
+  category: plenary
   scheduled: false
   event_display: CEPC2024 · Hangzhou, China · October 2024
   placeholder: false
@@ -556,7 +556,7 @@
   video_url: ''
   date_display: May 2024
   venue: Pheno-DPF 2024
-  category: workshop
+  category: plenary
   scheduled: false
   event_display: Pheno-DPF 2024 · Pittsburgh, PA · May 2024
   placeholder: false
@@ -748,7 +748,7 @@
   video_url: ''
   date_display: July 2023
   venue: Lepton Photon Conference
-  category: workshop
+  category: plenary
   scheduled: false
   event_display: Lepton Photon Conference · Melbourne, Australia · July 2023
   placeholder: false

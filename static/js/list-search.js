@@ -343,6 +343,15 @@
     updateSectionCounts(scope, filtering);
     setRecentVisibility(input, filtering);
     updateStatus(input, visible, rows.length, filtering);
+
+    scope.querySelectorAll(".talk-selected-block").forEach(function (block) {
+      if (!filtering) {
+        block.hidden = false;
+        return;
+      }
+      var anyVisible = block.querySelectorAll(".talk-row:not([hidden])").length > 0;
+      block.hidden = !anyVisible;
+    });
   }
 
   function bindViewToggle(scope, input, config) {

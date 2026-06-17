@@ -22,7 +22,6 @@ SERIES_ORDER = {
         "workshop",
         "colloquium",
         "lecture",
-        "scheduled",
         "other",
         "Total",
     ],

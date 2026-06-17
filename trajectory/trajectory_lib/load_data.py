@@ -19,7 +19,6 @@ TALK_CATEGORIES = [
     "workshop",
     "colloquium",
     "lecture",
-    "scheduled",
     "other",
 ]
 
@@ -101,6 +100,8 @@ def talk_series(talks: list[dict]) -> dict[str, dict[int, int]]:
     by_cat: dict[str, dict[int, int]] = {c: defaultdict(int) for c in TALK_CATEGORIES}
     for talk in talks:
         cat = (talk.get("category") or "other").lower()
+        if cat == "scheduled":
+            cat = "other"
         if cat not in by_cat:
             cat = "other"
         year = int(talk["year"])

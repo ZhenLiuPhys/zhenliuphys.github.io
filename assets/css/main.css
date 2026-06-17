@@ -2038,15 +2038,30 @@ body.gallery-lightbox-open {
   margin-bottom: 0.7rem;
 }
 
-.service-grid {
+.talk-selected-block {
+  margin-bottom: 1.25rem;
+}
+
+.talk-list-main {
+  margin-top: 0.25rem;
+}
+
+.service-split {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  gap: 1rem;
+  align-items: start;
+}
+
+.service-split-col--stack {
+  display: flex;
+  flex-direction: column;
   gap: 1rem;
 }
 
-.service-grid .section-block {
+.service-split .section-block {
   margin-top: 0;
-  height: 100%;
+  height: auto;
 }
 
 .service-list {
@@ -2088,7 +2103,7 @@ body.gallery-lightbox-open {
   .theme-grid { grid-template-columns: 1fr; }
   .audience-paths { grid-template-columns: 1fr; }
   .mentoring-grid { grid-template-columns: 1fr; }
-  .service-grid { grid-template-columns: 1fr; }
+  .service-split { grid-template-columns: 1fr; }
 }
 
 @media (prefers-reduced-motion: reduce) {

@@ -380,16 +380,61 @@ WORKSHOP_HINTS = (
     "lcws",
 )
 
+PARALLEL_OR_SESSION_RE = re.compile(
+    r"\b(?:contributed\s+)?parallel\s+talk\b|"
+    r"\bparallel\s+session\b|"
+    r"\bsession of\b|"
+    r"\b\w[\w\s-]{0,40}\s+session of\b",
+    re.I,
+)
+
+MAIN_PLENARY_VENUE_RE = re.compile(
+    r"^(?:"
+    r"pheno(?:-dpf)?\s*20\d{2}|"
+    r"phenomenology symposium \(pheno20\d{2}\)|"
+    r"lepton photon(?:\s+conference)?|"
+    r"cepc20\d{2}|"
+    r"tevpa\s*20\d{2}\s+conference|"
+    r"dpf meeting|"
+    r"aps dpf"
+    r")$",
+    re.I,
+)
+
+
+def _is_subordinate_conference_talk(text: str) -> bool:
+    return bool(PARALLEL_OR_SESSION_RE.search(text))
+
+
+def _is_major_conference_plenary(venue: str, text: str) -> bool:
+    if _is_subordinate_conference_talk(text):
+        return False
+    venue_key = (venue or "").strip().lower()
+    if venue_key and MAIN_PLENARY_VENUE_RE.match(venue_key):
+        return True
+    # Pheno / CEPC listed as leading event fragment without parallel/session wording.
+    if re.search(
+        r"(?:^|[,(]\s*)(?:pheno(?:-dpf)?\s*20\d{2}|cepc20\d{2}|lepton photon(?:\s+conference)?)\b",
+        text,
+        re.I,
+    ) and not _is_subordinate_conference_talk(text):
+        if re.search(r"\b(?:parallel|session of|contributed)\b", text, re.I):
+            return False
+        return True
+    return False
+
 
 def infer_talk_category(combined: str, title: str, venue: str, host: str) -> str:
     text = " ".join(
         part for part in (combined, title, venue, host) if part
     ).lower()
+    text = re.sub(r"\(scheduled\)\s*", "", text)
+    text = re.sub(r"\bscheduled\b", "", text)
     if LECTURE_KEYWORD_RE.search(text):
         return "lecture"
-    if "(scheduled)" in text or re.search(r"\bscheduled\b", text):
-        return "scheduled"
-    if "plenary" in text or "keynote" in text:
+    if re.search(r"\b(?:invited\s+)?plenary\b|\bkeynote\b", text):
+        return "plenary"
+    if _is_major_conference_plenary(venue, text):
         return "plenary"
     if "colloquium" in text or "coffee hour" in text:
         return "colloquium"

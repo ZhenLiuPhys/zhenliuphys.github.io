@@ -39,34 +39,34 @@
 </section>
 {{ end }}
 
-{{ $compactTiles := slice }}
 {{ if $s.university_service }}
-  {{ $compactTiles = $compactTiles | append (dict "id" "service-umn" "eyebrow" "UMN" "title" "Departmental and University Service" "items" $s.university_service) }}
-{{ end }}
-{{ if $s.editorial_referee }}
-  {{ $compactTiles = $compactTiles | append (dict "id" "service-editorial" "eyebrow" "Editorial" "title" "Journal Editorial Service" "items" $s.editorial_referee) }}
-{{ end }}
-{{ if $s.referee_journals }}
-  {{ $compactTiles = $compactTiles | append (dict "id" "service-referee-journals" "eyebrow" "Referee" "title" "Journals Refereed (Full List)" "items" $s.referee_journals) }}
-{{ end }}
-{{ if $s.referee_services }}
-  {{ $compactTiles = $compactTiles | append (dict "id" "service-other-reviews" "eyebrow" "Other Reviews" "title" "Other Referee Services" "items" $s.referee_services) }}
-{{ end }}
-{{ if $s.grant_review }}
-  {{ $compactTiles = $compactTiles | append (dict "id" "service-grants" "eyebrow" "Grant Review" "title" "Grant and Proposal Review" "items" $s.grant_review) }}
-{{ end }}
-{{ $compactTiles = $compactTiles | append (dict "id" "outreach-history" "eyebrow" "Outreach" "title" "Public Outreach" "items" (slice
-  "Guide, Muon g-2 experiment outreach (Saturday Morning Physics), Fermilab (2016-2017)"
-  "Guide, Grid Computing Center outreach, Fermilab (2016)"
-  "Guide, Magic of Light outreach, University of Pittsburgh (2014)"
-  "Leading Organizer, Physics Festivals, Zhejiang University (2005-2008)"
-)) }}
-
-{{ if gt (len $compactTiles) 0 }}
-<section class="container page-panel service-grid">
-  {{ range $compactTiles }}
-    {{ partial "service-tile.html" . }}
-  {{ end }}
+<section class="container page-panel" id="service-umn">
+  {{ partial "service-tile.html" (dict "eyebrow" "UMN" "title" "Departmental and University Service" "items" $s.university_service) }}
 </section>
 {{ end }}
+
+<section class="container page-panel service-split">
+  <div class="service-split-col service-split-col--referee">
+    {{ if $s.referee_journals }}
+      {{ partial "service-tile.html" (dict "id" "service-referee-journals" "eyebrow" "Referee" "title" "Journals Refereed (Full List)" "items" $s.referee_journals) }}
+    {{ end }}
+  </div>
+  <div class="service-split-col service-split-col--stack">
+    {{ if $s.editorial_referee }}
+      {{ partial "service-tile.html" (dict "id" "service-editorial" "eyebrow" "Editorial" "title" "Journal Editorial Service" "items" $s.editorial_referee) }}
+    {{ end }}
+    {{ if $s.grant_review }}
+      {{ partial "service-tile.html" (dict "id" "service-grants" "eyebrow" "Grant Review" "title" "Grant and Proposal Review" "items" $s.grant_review) }}
+    {{ end }}
+    {{ if $s.referee_services }}
+      {{ partial "service-tile.html" (dict "id" "service-other-reviews" "eyebrow" "Other Reviews" "title" "Other Referee Services" "items" $s.referee_services) }}
+    {{ end }}
+    {{ partial "service-tile.html" (dict "id" "outreach-history" "eyebrow" "Outreach" "title" "Public Outreach" "items" (slice
+      "Guide, Muon g-2 experiment outreach (Saturday Morning Physics), Fermilab (2016-2017)"
+      "Guide, Grid Computing Center outreach, Fermilab (2016)"
+      "Guide, Magic of Light outreach, University of Pittsburgh (2014)"
+      "Leading Organizer, Physics Festivals, Zhejiang University (2005-2008)"
+    )) }}
+  </div>
+</section>
 {{ end }}

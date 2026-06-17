@@ -29,11 +29,6 @@
     "itemLabel" "publications"
   ) }}
 
-  <div class="bib-view-toggle pub-view-toggle" data-pub-view-toggle="pub-bibliography" role="group" aria-label="Publication list layout">
-    <button type="button" class="bib-view-btn pub-view-btn is-active" data-pub-view="list" aria-pressed="true">List</button>
-    <button type="button" class="bib-view-btn pub-view-btn" data-pub-view="by-year" aria-pressed="false">By year</button>
-  </div>
-
   <div class="pub-filter-chips pub-tag-filter-chips" data-pub-tag-filter-scope="pub-bibliography" role="tablist" aria-label="Filter publications by topic">
     <button type="button" class="pub-filter-btn is-active" data-pub-tag-filter-btn data-pub-tag-filter-value="all" aria-selected="true">All</button>
     {{ range $tagVocab }}
@@ -49,7 +44,7 @@
   </div>
 </section>
 
-<div id="pub-bibliography" class="pubs-view--list" data-pubs-layout="list">
+<div id="pub-bibliography">
 {{ range $sectionOrder }}
   {{ $sectionKey := . }}
   {{ $sectionItems := where $items "section" $sectionKey }}
@@ -61,7 +56,7 @@
           <span class="section-count">{{ len $sectionItems }}</span>
         </summary>
         <div class="section-collapse-body">
-          {{ partial "pub-list-by-year.html" (dict "items" $sectionItems) }}
+          {{ partial "pub-list-by-year.html" (dict "items" $sectionItems "grouped" false) }}
         </div>
       </details>
     </section>
@@ -86,7 +81,7 @@
         <span class="section-count">{{ len $sectionItems }}</span>
       </summary>
       <div class="section-collapse-body">
-        {{ partial "pub-list-by-year.html" (dict "items" $sectionItems) }}
+        {{ partial "pub-list-by-year.html" (dict "items" $sectionItems "grouped" false) }}
       </div>
     </details>
   </section>

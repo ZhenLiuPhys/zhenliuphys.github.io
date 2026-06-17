@@ -447,15 +447,6 @@
       setLayout: setTalksLayout,
     });
 
-    bindViewToggle(scope, input, {
-      toggleAttr: "data-pub-view-toggle",
-      storageKey: PUBS_VIEW_STORAGE_KEY,
-      viewAttr: "data-pub-view",
-      layoutAttr: "data-pubs-layout",
-      groupSelector: ".pub-year-group",
-      setLayout: setPubsLayout,
-    });
-
     if (scope.id === "talk-full-list-scope") {
       bindYearGroupAccordion(scope, {
         layoutAttr: "data-talks-layout",

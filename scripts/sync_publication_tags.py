@@ -24,8 +24,9 @@ VOCAB_PATH = Path("data/source/publication_tag_vocab.yaml")
 PUB_PATH = Path("data/publications.yaml")
 
 REFEREED_SECTIONS = {"refereed_journals"}
-MAX_TAGS_REFEREED = 5
-MAX_TAGS_OTHER = 4
+MAX_TAGS_REFEREED = 6
+MAX_TAGS_OTHER = 5
+MIN_TAGS = 2
 
 
 def load_vocab(root: Path) -> list[dict]:

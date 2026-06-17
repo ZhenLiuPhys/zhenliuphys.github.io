@@ -1,0 +1,23 @@
+# Career milestones for trajectory plot overlays (editable).
+bands:
+  - start: 2009
+    end: 2015
+    label: Graduate school
+  - start: 2015
+    end: 2018
+    label: Postdoc, Fermilab
+  - start: 2018
+    end: 2020
+    label: Postdoc, Maryland
+  - start: 2021
+    end: 2025
+    label: Assistant Professor, UMN
+  - start: 2025
+    end: null
+    label: Associate Professor, UMN
+
+points:
+  - year: 2011
+    label: Master's degree
+  - year: 2015
+    label: PhD

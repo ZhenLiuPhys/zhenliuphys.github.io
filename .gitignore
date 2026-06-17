@@ -23,3 +23,7 @@ backups/
 hugo.staging.toml
 hugo.mirror.toml
 local/
+
+# Career trajectory outputs (local reflection; scripts are committed)
+trajectory/output/
+trajectory/data/

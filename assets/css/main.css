@@ -1187,13 +1187,43 @@ details.pub-year-group[hidden] {
 }
 
 .pub-tag-filter-chips {
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
+}
+
+.pub-page-header {
+  display: grid;
+  gap: 1.25rem 2rem;
+  padding: 2.25rem 0 0.75rem;
+  align-items: start;
 }
 
 @media (min-width: 900px) {
-  .pub-tag-filter-chips {
-    flex-wrap: wrap;
+  .pub-page-header {
+    grid-template-columns: minmax(0, 1fr) minmax(240px, 22rem);
   }
+}
+
+.pub-page-header-copy h1 {
+  margin: 0 0 0.5rem;
+  font-size: clamp(1.85rem, 3.5vw, 2.5rem);
+}
+
+.pub-page-header-copy .section-intro {
+  max-width: var(--prose-max);
+}
+
+.pub-page-header-filters .pub-filter-label {
+  margin: 0 0 0.55rem;
+  font-family: var(--font-heading);
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.pub-page-header-filters .pub-tag-filter-chips {
+  margin: 0;
 }
 
 .pub-filter-btn {

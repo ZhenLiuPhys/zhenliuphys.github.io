@@ -40,9 +40,6 @@
     if (active.hasAttribute("data-pub-tag-filter-value")) {
       return active.getAttribute("data-pub-tag-filter-value") || "all";
     }
-    if (active.hasAttribute("data-pub-section-filter-value")) {
-      return active.getAttribute("data-pub-section-filter-value") || "all";
-    }
     return "all";
   }
 
@@ -64,16 +61,7 @@
     return active.getAttribute("data-pub-tag-filter-value") || "all";
   }
 
-  function getActivePubSectionFilter(scope) {
-    if (!scope || !scope.id) return "all";
-    var wrap = document.querySelector('[data-pub-section-filter-scope="' + scope.id + '"]');
-    if (!wrap) return "all";
-    var active = wrap.querySelector("[data-pub-section-filter-btn].is-active");
-    if (!active) return "all";
-    return active.getAttribute("data-pub-section-filter-value") || "all";
-  }
-
-  function rowMatches(row, query, talkFilter, pubTagFilter, pubSectionFilter) {
+  function rowMatches(row, query, talkFilter, pubTagFilter) {
     var text = row.getAttribute("data-search-text") || "";
     if (query && text.indexOf(query) === -1) return false;
 
@@ -90,10 +78,6 @@
       if (pubTagFilter && pubTagFilter !== "all") {
         var tags = (row.getAttribute("data-pub-tags") || "").split(/\s+/).filter(Boolean);
         if (tags.indexOf(pubTagFilter) === -1) return false;
-      }
-      if (pubSectionFilter && pubSectionFilter !== "all") {
-        var section = row.getAttribute("data-pub-section") || "";
-        if (section !== pubSectionFilter) return false;
       }
     }
 
@@ -338,17 +322,15 @@
     var query = input.value.trim().toLowerCase();
     var talkFilter = getActiveTalkFilter(scope);
     var pubTagFilter = getActivePubTagFilter(scope);
-    var pubSectionFilter = getActivePubSectionFilter(scope);
     var filtering =
       query.length > 0 ||
       talkFilter !== "all" ||
-      pubTagFilter !== "all" ||
-      pubSectionFilter !== "all";
+      pubTagFilter !== "all";
     var rows = getRows(scope);
     var visible = 0;
 
     rows.forEach(function (row) {
-      var match = rowMatches(row, query, talkFilter, pubTagFilter, pubSectionFilter);
+      var match = rowMatches(row, query, talkFilter, pubTagFilter);
       row.hidden = !match;
       if (match) visible += 1;
     });
@@ -436,7 +418,6 @@
 
     bindChipFilters(scope, input, "data-talk-filter-scope", "data-talk-filter-btn");
     bindChipFilters(scope, input, "data-pub-tag-filter-scope", "data-pub-tag-filter-btn");
-    bindChipFilters(scope, input, "data-pub-section-filter-scope", "data-pub-section-filter-btn");
 
     bindViewToggle(scope, input, {
       toggleAttr: "data-talk-view-toggle",

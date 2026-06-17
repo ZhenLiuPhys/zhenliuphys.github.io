@@ -7,16 +7,22 @@
   "other_publications_editor" "Other Publications (co-)Editor"
   "other_publications_contributor" "Other Publications (Contributor/Endorsor)"
 }}
-{{ $sectionChipLabels := dict
-  "refereed_journals" "Refereed"
-  "other_publications_editor" "Editor"
-  "other_publications_contributor" "Contributor"
-}}
 
-<section class="container section-header">
-  <p class="section-eyebrow">Publications</p>
-  <h1>{{ .Title }}</h1>
-  {{ with .Content }}<div class="section-intro">{{ . }}</div>{{ end }}
+<section class="container pub-page-header">
+  <div class="pub-page-header-copy">
+    <p class="section-eyebrow">Publications</p>
+    <h1>{{ .Title }}</h1>
+    {{ with .Content }}<div class="section-intro">{{ . }}</div>{{ end }}
+  </div>
+  <aside class="pub-page-header-filters">
+    <p class="pub-filter-label" id="pub-topic-filter-label">Filter by topic</p>
+    <div class="pub-filter-chips pub-tag-filter-chips" data-pub-tag-filter-scope="pub-bibliography" role="tablist" aria-labelledby="pub-topic-filter-label">
+      <button type="button" class="pub-filter-btn is-active" data-pub-tag-filter-btn data-pub-tag-filter-value="all" aria-selected="true">All</button>
+      {{ range $tagVocab }}
+        <button type="button" class="pub-filter-btn" data-pub-tag-filter-btn data-pub-tag-filter-value="{{ .id }}" aria-selected="false">{{ .label }}</button>
+      {{ end }}
+    </div>
+  </aside>
 </section>
 
 <section class="container page-panel pub-controls-panel">
@@ -28,20 +34,6 @@
     "statusId" "pub-search-status"
     "itemLabel" "publications"
   ) }}
-
-  <div class="pub-filter-chips pub-tag-filter-chips" data-pub-tag-filter-scope="pub-bibliography" role="tablist" aria-label="Filter publications by topic">
-    <button type="button" class="pub-filter-btn is-active" data-pub-tag-filter-btn data-pub-tag-filter-value="all" aria-selected="true">All</button>
-    {{ range $tagVocab }}
-      <button type="button" class="pub-filter-btn" data-pub-tag-filter-btn data-pub-tag-filter-value="{{ .id }}" aria-selected="false">{{ .label }}</button>
-    {{ end }}
-  </div>
-
-  <div class="pub-filter-chips pub-section-filter-chips" data-pub-section-filter-scope="pub-bibliography" role="tablist" aria-label="Filter publications by CV section">
-    <button type="button" class="pub-filter-btn is-active" data-pub-section-filter-btn data-pub-section-filter-value="all" aria-selected="true">All sections</button>
-    {{ range $sectionOrder }}
-      <button type="button" class="pub-filter-btn" data-pub-section-filter-btn data-pub-section-filter-value="{{ . }}" aria-selected="false">{{ index $sectionChipLabels . }}</button>
-    {{ end }}
-  </div>
 </section>
 
 <div id="pub-bibliography">

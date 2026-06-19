@@ -30,6 +30,67 @@ def _has_value(value: Any) -> bool:
     return True
 
 
+def _norm_key_text(value: Any) -> str:
+    return re.sub(r"[^a-z0-9]+", "", str(_normalize_value(value) or "").lower())
+
+
+def publication_match_key(item: dict) -> tuple | None:
+    arxiv = _normalize_value(item.get("arxiv") or "")
+    if arxiv:
+        return ("arxiv", _norm_key_text(arxiv))
+    doi = _normalize_value(item.get("doi") or "")
+    if doi:
+        return ("doi", _norm_key_text(doi))
+    title = _norm_key_text(item.get("title") or "")
+    if not title:
+        return None
+    return ("title", title, int(item.get("year") or 0))
+
+
+def talk_match_key(item: dict) -> tuple | None:
+    title = _norm_key_text(item.get("title") or "")
+    if not title:
+        return None
+    event = _norm_key_text(item.get("event") or item.get("venue") or "")
+    return (title, int(item.get("year") or 0), event)
+
+
+def dedupe_list_items(items: list[dict], key_fn) -> list[dict]:
+    seen: set[tuple] = set()
+    deduped: list[dict] = []
+    for item in items:
+        key = key_fn(item)
+        if key is None:
+            deduped.append(dict(item))
+            continue
+        if key in seen:
+            continue
+        seen.add(key)
+        deduped.append(dict(item))
+    return deduped
+
+
+def stabilize_list_ids(old_items: list[dict], new_items: list[dict], key_fn) -> list[dict]:
+    old_by_key: dict[tuple, str] = {}
+    for item in old_items:
+        key = key_fn(item)
+        item_id = str(item.get("id") or "")
+        if key is None or not item_id:
+            continue
+        old_by_key.setdefault(key, item_id)
+
+    stabilized: list[dict] = []
+    for item in new_items:
+        merged = dict(item)
+        key = key_fn(item)
+        if key is not None:
+            old_id = old_by_key.get(key)
+            if old_id:
+                merged["id"] = old_id
+        stabilized.append(merged)
+    return stabilized
+
+
 def values_conflict(old_value: Any, new_value: Any) -> bool:
     if not (_has_value(old_value) and _has_value(new_value)):
         return False
@@ -404,6 +465,17 @@ def resolve_import_data(
     registry: dict,
     approvals: dict[str, str],
 ) -> dict:
+    new_publications = stabilize_list_ids(
+        old_publications,
+        dedupe_list_items(new_publications, publication_match_key),
+        publication_match_key,
+    )
+    new_talks = stabilize_list_ids(
+        old_talks,
+        dedupe_list_items(new_talks, talk_match_key),
+        talk_match_key,
+    )
+
     pubs, pub_preserved, pub_pending, registry = merge_list_items(
         output_name="publications",
         old_items=old_publications,

@@ -1,17 +1,43 @@
+- id: talk-l6-002-scheduled-probing-high-quality-heavy-qcd-axions-at-colliders
+  title: (scheduled)Probing High-Quality Heavy QCD Axions at Colliders
+  year: 2026
+  date: '2026-09-01'
+  event: 'Axion-Photon Conversion: Terrestrial and Cosmic Searches workshop, Dali,
+    Yunnan, China, Sept. 2026'
+  host: ''
+  location: Yunnan, China
+  talk_type: invited
+  slides_url: ''
+  video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: '(scheduled)Probing High-Quality Heavy QCD Axions at Colliders , invited
+    talk at Axion-Photon Conversion: Terrestrial and Cosmic Searches workshop, Dali,
+    Yunnan, China, Sept. 2026'
+  date_display: September 2026
+  venue: 'Axion-Photon Conversion: Terrestrial and Cosmic Searches workshop, Dali'
+  category: workshop
+  scheduled: true
+  event_display: 'Axion-Photon Conversion: Terrestrial and Cosmic Searches workshop,
+    Dali · Yunnan, China · September 2026'
+  placeholder: false
 - id: talk-l6-001-scheduled-tbd
-  title: (scheduled) Future Colliders
+  title: (scheduled)Future Colliders
   year: 2026
   date: '2026-09-01'
   event: New directions EXploring the Unknown beyond the Standard Model (NEXUS 2026),
     T.D. Lee Institute, Shanghai, China, Sept. 2026
   host: T.D. Lee Institute
   location: Shanghai, China
-  talk_type: talk
-  slides_url: https://indico.cern.ch/event/1619305/contributions/7039582/
+  talk_type: invited
+  slides_url: https://indico-tdli.sjtu.edu.cn/event/4873/
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: (scheduled)Future Colliders , invited plenary talk at New directions EXploring
+    the Unknown beyond the Standard Model (NEXUS 2026), T.D. Lee Institute, Shanghai,
+    China, Sept. 2026
   date_display: September 2026
   venue: New directions EXploring the Unknown beyond the Standard Model (NEXUS 2026)
-  category: seminar
+  category: plenary
   scheduled: true
   event_display: New directions EXploring the Unknown beyond the Standard Model (NEXUS
     2026) · Shanghai, China · September 2026
@@ -24,12 +50,16 @@
     Beijing, China, Aug. 2026
   host: IHEP
   location: Beijing, China
-  talk_type: talk
-  slides_url: https://indico.cern.ch/event/1619305/contributions/7039582/
+  talk_type: invited
+  slides_url: https://indico.ihep.ac.cn/event/28828/
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: (scheduled)Massive Amplitudes and Constructibility , invited plenary talk
+    at International Workshop on New Opportunities for Particle Physics 2026, IHEP,
+    Beijing, China, Aug. 2026
   date_display: August 2026
   venue: International Workshop on New Opportunities for Particle Physics 2026
-  category: workshop
+  category: plenary
   scheduled: true
   event_display: International Workshop on New Opportunities for Particle Physics
     2026 · Beijing, China · August 2026
@@ -44,6 +74,9 @@
   talk_type: talk
   slides_url: https://indico.ihep.ac.cn/event/29307/
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: (scheduled) Collider Phenomenology Fudan Particle Physics Summer School
+    2026, Shanghai, China, Aug. 2026
   date_display: August 2026
   venue: Fudan Particle Physics Summer School 2026
   category: lecture
@@ -58,9 +91,12 @@
   event: Extended Scalars Workshop, CERN, Geneva, Switzerland, Jun. 2026
   host: CERN
   location: Geneva, Switzerland
-  talk_type: talk
+  talk_type: contributed
   slides_url: https://indico.cern.ch/event/1619305/contributions/7039582/
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: A Busy Higgs Signal , contributed talk at Extended Scalars Workshop, CERN,
+    Geneva, Switzerland, Jun. 2026
   date_display: June 2026
   venue: Extended Scalars Workshop
   category: workshop
@@ -74,9 +110,12 @@
   event: Pheno 2026, Pittsburgh, PA, May. 2026
   host: ''
   location: Pittsburgh, PA
-  talk_type: talk
+  talk_type: invited
   slides_url: https://indico.global/event/16413/contributions/153975/
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: New Directions in Collider Physics , invited plenary talk at Pheno 2026,
+    Pittsburgh, PA, May. 2026
   date_display: May 2026
   venue: Pheno 2026
   category: plenary
@@ -90,9 +129,12 @@
   event: Taofest, Pittsburgh, PA, May. 2026
   host: ''
   location: Pittsburgh, PA
-  talk_type: talk
+  talk_type: invited
   slides_url: https://indico.global/event/16891/contributions/152830/
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Colored Resonances with Tao c, invited talk at Taofest, Pittsburgh, PA,
+    May. 2026
   date_display: May 2026
   venue: Taofest
   category: workshop
@@ -106,14 +148,17 @@
   event: University of Wisconsin-Madison, Madison, WI, Apr. 2026
   host: University of Wisconsin-Madison
   location: Madison, WI
-  talk_type: talk
+  talk_type: seminar
   slides_url: ''
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Constructability of Massive Helicity Amplitudes and the ALT Shift, theory
+    seminar, University of Wisconsin-Madison, Madison, WI, Apr. 2026
   date_display: April 2026
-  venue: ''
+  venue: theory seminar
   category: seminar
   scheduled: false
-  event_display: University of Wisconsin-Madison · Madison, WI · April 2026
+  event_display: theory seminar · Madison, WI · April 2026
   placeholder: false
 - id: talk-l5-002-constructability-of-massive-helicity-amplitudes-and-the-alt-shift
   title: Constructability of Massive Helicity Amplitudes and the ALT Shift
@@ -122,14 +167,17 @@
   event: Fermilab, Batavia, IL, Apr. 2026
   host: Fermilab
   location: Batavia, IL
-  talk_type: talk
+  talk_type: seminar
   slides_url: ''
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Constructability of Massive Helicity Amplitudes and the ALT Shift, theory
+    seminar, Fermilab, Batavia, IL, Apr. 2026
   date_display: April 2026
-  venue: ''
+  venue: theory seminar
   category: seminar
   scheduled: false
-  event_display: Fermilab · Batavia, IL · April 2026
+  event_display: theory seminar · Batavia, IL · April 2026
   placeholder: false
 - id: talk-l6-006-neutrinos-at-muon-colliders
   title: Neutrinos at muon colliders
@@ -139,9 +187,12 @@
     Japan, Mar. 2026
   host: ''
   location: Hokkaido, Japan
-  talk_type: talk
+  talk_type: invited
   slides_url: https://indico.global/event/15552/contributions/137284/
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Neutrinos at muon colliders , invited talk at the 2nd Hokkaido workshop
+    on Particle Physics at the Crossroads, Hokkaido, Japan, Mar. 2026
   date_display: March 2026
   venue: the 2nd Hokkaido workshop on Particle Physics at the Crossroads
   category: workshop
@@ -160,6 +211,10 @@
   talk_type: talk
   slides_url: ''
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: GenAI-Enabled Representation of Quantum ChromoDynamics (QCD) , talk at
+    GenAI for Science & Engineering Workshop, University of Minnesota, Minneapolis,
+    MN, Feb. 2026
   date_display: February 2026
   venue: GenAI for Science & Engineering Workshop
   category: workshop
@@ -177,6 +232,9 @@
   talk_type: seminar
   slides_url: ''
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Constructability of Massive Helicity Amplitudes and the ALT Shift, CHEP
+    seminar, Peking University, Beijing, China, Feb. 2026
   date_display: February 2026
   venue: CHEP seminar
   category: seminar
@@ -191,9 +249,13 @@
     of Pittsburgh, Pittsburgh, PA, Oct. 2025'
   host: University of Pittsburgh
   location: Pittsburgh, PA
-  talk_type: talk
+  talk_type: invited
   slides_url: https://indico.global/event/15552/contributions/137284/
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: 'Slice of neutrinos at high-energy muon colliders , invited talk at Good
+    nus: Neutrino Physics at a Muon Collider workshop, Pitt-PACC, University of Pittsburgh,
+    Pittsburgh, PA, Oct. 2025'
   date_display: October 2025
   venue: 'Good nus: Neutrino Physics at a Muon Collider workshop'
   category: workshop
@@ -208,14 +270,17 @@
   event: University of Oklahoma, Norman, OK, Oct. 2025
   host: University of Oklahoma
   location: Norman, OK
-  talk_type: talk
+  talk_type: seminar
   slides_url: ''
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Seeking Hidden Dynamics Across Frontiers, colloquium, University of Oklahoma,
+    Norman, OK, Oct. 2025
   date_display: October 2025
-  venue: ''
-  category: seminar
+  venue: colloquium
+  category: colloquium
   scheduled: false
-  event_display: University of Oklahoma · Norman, OK · October 2025
+  event_display: colloquium · Norman, OK · October 2025
   placeholder: false
 - id: talk-l6-009-probing-millicharged-particles-at-bdx-with-ultralow-threshold-sensors
   title: Probing Millicharged Particles at BDX with Ultralow-Threshold Sensors
@@ -228,6 +293,10 @@
   talk_type: invited
   slides_url: https://indico.jlab.org/event/951/contributions/17485/
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Probing Millicharged Particles at BDX with Ultralow-Threshold Sensors
+    , invited talk (remote) at Secondary Beams at Jefferson Lab Workshop (BDX & Beyond)
+    workshop, Jefferson Lab, Newport News, VA, Sept. 2025
   date_display: September 2025
   venue: Jefferson Lab
   category: workshop
@@ -243,9 +312,14 @@
     Italy, Jul.-Aug. 2025
   host: Galileo Galilei Institute (GGI)
   location: ''
-  talk_type: talk
+  talk_type: invited
   slides_url: ''
   video_url: https://www.youtube.com/watch?v=8hs7t0QfJ70&list=PL1CFLtxeIrQrRuIWxeLLBqX5IL7ZnM1qc&index=18
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Thinking ``Outside the box'' about collider experiments , invited talk
+    at Physics At The Highest Energies With Colliders conference, Exploring the energy
+    frontier with muon beams program, Galileo Galilei Institute (GGI), Florence, Italy,
+    Jul.-Aug. 2025
   date_display: August 2025
   venue: Physics At The Highest Energies With Colliders conference, Exploring the
     energy frontier with muon beams program, Florence, Italy, Jul
@@ -264,6 +338,9 @@
   talk_type: talk
   slides_url: https://indico.ibs.re.kr/event/891/contributions/7835/
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Future Colliders (lec1) (lec2) Summer Institute 2025, Yoesu, Korea, Aug.
+    2025
   date_display: August 2025
   venue: ''
   category: lecture
@@ -281,6 +358,10 @@
   talk_type: talk
   slides_url: https://indico.ihep.ac.cn/event/25318/contributions/194208/
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Collider Probes for BSM Physics (lec1) (lec2) Summer School on Perturbative
+    Quantum Field Theory and its Applications, Shandong University, Qingdao, Shandong,
+    China, Jul. 2025
   date_display: July 2025
   venue: Summer School on Perturbative Quantum Field Theory and its Applications,
     Qingdao
@@ -296,9 +377,12 @@
   event: Simons Symposium on Illuminating Dark Matter, Munich, Germany, Jun. 2025
   host: ''
   location: Munich, Germany
-  talk_type: talk
+  talk_type: invited
   slides_url: https://cdn.simonsfoundation.org/share/mps/symposia/2025/IDM/IDM2025-%20Liu.pdf
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Beam/Power Sourced Millicharged Particles and Dark Photons , invited talk
+    at Simons Symposium on Illuminating Dark Matter, Munich, Germany, Jun. 2025
   date_display: June 2025
   venue: Simons Symposium on Illuminating Dark Matter
   category: workshop
@@ -314,9 +398,13 @@
     Texas A&M, College Station, TX, May. 2025
   host: the Mitchell Conference on Collider
   location: College Station, TX
-  talk_type: talk
+  talk_type: invited
   slides_url: https://indico.cern.ch/event/1488822/contributions/6480010/
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: The Neutrino Slice at Muon Colliders , invited talk at the Mitchell Conference
+    on Collider, Dark Matter, and Neutrino Physics 2025, Texas A&M, College Station,
+    TX, May. 2025
   date_display: May 2025
   venue: Dark Matter, and Neutrino Physics 2025, Texas A&M
   category: workshop
@@ -332,9 +420,13 @@
     PA, May. 2025
   host: ''
   location: Pittsburgh, PA
-  talk_type: talk
+  talk_type: contributed
   slides_url: https://indico.global/event/812/contributions/126633/
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Solving Contact Term Ambiguities for Massive Helicity Amplitudes , contributed
+    talk at New Theory Developments session of Pheno2025, U of Pittsburgh, Pittsburgh,
+    PA, May. 2025
   date_display: May 2025
   venue: New Theory Developments session of Pheno2025, U of Pittsburgh
   category: workshop
@@ -352,6 +444,9 @@
   talk_type: seminar
   slides_url: https://indico.fnal.gov/event/68627/
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Physics Opportunities at FCC , Fermilab Wine&Cheese Seminar, Fermilab,
+    Batavia, IL, Apr. 2025
   date_display: April 2025
   venue: Fermilab
   category: seminar
@@ -366,12 +461,15 @@
     Batavia, IL, Apr. 2025
   host: Fermilab
   location: Batavia, IL
-  talk_type: talk
+  talk_type: invited
   slides_url: https://indico.fnal.gov/event/67484/contributions/310857/
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Higgs Physics at FCC-ee , invited plenary talk at the Third Annual US
+    Higgs Factory Future Circular Collider Workshop, Fermilab, Batavia, IL, Apr. 2025
   date_display: April 2025
   venue: the Third Annual US Higgs Factory Future Circular Collider Workshop
-  category: workshop
+  category: plenary
   scheduled: false
   event_display: the Third Annual US Higgs Factory Future Circular Collider Workshop
     · Batavia, IL · April 2025
@@ -387,6 +485,9 @@
   talk_type: invited
   slides_url: ''
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: LHC new Channels and Objects , invited (remote) talk at CMS Exotica Group
+    workshop, Imperial College, UK, Dec. 2024
   date_display: December 2024
   venue: invited (remote) talk at CMS Exotica Group workshop
   category: workshop
@@ -401,9 +502,12 @@
   event: CEPC2024, Hangzhou, China, Oct. 2024
   host: ''
   location: Hangzhou, China
-  talk_type: talk
+  talk_type: invited
   slides_url: https://indico.ihep.ac.cn/event/22089/contributions/167866/
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Opportunities in Long-Lived Particles at Current and Future Colliders
+    , invited plenary talk at CEPC2024, Hangzhou, China, Oct. 2024
   date_display: October 2024
   venue: CEPC2024
   category: plenary
@@ -417,9 +521,12 @@
   event: Higgs section CEPC2024, Hangzhou, China, Oct. 2024
   host: ''
   location: Hangzhou, China
-  talk_type: talk
+  talk_type: invited
   slides_url: https://indico.ihep.ac.cn/event/22089/contributions/170397/
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Accidental Suppression of Wilson Coefficients in Higgs Coupling , invited
+    talk at Higgs section CEPC2024, Hangzhou, China, Oct. 2024
   date_display: October 2024
   venue: Higgs section CEPC2024
   category: workshop
@@ -434,9 +541,13 @@
     Oct. 2024
   host: CERN
   location: Geneva, Switzerland
-  talk_type: talk
+  talk_type: contributed
   slides_url: https://indico.cern.ch/event/1376030/timetable/#54-accidental-suppression-of-w
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Accidental Suppression of Wilson Coefficients in Higgs Coupling , contributed
+    talk at the Extended Scalar Sectors From All Angles workshop, CERN, Geneva, Switzerland,
+    Oct. 2024
   date_display: October 2024
   venue: the Extended Scalar Sectors From All Angles workshop
   category: workshop
@@ -451,14 +562,17 @@
   event: School of Physics and Astronomy, University of Minnesota, Sept. 2024
   host: University of Minnesota
   location: ''
-  talk_type: talk
+  talk_type: seminar
   slides_url: ''
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Physics Landscape and Opportunities in High Energy Colliders, Colloquium,
+    School of Physics and Astronomy, University of Minnesota, Sept. 2024
   date_display: September 2024
-  venue: University of Minnesota
-  category: workshop
+  venue: Colloquium
+  category: colloquium
   scheduled: false
-  event_display: University of Minnesota · September 2024
+  event_display: Colloquium · September 2024
   placeholder: false
 - id: talk-l6-019-higgs-at-muon-colliders
   title: Higgs at Muon Colliders
@@ -467,9 +581,12 @@
   event: the HDays2024, Santander, Spain, Sept. 2024
   host: ''
   location: Santander, Spain
-  talk_type: talk
+  talk_type: invited
   slides_url: ''
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Higgs at Muon Colliders , invited talk at the HDays2024, Santander, Spain,
+    Sept. 2024
   date_display: September 2024
   venue: the HDays2024
   category: workshop
@@ -484,9 +601,13 @@
     IL, Aug. 2024
   host: Fermilab
   location: Batavia, IL
-  talk_type: talk
+  talk_type: invited
   slides_url: https://indico.fnal.gov/event/64493/timetable/?view=standard#73-muon-collider-physics-and-s
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: High Energy Muon Collider Physics and Simulation , invited talk at the
+    Inaugural Workshop of the US Muon Collider Collaboration, Fermilab, Batavia, IL,
+    Aug. 2024
   date_display: August 2024
   venue: Fermilab
   category: workshop
@@ -501,13 +622,16 @@
     IHEP, Beijing, Jul. 2024
   host: IHEP
   location: ''
-  talk_type: talk
+  talk_type: invited
   slides_url: https://indico.ihep.ac.cn/event/22187/contributions/158859/
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: The Muon Shot , invited plenary talk at International Workshop on New
+    Physics Opportunities in Particle Physics, IHEP, Beijing, Jul. 2024
   date_display: July 2024
   venue: International Workshop on New Physics Opportunities in Particle Physics,
     Beijing
-  category: workshop
+  category: plenary
   scheduled: false
   event_display: International Workshop on New Physics Opportunities in Particle Physics,
     Beijing · July 2024
@@ -519,9 +643,12 @@
   event: CETUP*2024 program, Lead, SD, Jul. 2024
   host: ''
   location: Lead, SD
-  talk_type: talk
+  talk_type: contributed
   slides_url: https://indico.sanfordlab.org/event/69/timetable/?view=standard_inline_minutes#142-talk-journey-with-sourced
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Journey with Sourced Millicharged Particles and Dark Photons , contributed
+    talk at CETUP*2024 program, Lead, SD, Jul. 2024
   date_display: July 2024
   venue: CETUP*2024 program
   category: workshop
@@ -538,6 +665,9 @@
   talk_type: seminar
   slides_url: ''
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Mechanical Sensing for Dark Matter, Enrico Fermi Institute (EFI) seminar,
+    University of Chicago, May 2024
   date_display: May 2024
   venue: University of Chicago
   category: seminar
@@ -551,9 +681,12 @@
   event: Pheno-DPF 2024, Pittsburgh, PA, May. 2024
   host: ''
   location: Pittsburgh, PA
-  talk_type: talk
+  talk_type: contributed
   slides_url: https://indico.cern.ch/event/1358339/contributions/5903734/
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: MagLev for Dark Matter , contributed talk at Pheno-DPF 2024, Pittsburgh,
+    PA, May. 2024
   date_display: May 2024
   venue: Pheno-DPF 2024
   category: plenary
@@ -571,6 +704,9 @@
   talk_type: seminar
   slides_url: ''
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: LHC New Channels & New Observables, Seminar at Yang Institute of Theoretical
+    Physics (YITP), SUNY-Stony Brook, Long Island, NY, May. 2024
   date_display: May 2024
   venue: SUNY-Stony Brook
   category: seminar
@@ -585,9 +721,12 @@
     NYC, Apr. 2024
   host: Flatiron Institute
   location: ''
-  talk_type: talk
+  talk_type: invited
   slides_url: ''
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Colliders & Future of Dark Matter, invited talk at the future of dark
+    matter workshop, Columbia U / CCA, Flatiron Institute, NYC, Apr. 2024
   date_display: April 2024
   venue: the future of dark matter workshop, Columbia U / CCA, NYC
   category: workshop
@@ -603,9 +742,13 @@
     Japan, Mar. 2024
   host: ''
   location: Hokkaido, Japan
-  talk_type: talk
+  talk_type: invited
   slides_url: https://conference-indico.kek.jp/event/248/contributions/5083/
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Portrait of Higgs with Inclusive Rate via Forward Muon Detection , invited
+    talk at the Hokkaido Workshop on Particle Physics at Crossroads, Sapporo, Hokkaido,
+    Japan, Mar. 2024
   date_display: March 2024
   venue: the Hokkaido Workshop on Particle Physics at Crossroads, Sapporo
   category: workshop
@@ -624,6 +767,10 @@
   talk_type: seminar
   slides_url: ''
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Landscape of Future Colliders, (remote) colloquium at the special event
+    for 100th birthday of physicist Wenzhu Li, Zhejiang University, Zhejiang, Mar.
+    2024
   date_display: March 2024
   venue: the special event for 100th birthday of physicist Wenzhu Li, Zhejiang
   category: colloquium
@@ -642,6 +789,10 @@
   talk_type: seminar
   slides_url: ''
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: 'The Next Leap: Physics Landscape of Future Colliders, Physics Division
+    Research Progress Meeting (RPM) colloquium, Lawrence Berkeley National Laboratory,
+    Berkeley, California, Feb. 2024'
   date_display: February 2024
   venue: Physics Division Research Progress Meeting (RPM) colloquium
   category: colloquium
@@ -660,12 +811,16 @@
   talk_type: invited
   slides_url: https://indico.cern.ch/event/1368548/#2-higgs-width-with-forward-muo
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Inclusive Higgs Rate, Higgs Width and Couplings with Forward Muon Detector
+    , (remote) invited talk at Physics and Detector simulation and MuCol WP2 meeting,
+    Jan. 2024
   date_display: January 2024
-  venue: Higgs Width and Couplings with Forward Muon Detector (remote) invited talk
+  venue: Higgs Width and Couplings with Forward Muon Detector, (remote) invited talk
     at Physics and Detector simulation and MuCol WP2 meeting
   category: workshop
   scheduled: false
-  event_display: Higgs Width and Couplings with Forward Muon Detector (remote) invited
+  event_display: Higgs Width and Couplings with Forward Muon Detector, (remote) invited
     talk at Physics and Detector simulation and MuCol WP2 meeting · January 2024
   placeholder: false
 - id: talk-l5-012-unique-physics-at-muon-colliders
@@ -678,6 +833,8 @@
   talk_type: seminar
   slides_url: ''
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Unique Physics at Muon Colliders, (remote) Sydney-CPPC seminar, Nov. 2023
   date_display: November 2023
   venue: Sydney-CPPC seminar
   category: seminar
@@ -694,6 +851,9 @@
   talk_type: seminar
   slides_url: ''
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Hunting Gluonic ALPs, (remote) HEPPA seminar at Colorado State University
+    Colorado, Nov. 2023
   date_display: November 2023
   venue: HEPPA seminar at Colorado State University Colorado
   category: seminar
@@ -711,6 +871,9 @@
   talk_type: invited
   slides_url: https://indico.cern.ch/event/1288327/timetable/#1-are-there-new-physics-signat
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Pheno Opportunities in L1 Trigger , (remote) invited review talk at Level
+    1 Scouting Workshop, Centro Congressi di Sappada, Italy, Sept. 2023
   date_display: September 2023
   venue: invited review talk at Level 1 Scouting Workshop
   category: workshop
@@ -729,6 +892,9 @@
   talk_type: invited
   slides_url: https://indico.ihep.ac.cn/event/19839/contributions/138752/
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Higgs and Z Exotic Decays , (remote) invited talk at CEPC Flavor and New
+    Physics workshop, Fudan U, Shanghai, China, Aug. 2023
   date_display: August 2023
   venue: CEPC Flavor and New Physics workshop, Fudan U
   category: workshop
@@ -743,9 +909,12 @@
   event: Lepton Photon Conference, Melbourne, Australia, Jul. 2023
   host: ''
   location: Melbourne, Australia
-  talk_type: talk
+  talk_type: invited
   slides_url: https://indico.cern.ch/event/1114856/timetable/#156-new-physics-opportunities
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: New Physics Opportunities at LHC and Beyond , invited plenary talk at
+    Lepton Photon Conference, Melbourne, Australia, Jul. 2023
   date_display: July 2023
   venue: Lepton Photon Conference
   category: plenary
@@ -759,14 +928,17 @@
   event: Aspen Center for Physics, June. 2023
   host: Aspen Center for Physics
   location: ''
-  talk_type: talk
+  talk_type: seminar
   slides_url: ''
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: 'Opportunities Strike HEP: Advancements and Prospects in High Energy Physics,
+    Colloquium, Aspen Center for Physics, June. 2023'
   date_display: June 2023
-  venue: ''
-  category: workshop
+  venue: Colloquium
+  category: colloquium
   scheduled: false
-  event_display: Aspen Center for Physics · June 2023
+  event_display: Colloquium · June 2023
   placeholder: false
 - id: talk-l5-014-journey-with-sourced-millicharged-particles-and-dark-photons
   title: Journey with Sourced Millicharged Particles and Dark Photons
@@ -778,6 +950,9 @@
   talk_type: seminar
   slides_url: ''
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Journey with Sourced Millicharged Particles and Dark Photons, (remote)
+    HET seminar , Nanjing U, June. 2023
   date_display: June 2023
   venue: HET seminar, Nanjing U
   category: seminar
@@ -792,12 +967,15 @@
     Chicago, Illinois, May. 2023
   host: University of Chicago/Fermilab
   location: Chicago, Illinois
-  talk_type: talk
+  talk_type: invited
   slides_url: https://indico.fnal.gov/event/57619/contributions/256752/
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: New Physics at Future Colliders, invited talk at Beyond the SM from Colliders
+    to Early Universe, University of Chicago/Fermilab, Chicago, Illinois, May. 2023
   date_display: May 2023
   venue: Beyond the SM from Colliders to Early Universe
-  category: seminar
+  category: workshop
   scheduled: false
   event_display: Beyond the SM from Colliders to Early Universe · Chicago, Illinois
     · May 2023
@@ -809,9 +987,12 @@
   event: the PIP-II workshop, Fermilab, Batavia, IL, May. 2023
   host: Fermilab
   location: Batavia, IL
-  talk_type: talk
+  talk_type: invited
   slides_url: https://indico.fnal.gov/event/59430/#5-millicharged-particles
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Millicharged Particles, invited talk at the PIP-II workshop, Fermilab,
+    Batavia, IL, May. 2023
   date_display: May 2023
   venue: the PIP-II workshop
   category: workshop
@@ -825,9 +1006,12 @@
   event: the Muon Collider Physics forum, online, May. 2023
   host: ''
   location: ''
-  talk_type: talk
+  talk_type: invited
   slides_url: https://indico.cern.ch/event/1281579/#6-long-lived-particles-benchma
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Long-Lived Particles Benchmarks, invited talk at the Muon Collider Physics
+    forum, online, May. 2023
   date_display: May 2023
   venue: the Muon Collider Physics forum, online
   category: workshop
@@ -844,6 +1028,9 @@
   talk_type: seminar
   slides_url: ''
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Journey with Sourced Millicharged Particles and Dark Photons, Enrico Fermi
+    Institute (EFI) seminar , University of Chicago, May. 2023
   date_display: May 2023
   venue: University of Chicago
   category: seminar
@@ -860,6 +1047,9 @@
   talk_type: seminar
   slides_url: ''
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Journey with Sourced Millicharged Particles and Dark Photons, HET seminar
+    , University of Oregon, May. 2023
   date_display: May 2023
   venue: HET seminar
   category: seminar
@@ -873,9 +1063,12 @@
   event: Mitchell Conference, TAMU, College Station, Texas, May. 2023
   host: Mitchell Conference
   location: College Station, Texas
-  talk_type: talk
+  talk_type: invited
   slides_url: https://indico.cern.ch/event/1252762/contributions/5395628/
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: HNL at Muon Colliders, invited talk at Mitchell Conference, TAMU, College
+    Station, Texas, May. 2023
   date_display: May 2023
   venue: TAMU
   category: workshop
@@ -893,6 +1086,10 @@
   talk_type: contributed
   slides_url: https://indico.cern.ch/event/1218225/contributions/5383847/
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Enhancing Searches for Heavy QCD Axions via Dimuon Final States, contributed
+    parallel talk at Pheno 2023, University of Pittsburgh, Pittsburgh, Pennsylvania,
+    May. 2023
   date_display: May 2023
   venue: contributed parallel talk at Pheno 2023
   category: workshop
@@ -907,9 +1104,12 @@
   event: the KITP muon collider program, Santa Babara, California, Mar. 2023
   host: the KITP muon collider program
   location: Santa Babara, California
-  talk_type: talk
+  talk_type: invited
   slides_url: ''
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Pheno Requirement for Muon colliders , invited talk at the KITP muon collider
+    program, Santa Babara, California, Mar. 2023
   date_display: March 2023
   venue: ''
   category: workshop
@@ -924,9 +1124,12 @@
   event: Moriond QCD, La Thulie, Italy, Mar. 2023
   host: ''
   location: La Thulie, Italy
-  talk_type: talk
+  talk_type: invited
   slides_url: ''
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Long-lived signatures at the LHC , invited talk at Moriond QCD, La Thulie,
+    Italy, Mar. 2023
   date_display: March 2023
   venue: Moriond QCD
   category: workshop
@@ -940,9 +1143,12 @@
   event: Winter Aspen Program, Aspen, Co, Mar. 2023
   host: ''
   location: ''
-  talk_type: talk
+  talk_type: invited
   slides_url: https://indico.fnal.gov/event/21471/contributions/62984/
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Dark SRF pathfinder results and Beyond , invited talk at Winter Aspen
+    Program, Aspen, Co, Mar. 2023
   date_display: March 2023
   venue: Winter Aspen Program, Aspen, Co
   category: workshop
@@ -960,6 +1166,9 @@
   talk_type: invited
   slides_url: https://indico.cern.ch/event/1205624/contributions/5232210/
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Theory Adventures with W Mass , invited keynote talk at Lake Louise Winter
+    Institute 2023, Lake Louise, AB, Canada, Feb. 2023
   date_display: February 2023
   venue: Lake Louise
   category: plenary
@@ -973,9 +1182,12 @@
   event: the dual CP program, University of Colima, Colima, Mexico, Jan. 2023
   host: University of Colima
   location: ''
-  talk_type: talk
+  talk_type: invited
   slides_url: ''
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Seeking Hidden Dynamics Across Frontiers , invited talk at the dual CP
+    program, University of Colima, Colima, Mexico, Jan. 2023
   date_display: January 2023
   venue: the dual CP program, Colima, Mexico
   category: workshop
@@ -989,9 +1201,12 @@
   event: the HK-IAS HEP program, HKUST, Hong Kong, China, Jan. 2023
   host: ''
   location: Hong Kong, China
-  talk_type: talk
+  talk_type: invited
   slides_url: https://indico.cern.ch/event/1215937/timetable/#417-pheno-demands-for-future-c
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Physics Demands for Future Colliders , invited talk at the HK-IAS HEP
+    program, HKUST, Hong Kong, China, Jan. 2023
   date_display: January 2023
   venue: the HK-IAS HEP program, HKUST
   category: workshop
@@ -1008,6 +1223,9 @@
   talk_type: seminar
   slides_url: ''
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Physics Potential for Future Muon Colliders, (remote) HET seminar , Brookhaven
+    National Laboratory (BNL), Dec. 2022
   date_display: December 2022
   venue: HET seminar
   category: seminar
@@ -1022,9 +1240,12 @@
     2022
   host: Fermilab
   location: Batavia, IL
-  talk_type: talk
+  talk_type: invited
   slides_url: https://indico.fnal.gov/event/56615/timetable/#12-pheno-requirements
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Pheno Demands for Muon Colliders , invited talk at the Muon Collider Physics
+    and Detector workshop, Fermilab, Batavia, IL, Dec. 2022
   date_display: December 2022
   venue: the Muon Collider Physics and Detector workshop
   category: workshop
@@ -1042,6 +1263,9 @@
   talk_type: invited
   slides_url: https://indico-tdli.sjtu.edu.cn/event/1130/contributions/5912/
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Hunting High-Quality Axions , (remote) invited talk at MEPA, China, Dec.
+    2022
   date_display: December 2022
   venue: ''
   category: workshop
@@ -1055,14 +1279,17 @@
   event: School of Physics and Astronomy, University of Minnesota, Nov. 2022
   host: University of Minnesota
   location: ''
-  talk_type: talk
+  talk_type: seminar
   slides_url: ''
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Seeking Dark Sector Physics Across Frontiers , Colloquium, School of Physics
+    and Astronomy, University of Minnesota, Nov. 2022
   date_display: November 2022
-  venue: University of Minnesota
-  category: workshop
+  venue: Colloquium
+  category: colloquium
   scheduled: false
-  event_display: University of Minnesota · November 2022
+  event_display: Colloquium · November 2022
   placeholder: false
 - id: talk-l6-044-sqms-quantum-sensing-experimental-results-overview
   title: SQMS Quantum Sensing Experimental results overview
@@ -1075,6 +1302,10 @@
   talk_type: invited
   slides_url: ''
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: SQMS Quantum Sensing Experimental results overview, invited talk (jointly
+    with experimentalists) at the SQMS annual meeting, SQMS, FNAL, Batavia, Illinois,
+    Oct.2022
   date_display: October 2022
   venue: invited talk (jointly with experimentalists) at the SQMS annual meeting,
     SQMS
@@ -1091,9 +1322,12 @@
     Kansas, Oct.2022
   host: Kansas University
   location: Lawrence, Kansas
-  talk_type: talk
+  talk_type: invited
   slides_url: https://indico.cern.ch/event/1191939/contributions/5087447/
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Hunting Gluonic ALPs , invited talk at the Particle Physics on the Plains
+    workshop, Kansas University, Lawrence, Kansas, Oct.2022
   date_display: October 2022
   venue: the Particle Physics on the Plains workshop
   category: workshop
@@ -1112,6 +1346,9 @@
   talk_type: invited
   slides_url: https://indico.fnal.gov/event/22303/timetable/?view=standard#367-minimal-wimp
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Minimal Dark Matter, invited overview talk in the Energy Frontier Dark
+    Matter parallel session, CSS, UW-Seattle, Jul. 2022
   date_display: July 2022
   venue: invited overview talk in the Energy Frontier Dark Matter parallel session,
     CSS
@@ -1130,6 +1367,9 @@
   talk_type: invited
   slides_url: ''
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Higgs Couplings at Future Colliders, (remote) invited talk at Higgs Potential
+    2022, Peking U, Jul. 2022
   date_display: July 2022
   venue: Higgs Potential 2022, Peking U
   category: workshop
@@ -1144,9 +1384,13 @@
     of Sciences, Beckman Center, Irvine, CA, Jul. 2022
   host: ''
   location: Irvine, CA
-  talk_type: talk
+  talk_type: invited
   slides_url: ''
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Future Colliders for New Discoveries, invited talk at the 19th Kavli Frontiers
+    of Science Symposium (China-US), National Academy of Sciences, Beckman Center,
+    Irvine, CA, Jul. 2022
   date_display: July 2022
   venue: the 19th Kavli Frontiers of Science Symposium (China-US), National Academy
     of Sciences, Beckman Center
@@ -1166,6 +1410,10 @@
   talk_type: contributed
   slides_url: https://indico.fnal.gov/event/22303/timetable/?view=standard#353-bsm-report
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: EF BSM summary, summary talk (representing the collective work by EF TG
+    08-09-10 conveners and editors) in the Energy Frontier parallel session, CSS,
+    UW-Seattle, Jul. 2022
   date_display: July 2022
   venue: summary talk (representing the collective work by EF TG 08-09-10 conveners
     and editors) in the Energy Frontier parallel session, CSS
@@ -1184,6 +1432,9 @@
   talk_type: talk
   slides_url: ''
   video_url: https://www.youtube.com/playlist?list=PL1TnhG8zyyNyLC7ypMdHWYiX0Y5NTd-8C
+  source: Material/ZhenLiu_CV.tex
+  raw_text: BSM Collider Probes (videos) (lecture notes) TASI 2022, Boulder, Colorado,
+    Jun.-Jul. 2022
   date_display: July 2022
   venue: TASI 2022, Boulder
   category: lecture
@@ -1197,12 +1448,15 @@
   event: the Higgs Pairs workshop (Higgs Pairs 2022), Dubrovnik, Croatia, Jun. 2022
   host: ''
   location: ''
-  talk_type: talk
+  talk_type: invited
   slides_url: https://indico.cern.ch/event/1001391/timetable/#11-theory-overview
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: HH Theory Overview , invited plenary talk at the Higgs Pairs workshop
+    (Higgs Pairs 2022), Dubrovnik, Croatia, Jun. 2022
   date_display: June 2022
   venue: the Higgs Pairs workshop (Higgs Pairs 2022), Dubrovnik, Croatia
-  category: workshop
+  category: plenary
   scheduled: false
   event_display: the Higgs Pairs workshop (Higgs Pairs 2022), Dubrovnik, Croatia ·
     June 2022
@@ -1218,6 +1472,10 @@
   talk_type: invited
   slides_url: https://indico.ihep.ac.cn/event/16509/session/21/contribution/74/material/slides/0.pdf
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: W mass interpretations and future experiments , (remote) invited plenary
+    talk at Joint Workshop of the CEPC Physics, Software and New Detector Concept
+    in 2022, Beijing, China, May. 2022
   date_display: May 2022
   venue: Joint Workshop of the CEPC Physics, Software and New Detector Concept in
     2022
@@ -1237,6 +1495,10 @@
   talk_type: invited
   slides_url: https://indico.cern.ch/event/1109611/timetable/?view=standard_inline_minutes#747-physics-at-muon-colliders
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: 'Physics at Muon Colliders , (remote) invited review talk in Upgrades
+    and Future Projects: Future experiments session (parallel) at 10th LHCP (LHCP2022),
+    May. 2022'
   date_display: May 2022
   venue: 'invited review talk in Upgrades and Future Projects: Future experiments
     session (parallel) at 10th LHCP (LHCP2022)'
@@ -1255,6 +1517,9 @@
   talk_type: seminar
   slides_url: ''
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Hunting Gluonic ALPs, (remote) HET seminar , Carleton University, Canada,
+    May. 2022
   date_display: May 2022
   venue: HET seminar
   category: seminar
@@ -1271,6 +1536,9 @@
   talk_type: seminar
   slides_url: ''
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Hunting Gluonic ALPs, (remote) HET seminar , University of California--Davis,
+    May. 2022
   date_display: May 2022
   venue: HET seminar
   category: seminar
@@ -1288,6 +1556,10 @@
   talk_type: contributed
   slides_url: https://indico.cern.ch/event/1089132/contributions/4855520/attachments/2441145/4182504/MuCHiggs_Pheno2022_ZhenLiu.pdf
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Higgs Precision at a 125 GeV Muon Collider , contributed parallel talk
+    at Phenomenology Symposium (Pheno2022), University of Pittsburgh, Pittsburgh,
+    PA, May. 2022
   date_display: May 2022
   venue: contributed parallel talk at Phenomenology Symposium (Pheno2022)
   category: workshop
@@ -1305,6 +1577,8 @@
   talk_type: seminar
   slides_url: ''
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Hunting Gluonic ALPs, HET seminar , Texas A&M University, Apr. 2022
   date_display: April 2022
   venue: HET seminar
   category: seminar
@@ -1321,6 +1595,8 @@
   talk_type: seminar
   slides_url: ''
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Hunting Gluonic ALPs, HET seminar , Florida University, Mar. 2022
   date_display: March 2022
   venue: HET seminar
   category: seminar
@@ -1338,6 +1614,9 @@
   talk_type: invited
   slides_url: https://indico.fnal.gov/event/52465/timetable/#26-higgs-couplings-at-a-muon-c
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Higgs Couplings at Muon Colliders , invited review talk at the Energy
+    Frontier Workshop, Brown University, Providence, RI, Mar. 2022
   date_display: March 2022
   venue: invited review talk at the Energy Frontier Workshop
   category: workshop
@@ -1356,6 +1635,9 @@
   talk_type: invited
   slides_url: https://indico.ihep.ac.cn/event/14938/session/4/contribution/174/material/slides/0.pdf
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Top and Higgs Physics Considerations at CEPC ttbar run , (remote) invited
+    review talk at Higgs session (parallel) of CEPC 2021, Nanjing, China, Nov. 2021
   date_display: November 2021
   venue: invited review talk at Higgs session (parallel) of CEPC 2021
   category: workshop
@@ -1374,6 +1656,9 @@
   talk_type: invited
   slides_url: https://indico.ihep.ac.cn/event/11934/session/5/contribution/48
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Heavy Dark Matter at Colliders , (remote) invited plenary talk at the
+    TeVPA 2021 Conference, Sichuan, China, Oct. 2021
   date_display: October 2021
   venue: the TeVPA 2021 Conference
   category: plenary
@@ -1390,6 +1675,10 @@
   talk_type: seminar
   slides_url: ''
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Enhancing or Delaying Electroweak Phase Transitions via Simple Scalar
+    Extensions, (remote) HET seminar , Brookhaven National Laboratory (BNL), Oct.
+    2021
   date_display: October 2021
   venue: HET seminar
   category: seminar
@@ -1407,12 +1696,15 @@
   talk_type: invited
   slides_url: https://indico.cern.ch/event/1030068/contributions/4408842/
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: 'BSM Higgs: new states, exotic and invisible decays , (remote) invited
+    plenary talk at the Higgs 2021 Conference, Stony Brook University, Oct. 2021'
   date_display: October 2021
-  venue: exotic and invisible decays (remote) invited plenary talk at the Higgs 2021
+  venue: exotic and invisible decays, (remote) invited plenary talk at the Higgs 2021
     Conference
   category: plenary
   scheduled: false
-  event_display: exotic and invisible decays (remote) invited plenary talk at the
+  event_display: exotic and invisible decays, (remote) invited plenary talk at the
     Higgs 2021 Conference · October 2021
   placeholder: false
 - id: talk-l6-057-higgs-physics-at-muon-colliders
@@ -1426,6 +1718,9 @@
   talk_type: invited
   slides_url: https://indico.fnal.gov/event/49756/contributions/222375/
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Higgs Physics at Muon Colliders , (remote) invited review talk at the
+    EF01-02 joint session, Snowmass Energy Frontier workshop, Sep. 2021
   date_display: September 2021
   venue: invited review talk at the EF01-02 joint session, Snowmass Energy Frontier
     workshop
@@ -1444,6 +1739,9 @@
   talk_type: invited
   slides_url: https://indico.fnal.gov/event/50346/contributions/221153/attachments/146493/187071/muon125Higgs_MuCForum_Aug2021_ZhenLiu.pdf
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Physics at the 125 GeV Muon Collider , (remote) invited review talk at
+    the Snowmass Muon Collider Forum, Aug. 2021
   date_display: August 2021
   venue: invited review talk at the Snowmass Muon Collider Forum
   category: workshop
@@ -1462,6 +1760,10 @@
   talk_type: invited
   slides_url: ''
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Millicharged particles in liquid argon neutrino experiments, (remote)
+    invited plenary talk at the Lomonosov Conferences on Elementary Particle Physics,
+    Moscow State University, Aug. 2021
   date_display: August 2021
   venue: the Lomonosov Conferences on Elementary Particle Physics
   category: plenary
@@ -1480,6 +1782,9 @@
   talk_type: invited
   slides_url: https://indico.cern.ch/event/1034469/contributions/4430780/
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: New Adventures at the LHC , (remote) invited plenary talk at the DPF meeting,
+    Florida State University, Jul. 2021
   date_display: July 2021
   venue: the DPF meeting
   category: plenary
@@ -1497,6 +1802,9 @@
   talk_type: contributed
   slides_url: https://indico.cern.ch/event/982783/contributions/4362247/
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Heavy Axion at DUNE , (remote) contributed contributed parallel talk Pheno
+    2021, University of Pittsburgh, May. 2021
   date_display: May 2021
   venue: contributed contributed parallel talk Pheno 2021
   category: workshop
@@ -1514,6 +1822,9 @@
   talk_type: contributed
   slides_url: https://indico.fnal.gov/event/48798/#11-b0800004-wimps-at-high-ener
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: WIMPs at High Energy Muon Colliders , (remote) contributed parallel talk
+    at APS April Meeting, Muon Symposium I, Apr. 2021
   date_display: April 2021
   venue: contributed parallel talk at APS April Meeting, Muon Symposium I
   category: workshop
@@ -1532,6 +1843,9 @@
   talk_type: invited
   slides_url: https://indico.fnal.gov/event/47969/contributions/209290/
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: 'Ultra-light DM: theory overview , (remote) invited overview talk at Optomechanics
+    for dark matter detection - 2nd edition, Apr. 2021'
   date_display: April 2021
   venue: invited overview talk at Optomechanics for dark matter detection - 2nd edition
   category: workshop
@@ -1550,6 +1864,10 @@
   talk_type: invited
   slides_url: https://indico.ihep.ac.cn/event/13888/session/13/contribution/75/material/slides/0.pdf
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Top coupling measurement with 360 GeV at CEPC , (remote) invited talk
+    at physics sessions, Joint Workshop of the CEPC Physics, Software and New Detector
+    Concept, Apr. 2021
   date_display: April 2021
   venue: physics sessions, Joint Workshop of the CEPC Physics, Software and New Detector
     Concept
@@ -1568,6 +1886,9 @@
   talk_type: seminar
   slides_url: ''
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Physics Potential for High Energy Muon Colliders, (remote) HEP/PA Seminar,
+    University of Maryland, Apr. 2021
   date_display: April 2021
   venue: HEP/PA Seminar
   category: seminar
@@ -1585,6 +1906,10 @@
   talk_type: invited
   slides_url: https://indico.ihep.ac.cn/event/13888/session/16/contribution/141/material/slides/0.pdf
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Low scale partial composite Neutrinos and CEPC tests , (remote) invited
+    talk at physics sessions, Joint Workshop of the CEPC Physics, Software and New
+    Detector Concept, Apr. 2021
   date_display: April 2021
   venue: physics sessions, Joint Workshop of the CEPC Physics, Software and New Detector
     Concept
@@ -1603,6 +1928,9 @@
   talk_type: seminar
   slides_url: ''
   video_url: https://www.youtube.com/watch?v=xgcV2oZ6aQE
+  source: Material/ZhenLiu_CV.tex
+  raw_text: LHC Opportunities in Long-Lived Signatures , (remote) SITP Seminar , Stanford
+    University, Apr. 2021
   date_display: April 2021
   venue: SITP Seminar
   category: seminar
@@ -1619,6 +1947,9 @@
   talk_type: seminar
   slides_url: ''
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Opto-mechanical quantum sensing for ultralight dark matter, (remote) High
+    Energy Experiment Seminar, Boston University, Feb. 2021
   date_display: February 2021
   venue: High Energy Experiment Seminar
   category: seminar
@@ -1635,6 +1966,9 @@
   talk_type: seminar
   slides_url: ''
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: LHC Opportunities in Long-Lived Signatures, (remote) HEP-Astro Seminar,
+    University of Michigan--Ann Arbor, Feb. 2021
   date_display: February 2021
   venue: HEP-Astro Seminar
   category: seminar
@@ -1652,6 +1986,9 @@
   talk_type: seminar
   slides_url: ''
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Physics Potential for High Energy Muon Colliders, (remote) Particle Theory
+    Seminar, University of Michigan--Ann Arbor, Jan. 2021
   date_display: January 2021
   venue: Particle Theory Seminar
   category: seminar
@@ -1668,6 +2005,9 @@
   talk_type: seminar
   slides_url: ''
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Opportunities in Long-Lived Signatures, (remote) High Energy Physics Center
+    Seminar, Peking University, Jan. 2021
   date_display: January 2021
   venue: High Energy Physics Center Seminar
   category: seminar
@@ -1685,6 +2025,9 @@
   talk_type: invited
   slides_url: https://indico.cern.ch/event/969815/timetable/?layout=room#58-physics-at-higgs-factories
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: 'Physics at Higgs factories , (remote) invited overview talk at PITT-PACC
+    workshop: Muon Collider Physics, PITT-PACC, University of Pittsburgh, Dec. 2020'
   date_display: December 2020
   venue: University of Pittsburgh
   category: workshop
@@ -1702,6 +2045,9 @@
   talk_type: talk
   slides_url: https://indico.cern.ch/event/922192/contributions/4078382/
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Summary and Future Plans of Working Group 3 , (remote) summary talk at
+    the 17th Workshop of the LHC Higgs Working Group, CERN, Nov. 2020
   date_display: November 2020
   venue: summary talk at the 17th Workshop of the LHC Higgs Working Group
   category: workshop
@@ -1719,6 +2065,9 @@
   talk_type: seminar
   slides_url: ''
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Physics Potential for High Energy Muon Colliders, (remote) SLAC EPP Theory
+    Seminar, SLAC, Nov. 2020
   date_display: November 2020
   venue: SLAC
   category: seminar
@@ -1735,6 +2084,9 @@
   talk_type: contributed
   slides_url: https://indico.ihep.ac.cn/event/11444/session/2/contribution/202/material/slides/
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Higgs Rare Decays into Dark Sectors , (remote) parallel talk at CEPC2020,
+    Shanghai Jiaotong University, Nov. 2020
   date_display: November 2020
   venue: CEPC2020
   category: workshop
@@ -1752,6 +2104,10 @@
   talk_type: talk
   slides_url: ''
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: 'WIMPs at future high energy muon colliders , (remote) talk at Energy
+    Frontier in Particle Physics: LHC and Future Colliders, National Taiwan University,
+    Oct. 2020'
   date_display: October 2020
   venue: 'Energy Frontier in Particle Physics: LHC and Future Colliders'
   category: workshop
@@ -1769,6 +2125,9 @@
   talk_type: contributed
   slides_url: https://indico.cern.ch/event/856696/timetable/?view=standard#172-theory-overview-long-lived
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Interference effects in heavy Higgs searches , (remote) parallel talk
+    at Higgs2020, Oct. 2020
   date_display: October 2020
   venue: Higgs2020
   category: workshop
@@ -1785,6 +2144,9 @@
   talk_type: talk
   slides_url: ''
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Higgs Rare Decays into Dark Sectors , (remote) talk at American Linear
+    Collider Workshop, SLAC, Oct. 2020
   date_display: October 2020
   venue: American Linear Collider Workshop
   category: workshop
@@ -1802,6 +2164,9 @@
   talk_type: talk
   slides_url: ''
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Dark SRF Theory & Preliminary Results, (remote) talk at the first meeting
+    of the Superconducting Quantum Materials and Systems Center, Fermilab, Oct. 2020
   date_display: October 2020
   venue: the first meeting of the Superconducting Quantum Materials and Systems Center
   category: workshop
@@ -1821,6 +2186,10 @@
   talk_type: seminar
   slides_url: ''
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: A high energy muon collider looming? Physics Potential for High Energy
+    Muon Colliders, (remote) virtual Particle Physics on the Plains Theory seminar
+    , Kansas University, Oct. 2020
   date_display: October 2020
   venue: virtual Particle Physics on the Plains Theory seminar
   category: seminar
@@ -1837,6 +2206,9 @@
   talk_type: talk
   slides_url: https://conference-indico.kek.jp/event/117/timetable/#b-927-kek-ph-collider-lecture
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: 'Hadron Collider Physics 1: Basic Concepts; & 2: Advanced Topics (remote)
+    KEK-PH Lectures and Workshops, KEK, Aug. 2020'
   date_display: August 2020
   venue: KEK-PH Lectures and Workshops, KEK
   category: lecture
@@ -1853,6 +2225,9 @@
   talk_type: seminar
   slides_url: ''
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Seeking Hidden Sector Physics at Multiple Frontiers, (remote) Departmental
+    Colloquium, Zhejiang University, Jul. 2020
   date_display: July 2020
   venue: Zhejiang University
   category: colloquium
@@ -1869,6 +2244,9 @@
   talk_type: contributed
   slides_url: https://indico.cern.ch/event/856696/timetable/?view=standard#172-theory-overview-long-lived
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: 'Theory Overview: Long-Lived Particles , (remote) parallel talk BSM2 sessions
+    at LHCP2020, Paris, May. 2020'
   date_display: May 2020
   venue: parallel talk BSM2 sessions at LHCP2020, Paris
   category: workshop
@@ -1885,6 +2263,9 @@
   talk_type: seminar
   slides_url: ''
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Opto-Mechanical Quantum sensing for ultralight dark matter (slides), (remote)
+    Joint AMO-HEP seminar , University of Oklahoma , May. 2020
   date_display: May 2020
   venue: Joint AMO-HEP seminar
   category: seminar
@@ -1901,6 +2282,9 @@
   talk_type: invited
   slides_url: https://indico.cern.ch/event/858682/contributions/3840423/
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: BSM opportunities at the LHC , (remote) plenary talk at Pheno 2020, University
+    of Pittsburgh, May. 2020
   date_display: May 2020
   venue: Pheno 2020
   category: plenary
@@ -1917,6 +2301,9 @@
   talk_type: seminar
   slides_url: ''
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Seeking Hidden Sector Physics at Multiple Frontiers , Departmental Colloquium
+    , Utah University, Salt Lake City, Utah, Feb. 2020
   date_display: February 2020
   venue: Utah University
   category: colloquium
@@ -1933,6 +2320,9 @@
   talk_type: seminar
   slides_url: ''
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Hunting Hidden Messengers , Seminar , University of Minnesota, Minneapolis,
+    MN, Feb. 2020
   date_display: February 2020
   venue: Seminar
   category: seminar
@@ -1949,6 +2339,9 @@
   talk_type: seminar
   slides_url: ''
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Hunting Hidden Messengers , HEP Seminar , University of Maryland, College
+    Park, MD, Feb. 2020
   date_display: February 2020
   venue: HEP Seminar
   category: seminar
@@ -1966,6 +2359,9 @@
   talk_type: talk
   slides_url: ''
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Probing a High Quality Axion at the LHC, (remote) talk at the CMS Long-Lived
+    Particles workshop, CERN, Geneva, Switzerland, Jan. 2020
   date_display: January 2020
   venue: the CMS Long-Lived Particles workshop
   category: workshop
@@ -1984,6 +2380,9 @@
   talk_type: contributed
   slides_url: http://ias.ust.hk/program/shared\_doc/2020/202001hep/conf/20200121\_2042\_pm\_Zhen\_LIU.pdf
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Probing a High Quality Axion at the LHC , parallel talk at the IAS HEP
+    program conference, HKIAS/HKUST, Hong Kong, China, Jan. 2020
   date_display: January 2020
   venue: the IAS HEP program conference, HKIAS/HKUST
   category: workshop
@@ -2002,6 +2401,10 @@
   talk_type: talk
   slides_url: https://indico.cern.ch/event/838435/timetable/?layout=room#52-probing-non-universal-theor
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Probing Non-Universal Theories Through Higgs Processes at Hadron Colliders
+    , talk at the 3rd FCC Physics and Experiments Workshop, CERN, Geneva, Switzerland,
+    Jan. 2020
   date_display: January 2020
   venue: the 3rd FCC Physics and Experiments Workshop
   category: workshop
@@ -2020,6 +2423,9 @@
   talk_type: talk
   slides_url: http://ias.ust.hk/program/shared\_doc/2020/202001hep/workshop/Meeting/20200118\_2042\_pm\_Zhen\_LIU.pdf
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Higgs-Top Couplings , talk at the Physics Potential Study for Future e+e-
+    Higgs Factories miniworkshop, HKIAS/HKUST, Hong Kong, China, Jan. 2020
   date_display: January 2020
   venue: the Physics Potential Study for Future e+e- Higgs Factories miniworkshop,
     HKIAS/HKUST
@@ -2039,6 +2445,9 @@
   talk_type: talk
   slides_url: https://indico.cern.ch/event/838435/timetable/?layout=room#48-electroweak-phase-transitio
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Higgs Exotic Decays meets Electroweak Phase Transition , talk at the 3rd
+    FCC Physics and Experiments Workshop, CERN, Geneva, Switzerland, Jan. 2020
   date_display: January 2020
   venue: the 3rd FCC Physics and Experiments Workshop
   category: workshop
@@ -2057,6 +2466,9 @@
   talk_type: talk
   slides_url: https://indico.ihep.ac.cn/event/11160/
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Physics cases for e+e- 350 365 GeV runs , (remote) talk at Physics potential
+    for top threshold run at e+e- collider, IHEP, Beijing, Dec. 2019
   date_display: December 2019
   venue: Physics potential for top threshold run at e+e- collider, Beijing
   category: seminar
@@ -2075,6 +2487,9 @@
   talk_type: seminar
   slides_url: ''
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: LHC opportunities in long-lived signatures from hidden sectors, Nuclear
+    and Particle Physics seminar , Rice University, Houston, TX, Dec. 2019
   date_display: December 2019
   venue: Nuclear and Particle Physics seminar
   category: seminar
@@ -2092,6 +2507,10 @@
   talk_type: seminar
   slides_url: ''
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: LHC opportunities in long-lived signatures from hidden sectors, Seminar
+    , Perimeter Institute for Theoretical Physics, Waterloo, Ontario, Canada, Dec.
+    2019
   date_display: December 2019
   venue: Seminar, Waterloo
   category: seminar
@@ -2109,6 +2528,9 @@
   talk_type: seminar
   slides_url: ''
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Opening the Window to the Hidden World, Physics department colloquium
+    , University of Colima, Colima, Mexico, Nov. 2019
   date_display: November 2019
   venue: Colima, Mexico
   category: colloquium
@@ -2127,6 +2549,10 @@
   talk_type: invited
   slides_url: https://indico.cern.ch/event/849129/timetable/#13-theory-overview
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: 'LLP Theory Overview , (remote) plenary overview talk at the Searching
+    for long-lived particles at the LHC: Sixth workshop of the LHC LLP Community,
+    Ghent University, Belgium, Nov, 2019'
   date_display: November 2019
   venue: 'plenary overview talk at the Searching for long-lived particles at the LHC:
     Sixth workshop of the LHC LLP Community, Belgium, Nov, 2019'
@@ -2146,6 +2572,9 @@
   talk_type: contributed
   slides_url: https://indico.ihep.ac.cn/event/9960/session/11/contribution/42
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Higgs Exotic Decays meets Electroweak Phase Transition , parallel talk
+    at CEPC 2019, IHEP, Beijing, China, Nov. 2019
   date_display: November 2019
   venue: CEPC 2019
   category: workshop
@@ -2163,6 +2592,10 @@
   talk_type: invited
   slides_url: https://indico.cern.ch/event/826136/contributions/3567959/
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Higgs Opportunities at the LHC , plenary vision/outlook talk at the 16th
+    workshop of the LHC Higgs Cross Section Working Group, CERN, Geneva, Switzerland,
+    Oct. 2019
   date_display: October 2019
   venue: plenary vision/outlook talk at the 16th workshop of the LHC Higgs Cross Section
     Working Group
@@ -2181,6 +2614,9 @@
   talk_type: talk
   slides_url: https://indico.cern.ch/event/848030/contributions/3581392/
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Direct BSM Search Opportunities Theory Overview , overview talk at West
+    Coast LHC Jamboree, SLAC, Palo Alto, CA, Oct. 2019
   date_display: October 2019
   venue: overview talk at West Coast LHC Jamboree
   category: seminar
@@ -2199,6 +2635,10 @@
   talk_type: talk
   slides_url: http://www.physics.utah.edu/\~zhaoyue/workshop/slides/1\_QSDM\_ZhenLiu\_Uath\_2019.pdf
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: 'Quantum sensing for ultralight dark matter , talk at Searching for New
+    Physics: Leaving No Stone Unturned, Utah University, Salt Lake City, UT, Aug.
+    2019'
   date_display: August 2019
   venue: 'Searching for New Physics: Leaving No Stone Unturned'
   category: seminar
@@ -2217,6 +2657,10 @@
   talk_type: invited
   slides_url: https://indico.cern.ch/event/783977/contributions/3439575/
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Overview of LLPs & LLP Opportunities at the LHC , plenary overview talk
+    at Dark Matter @ LHC 2019 workshop, University of Washington at Seattle, Seattle,
+    WA, Aug.2019
   date_display: August 2019
   venue: plenary overview talk at Dark Matter @ LHC 2019 workshop
   category: plenary
@@ -2235,6 +2679,9 @@
   talk_type: invited
   slides_url: https://indico.cern.ch/event/801577/contributions/3436014/
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Higgs Session Summary & Outlook , plenary talk at KAIST-KAIX Workshop
+    for Future Particle Accelerators, KAIST, Daejeon, South Korea, Jul. 2019
   date_display: July 2019
   venue: KAIST-KAIX Workshop for Future Particle Accelerators, KAIST
   category: plenary
@@ -2253,6 +2700,9 @@
   talk_type: talk
   slides_url: ''
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Higgs Precision Fits towards CEPC TDR, (remote) talk at ``CEPC Precision
+    Workshop'', Peking University, Beijing, China, Jul.2019
   date_display: July 2019
   venue: '``CEPC Precision Workshop'''''
   category: workshop
@@ -2270,6 +2720,9 @@
   talk_type: contributed
   slides_url: https://indico.cern.ch/event/782953/contributions/3458011/attachments/1887866/3113549/15-DPF19_HiggsExotic_ZhenLiu.pdf
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Higgs Exotic Decays at future e^+e^- Higgs factories , parallel talk at
+    DPF meeting 2019, Northeastern University, Boston, MA, JUl. 2019
   date_display: July 2019
   venue: DPF meeting 2019
   category: workshop
@@ -2287,6 +2740,9 @@
   talk_type: invited
   slides_url: https://indico.cern.ch/event/801577/contributions/3489801/
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Higgs Exotic Decays , plenary talk at KAIST-KAIX Workshop for Future Particle
+    Accelerators, KAIST, Daejeon, South Korea, Jul. 2019
   date_display: July 2019
   venue: KAIST-KAIX Workshop for Future Particle Accelerators, KAIST
   category: plenary
@@ -2305,6 +2761,9 @@
   talk_type: talk
   slides_url: https://indico.cern.ch/event/773621/contributions/3450849/
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Non-WIMP Dark Matter , talk at IFT program ``Opportunities at Future High
+    Energy Colliders'', IFT-Madrid, Madrid, Spain, Jun. 2019
   date_display: June 2019
   venue: IFT program ``Opportunities at Future High Energy Colliders'', IFT-Madrid
   category: workshop
@@ -2323,6 +2782,9 @@
   talk_type: talk
   slides_url: https://indico.cern.ch/event/773621/contributions/3461368/
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Higgs exotic decays at future colliders , talk at IFT program ``Opportunities
+    at Future High Energy Colliders'', IFT-Madrid, Madrid, Spain, Jun. 2019
   date_display: June 2019
   venue: IFT program ``Opportunities at Future High Energy Colliders'', IFT-Madrid
   category: workshop
@@ -2340,6 +2802,9 @@
   talk_type: contributed
   slides_url: https://indico.cern.ch/event/792346/contributions/3446200/attachments/1851796/3040271/1\_HNL\_LHC\_ZhenLiu\_CERN2019.pdf
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Seeking for sterile neutrinos with displaced leptons at the LHC , parallel
+    talk at 5th CERN LLP workshop, CERN, Geneva, Switzerland, May. 2019
   date_display: May 2019
   venue: CERN
   category: workshop
@@ -2357,6 +2822,9 @@
   talk_type: talk
   slides_url: https://indico.cern.ch/event/558411/contributions/3420672/
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: New ideas and new opportunities on Long-lived particle searches , talk
+    at The 4th NPIKI workshop, Korea University, Seoul, South Korea, May. 2019
   date_display: May 2019
   venue: The 4th NPIKI workshop
   category: workshop
@@ -2373,6 +2841,9 @@
   talk_type: seminar
   slides_url: ''
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Millicharged Particles in Liquid Argon Neutrino Experiments, SBN-Theory
+    seminar (remote) , Fermilab, Batavia, Illinois, May. 2019
   date_display: May 2019
   venue: SBN-Theory seminar (remote)
   category: seminar
@@ -2390,6 +2861,10 @@
   talk_type: contributed
   slides_url: https://indico.cern.ch/event/777988/contributions/3410506/
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Millicharged Particles in Liquid Argon Neutrino Experiments , parallel
+    talk at Phenomenology Symposium (Pheno2019), U of Pittsburgh, Pittsburgh, Pennsylvania,
+    May. 2019
   date_display: May 2019
   venue: Phenomenology Symposium (Pheno2019), U of Pittsburgh
   category: workshop
@@ -2407,6 +2882,9 @@
   talk_type: invited
   slides_url: https://indico.cern.ch/event/792346/contributions/3426226/attachments/1852203/3041097/14\_TimingLLP\_ZhenLiu\_CERNLLP2019.pdf
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: LLP Opportunities at HL-LHC , plenary talk at 5th CERN LLP workshop, CERN,
+    Geneva, Switzerland, May. 2019
   date_display: May 2019
   venue: CERN
   category: plenary
@@ -2424,6 +2902,9 @@
   talk_type: seminar
   slides_url: ''
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Exploring the universe through quantum interference effects, Physics department
+    colloquium, Oklahoma State University, Still Water, Oklahoma, Apr. 2019
   date_display: April 2019
   venue: Oklahoma State University
   category: colloquium
@@ -2441,6 +2922,9 @@
   talk_type: talk
   slides_url: https://indico.cern.ch/event/748043/timetable/?view=standard#44-new-ideas-to-enhance-lhc-se
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: New ideas on Long-Lived Particle Searches , talk at Aspen Winter Conference
+    ``In Pursuit of New Particles and Paradigms'', Aspen, CO, Mar.2019
   date_display: March 2019
   venue: Aspen Winter Conference ``In Pursuit of New Particles and Paradigms''
   category: workshop
@@ -2459,6 +2943,9 @@
   talk_type: seminar
   slides_url: ''
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Exploring the universe through quantum interference effects, Physics department
+    colloquium, University of Notre Dame, Notre Dame, Indiana, Mar. 2019
   date_display: March 2019
   venue: University of Notre Dame
   category: colloquium
@@ -2476,6 +2963,9 @@
   talk_type: seminar
   slides_url: ''
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: A pathway to the next discovery, Particle Physics Seminar, University
+    of Notre Dame, Notre Dame, Indiana, Mar. 2019
   date_display: March 2019
   venue: Particle Physics Seminar
   category: seminar
@@ -2492,6 +2982,9 @@
   talk_type: seminar
   slides_url: ''
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: A Pathway to the next discovery, Special EFI seminar, U of Chicago, Chicago,
+    IL, Feb. 2019
   date_display: February 2019
   venue: Special EFI seminar, U of Chicago
   category: seminar
@@ -2509,6 +3002,9 @@
   talk_type: seminar
   slides_url: ''
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Timing for BSM signals at the LHC, Joint Johns Hopkins U and U of Maryland
+    particle physics seminar, U of Maryland, College Park, MD, Nov. 2018
   date_display: November 2018
   venue: Joint Johns Hopkins U and U of Maryland particle physics seminar, U of Maryland
   category: seminar
@@ -2527,6 +3023,9 @@
   talk_type: seminar
   slides_url: ''
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Revealing new physics through Higgs on-shell interference effects, Particle
+    Physics Seminar, Florida State University, Tallahassee, FL, Nov. 2018
   date_display: November 2018
   venue: Particle Physics Seminar
   category: seminar
@@ -2544,6 +3043,9 @@
   talk_type: talk
   slides_url: ''
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: New ideas on Long-Lived Particle Searches, (remote) talk at ``CMS Exotic/BSM
+    Higgs Workshop'', CERN, Switzerland, Nov. 2018
   date_display: November 2018
   venue: '``CMS Exotic/BSM Higgs Workshop'''''
   category: workshop
@@ -2561,6 +3063,9 @@
   talk_type: contributed
   slides_url: ''
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Higgs trilinear at BSM interpretations at CEPC, parallel talk at CEPC
+    workshop 2018, IHEP, Beijing, China, Nov. 2018
   date_display: November 2018
   venue: CEPC workshop 2018
   category: workshop
@@ -2577,6 +3082,9 @@
   talk_type: contributed
   slides_url: ''
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Higgs physics interpretations at CEPC, parallel talk at CEPC workshop
+    2018, IHEP, Beijing, China, Nov. 2018
   date_display: November 2018
   venue: CEPC workshop 2018
   category: workshop
@@ -2593,6 +3101,9 @@
   talk_type: seminar
   slides_url: ''
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Timing for BSM signals at the LHC, Particle Physics Seminar, Cornell University,
+    Ithaca, NY, Oct. 2018
   date_display: October 2018
   venue: Particle Physics Seminar
   category: seminar
@@ -2610,6 +3121,9 @@
   talk_type: talk
   slides_url: ''
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: 'Precision Higgs Physics: High Energy probes, Higgs Width and Mass, (remote)
+    talk at Higgs @ HL/HE-LHC-Autumn WG2 meeting, CERN, Switzerland, Oct. 2018'
   date_display: October 2018
   venue: Higgs Width and Mass, (remote) talk at Higgs @ HL/HE-LHC-Autumn WG2 meeting
   category: workshop
@@ -2628,6 +3142,10 @@
   talk_type: contributed
   slides_url: ''
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: A global view on the Higgs self-coupling at lepton colliders , parallel
+    talk at Linear Collider WorkShop 2018, U Texas-Arlington, Arlington, TX, Oct.
+    2018
   date_display: October 2018
   venue: Linear Collider WorkShop 2018, U Texas-Arlington
   category: workshop
@@ -2646,6 +3164,9 @@
   talk_type: seminar
   slides_url: ''
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Entering a new world through the Higgs portal, Physics department colloquium,
+    the University of Texas at Arlington, Arlington, TX, Sep. 2018
   date_display: September 2018
   venue: the University of Texas at Arlington
   category: colloquium
@@ -2663,6 +3184,8 @@
   talk_type: seminar
   slides_url: ''
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Timing for BSM, Seminar at Aspen Physics Center, Aspen, CO, Aug. 2018
   date_display: August 2018
   venue: Aspen Physics Center
   category: seminar
@@ -2680,6 +3203,9 @@
   talk_type: talk
   slides_url: ''
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Long-lived particle searches at the LHC, Special theory talk at CMS weekly
+    meeting, CERN, Geneva, Switzerland, Jul. 2018
   date_display: July 2018
   venue: Special theory talk at CMS weekly meeting
   category: workshop
@@ -2698,6 +3224,9 @@
   talk_type: seminar
   slides_url: ''
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Higgs Exotic Decays, Seminar at the CERN-CKC summer workshop, CERN, Geneva,
+    Switzerland, Jul. 2018
   date_display: July 2018
   venue: CERN
   category: seminar
@@ -2714,6 +3243,9 @@
   talk_type: talk
   slides_url: ''
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Higgs Exotic Decay, talk at Higgs Hunting workshop, LAL-Paris, Paris,
+    France, Jul. 2018
   date_display: July 2018
   venue: Higgs Hunting workshop, LAL-Paris
   category: workshop
@@ -2730,6 +3262,9 @@
   talk_type: seminar
   slides_url: ''
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Long-lived particle searches at the LHC (and timing for LLP), LPC Topic
+    Of The Week (TOTW) seminar, Fermilab, Batavia, IL, Jun. 2018
   date_display: June 2018
   venue: LPC Topic Of The Week (TOTW) seminar
   category: seminar
@@ -2747,6 +3282,9 @@
   talk_type: contributed
   slides_url: ''
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Enhanced Di-Higgs Production and the Electroweak Phase Transition , parallel
+    talk at PASCOS 2018, Case Western Reserve University, Cleveland, Ohio, Jun. 2018
   date_display: June 2018
   venue: PASCOS 2018
   category: workshop
@@ -2764,6 +3302,9 @@
   talk_type: contributed
   slides_url: ''
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Timing the pulses of BSM signals, parallel talk at Phenomenology Symposium
+    (Pheno2018), U of Pittsburgh, Pittsburgh, Pennsylvania, May. 2018
   date_display: May 2018
   venue: Phenomenology Symposium (Pheno2018), U of Pittsburgh
   category: workshop
@@ -2782,6 +3323,9 @@
   talk_type: talk
   slides_url: ''
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Timing BSM, (remote) lightning round talk at the 3rd workshop for LLP
+    community, CERN, Geneva, Switzerland, May. 2018
   date_display: May 2018
   venue: lightning round talk at the 3rd workshop for LLP community
   category: workshop
@@ -2800,6 +3344,10 @@
   talk_type: seminar
   slides_url: ''
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: 'Revealing new physics through Higgs on-shell interference effects, HETG
+    Seminar, Harvard University, Cambridge, MA, May. 2018 personal remark: 100th talk
+    since in academia!'
   date_display: May 2018
   venue: 'HETG Seminar, Cambridge, MA, personal remark: 100th talk since in academia!'
   category: seminar
@@ -2817,6 +3365,9 @@
   talk_type: talk
   slides_url: https://indico.cern.ch/event/728878/
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Physics at future lepton colliders (muon collider) link(fnal access) slides,
+    Energy frontier planning at Fermilab, Batavia, IL, May. 2018
   date_display: May 2018
   venue: ''
   category: workshop
@@ -2834,6 +3385,9 @@
   talk_type: seminar
   slides_url: ''
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Timing BSM Signals at the LHC, Theory seminar--Particle Physics Lunch
+    talk, University of Chicago, Chicago, IL, Apr. 2018
   date_display: April 2018
   venue: Theory seminar--Particle Physics Lunch talk
   category: seminar
@@ -2851,6 +3405,9 @@
   talk_type: seminar
   slides_url: ''
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Revealing new physics through Higgs on-shell interference effects, Particle
+    Physics Seminar, University of Michigan, Ann Arbor, MI, Apr. 2018
   date_display: April 2018
   venue: Particle Physics Seminar
   category: seminar
@@ -2868,6 +3425,9 @@
   talk_type: contributed
   slides_url: ''
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Exotic Higgs Decays at HE/HL-LHC, parallel talk at the HL/HE LHC meeting,
+    Fermilab, Batavia, Illinois, Apr. 2018
   date_display: April 2018
   venue: the HL/HE LHC meeting
   category: workshop
@@ -2884,6 +3444,9 @@
   talk_type: seminar
   slides_url: ''
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: 'Strong phase at colliders: new physics opportunities in Higgs Physics,
+    High Energy Theory Seminar, Rutgers University, New Brunswick, NJ, Feb. 2018'
   date_display: February 2018
   venue: High Energy Theory Seminar
   category: seminar
@@ -2901,6 +3464,10 @@
   talk_type: contributed
   slides_url: ''
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Probing the Electroweak Phase Transition via Enhanced Di-Higgs Production,
+    parallel talk at the conference of the HKIAS HEP program, HKUST, Hong Kong, China,
+    Jan. 2018
   date_display: January 2018
   venue: the conference of the HKIAS HEP program, HKUST
   category: workshop
@@ -2919,6 +3486,9 @@
   talk_type: talk
   slides_url: ''
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Higgs-Top couplings, talk at the Mini-workshop on Theory of the HKIAS
+    HEP program, HKUST, Hong Kong, China, Jan. 2018
   date_display: January 2018
   venue: the Mini-workshop on Theory of the HKIAS HEP program, HKUST
   category: workshop
@@ -2936,6 +3506,9 @@
   talk_type: talk
   slides_url: ''
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Higgs self-coupling at ee from NLO global fit of single Higgs processes,
+    talk at the 2nd FCC physics workshop, CERN, Geneva, Switzerland, Jan. 2018
   date_display: January 2018
   venue: the 2nd FCC physics workshop
   category: workshop
@@ -2953,6 +3526,10 @@
   talk_type: seminar
   slides_url: ''
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: 'Strong phase at colliders: new physics opportunities in Higgs Physics,
+    High Energy Physics Seminar, the University of Illinois at Chicago, Chicago, IL,
+    Nov. 2017'
   date_display: November 2017
   venue: High Energy Physics Seminar
   category: seminar
@@ -2969,6 +3546,9 @@
   talk_type: contributed
   slides_url: ''
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Higgs Top anomalous couplings, parallel talk at the CEPC workshop 2017,
+    IHEP, Beijing, China, Nov. 2017
   date_display: November 2017
   venue: the CEPC workshop 2017
   category: workshop
@@ -2986,6 +3566,9 @@
   talk_type: seminar
   slides_url: ''
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Exploring the universe with quantum interference effects, Physics department
+    colloquium, the University of Texas at Arlington, Arlington, TX, Nov. 2017
   date_display: November 2017
   venue: the University of Texas at Arlington
   category: colloquium
@@ -3002,6 +3585,9 @@
   talk_type: contributed
   slides_url: ''
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Probing Higgs Physics Through Interference Effects, parallel talk at Brookhaven
+    Forum (BF2017), BNL, Upton, New York, Oct. 2017
   date_display: October 2017
   venue: Brookhaven Forum (BF2017), BNL
   category: workshop
@@ -3019,6 +3605,9 @@
   talk_type: talk
   slides_url: ''
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: 'Higgs Exotic Decays: semi-invisible and long-lived, (remote) talk at
+    CMS Exotic Higgs Workshop, CERN, Geneva, Switzerland, Oct. 2017'
   date_display: October 2017
   venue: CMS Exotic Higgs Workshop
   category: workshop
@@ -3036,6 +3625,9 @@
   talk_type: seminar
   slides_url: ''
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: The exciting journey ahead at the LHC, Joint Experimental-Theoretical
+    Physics Seminar (Wine & Cheese), Fermilab, Batavia, IL, Jun. 2017
   date_display: June 2017
   venue: Joint Experimental-Theoretical Physics Seminar (Wine & Cheese)
   category: seminar
@@ -3054,6 +3646,9 @@
   talk_type: contributed
   slides_url: ''
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Strong Phase in Higgs Physics, parallel talk at Phenomenology Symposium
+    (Pheno2017), U of Pittsburgh, Pittsburgh, Pennsylvania, May. 2017
   date_display: May 2017
   venue: Phenomenology Symposium (Pheno2017), U of Pittsburgh
   category: workshop
@@ -3072,6 +3667,10 @@
   talk_type: seminar
   slides_url: ''
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: 'Strong phase at colliders: new physics opportunities for ttbar resonance
+    searches and Higgs physics, Particle and Astro-particle physics seminar, CERN,
+    Geneva, Switzerland, Apr.2017'
   date_display: April 2017
   venue: Particle and Astro-particle physics seminar
   category: seminar
@@ -3090,6 +3689,9 @@
   talk_type: seminar
   slides_url: ''
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: 'Strong phase at colliders: new physics opportunities for ttbar resonance
+    searches and Higgs physics, HEP seminar, U of Maryland, DC, Apr. 2017'
   date_display: April 2017
   venue: HEP seminar
   category: seminar
@@ -3107,6 +3709,9 @@
   talk_type: talk
   slides_url: ''
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: New Physics Opportunities for ttbar resonance searches at the LHC, talk
+    at New Physics Interpretations at the LHC workshop ANL, Lemont, IL, Apr. 2017
   date_display: April 2017
   venue: New Physics Interpretations at the LHC workshop ANL
   category: workshop
@@ -3125,6 +3730,9 @@
   talk_type: invited
   slides_url: ''
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Exotic signatures - theory, plenary talk at Searches for long-lived particles
+    at the LHC workshop, CERN, Geneva, Switzerland, Apr. 2017
   date_display: April 2017
   venue: Searches for long-lived particles at the LHC workshop
   category: plenary
@@ -3143,6 +3751,10 @@
   talk_type: seminar
   slides_url: ''
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: 'Strong phase at colliders: new physics opportunities for ttbar resonance
+    searches and Higgs physics, UCI physics seminar, UC Irvine, Orange County, CA,
+    Mar. 2017'
   date_display: March 2017
   venue: UCI physics seminar, UC Irvine
   category: seminar
@@ -3160,6 +3772,10 @@
   talk_type: seminar
   slides_url: ''
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: New physics opportunities through the ttbar resonance searches at the
+    LHC, Particle theory seminar, Lawrence Berkeley National Laboratory Particle,
+    Berkeley, CA, Feb. 2017
   date_display: February 2017
   venue: Particle theory seminar
   category: seminar
@@ -3177,6 +3793,10 @@
   talk_type: seminar
   slides_url: ''
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: New ideas on long-lived superparticles with hadronic decays at the LHC,
+    LHC group lunch seminar, Lawrence Berkeley National Laboratory Particle, Berkeley,
+    CA, Feb. 2017
   date_display: February 2017
   venue: LHC group lunch seminar
   category: seminar
@@ -3194,6 +3814,10 @@
   talk_type: talk
   slides_url: ''
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: New ideas on long-lived superparticles with hadronic decays at the LHC,
+    talk at the LHC Theory Initiative Fellows Meeting 2017, SLAC, Menlo Park, CA,
+    Feb. 2017
   date_display: February 2017
   venue: the LHC Theory Initiative Fellows Meeting 2017
   category: workshop
@@ -3212,6 +3836,10 @@
   talk_type: talk
   slides_url: ''
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: New Physics Opportunities for ttbar resonance searches at the LHC, talk
+    at KEK Theory Meeting on Particle Physics Phenomenology (KEK-PH2017), KEK, Tsukuba,
+    Japan, Feb. 2017
   date_display: February 2017
   venue: KEK Theory Meeting on Particle Physics Phenomenology (KEK-PH2017), KEK
   category: workshop
@@ -3229,6 +3857,9 @@
   talk_type: talk
   slides_url: ''
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Exploring BSM Physics through the eye of Higgs boson at CEPC , talk at
+    the HKIAS HEP program 2017, HKUST, Hong Kong, Jan. 2017
   date_display: January 2017
   venue: the HKIAS HEP program 2017, HKUST, Hong Kong
   category: workshop
@@ -3245,6 +3876,9 @@
   talk_type: contributed
   slides_url: ''
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Exotic Higgs Decays at Higgs Factories , parallel talk at the HKIAS HEP
+    conference 2017, HKUST, Hong Kong, Jan. 2017
   date_display: January 2017
   venue: the HKIAS HEP conference 2017, HKUST, Hong Kong
   category: workshop
@@ -3262,6 +3896,10 @@
   talk_type: talk
   slides_url: ''
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: New ideas on Long-Lived Superparticles with Hadronic Decays at the LHC
+    , talk (2.5 hrs) at Focus Meeting on Collider Phenomenology, IBS-CTPU-PTC, Daejeon,
+    Korea, Dec. 2016
   date_display: December 2016
   venue: talk (2.5 hrs) at Focus Meeting on Collider Phenomenology, IBS-CTPU-PTC
   category: workshop
@@ -3280,6 +3918,10 @@
   talk_type: invited
   slides_url: ''
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Interplay of the LHC and the LC in Higgs physics , invited theory overview
+    talk at the Higgs/EW parallel session of LCWS2016, Morioka, Iwate, Japan, Dec.
+    2016
   date_display: December 2016
   venue: invited theory overview talk at the Higgs/EW parallel session of LCWS2016,
     Morioka
@@ -3298,6 +3940,9 @@
   talk_type: talk
   slides_url: ''
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Higgs-top couplings , talk at the Workshop on CEPC physics, Beijing, China,
+    Dec. 2016
   date_display: December 2016
   venue: the Workshop on CEPC physics
   category: workshop
@@ -3314,6 +3959,9 @@
   talk_type: talk
   slides_url: ''
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Heavy scalar searches in the ttbar channel at the LHC , remote talk at
+    LHC Dark Matter WG public meeting, CERN, Dec. 2016
   date_display: December 2016
   venue: remote talk at LHC Dark Matter WG public meeting
   category: workshop
@@ -3330,6 +3978,9 @@
   talk_type: contributed
   slides_url: ''
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Digging out (un)familiar heavy scalars from the ttbar channel at the LHC
+    , parallel talk at Higgs Couplings workshop, Menlo Park, California, Nov. 2016
   date_display: November 2016
   venue: Higgs Couplings workshop
   category: workshop
@@ -3347,6 +3998,10 @@
   talk_type: talk
   slides_url: ''
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Understanding interference effects in BSM heavy resonance searches, Fermilab
+    LPC coffee hour whiteboard talk (joint talk series with M. Carena), Batavia, IL,
+    Oct. 2016 Higgs physics opportunities at future e+e- collider
   date_display: October 2016
   venue: Batavia, IL, Higgs physics opportunities at future e+e- collider
   category: colloquium
@@ -3364,6 +4019,9 @@
   talk_type: talk
   slides_url: ''
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Long-lived superparticle with hadronic decays at the LHC, Argonne National
+    Laboratory, Lemont, IL, Oct. 2016
   date_display: October 2016
   venue: ''
   category: seminar
@@ -3381,6 +4039,9 @@
   talk_type: invited
   slides_url: ''
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: 'Higgs physics at future machines: precision and discovery program , invited
+    theory overview for the parallel session, Caltech, California, Oct. 2016'
   date_display: October 2016
   venue: invited theory overview for the parallel session
   category: workshop
@@ -3398,6 +4059,9 @@
   talk_type: talk
   slides_url: ''
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Digging out (un)familiar heavy scalars from the ttbar channel at the LHC
+    , talk at Beyond the Standard Model workshop, Ann Arbor, Michigan, Oct. 2016
   date_display: October 2016
   venue: Beyond the Standard Model workshop
   category: workshop
@@ -3415,6 +4079,9 @@
   talk_type: talk
   slides_url: ''
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Digging out (un)familiar heavy scalars from the ttbar channel at the LHC
+    , talk at Simplicity II workshop, Batavia, Illinois, Sep. 2016
   date_display: September 2016
   venue: Simplicity II workshop
   category: workshop
@@ -3431,6 +4098,9 @@
   talk_type: contributed
   slides_url: ''
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Challenges and opportunities of the ttbar resonance search at the LHC
+    , parallel talk at ICHEP2016, Chicago, Illinois, Aug. 2016
   date_display: August 2016
   venue: ICHEP2016
   category: workshop
@@ -3447,6 +4117,9 @@
   talk_type: talk
   slides_url: ''
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Higgs Exotic Decays at future lepton colliders , talk at KITPC-TEV conference,
+    Beijing, China, Jul. 2016
   date_display: July 2016
   venue: ''
   category: workshop
@@ -3463,6 +4136,9 @@
   talk_type: talk
   slides_url: ''
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Challenges and opportunities of the ttbar resonance search at the LHC
+    , talk at KITPC-TEV conference, Beijing, China, Jul. 2016
   date_display: July 2016
   venue: ''
   category: workshop
@@ -3480,6 +4156,9 @@
   talk_type: talk
   slides_url: ''
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Diboson Excess Theory Updates , talk at New Physics Interpretations workshop,
+    ANL, Lemont, Illinois, May. 2016
   date_display: May 2016
   venue: New Physics Interpretations workshop, ANL
   category: workshop
@@ -3498,6 +4177,10 @@
   talk_type: contributed
   slides_url: ''
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Challenges and opportunities of the ttbar resonance search at the LHC
+    , parallel talk at Phenomenology 2016 Symposium (Pheno2016), Pittsburgh, Pennsylvania,
+    May. 2016
   date_display: May 2016
   venue: Phenomenology 2016 Symposium (Pheno2016)
   category: workshop
@@ -3512,14 +4195,17 @@
   event: University of Wisconsin-Madison, Madison, Wisconsin, Mar. 2016
   host: University of Wisconsin-Madison
   location: Madison, Wisconsin
-  talk_type: talk
+  talk_type: seminar
   slides_url: ''
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Higgs physics opportunities at future e^+e^- collider, Theory seminar,
+    University of Wisconsin-Madison, Madison, Wisconsin, Mar. 2016
   date_display: March 2016
-  venue: ''
+  venue: Theory seminar
   category: seminar
   scheduled: false
-  event_display: University of Wisconsin-Madison · Madison, Wisconsin · March 2016
+  event_display: Theory seminar · Madison, Wisconsin · March 2016
   placeholder: false
 - id: talk-l5-068-higgs-physics-opportunities-at-future-e-e-collider
   title: Higgs physics opportunities at future e^+e^- collider
@@ -3532,6 +4218,10 @@
   talk_type: seminar
   slides_url: ''
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Higgs physics opportunities at future e^+e^- collider, Particle physics
+    seminar, University of Illinois at Urbana-Champaign, Champaign, Illinois, Feb.
+    2016
   date_display: February 2016
   venue: Particle physics seminar
   category: seminar
@@ -3548,6 +4238,9 @@
   talk_type: talk
   slides_url: ''
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Running after Diphoton , special talk at HKIAS meeting, HKUST, Hong Kong,
+    China, Jan.2016
   date_display: January 2016
   venue: special talk at HKIAS meeting, HKUST
   category: workshop
@@ -3565,6 +4258,9 @@
   talk_type: contributed
   slides_url: ''
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Probing the Higgs with Angular Observables at Future e+e- Colliders ,
+    parallel talk at HKIAS meeting, HKUST, Hong Kong, China, Jan.2016
   date_display: January 2016
   venue: HKIAS meeting, HKUST
   category: workshop
@@ -3581,6 +4277,9 @@
   talk_type: seminar
   slides_url: ''
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Long-lived superparticle with hadronic decays at the LHC, CFHEP particle
+    physics seminar, IHEP, Beijing, China, Jan. 2016
   date_display: January 2016
   venue: CFHEP particle physics seminar
   category: seminar
@@ -3598,6 +4297,9 @@
   talk_type: seminar
   slides_url: ''
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Higgs physics opportunities at future e^+e^- collider, Particle Physics
+    Seminar, Northwestern University, Evanston, Illinois, Nov. 2015
   date_display: November 2015
   venue: Particle Physics Seminar
   category: seminar
@@ -3614,6 +4316,9 @@
   talk_type: invited
   slides_url: ''
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Exciting opportunities in a boosted hadronic diboson excess , invited
+    young physicist lightning talk, US LUA 2015, Batavia, Nov.2015
   date_display: November 2015
   venue: invited young physicist lightning talk, US LUA 2015, Batavia
   category: workshop
@@ -3632,6 +4337,9 @@
   talk_type: seminar
   slides_url: ''
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Interpreting recent 2 TeV excesses at the LHC, Particle Physics Seminar,
+    University of Notre Dame, Notre Dame, Indiana, Sep. 2015
   date_display: September 2015
   venue: Particle Physics Seminar
   category: seminar
@@ -3649,6 +4357,9 @@
   talk_type: seminar
   slides_url: ''
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Interpreting recent 2 TeV excesses at the LHC, HEP Seminar, Stanford Linear
+    Accelerator Laboratory, Menlo Park, California, Sep. 2015
   date_display: September 2015
   venue: HEP Seminar
   category: seminar
@@ -3665,6 +4376,9 @@
   talk_type: seminar
   slides_url: ''
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Interpreting recent 2 TeV excesses at the LHC, HEP Seminar, Michigan State
+    University, East Lansing, Michigan, Sep. 2015
   date_display: September 2015
   venue: HEP Seminar
   category: seminar
@@ -3682,6 +4396,9 @@
   talk_type: talk
   slides_url: ''
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Closer look at the hadronic diboson excess at the LHC, LHC result forum,
+    Remote talk hosted by University of Texas-Austin, Sep. 2015
   date_display: September 2015
   venue: LHC result forum
   category: workshop
@@ -3715,6 +4432,9 @@
   talk_type: contributed
   slides_url: ''
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Long-Lived Superparticles with Hadronic Decays at the LHC , parallel talk
+    at SUSY 2015, Lake Tahoe, California, Aug.2015
   date_display: August 2015
   venue: SUSY 2015
   category: workshop
@@ -3731,6 +4451,9 @@
   talk_type: contributed
   slides_url: ''
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Long-Lived Superparticles with Hadronic Decays at the LHC , parallel talk
+    at DPF meeting 2015, Ann Arbor, Michigan, Aug.2015
   date_display: August 2015
   venue: DPF meeting 2015
   category: workshop
@@ -3748,6 +4471,9 @@
   talk_type: seminar
   slides_url: ''
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Interpreting recent 2 TeV excesses at the LHC, Particle Physics Seminar,
+    University of Pittsburgh, Pittsburgh, Pennsylvania, Aug. 2015
   date_display: August 2015
   venue: Particle Physics Seminar
   category: seminar
@@ -3764,6 +4490,9 @@
   talk_type: contributed
   slides_url: ''
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Anatomizing BSM effects with differential Higgsstrahlung observables ,
+    parallel talk at DPF meeting 2015, Ann Arbor, Michigan, Aug.2015
   date_display: August 2015
   venue: DPF meeting 2015
   category: workshop
@@ -3781,6 +4510,9 @@
   talk_type: talk
   slides_url: ''
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: New Physics Opportunities from Tau lepton , talk at LPC Tau HATS (Tau
+    Hands-on Tutorial Sessions), Fermilab, Illinois, Jul.2015
   date_display: July 2015
   venue: LPC Tau HATS (Tau Hands-on Tutorial Sessions)
   category: workshop
@@ -3798,6 +4530,8 @@
   talk_type: talk
   slides_url: ''
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: A Model for 2 TeV W^ , LPC Physics Forum, Fermilab, Illinois, Jul.2015
   date_display: July 2015
   venue: LPC Physics Forum
   category: workshop
@@ -3814,6 +4548,9 @@
   talk_type: talk
   slides_url: ''
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Dark Matter and Higgs Bosons in the MSSM + B_s->mumu implication , talk
+    at Chicagoland ATLAS-Pheno Meeting, ANL, Illinois, Jun.2015
   date_display: June 2015
   venue: Chicagoland ATLAS-Pheno Meeting
   category: workshop
@@ -3831,6 +4568,9 @@
   talk_type: contributed
   slides_url: ''
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Long-Lived Superparticles with Hadronic Decays at the LHC , parallel talk
+    at Phenomenology 2015 Symposium (Pheno2015), Pittsburgh, Pennsylvania, May.2015
   date_display: May 2015
   venue: Phenomenology 2015 Symposium (Pheno2015)
   category: workshop
@@ -3849,6 +4589,9 @@
   talk_type: talk
   slides_url: ''
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Higgs Coupling Fits , talk at Higgs/Z-factory meeting, Institute of Theoretical
+    Physics Chinese Academy of Sciences (ITP-CAS), Beijing, China, Mar.2015
   date_display: March 2015
   venue: Higgs/Z-factory meeting
   category: workshop
@@ -3865,6 +4608,9 @@
   talk_type: talk
   slides_url: ''
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: A Selected Review on Higgs Couplings, Institute of High Energy Physics
+    (IHEP), Beijing, China, Mar. 2015
   date_display: March 2015
   venue: ''
   category: seminar
@@ -3882,6 +4628,9 @@
   talk_type: talk
   slides_url: ''
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Some Aspects of Higgs Couplings at Colliders , Michigan State University,
+    East Lansing, Michigan, Feb. 2015
   date_display: February 2015
   venue: ''
   category: seminar
@@ -3899,6 +4648,9 @@
   talk_type: talk
   slides_url: ''
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: 'Neutralino Dark Matter in the (N)MSSM: Direct/Indirect Detection and
+    Collider Searches , Argonne National Laboratory, Lemont, Illinois, Nov. 2014'
   date_display: November 2014
   venue: ''
   category: seminar
@@ -3916,6 +4668,9 @@
   talk_type: talk
   slides_url: ''
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: 'Neutralino Dark Matter in the (N)MSSM: Direct/Indirect Detection and
+    Collider Searches , Brookhaven National Laboratory, Upton, New York, Sep. 2014'
   date_display: September 2014
   venue: ''
   category: seminar
@@ -3933,6 +4688,9 @@
   talk_type: talk
   slides_url: ''
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: ZPrime at 100 TeV Collider , talk at Next steps in the Energy Frontier
+    - Hadron Colliders, Workshop at LPC@FNAL, Fermilab, Illinois, Aug. 2014
   date_display: August 2014
   venue: Next steps in the Energy Frontier - Hadron Colliders
   category: workshop
@@ -3952,6 +4710,10 @@
   talk_type: seminar
   slides_url: ''
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: 'Neutralino Dark Matter in the (N)MSSM: Direct/Indirect Detection and
+    Collider Searches , Institute for Particle Physics Phenomenology (IPPP) seminar,
+    Durham University, United Kingdom, Aug. 2014'
   date_display: August 2014
   venue: Institute for Particle Physics Phenomenology (IPPP) seminar
   category: seminar
@@ -3971,6 +4733,10 @@
   talk_type: seminar
   slides_url: ''
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: 'Neutralino Dark Matter in the (N)MSSM: Direct/Indirect Detection and
+    Collider Searches , Southampton High Energy Physics (SHEP) seminar, Southampton
+    University, United Kingdom, Aug. 2014'
   date_display: August 2014
   venue: Southampton High Energy Physics (SHEP) seminar
   category: seminar
@@ -3989,6 +4755,9 @@
   talk_type: contributed
   slides_url: ''
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: The Case of Light Neutralino Dark matter , parallel talk at SUSY 2014,
+    University of Manchester, Manchester, UK, Jul. 2014
   date_display: July 2014
   venue: SUSY 2014
   category: workshop
@@ -4007,6 +4776,10 @@
   talk_type: seminar
   slides_url: ''
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: 'Neutralino Dark Matter in the (N)MSSM: Direct/Indirect Detection and
+    Collider Searches , HEP phenomenology joint Cavendish-DAMTP seminar, Cambridge
+    University, United Kingdom, Jul. 2014'
   date_display: July 2014
   venue: HEP phenomenology joint Cavendish-DAMTP seminar
   category: seminar
@@ -4025,6 +4798,9 @@
   talk_type: contributed
   slides_url: ''
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: The Case of Light Neutralino Dark matter , parallel talk at Phenomenology
+    2014 Symposium (Pheno2014) , Pittsburgh, Pennsylvania, May.2014
   date_display: May 2014
   venue: Phenomenology 2014 Symposium (Pheno2014)
   category: workshop
@@ -4042,6 +4818,9 @@
   talk_type: contributed
   slides_url: ''
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Higgs Physics at the Muon Collider , parallel talk at MAP 2014 Spring
+    Meeting, Fermilab, Illinois, May. 2014
   date_display: May 2014
   venue: MAP 2014 Spring Meeting
   category: workshop
@@ -4058,6 +4837,9 @@
   talk_type: seminar
   slides_url: ''
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Shiny Heavy Higgs Boson at Muon Collider , PITT-PACC Group Seminar, Pittsburgh,
+    Pennsylvania, Mar.2014
   date_display: March 2014
   venue: PITT-PACC Group Seminar
   category: seminar
@@ -4075,6 +4857,9 @@
   talk_type: talk
   slides_url: ''
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Light Neutralino Dark Matter (in the NMSSM) , talk at Determining the
+    Next Scale in High Energy Physics workshop, Pittsburgh, Pennsylvania, Nov.2013
   date_display: November 2013
   venue: Determining the Next Scale in High Energy Physics workshop
   category: workshop
@@ -4092,6 +4877,8 @@
   talk_type: talk
   slides_url: ''
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Higgs Bosons and the (N)MSSM , Zhejiang University, Hangzhou, China, Sep.2013
   date_display: September 2013
   venue: ''
   category: seminar
@@ -4108,6 +4895,9 @@
   talk_type: talk
   slides_url: ''
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Higgs Physics at the Muon Collider , talk at International Symposium on
+    Higgs Physics , Beijing, China, Aug.2013
   date_display: August 2013
   venue: International Symposium on Higgs Physics
   category: workshop
@@ -4125,6 +4915,28 @@
   talk_type: contributed
   slides_url: ''
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: mu-mu Collider , parallel talk at Snowmass Workshop at Seattle , UW-Seattle,
+    Washington, Jun.2013
+  date_display: June 2013
+  venue: Snowmass Workshop at Seattle
+  category: workshop
+  scheduled: false
+  event_display: Snowmass Workshop at Seattle · UW-Seattle, Washington · June 2013
+  placeholder: false
+- id: talk-l6-153-zprime-parallel-talk-at-snowmass-workshop-at-seattle-uw-seattle-washington-jun-2013
+  title: ZPrime
+  year: 2013
+  date: '2013-06-01'
+  event: ''
+  host: ''
+  location: UW-Seattle, Washington
+  talk_type: contributed
+  slides_url: ''
+  video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: ZPrime , parallel talk at Snowmass Workshop at Seattle , UW-Seattle, Washington,
+    Jun.2013
   date_display: June 2013
   venue: Snowmass Workshop at Seattle
   category: workshop
@@ -4157,6 +4969,9 @@
   talk_type: talk
   slides_url: ''
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Dark Matter and Higgs Bosons in the MSSM , talk at Snowmass on the Pacific
+    , UCSB, California, Jun.2013
   date_display: June 2013
   venue: Snowmass on the Pacific
   category: workshop
@@ -4173,6 +4988,9 @@
   talk_type: talk
   slides_url: ''
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: 'Dark Matter and Higgs Bosons in the MSSM , talk at Dark Matter: from
+    Space to Supercolliders , OSU, Ohio, May.2013'
   date_display: May 2013
   venue: 'Dark Matter: from Space to Supercolliders'
   category: workshop
@@ -4190,6 +5008,9 @@
   talk_type: contributed
   slides_url: ''
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Dark Matter and Higgs Bosons in the MSSM , parallel talk at Phenomenology
+    Symposium 2013 , Pittsburgh, Pennsylvania, May.2013
   date_display: May 2013
   venue: Phenomenology Symposium 2013
   category: workshop
@@ -4206,6 +5027,9 @@
   talk_type: contributed
   slides_url: ''
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: NMSSM Higgs Physics , parallel talk at Snowmass Energy Frontier Workshop
+    , BNL, New York, Apr.2013
   date_display: April 2013
   venue: Snowmass Energy Frontier Workshop
   category: workshop
@@ -4223,6 +5047,9 @@
   talk_type: invited
   slides_url: ''
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Direct Measurement of the Higgs Boson , plenary talk at Higgs Factory
+    Muon Collider Workshop , UCLA, California, Mar.2013
   date_display: March 2013
   venue: Higgs Factory Muon Collider Workshop
   category: plenary
@@ -4239,6 +5066,9 @@
   talk_type: talk
   slides_url: ''
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Dark Matter and the Higgs Bosons in the MSSM , Brookhaven National Laboratory,
+    New York, Mar.2013
   date_display: March 2013
   venue: ''
   category: seminar
@@ -4256,6 +5086,9 @@
   talk_type: talk
   slides_url: ''
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Dark Matter and the Higgs Bosons in the MSSM , talk at LHC-Theoretical
+    Initiative (LHC-TI) Meeting 2013 , SUNY-SB, New York, Mar.2013
   date_display: March 2013
   venue: LHC-Theoretical Initiative (LHC-TI) Meeting 2013
   category: workshop
@@ -4273,6 +5106,9 @@
   talk_type: seminar
   slides_url: ''
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Direct Measurement of Higgs Width at Muon Collider , PITT-PACC Group Seminar,
+    Pittsburgh, Pennsylvania, Nov.2012
   date_display: November 2012
   venue: PITT-PACC Group Seminar
   category: seminar
@@ -4289,6 +5125,9 @@
   talk_type: talk
   slides_url: ''
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Direct Measurement of Higgs Width at Muon Collider , remote talk at Muon
+    Collider Physics and Detector , Fermilab, Illinois, Nov.2012
   date_display: November 2012
   venue: remote talk at Muon Collider Physics and Detector
   category: seminar
@@ -4306,6 +5145,9 @@
   talk_type: seminar
   slides_url: ''
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: LHC Implications for the NMSSM , PITT-PACC Group Seminar, Pittsburgh,
+    Pennsylvania, Oct.2012
   date_display: October 2012
   venue: PITT-PACC Group Seminar
   category: seminar
@@ -4323,6 +5165,9 @@
   talk_type: talk
   slides_url: ''
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: LHC Implications for the NMSSM , talk at, PITT-PACC Workshop--The Higgs
+    Boson and the Next Discovery , Pittsburgh, Pennsylvania, Oct.2012
   date_display: October 2012
   venue: talk at
   category: workshop
@@ -4340,6 +5185,10 @@
   talk_type: contributed
   slides_url: ''
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: LHC Implications for the NMSSM , parallel talk at 20th International Conference
+    on Supersymmetry and Unification of Fundamental Interactions (SUSY2012) , Beijing,
+    China, Aug.2012
   date_display: August 2012
   venue: 20th International Conference on Supersymmetry and Unification of Fundamental
     Interactions (SUSY2012)
@@ -4359,6 +5208,9 @@
   talk_type: contributed
   slides_url: ''
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: LHC Implications for the NMSSM , parallel talk at The International Conference
+    on Flavor Physics and Cosmophysics 2012 (ICFPC2012) , Weihai, China, Aug.2012
   date_display: August 2012
   venue: The International Conference on Flavor Physics and Cosmophysics 2012 (ICFPC2012)
   category: workshop
@@ -4377,6 +5229,9 @@
   talk_type: contributed
   slides_url: ''
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: LHC Implications for the NMSSM , parallel talk at Phenomenology 2012 Symposium
+    (Pheno2012) , Pittsburgh, Pennsylvania, May.2012
   date_display: May 2012
   venue: Phenomenology 2012 Symposium (Pheno2012)
   category: workshop
@@ -4395,6 +5250,9 @@
   talk_type: talk
   slides_url: ''
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Diagnosis on Colored Resonances , student talk at Pan-American Advanced
+    Studies Institute 2012 (PASI2012) , Buenos Aires, Argentina, Mar.2012
   date_display: March 2012
   venue: Buenos Aires, Argentina
   category: seminar
@@ -4411,6 +5269,9 @@
   talk_type: talk
   slides_url: ''
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Diagnosis on Colored Resonances , Zhejiang University, Hangzhou, China,
+    Dec.2011
   date_display: December 2011
   venue: ''
   category: seminar
@@ -4427,6 +5288,9 @@
   talk_type: talk
   slides_url: ''
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Diagnosis on Colored Resonances , PITT-PACC, Pittsburgh, Pennsylvania,
+    Dec.2011
   date_display: December 2011
   venue: ''
   category: seminar
@@ -4444,6 +5308,9 @@
   talk_type: talk
   slides_url: ''
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Diagnosis on Colored Resonances , talk at LHC-Theoretical Initiative (LHC-TI)
+    Meeting 2011 , SLAC, California, Oct.2011
   date_display: October 2011
   venue: LHC-Theoretical Initiative (LHC-TI) Meeting 2011
   category: workshop
@@ -4462,6 +5329,9 @@
   talk_type: contributed
   slides_url: ''
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Colored Resonances at the LHC , parallel talk at String Phenomenology
+    Symposium 2011 (StringPheno2011) , UW-Madison, Wisconsin, Aug.2011
   date_display: August 2011
   venue: String Phenomenology Symposium 2011 (StringPheno2011)
   category: workshop
@@ -4481,6 +5351,10 @@
   talk_type: talk
   slides_url: ''
   video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Colored Resonances at the LHC , student talk at Theoretical Advanced Studies
+    Institute in Elementary Particle Physics 2011 (TASI2011) , Boulder, Colorado,
+    Jun.2011
   date_display: June 2011
   venue: ''
   category: seminar

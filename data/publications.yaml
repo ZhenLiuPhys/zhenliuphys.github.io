@@ -1,3 +1,21 @@
+- id: pub-l1-001-new-gauge-forces
+  title: New Gauge Forces
+  year: 2026
+  date: '2026-06-01'
+  authors: ''
+  venue: Neutron Stars and Schwinger Neutrino Production, Y.X. Liu, Z. Liu, A. Shkerin,
+    J. Shu, Y. Zhao, submitted, 2606.20393 [hep-ph](2026)
+  doi: ''
+  arxiv: '2606.20393'
+  journal_url: ''
+  section: refereed_journals
+  featured: false
+  source: Material/ZhenLiu_CV.tex
+  raw_text: New Gauge Forces, Neutron Stars and Schwinger Neutrino Production, Y.X.
+    Liu, Z. Liu, A. Shkerin, J. Shu, Y. Zhao, submitted, 2606.20393 [hep-ph](2026)
+  journal: Y.X. Liu, Z. Liu, A. Shkerin, J. Shu, Y. Zhao, submitted
+  status: ''
+  venue_display: Y.X. Liu, Z. Liu, A. Shkerin, J. Shu, Y. Zhao, submitted
 - id: pub-l1-002-electroweak-restoration-smeft-and-heft
   title: 'Electroweak Restoration: SMEFT and HEFT'
   year: 2026
@@ -9,33 +27,32 @@
   journal_url: ''
   section: refereed_journals
   featured: false
+  source: Material/ZhenLiu_CV.tex
+  raw_text: 'Electroweak Restoration: SMEFT and HEFT, I. Lewis, Z. Liu, I. Mahbub,
+    submitted, 2605.08433 [hep-ph](2026)'
   journal: Z. Liu, I. Mahbub, submitted
   status: ''
   venue_display: Z. Liu, I. Mahbub, submitted
-  tags:
-  - higgs
-  - bsm
-  - eft
 - id: pub-l1-001-a-new-source-of-millicharged-particles-secondary-showers-in-the-lhc-forward-absorber
   title: 'A New Source of Millicharged Particles: Secondary Showers in the LHC Forward
     Absorber'
   year: 2026
   date: '2026-05-01'
   authors: ''
-  venue: J. Adhikary, P.R. Li, Z. Liu, S. Trojanowski, A. Zabihi, submitted, 2605.13964
-    [hep-ph](2026)
+  venue: J. Adhikary, P.R. Li, Z. Liu, S. Trojanowski, A. Zabihi, accepted by PRD,
+    2605.13964 [hep-ph](2026)
   doi: ''
   arxiv: '2605.13964'
   journal_url: ''
   section: refereed_journals
   featured: false
-  journal: P.R. Li, Z. Liu, S. Trojanowski, A. Zabihi, submitted
+  source: Material/ZhenLiu_CV.tex
+  raw_text: 'A New Source of Millicharged Particles: Secondary Showers in the LHC
+    Forward Absorber, J. Adhikary, P.R. Li, Z. Liu, S. Trojanowski, A. Zabihi, accepted
+    by PRD, 2605.13964 [hep-ph](2026)'
+  journal: PRD
   status: ''
-  venue_display: P.R. Li, Z. Liu, S. Trojanowski, A. Zabihi, submitted
-  tags:
-  - dark-sector
-  - forward-physics
-  - lhc
+  venue_display: PRD · accepted
 - id: pub-l1-004-z-boson-radiative-decay-z-mu-mu-gamma-at-the-lhc
   title: Z Boson Radiative Decay Z-> mu^+mu^-gamma at the LHC
   year: 2026
@@ -47,13 +64,12 @@
   journal_url: ''
   section: refereed_journals
   featured: false
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Z Boson Radiative Decay Z-> mu^+mu^-gamma at the LHC, Y.F. Fei, P.R. Li,
+    Z. Liu, M. Pospelov, submitted, 2604.13156 [hep-ph](2026)
   journal: P.R. Li, Z. Liu, M. Pospelov, submitted
   status: ''
   venue_display: P.R. Li, Z. Liu, M. Pospelov, submitted
-  tags:
-  - standard-model
-  - bsm
-  - lhc
 - id: pub-l1-003-a-busy-higgs-signal
   title: A Busy Higgs Signal
   year: 2026
@@ -65,14 +81,12 @@
   journal_url: ''
   section: refereed_journals
   featured: true
+  source: Material/ZhenLiu_CV.tex
+  raw_text: A Busy Higgs Signal, P.R. Li, Z. Liu, L.T. Wang, submitted, 2604.14284
+    [hep-ph](2026)
   journal: Z. Liu, L.T. Wang, submitted
   status: ''
   venue_display: Z. Liu, L.T. Wang, submitted
-  tags:
-  - higgs
-  - bsm
-  - lhc
-  - muon-collider
 - id: pub-l3-001-building-an-ai-native-research-ecosystem-for-experimental-particle-physics-a-community-vision
   title: 'Building an AI-native Research Ecosystem for Experimental Particle Physics:
     A Community Vision'
@@ -85,12 +99,12 @@
   journal_url: ''
   section: other_publications_contributor
   featured: false
+  source: Material/ZhenLiu_CV.tex
+  raw_text: 'Building an AI-native Research Ecosystem for Experimental Particle Physics:
+    A Community Vision, Aarrestad et al, 2602.17582 [hep-ex] (2026)'
   journal: Aarrestad et al
   status: ''
   venue_display: Aarrestad et al
-  tags:
-  - bsm
-  - ai-ml
 - id: pub-l1-005-lhc-shines-on-positivity
   title: LHC Shines on Positivity
   year: 2025
@@ -102,13 +116,12 @@
   journal_url: ''
   section: refereed_journals
   featured: false
+  source: Material/ZhenLiu_CV.tex
+  raw_text: LHC Shines on Positivity, Z. Liu, K.F. Lyu, T. Wu, Accepted by CPC as
+    a letter, 2512.04336 [hep-ph](2025)
   journal: K.F. Lyu, T. Wu, Accepted by CPC as a letter
   status: ''
   venue_display: K.F. Lyu, T. Wu, Accepted by CPC as a letter
-  tags:
-  - bsm
-  - lhc
-  - amplitudes
 - id: pub-l3-002-mucol-milestone-report-no-7-consolidated-parameters
   title: 'MuCol Milestone Report No. 7: Consolidated Parameters'
   year: 2025
@@ -120,12 +133,12 @@
   journal_url: ''
   section: other_publications_contributor
   featured: false
+  source: Material/ZhenLiu_CV.tex
+  raw_text: 'MuCol Milestone Report No. 7: Consolidated Parameters, MuCol Collaboration,
+    2510.27437 [hep-acc-ph] (2025)'
   journal: MuCol Collaboration
   status: ''
   venue_display: MuCol Collaboration
-  tags:
-  - bsm
-  - muon-collider
 - id: pub-l1-006-improved-dark-photon-sensitivity-from-the-dark-srf-experiment
   title: Improved Dark Photon Sensitivity from the Dark SRF Experiment
   year: 2025
@@ -137,12 +150,12 @@
   journal_url: https://journals.aps.org/prl/abstract/10.1103/p7r3-c15d
   section: refereed_journals
   featured: false
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Improved Dark Photon Sensitivity from the Dark SRF Experiment, S. Kalia,
+    Z. Liu et al, Phys.Rev.Lett. 136, 111802, 2510.02427 [hep-ex](2025)
   journal: Phys.Rev.Lett. 136, 111802
   status: ''
   venue_display: Phys.Rev.Lett. 136, 111802
-  tags:
-  - dark-sector
-  - quantum-sensing
 - id: pub-l3-004-cepc-technical-design-report-reference-detector
   title: CEPC Technical Design Report - Reference Detector
   year: 2025
@@ -154,12 +167,12 @@
   journal_url: ''
   section: other_publications_contributor
   featured: false
+  source: Material/ZhenLiu_CV.tex
+  raw_text: CEPC Technical Design Report - Reference Detector, CEPC Study Group, 2510.05260
+    [hep-ex] (2025)
   journal: CEPC Study Group
   status: ''
   venue_display: CEPC Study Group
-  tags:
-  - bsm
-  - cepc-fcc
 - id: pub-l3-003-a-beamdump-facility-at-jefferson-lab
   title: A Beamdump Facility at Jefferson Lab
   year: 2025
@@ -171,12 +184,12 @@
   journal_url: ''
   section: other_publications_contributor
   featured: false
+  source: Material/ZhenLiu_CV.tex
+  raw_text: A Beamdump Facility at Jefferson Lab, P. Achenbach et al, 2510.09652 [hep.acc-ph]
+    (2025)
   journal: P. Achenbach et al
   status: ''
   venue_display: P. Achenbach et al
-  tags:
-  - bsm
-  - beamdump
 - id: pub-l1-007-heavy-qcd-axions-at-high-energy-muon-colliders
   title: Heavy QCD Axions at High-Energy Muon Colliders
   year: 2025
@@ -188,14 +201,12 @@
   journal_url: https://link.springer.com/article/10.1007/JHEP01(2026)003
   section: refereed_journals
   featured: false
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Heavy QCD Axions at High-Energy Muon Colliders, R. Bedi, T. Gherghetta,
+    S. Kumar, P.R. Li, Z. Liu, JHEP01(2026)003 2509.10605[hep-ph](2025)
   journal: JHEP01(2026)003
   status: ''
   venue_display: JHEP01(2026)003
-  tags:
-  - bsm
-  - dark-sector
-  - axions
-  - muon-collider
 - id: pub-l1-008-constraints-on-symmetric-dark-matter-from-neutron-star-capture-and-collapse
   title: Constraints on Symmetric Dark Matter from Neutron Star Capture and Collapse
   year: 2025
@@ -208,13 +219,13 @@
   journal_url: https://journals.aps.org/prl/accepted/10.1103/5wsg-z61z
   section: refereed_journals
   featured: false
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Constraints on Symmetric Dark Matter from Neutron Star Capture and Collapse,
+    Y.X. Liu, Z. Liu, M. Pospelov, S. Reddy, Phys.Rev.Lett. 136 (2026) 20, 201002,
+    2508.04961 [hep-ph](2025)
   journal: Phys.Rev.Lett. 136 (2026) 20, 201002
   status: ''
   venue_display: Phys.Rev.Lett. 136 (2026) 20, 201002
-  tags:
-  - bsm
-  - dark-sector
-  - neutron-stars
 - id: pub-l1-009-on-shell-recursion-relations-for-higher-spin-compton-amplitudes
   title: On-shell recursion relations for higher-spin Compton amplitudes
   year: 2025
@@ -227,12 +238,12 @@
   journal_url: https://link.springer.com/article/10.1007/JHEP01(2026)069
   section: refereed_journals
   featured: false
+  source: Material/ZhenLiu_CV.tex
+  raw_text: On-shell recursion relations for higher-spin Compton amplitudes , Y. Ema,
+    T. Gao, W. Ke, Z. Liu, I. Mahbub, JHEP01(2026)069, 2506.02106 [hep-th] (2025)
   journal: JHEP01(2026)069
   status: ''
   venue_display: JHEP01(2026)069
-  tags:
-  - bsm
-  - amplitudes
 - id: pub-l2-001-new-physics-search-at-the-cepc-a-general-perspective
   title: 'New Physics Search at the CEPC: a General Perspective'
   year: 2025
@@ -244,12 +255,12 @@
   journal_url: ''
   section: other_publications_editor
   featured: false
+  source: Material/ZhenLiu_CV.tex
+  raw_text: 'New Physics Search at the CEPC: a General Perspective, S. Antusch et
+    al, 2505.24810 [hep-ex] (2025)'
   journal: S. Antusch et al
   status: ''
   venue_display: S. Antusch et al
-  tags:
-  - bsm
-  - cepc-fcc
 - id: pub-l3-005-the-muon-collider
   title: The Muon Collider
   year: 2025
@@ -262,12 +273,12 @@
   journal_url: ''
   section: other_publications_contributor
   featured: false
+  source: Material/ZhenLiu_CV.tex
+  raw_text: The Muon Collider, International Muon Collider Collaboration (IMCC), 2504.21417
+    [physics.acc-ph] (2025)
   journal: International Muon Collider Collaboration (IMCC)
   status: ''
   venue_display: International Muon Collider Collaboration (IMCC)
-  tags:
-  - bsm
-  - muon-collider
 - id: pub-l1-010-modeling-frequency-instability-in-high-quality-resonant-experiments
   title: Modeling frequency instability in high-quality resonant experiments
   year: 2025
@@ -280,14 +291,13 @@
   journal_url: https://journals.aps.org/prd/abstract/10.1103/w43x-xwh9
   section: refereed_journals
   featured: false
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Modeling frequency instability in high-quality resonant experiments ,
+    H.-R. Cui, S. Kalia, Z. Liu, Phys. Rev. D 113, 052008, 2504.15307 [physics.ins-det]
+    (2025)
   journal: Phys. Rev. D 113, 052008
   status: ''
   venue_display: Phys. Rev. D 113, 052008
-  tags:
-  - bsm
-  - dark-sector
-  - qis
-  - quantum-sensing
 - id: pub-l3-006-united-states-muon-collider-community-white-paper-for-the-european-strategy-for-particle-physics
   title: United States Muon Collider Community White Paper for the European Strategy
     for Particle Physics Update
@@ -300,12 +310,13 @@
   journal_url: https://iopscience.iop.org/article/10.1088/1674-1137/adf1f0
   section: other_publications_contributor
   featured: false
+  source: Material/ZhenLiu_CV.tex
+  raw_text: United States Muon Collider Community White Paper for the European Strategy
+    for Particle Physics Update, Abdelhamid et al, Chin.Phys. 49 (2025) 10, 103003,
+    2503.23695 [hep-ex] (2025)
   journal: Chin.Phys. 49 (2025) 10, 103003
   status: ''
   venue_display: Chin.Phys. 49 (2025) 10, 103003
-  tags:
-  - bsm
-  - muon-collider
 - id: pub-l3-007-conceptual-design-report-for-the-mathusla-long-lived-particle-detector-near-cms
   title: Conceptual Design Report for the MATHUSLA Long-Lived Particle Detector near
     CMS
@@ -318,14 +329,12 @@
   journal_url: ''
   section: other_publications_contributor
   featured: false
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Conceptual Design Report for the MATHUSLA Long-Lived Particle Detector
+    near CMS, Aitken et al, 2503.20893 [physics.ins-det] (2025)
   journal: Aitken et al
   status: ''
   venue_display: Aitken et al
-  tags:
-  - bsm
-  - long-lived-particles
-  - forward-physics
-  - lhc
 - id: pub-l1-011-the-neutrino-slice-at-muon-colliders
   title: The Neutrino Slice at Muon Colliders
   year: 2024
@@ -338,13 +347,12 @@
   journal_url: https://journals.aps.org/prl/abstract/10.1103/4sj1-ycft
   section: refereed_journals
   featured: true
+  source: Material/ZhenLiu_CV.tex
+  raw_text: The Neutrino Slice at Muon Colliders, Bojorquez-Lopez, M. Hostert, C.
+    Argüelles, Z. Liu, Phys.Rev.Lett. 135 (2025) 9, 091803, 2412.14115 [hep-ph] (2024)
   journal: Phys.Rev.Lett. 135 (2025) 9, 091803
   status: ''
   venue_display: Phys.Rev.Lett. 135 (2025) 9, 091803
-  tags:
-  - bsm
-  - neutrinos
-  - muon-collider
 - id: pub-l1-012-probing-millicharged-particles-at-an-electron-beam-dump-with-ultralow-threshold-sensors
   title: Probing Millicharged Particles at an Electron Beam Dump with Ultralow-Threshold
     Sensors
@@ -358,15 +366,13 @@
   journal_url: https://link.springer.com/article/10.1007/JHEP04(2025)057
   section: refereed_journals
   featured: false
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Probing Millicharged Particles at an Electron Beam Dump with Ultralow-Threshold
+    Sensors, R. Essig, P. Li, Z. Liu, M. McDuffie, H. Xu, JHEP04(2025)057, 2412.09652
+    [hep-ph] (2024)
   journal: JHEP04(2025)057
   status: ''
   venue_display: JHEP04(2025)057
-  tags:
-  - dark-sector
-  - forward-physics
-  - lhc
-  - beamdump
-  - quantum-sensing
 - id: pub-l3-008-flavor-physics-at-cepc-a-general-perspective
   title: 'Flavor Physics at CEPC: a General Perspective'
   year: 2024
@@ -378,12 +384,12 @@
   journal_url: ''
   section: other_publications_contributor
   featured: false
+  source: Material/ZhenLiu_CV.tex
+  raw_text: 'Flavor Physics at CEPC: a General Perspective, Ai et al, 2412.19743 [hep-ex]
+    (2024)'
   journal: Ai et al
   status: ''
   venue_display: Ai et al
-  tags:
-  - bsm
-  - cepc-fcc
 - id: pub-l3-009-mucol-milestone-report-no-5-preliminary-parameters
   title: 'MuCol Milestone Report No. 5: Preliminary Parameters'
   year: 2024
@@ -395,12 +401,12 @@
   journal_url: ''
   section: other_publications_contributor
   featured: false
+  source: Material/ZhenLiu_CV.tex
+  raw_text: 'MuCol Milestone Report No. 5: Preliminary Parameters, MuCoL collaboration,
+    2411.02966 [physics.acc-ph] (2024)'
   journal: MuCoL collaboration
   status: ''
   venue_display: MuCoL collaboration
-  tags:
-  - bsm
-  - muon-collider
 - id: pub-l3-010-mucol-milestone-report-no-5-preliminary-parameters
   title: 'MuCol Milestone Report No. 5: Preliminary Parameters'
   year: 2024
@@ -430,14 +436,13 @@
   journal_url: ''
   section: refereed_journals
   featured: false
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Ultralight dark matter detection with levitated ferromagnets, S. Kalia,
+    D. Budker, D. Kimball, W. Ji, Z. Liu, A. Sushkov, C. Timberlake, H. Ulbricht,
+    A. Vinante, T. Wang, PhysRevD.110.115029, 2408.15330 [hep-ph] (2024)
   journal: PhysRevD.110.115029
   status: ''
   venue_display: PhysRevD.110.115029
-  tags:
-  - bsm
-  - dark-sector
-  - axions
-  - quantum-sensing
 - id: pub-l1-014-accidental-suppression-of-wilson-coefficients-in-higgs-coupling
   title: Accidental Suppression of Wilson Coefficients in Higgs Coupling
   year: 2024
@@ -450,13 +455,12 @@
   journal_url: https://link.springer.com/article/10.1007/JHEP12(2024)121
   section: refereed_journals
   featured: false
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Accidental Suppression of Wilson Coefficients in Higgs Coupling, Y. Bao,
+    J. Gu, Z. Liu, C. Shu, L. Wang, JHEP12(2024)121, 2408.08948 [hep-ph] (2024)
   journal: JHEP12(2024)121
   status: ''
   venue_display: JHEP12(2024)121
-  tags:
-  - higgs
-  - bsm
-  - eft
 - id: pub-l1-015-w-boson-exotic-decay-into-three-charged-leptons-at-the-lhc
   title: W-Boson Exotic Decay into Three Charged Leptons at the LHC
   year: 2024
@@ -469,13 +473,13 @@
   journal_url: https://journals.aps.org/prd/abstract/10.1103/PhysRevD.110.L111302
   section: refereed_journals
   featured: false
+  source: Material/ZhenLiu_CV.tex
+  raw_text: W-Boson Exotic Decay into Three Charged Leptons at the LHC, Y. Fei, P.
+    Li, Z. Liu, K. Lyu, M. Pospelov, Phys.Rev.D 110 (2024) 11, L111302, 2407.15930
+    [hep-ph] (2024)
   journal: Phys.Rev.D 110 (2024) 11, L111302
   status: ''
   venue_display: Phys.Rev.D 110 (2024) 11, L111302
-  tags:
-  - bsm
-  - lhc
-  - ai-ml
 - id: pub-l1-016-momentum-shift-and-on-shell-recursion-relation-for-electroweak-theory
   title: Momentum shift and on-shell recursion relation for electroweak theory
   year: 2024
@@ -488,13 +492,13 @@
   journal_url: https://journals.aps.org/prd/abstract/10.1103/PhysRevD.110.105002
   section: refereed_journals
   featured: false
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Momentum shift and on-shell recursion relation for electroweak theory,
+    Y. Ema, T. Gao, W. Ke, Z. Liu, K. Lyu, I. Mahbub, PhysRevD.110.105002 (editors'
+    suggestion), 2407.14587 [hep-ph] (2024)
   journal: PhysRevD.110.105002 (editors' suggestion)
   status: ''
   venue_display: PhysRevD.110.105002 (editors' suggestion)
-  tags:
-  - standard-model
-  - bsm
-  - amplitudes
 - id: pub-l3-011-interim-report-for-the-international-muon-collider-collaboration-imcc
   title: Interim report for the International Muon Collider Collaboration (IMCC)
   year: 2024
@@ -506,12 +510,12 @@
   journal_url: ''
   section: other_publications_contributor
   featured: false
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Interim report for the International Muon Collider Collaboration (IMCC),
+    International Muon Collider Collaboration, 2407.12450 [physics.acc-ph](2024)
   journal: International Muon Collider Collaboration
   status: ''
   venue_display: International Muon Collider Collaboration
-  tags:
-  - bsm
-  - muon-collider
 - id: pub-l1-017-a-light-qcd-axion-with-hilltop-misalignment
   title: A Light QCD Axion with Hilltop Misalignment
   year: 2024
@@ -524,12 +528,12 @@
   journal_url: https://link.springer.com/article/10.1007/JHEP09(2024)145
   section: refereed_journals
   featured: false
+  source: Material/ZhenLiu_CV.tex
+  raw_text: A Light QCD Axion with Hilltop Misalignment, R. Co, T. Gherghetta, K.
+    Lyu, Z. Liu, JHEP09(2024)145, 2407.12930 [hep-ph] (2024)
   journal: JHEP09(2024)145
   status: ''
   venue_display: JHEP09(2024)145
-  tags:
-  - dark-sector
-  - axions
 - id: pub-l3-012-dark-sector-searches-with-the-cms-experiment
   title: Dark sector searches with the CMS experiment
   year: 2024
@@ -541,13 +545,12 @@
   journal_url: ''
   section: other_publications_contributor
   featured: false
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Dark sector searches with the CMS experiment, CMS Collaboration, 2405.13778
+    [hep-ex] (2024)
   journal: CMS Collaboration
   status: ''
   venue_display: CMS Collaboration
-  tags:
-  - bsm
-  - dark-sector
-  - lhc
 - id: pub-l1-018-momentum-shift-and-on-shell-constructible-massive-amplitudes
   title: Momentum shift and on-shell constructible massive amplitudes
   year: 2024
@@ -560,12 +563,13 @@
   journal_url: https://journals.aps.org/prd/abstract/10.1103/PhysRevD.110.105003
   section: refereed_journals
   featured: true
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Momentum shift and on-shell constructible massive amplitudes, Y. Ema,
+    T. Gao, W. Ke, Z. Liu, K. Lyu, I. Mahbub, PhysRevD.110.105003 (editors' suggestion),
+    2403.15538 [hep-ph] (2024)
   journal: PhysRevD.110.105003 (editors' suggestion)
   status: ''
   venue_display: PhysRevD.110.105003 (editors' suggestion)
-  tags:
-  - standard-model
-  - amplitudes
 - id: pub-l1-019-higgs-width-and-couplings-at-high-energy-muon-colliders-with-forward-muon-detection
   title: Higgs Width and Couplings at High Energy Muon Colliders with Forward Muon
     Detection
@@ -578,16 +582,13 @@
   journal_url: https://journals.aps.org/prd/abstract/10.1103/PhysRevD.109.073009
   section: refereed_journals
   featured: false
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Higgs Width and Couplings at High Energy Muon Colliders with Forward Muon
+    Detection, P. Li, Z. Liu, K. Lyu, Phys. Rev. D 109, 073009, 2401.08756 [hep-ph]
+    (2024)
   journal: Phys. Rev. D 109, 073009
   status: ''
   venue_display: Phys. Rev. D 109, 073009
-  tags:
-  - higgs
-  - bsm
-  - dark-sector
-  - forward-physics
-  - lhc
-  - muon-collider
 - id: pub-l3-013-cepc-technical-design-report-accelerator
   title: CEPC Technical Design Report -- Accelerator
   year: 2023
@@ -599,12 +600,12 @@
   journal_url: ''
   section: other_publications_contributor
   featured: false
+  source: Material/ZhenLiu_CV.tex
+  raw_text: CEPC Technical Design Report -- Accelerator, CEPC study group, 2312.14363
+    [physics.acc-ph](2023)
   journal: CEPC study group
   status: ''
   venue_display: CEPC study group
-  tags:
-  - bsm
-  - cepc-fcc
 - id: pub-l2-002-physics-opportunities-at-a-beam-dump-facility-at-pip-ii-at-fermilab-and-beyond
   title: Physics Opportunities at a Beam Dump Facility at PIP-II at Fermilab and Beyond
   year: 2023
@@ -616,12 +617,12 @@
   journal_url: ''
   section: other_publications_editor
   featured: false
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Physics Opportunities at a Beam Dump Facility at PIP-II at Fermilab and
+    Beyond, A.A. Aguilar-Arevalo et al, 2311.09915 [hep-ex] (2023)
   journal: A.A. Aguilar-Arevalo et al
   status: ''
   venue_display: A.A. Aguilar-Arevalo et al
-  tags:
-  - bsm
-  - beamdump
 - id: pub-l1-020-maglev-for-dark-matter-dark-photon-and-axion-dark-matter-sensing-with-levitated-superconductors
   title: 'Maglev for Dark Matter: Dark-photon and axion dark matter sensing with levitated
     superconductors'
@@ -635,13 +636,13 @@
   journal_url: https://journals.aps.org/prd/abstract/10.1103/PhysRevD.109.055024
   section: refereed_journals
   featured: false
+  source: Material/ZhenLiu_CV.tex
+  raw_text: 'Maglev for Dark Matter: Dark-photon and axion dark matter sensing with
+    levitated superconductors, G. Higgins, S. Kalia, Z. Liu, Phys. Rev. D 109, 055024,
+    2310.18398 [hep-ph] (2023)'
   journal: Phys. Rev. D 109, 055024
   status: ''
   venue_display: Phys. Rev. D 109, 055024
-  tags:
-  - dark-sector
-  - axions
-  - quantum-sensing
 - id: pub-l1-022-top-yukawa-coupling-determination-at-high-energy-muon-collider
   title: Top Yukawa Coupling Determination at High Energy Muon Collider
   year: 2023
@@ -654,12 +655,13 @@
   journal_url: https://journals.aps.org/prd/abstract/10.1103/PhysRevD.109.035021
   section: refereed_journals
   featured: false
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Top Yukawa Coupling Determination at High Energy Muon Collider, Z. Liu,
+    K.F. Lyu, I. Mahbub, L.T. Wang, Phys. Rev. D 109, 035021, 2308.06323 [hep-ph]
+    (2023)
   journal: Phys. Rev. D 109, 035021
   status: ''
   venue_display: Phys. Rev. D 109, 035021
-  tags:
-  - bsm
-  - muon-collider
 - id: pub-l1-021-searching-for-axions-with-kaon-decay-at-rest
   title: Searching for axions with kaon decay at rest
   year: 2023
@@ -672,14 +674,12 @@
   journal_url: https://journals.aps.org/prd/abstract/10.1103/PhysRevD.109.L031702
   section: refereed_journals
   featured: false
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Searching for axions with kaon decay at rest, Y. Ema, Z. Liu, R. Plestid,
+    Phys. Rev. D 109, L031702, 2308.08589 [hep-ph] (2023)
   journal: Phys. Rev. D 109, L031702
   status: ''
   venue_display: Phys. Rev. D 109, L031702
-  tags:
-  - dark-sector
-  - axions
-  - long-lived-particles
-  - beamdump
 - id: pub-l1-023-heavy-neutral-leptons-from-stopped-muons-and-pions
   title: Heavy Neutral Leptons from Stopped Muons and Pions
   year: 2023
@@ -692,13 +692,12 @@
   journal_url: ''
   section: refereed_journals
   featured: false
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Heavy Neutral Leptons from Stopped Muons and Pions, Y. Ema, Z. Liu, K.F.
+    Lyu, M. Pospelov, JHEP08(2023)169, 2306.07315 [hep-ph] (2023)
   journal: JHEP08(2023)169
   status: ''
   venue_display: JHEP08(2023)169
-  tags:
-  - bsm
-  - long-lived-particles
-  - beamdump
 - id: pub-l1-024-a-guide-to-diagnosing-colored-resonances-at-hadron-colliders
   title: A Guide to Diagnosing Colored Resonances at Hadron Colliders
   year: 2023
@@ -711,14 +710,12 @@
   journal_url: ''
   section: refereed_journals
   featured: true
+  source: Material/ZhenLiu_CV.tex
+  raw_text: A Guide to Diagnosing Colored Resonances at Hadron Colliders, T. Han,
+    I. Lewis, H. Liu, Z. Liu, X. Wang, JHEP08(2023)173, 2306.00079 [hep-ph] (2023)
   journal: JHEP08(2023)173
   status: ''
   venue_display: JHEP08(2023)173
-  tags:
-  - bsm
-  - lhc
-  - amplitudes
-  - ai-ml
 - id: pub-l1-025-sensei-search-for-millicharged-particles-produced-in-the-numi-beam
   title: 'SENSEI: Search for Millicharged Particles produced in the NuMI Beam'
   year: 2023
@@ -731,13 +728,12 @@
   journal_url: https://journals.aps.org/prl/pdf/10.1103/PhysRevLett.133.071801
   section: refereed_journals
   featured: false
+  source: Material/ZhenLiu_CV.tex
+  raw_text: 'SENSEI: Search for Millicharged Particles produced in the NuMI Beam,
+    with SENSEI collaboration, Phys.Rev.Lett.133.071801, 2305.04964 [hep-ex] (2023)'
   journal: Phys.Rev.Lett.133.071801
   status: ''
   venue_display: Phys.Rev.Lett.133.071801
-  tags:
-  - dark-sector
-  - forward-physics
-  - lhc
 - id: pub-l1-026-searching-for-millicharged-particles-with-1-kg-of-skipper-ccds-using-the-numi-beam-at-fermilab
   title: Searching for millicharged particles with 1 kg of Skipper-CCDs using the
     NuMI beam at Fermilab
@@ -750,13 +746,13 @@
   journal_url: https://link.springer.com/article/10.1007/JHEP02(2024)072
   section: refereed_journals
   featured: false
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Searching for millicharged particles with 1 kg of Skipper-CCDs using the
+    NuMI beam at Fermilab, with Oscura collaboration, JHEP02(2024)072, 2304.08625
+    [hep-ex] (2023)
   journal: JHEP02(2024)072
   status: ''
   venue_display: JHEP02(2024)072
-  tags:
-  - dark-sector
-  - forward-physics
-  - lhc
 - id: pub-l3-014-towards-a-muon-collider
   title: Towards a Muon Collider
   year: 2023
@@ -768,12 +764,12 @@
   journal_url: ''
   section: other_publications_contributor
   featured: false
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Towards a Muon Collider, C. Accettura et al, 2303.08533 [physics.acc-ph]
+    (2023)
   journal: C. Accettura et al
   status: ''
   venue_display: C. Accettura et al
-  tags:
-  - bsm
-  - muon-collider
 - id: pub-l1-027-new-exclusion-limit-for-dark-photons-from-an-srf-cavity-based-search-dark-srf
   title: New Exclusion Limit for Dark Photons from an SRF Cavity-Based Search (Dark
     SRF)
@@ -787,12 +783,13 @@
   journal_url: ''
   section: refereed_journals
   featured: true
+  source: Material/ZhenLiu_CV.tex
+  raw_text: New Exclusion Limit for Dark Photons from an SRF Cavity-Based Search (Dark
+    SRF), A. Romanenko et al. (Z. Liu is one of the corresponding authors), Phys.Rev.Lett.
+    130 (2023) 26, 261801, 2301.11512[hep-ex] (2023)
   journal: Phys.Rev.Lett. 130 (2023) 26, 261801
   status: ''
   venue_display: Phys.Rev.Lett. 130 (2023) 26, 261801
-  tags:
-  - dark-sector
-  - quantum-sensing
 - id: pub-l1-028-heavy-neutral-leptons-at-muon-colliders
   title: Heavy Neutral Leptons at Muon Colliders
   year: 2023
@@ -804,12 +801,12 @@
   journal_url: ''
   section: refereed_journals
   featured: false
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Heavy Neutral Leptons at Muon Colliders, P. Li, Z. Liu, K.-F. Lyu, JHEP
+    03 (2023) 231, 2301.07117[hep-ph] (2023)
   journal: JHEP 03 (2023) 231
   status: ''
   venue_display: JHEP 03 (2023) 231
-  tags:
-  - bsm
-  - muon-collider
 - id: pub-l2-003-a-cool-route-to-the-higgs-boson-and-beyond-the-cool-copper-collider
   title: A ``Cool” route to the Higgs boson and beyond. The Cool Copper Collider
   year: 2023
@@ -821,13 +818,12 @@
   journal_url: ''
   section: other_publications_editor
   featured: false
+  source: Material/ZhenLiu_CV.tex
+  raw_text: A ``Cool” route to the Higgs boson and beyond. The Cool Copper Collider,
+    C. Vernieri et al, JINST 18 (2023) 07, P07053 [hep-ex] (2023)
   journal: JINST 18 (2023) 07, P07053 [hep-ex]
   status: ''
   venue_display: JINST 18 (2023) 07, P07053 [hep-ex]
-  tags:
-  - higgs
-  - bsm
-  - cepc-fcc
 - id: pub-l3-015-the-future-of-us-particle-physics-the-snowmass-2021-energy-frontier-report
   title: The Future of US Particle Physics -- The Snowmass 2021 Energy Frontier Report
   year: 2022
@@ -839,12 +835,12 @@
   journal_url: ''
   section: other_publications_contributor
   featured: false
+  source: Material/ZhenLiu_CV.tex
+  raw_text: The Future of US Particle Physics -- The Snowmass 2021 Energy Frontier
+    Report, M. Narain et al, 2211.11084 [hep-ph](2022)
   journal: M. Narain et al
   status: ''
   venue_display: M. Narain et al
-  tags:
-  - bsm
-  - cepc-fcc
 - id: pub-l1-029-flavor-changing-light-bosons-with-accidental-longevity
   title: Flavor-changing light bosons with accidental longevity
   year: 2022
@@ -857,13 +853,12 @@
   journal_url: ''
   section: refereed_journals
   featured: false
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Flavor-changing light bosons with accidental longevity, Y. Ema, Z. Liu,
+    K.-F. Lyu, M. Pospelov, JHEP 02 (2023) 135, 2211.00664[hep-ph] (2022)
   journal: JHEP 02 (2023) 135
   status: ''
   venue_display: JHEP 02 (2023) 135
-  tags:
-  - bsm
-  - long-lived-particles
-  - beamdump
 - id: pub-l3-016-tf07-snowmass-report-theory-of-collider-phenomena
   title: 'TF07 Snowmass Report: Theory of Collider Phenomena'
   year: 2022
@@ -875,12 +870,12 @@
   journal_url: ''
   section: other_publications_contributor
   featured: false
+  source: Material/ZhenLiu_CV.tex
+  raw_text: 'TF07 Snowmass Report: Theory of Collider Phenomena, F. Maltoni et al,
+    2210.02591[hep-ph](2022)'
   journal: F. Maltoni et al
   status: ''
   venue_display: F. Maltoni et al
-  tags:
-  - bsm
-  - cepc-fcc
 - id: pub-l1-031-entanglement-enhanced-optomechanical-sensor-array-for-dark-matter-searches
   title: Entanglement-enhanced optomechanical sensor array for dark matter searches
   year: 2022
@@ -893,16 +888,15 @@
   journal_url: ''
   section: refereed_journals
   featured: false
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Entanglement-enhanced optomechanical sensor array for dark matter searches,
+    A. Brady, X. Chen, K. Xiao, Y. Xia, Z. Liu, R. Harnik, D. Wilson, Z. Zhang, Q.
+    Zhuang, Commun Phys 6, 237 (2023), 2210.07291[quant-ph] (2022)
   journal: X. Chen, K. Xiao, Y. Xia, Z. Liu, R. Harnik, D. Wilson, Z. Zhang, Q. Zhuang,
     Commun Phys 6, 237
   status: ''
   venue_display: X. Chen, K. Xiao, Y. Xia, Z. Liu, R. Harnik, D. Wilson, Z. Zhang,
     Q. Zhuang, Commun Phys 6, 237
-  tags:
-  - dark-sector
-  - qis
-  - quantum-sensing
-  - eft
 - id: pub-l1-030-entanglement-enhanced-optomechanical-sensing
   title: Entanglement-Enhanced Optomechanical Sensing
   year: 2022
@@ -915,15 +909,13 @@
   journal_url: ''
   section: refereed_journals
   featured: false
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Entanglement-Enhanced Optomechanical Sensing, Y. Xia, A. Agrawal, C. Pluchar,
+    A. Brady, Z. Liu, Q. Zhuang, D. Wilson, Z. Zhang, Nature Photon. 17 (2023) 6,
+    470-477, 2210.16180[quant-ph] (2022)
   journal: Nature Photon. 17 (2023) 6, 470-477
   status: ''
   venue_display: Nature Photon. 17 (2023) 6, 470-477
-  tags:
-  - bsm
-  - dark-sector
-  - qis
-  - quantum-sensing
-  - eft
 - id: pub-l1-032-enhancing-searches-for-heavy-qcd-axions-via-dimuon-final-states
   title: Enhancing Searches for Heavy QCD Axions via Dimuon Final States
   year: 2022
@@ -935,13 +927,12 @@
   journal_url: https://link.springer.com/article/10.1007/JHEP02(2023)111
   section: refereed_journals
   featured: false
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Enhancing Searches for Heavy QCD Axions via Dimuon Final States, R. Co,
+    S. Kumar, Z. Liu, JHEP02(2023)111, 2210.02462[hep-ph](2022)
   journal: JHEP02(2023)111
   status: ''
   venue_display: JHEP02(2023)111
-  tags:
-  - dark-sector
-  - axions
-  - long-lived-particles
 - id: pub-l2-004-report-of-the-topical-group-on-physics-beyond-the-standard-model-at-energy-frontier-for-snowmass
   title: Report of the Topical Group on Physics Beyond the Standard Model at Energy
     Frontier for Snowmass 2021
@@ -954,13 +945,12 @@
   journal_url: ''
   section: other_publications_editor
   featured: false
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Report of the Topical Group on Physics Beyond the Standard Model at Energy
+    Frontier for Snowmass 2021, T. Bose et al, 2209.13128[hep-ph] (2022)
   journal: T. Bose et al
   status: ''
   venue_display: T. Bose et al
-  tags:
-  - standard-model
-  - bsm
-  - cepc-fcc
 - id: pub-l3-017-report-of-the-topical-group-on-higgs-physics-for-snowmass-2021-the-case-for-precision-higgs-phys
   title: 'Report of the Topical Group on Higgs Physics for Snowmass 2021: The Case
     for Precision Higgs Physics'
@@ -973,13 +963,12 @@
   journal_url: ''
   section: other_publications_contributor
   featured: false
+  source: Material/ZhenLiu_CV.tex
+  raw_text: 'Report of the Topical Group on Higgs Physics for Snowmass 2021: The Case
+    for Precision Higgs Physics, S. Dawson et al, 2209.07510[hep-ph](2022)'
   journal: S. Dawson et al
   status: ''
   venue_display: S. Dawson et al
-  tags:
-  - higgs
-  - bsm
-  - cepc-fcc
 - id: pub-l3-018-muon-collider-forum-report
   title: Muon Collider Forum Report
   year: 2022
@@ -991,12 +980,11 @@
   journal_url: ''
   section: other_publications_contributor
   featured: false
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Muon Collider Forum Report, K. Black et al, 2209.01318[hep-ex] (2022)
   journal: K. Black et al
   status: ''
   venue_display: K. Black et al
-  tags:
-  - bsm
-  - muon-collider
 - id: pub-l1-033-first-constraints-on-heavy-qcd-axions-with-a-liquid-argon-time-projection-chamber-using-the-argo
   title: First constraints on Heavy QCD Axions with a Liquid Argon Time Projection
     Chamber using the ArgoNeuT Experiment
@@ -1010,14 +998,14 @@
   journal_url: ''
   section: refereed_journals
   featured: true
+  source: Material/ZhenLiu_CV.tex
+  raw_text: First constraints on Heavy QCD Axions with a Liquid Argon Time Projection
+    Chamber using the ArgoNeuT Experiment, ArgoNeuT Collaboration (Z. Liu is one of
+    the corresponding authors), Phys.Rev.Lett. 130 (2023) 22, 221802( Editor's Suggestion
+    ), 2207.08448[hep-ph](2022)
   journal: Phys.Rev.Lett. 130 (2023) 22, 221802( Editor's Suggestion )
   status: ''
   venue_display: Phys.Rev.Lett. 130 (2023) 22, 221802( Editor's Suggestion )
-  tags:
-  - dark-sector
-  - axions
-  - beamdump
-  - long-lived-particles
 - id: pub-l2-005-the-physics-potential-of-the-cepc
   title: The Physics potential of the CEPC
   year: 2022
@@ -1029,12 +1017,12 @@
   journal_url: ''
   section: other_publications_editor
   featured: false
+  source: Material/ZhenLiu_CV.tex
+  raw_text: The Physics potential of the CEPC, H. Cheng et al, 2205.08553[hep-ph]
+    (2022)
   journal: H. Cheng et al
   status: ''
   venue_display: H. Cheng et al
-  tags:
-  - bsm
-  - cepc-fcc
 - id: pub-l2-008-physics-at-future-colliders-the-interplay-between-energy-and-luminosity
   title: 'Physics at Future Colliders: the Interplay Between Energy and Luminosity'
   year: 2022
@@ -1046,12 +1034,12 @@
   journal_url: ''
   section: other_publications_editor
   featured: false
+  source: Material/ZhenLiu_CV.tex
+  raw_text: 'Physics at Future Colliders: the Interplay Between Energy and Luminosity,
+    L.-T. Wang and Z. Liu, 2205.00031[hep-ph](2022)'
   journal: L.-T. Wang and Z. Liu
   status: ''
   venue_display: L.-T. Wang and Z. Liu
-  tags:
-  - bsm
-  - lhc
 - id: pub-l1-034-speculations-on-the-w-mass-measurement-at-cdf
   title: Speculations on the W-Mass Measurement at CDF
   year: 2022
@@ -1063,12 +1051,12 @@
   journal_url: https://iopscience.iop.org/article/10.1088/1674-1137/ac8cd5
   section: refereed_journals
   featured: false
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Speculations on the W-Mass Measurement at CDF, J. Gu, Z. Liu, T. Ma, J.
+    Shu, Chin.Phys.C 46 (2022) 12, 123107, 2204.05296[hep-ph](2022)
   journal: Chin.Phys.C 46 (2022) 12, 123107
   status: ''
   venue_display: Chin.Phys.C 46 (2022) 12, 123107
-  tags:
-  - bsm
-  - lhc
 - id: pub-l2-012-wimp-dark-matter-at-high-energy-muon-colliders-a-white-paper-for-snowmass-2021
   title: WIMP Dark Matter at High Energy Muon Colliders --A White Paper for Snowmass
     2021
@@ -1081,14 +1069,12 @@
   journal_url: ''
   section: other_publications_editor
   featured: false
+  source: Material/ZhenLiu_CV.tex
+  raw_text: WIMP Dark Matter at High Energy Muon Colliders --A White Paper for Snowmass
+    2021, T. Han, Z. Liu, L.-T. Wang, X. Wang, 2203.07351[hep-ph](2022)
   journal: Z. Liu, L.-T. Wang, X. Wang
   status: ''
   venue_display: Z. Liu, L.-T. Wang, X. Wang
-  tags:
-  - bsm
-  - dark-sector
-  - muon-collider
-  - cepc-fcc
 - id: pub-l3-023-the-physics-case-of-a-3-tev-muon-collider-stage
   title: The physics case of a 3 TeV muon collider stage
   year: 2022
@@ -1100,12 +1086,12 @@
   journal_url: ''
   section: other_publications_contributor
   featured: false
+  source: Material/ZhenLiu_CV.tex
+  raw_text: The physics case of a 3 TeV muon collider stage, Muon Collider Collaboration,
+    2203.07261[hep-ph](2022)
   journal: Muon Collider Collaboration
   status: ''
   venue_display: Muon Collider Collaboration
-  tags:
-  - bsm
-  - muon-collider
 - id: pub-l2-010-the-international-linear-collider-report-to-snowmass-2021
   title: 'The International Linear Collider: Report to Snowmass 2021'
   year: 2022
@@ -1117,12 +1103,12 @@
   journal_url: ''
   section: other_publications_editor
   featured: false
+  source: Material/ZhenLiu_CV.tex
+  raw_text: 'The International Linear Collider: Report to Snowmass 2021, ILC International
+    Development Team, 2203.07622[hep-ph](2022)'
   journal: ILC International Development Team
   status: ''
   venue_display: ILC International Development Team
-  tags:
-  - bsm
-  - cepc-fcc
 - id: pub-l3-024-the-forward-physics-facility-at-the-high-luminosity-lhc
   title: The Forward Physics Facility at the High-Luminosity LHC
   year: 2022
@@ -1134,14 +1120,12 @@
   journal_url: ''
   section: other_publications_contributor
   featured: false
+  source: Material/ZhenLiu_CV.tex
+  raw_text: The Forward Physics Facility at the High-Luminosity LHC, J. Feng et al,
+    2203.05090[hep-ex](2022)
   journal: J. Feng et al
   status: ''
   venue_display: J. Feng et al
-  tags:
-  - bsm
-  - dark-sector
-  - forward-physics
-  - lhc
 - id: pub-l2-007-strategy-for-understanding-the-higgs-physics-the-cool-copper-collider
   title: 'Strategy for Understanding the Higgs Physics: The Cool Copper Collider'
   year: 2022
@@ -1153,13 +1137,12 @@
   journal_url: ''
   section: other_publications_editor
   featured: false
+  source: Material/ZhenLiu_CV.tex
+  raw_text: 'Strategy for Understanding the Higgs Physics: The Cool Copper Collider,
+    S. Dasu et al, 2203.07646[hep-ex] (2022)'
   journal: S. Dasu et al
   status: ''
   venue_display: S. Dasu et al
-  tags:
-  - higgs
-  - bsm
-  - cepc-fcc
 - id: pub-l2-011-snowmass-whitepaper-the-windchime-project
   title: 'Snowmass Whitepaper: The Windchime Project'
   year: 2022
@@ -1171,12 +1154,12 @@
   journal_url: ''
   section: other_publications_editor
   featured: false
+  source: Material/ZhenLiu_CV.tex
+  raw_text: 'Snowmass Whitepaper: The Windchime Project, Windchime Collaboration,
+    2203.07242[hep-ex](2022)'
   journal: Windchime Collaboration
   status: ''
   venue_display: Windchime Collaboration
-  tags:
-  - bsm
-  - cepc-fcc
 - id: pub-l1-037-sleptonic-susy-from-uv-framework-to-ir-phenomenology
   title: 'Sleptonic SUSY: From UV Framework to IR Phenomenology'
   year: 2022
@@ -1188,13 +1171,12 @@
   journal_url: https://link.springer.com/article/10.1007/JHEP09(2022)142
   section: refereed_journals
   featured: false
+  source: Material/ZhenLiu_CV.tex
+  raw_text: 'Sleptonic SUSY: From UV Framework to IR Phenomenology, K. Agashe, M.Ekhterachian,
+    Z. Liu, R. Sundrum, JHEP09(2022)142, 2203.01796[hep-ph](2022)'
   journal: JHEP09(2022)142
   status: ''
   venue_display: JHEP09(2022)142
-  tags:
-  - bsm
-  - supersymmetry
-  - dark-sector
 - id: pub-l2-006-searches-for-new-particles
   title: Searches for New Particles
   year: 2022
@@ -1207,13 +1189,12 @@
   journal_url: ''
   section: other_publications_editor
   featured: false
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Searches for New Particles, Dark Matter, and Gravitational Waves with
+    SRF Cavities, A. Berlin et al, 2203.12714[hep-ph] (2022)
   journal: and Gravitational Waves with SRF Cavities, A. Berlin et al
   status: ''
   venue_display: and Gravitational Waves with SRF Cavities, A. Berlin et al
-  tags:
-  - bsm
-  - dark-sector
-  - quantum-sensing
 - id: pub-l3-020-recent-progress-and-next-steps-for-the-mathusla-llp-detector
   title: Recent Progress and Next Steps for the MATHUSLA LLP Detector
   year: 2022
@@ -1225,14 +1206,12 @@
   journal_url: ''
   section: other_publications_contributor
   featured: false
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Recent Progress and Next Steps for the MATHUSLA LLP Detector, MATHUSLA
+    Collaboration, 2203.08126[hep-ex](2022)
   journal: MATHUSLA Collaboration
   status: ''
   venue_display: MATHUSLA Collaboration
-  tags:
-  - bsm
-  - long-lived-particles
-  - forward-physics
-  - lhc
 - id: pub-l2-009-probing-the-electroweak-phase-transition-with-exotic-higgs-decays
   title: Probing the Electroweak Phase Transition with Exotic Higgs Decays
   year: 2022
@@ -1244,13 +1223,12 @@
   journal_url: ''
   section: other_publications_editor
   featured: false
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Probing the Electroweak Phase Transition with Exotic Higgs Decays, M.
+    Carena et al, LHEP 2023 (2023) 432, 2203.08206[hep-ph](2022)
   journal: LHEP 2023 (2023) 432
   status: ''
   venue_display: LHEP 2023 (2023) 432
-  tags:
-  - higgs
-  - bsm
-  - phase-transition
 - id: pub-l3-019-new-horizons-scalar-and-vector-ultralight-dark-matter
   title: 'New Horizons: Scalar and Vector Ultralight Dark Matter'
   year: 2022
@@ -1262,12 +1240,12 @@
   journal_url: ''
   section: other_publications_contributor
   featured: false
+  source: Material/ZhenLiu_CV.tex
+  raw_text: 'New Horizons: Scalar and Vector Ultralight Dark Matter, D. Antypas et
+    al, 2203.14915[hep-ex] (2022)'
   journal: D. Antypas et al
   status: ''
   venue_display: D. Antypas et al
-  tags:
-  - bsm
-  - dark-sector
 - id: pub-l3-025-neutrino-self-interactions-a-white-paper
   title: 'Neutrino Self-Interactions: A White Paper'
   year: 2022
@@ -1279,12 +1257,12 @@
   journal_url: ''
   section: other_publications_contributor
   featured: false
+  source: Material/ZhenLiu_CV.tex
+  raw_text: 'Neutrino Self-Interactions: A White Paper, J. Berryman et al, Phys.Dark
+    Univ. 42 (2023) 101267, 2203.01955[hep-ph](2022)'
   journal: Phys.Dark Univ. 42 (2023) 101267
   status: ''
   venue_display: Phys.Dark Univ. 42 (2023) 101267
-  tags:
-  - bsm
-  - neutrinos
 - id: pub-l3-022-muon-collider-physics-summary
   title: Muon Collider Physics Summary
   year: 2022
@@ -1296,12 +1274,11 @@
   journal_url: ''
   section: other_publications_contributor
   featured: false
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Muon Collider Physics Summary, C. Amie et al, 2203.07256[hep-ph](2022)
   journal: C. Amie et al
   status: ''
   venue_display: C. Amie et al
-  tags:
-  - bsm
-  - muon-collider
 - id: pub-l1-036-higgs-precision-at-a-125-gev-muon-collider
   title: Higgs Precision at a 125 GeV Muon Collider
   year: 2022
@@ -1313,13 +1290,12 @@
   journal_url: https://journals.aps.org/prd/abstract/10.1103/PhysRevD.106.073007
   section: refereed_journals
   featured: false
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Higgs Precision at a 125 GeV Muon Collider, J. de Blas, J. Gu, Z. Liu,
+    PhysRevD.106.073007, 2203.04324[hep-ph](2022)
   journal: PhysRevD.106.073007
   status: ''
   venue_display: PhysRevD.106.073007
-  tags:
-  - higgs
-  - bsm
-  - muon-collider
 - id: pub-l1-035-entangled-sensor-networks-for-dark-matter-searches
   title: Entangled sensor-networks for dark-matter searches
   year: 2022
@@ -1332,13 +1308,12 @@
   journal_url: https://journals.aps.org/prxquantum/abstract/10.1103/PRXQuantum.3.030333
   section: refereed_journals
   featured: false
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Entangled sensor-networks for dark-matter searches, A. Brady, C. Gao,
+    R. Harnik, Z. Liu, Z. Zhang, Q. Zhuang, PRX Quantum 3, 030333, 2203.05375[quant-ph](2022)
   journal: C. Gao, R. Harnik, Z. Liu, Z. Zhang, Q. Zhuang, PRX Quantum 3, 030333
   status: ''
   venue_display: C. Gao, R. Harnik, Z. Liu, Z. Zhang, Q. Zhuang, PRX Quantum 3, 030333
-  tags:
-  - dark-sector
-  - qis
-  - quantum-sensing
 - id: pub-l3-021-a-muon-collider-facility-for-physics-discovery
   title: A Muon Collider Facility for Physics Discovery
   year: 2022
@@ -1350,12 +1325,12 @@
   journal_url: ''
   section: other_publications_contributor
   featured: false
+  source: Material/ZhenLiu_CV.tex
+  raw_text: A Muon Collider Facility for Physics Discovery, International Muon Collider
+    Collaboration, 2203.08033[physics.acc-ph](2022)
   journal: International Muon Collider Collaboration
   status: ''
   venue_display: International Muon Collider Collaboration
-  tags:
-  - bsm
-  - muon-collider
 - id: pub-l2-013-unveiling-hidden-physics-at-the-lhc
   title: Unveiling Hidden Physics at the LHC
   year: 2021
@@ -1368,12 +1343,12 @@
   journal_url: https://link.springer.com/article/10.1140/epjc/s10052-022-10541-4
   section: other_publications_editor
   featured: false
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Unveiling Hidden Physics at the LHC, O. Fischer et al, The European Physical
+    Journal C 82 (8), 1-58, 2109.06065[hep-ph] (2021)
   journal: The European Physical Journal C 82 (8), 1-58
   status: ''
   venue_display: The European Physical Journal C 82 (8), 1-58
-  tags:
-  - bsm
-  - lhc
 - id: pub-l3-026-the-forward-physics-facility-sites
   title: 'The Forward Physics Facility: Sites'
   year: 2021
@@ -1386,14 +1361,12 @@
   journal_url: ''
   section: other_publications_contributor
   featured: false
+  source: Material/ZhenLiu_CV.tex
+  raw_text: 'The Forward Physics Facility: Sites, Experiments, and Physics Potential,
+    L. Anchordoqui et al, 2109.10905[hep-ph] (2021)'
   journal: and Physics Potential, L. Anchordoqui et al
   status: ''
   venue_display: and Physics Potential, L. Anchordoqui et al
-  tags:
-  - bsm
-  - dark-sector
-  - forward-physics
-  - lhc
 - id: pub-l1-038-probing-higgs-exotic-decay-at-the-lhc-with-machine-learning
   title: Probing Higgs exotic decay at the LHC with machine learning
   year: 2021
@@ -1406,14 +1379,12 @@
   journal_url: ''
   section: refereed_journals
   featured: false
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Probing Higgs exotic decay at the LHC with machine learning, S. Jung,
+    Z. Liu, L.-T. Wang, K.-P. Xie, PhysRevD.105.035008, 2109.03294[hep-ph] (2021)
   journal: PhysRevD.105.035008
   status: ''
   venue_display: PhysRevD.105.035008
-  tags:
-  - higgs
-  - bsm
-  - lhc
-  - ai-ml
 - id: pub-l1-039-jet-timing
   title: Jet Timing
   year: 2021
@@ -1426,12 +1397,12 @@
   journal_url: https://link.springer.com/article/10.1007\%2FJHEP01\%282022\%29014
   section: refereed_journals
   featured: false
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Jet Timing, W.-H. Chiu, Z. Liu, M. Low, L.-T. Wang, JHEP 01 (2022) 014,
+    2109.01682[hep-ph] (2021)
   journal: JHEP 01 (2022) 014
   status: ''
   venue_display: JHEP 01 (2022) 014
-  tags:
-  - bsm
-  - lhc
 - id: pub-l1-040-exploring-uncharted-soft-displaced-vertices-in-open-data
   title: Exploring Uncharted Soft Displaced Vertices in Open Data
   year: 2021
@@ -1443,13 +1414,12 @@
   journal_url: ''
   section: refereed_journals
   featured: false
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Exploring Uncharted Soft Displaced Vertices in Open Data, H. An, Z. Hu,
+    Z. Liu, D. Yang, submitted, 2107.11405[hep-ph] (2021)
   journal: Z. Hu, Z. Liu, D. Yang, submitted
   status: ''
   venue_display: Z. Hu, Z. Liu, D. Yang, submitted
-  tags:
-  - bsm
-  - long-lived-particles
-  - lhc
 - id: pub-l1-041-a-new-approach-to-electroweak-symmetry-non-restoration
   title: A New Approach to Electroweak Symmetry Non-Restoration
   year: 2021
@@ -1462,12 +1432,12 @@
   journal_url: https://journals.aps.org/prd/abstract/10.1103/PhysRevD.104.055016
   section: refereed_journals
   featured: true
+  source: Material/ZhenLiu_CV.tex
+  raw_text: A New Approach to Electroweak Symmetry Non-Restoration, M. Carena, C.
+    Krause, Z. Liu, Y. Wang, Phys.Rev.D 104 (2021) 5, 055016, 2104.00638[hep-ph] (2021)
   journal: Phys.Rev.D 104 (2021) 5, 055016
   status: ''
   venue_display: Phys.Rev.D 104 (2021) 5, 055016
-  tags:
-  - bsm
-  - phase-transition
 - id: pub-l1-042-the-muon-smasher-s-guide
   title: The Muon Smasher's Guide
   year: 2021
@@ -1479,15 +1449,12 @@
   journal_url: https://iopscience.iop.org/article/10.1088/1361-6633/ac6678
   section: refereed_journals
   featured: false
+  source: Material/ZhenLiu_CV.tex
+  raw_text: The Muon Smasher's Guide, Ali et al, Rept.Prog.Phys. 85 (2022) 8, 084201,
+    2103.14043[hep-ph](2021)
   journal: Rept.Prog.Phys. 85 (2022) 8, 084201
   status: ''
   venue_display: Rept.Prog.Phys. 85 (2022) 8, 084201
-  tags:
-  - bsm
-  - dark-sector
-  - forward-physics
-  - lhc
-  - muon-collider
 - id: pub-l1-043-neutrino-masses-from-low-scale-partial-compositeness
   title: Neutrino Masses from Low Scale Partial Compositeness
   year: 2020
@@ -1500,12 +1467,12 @@
   journal_url: https://link.springer.com/article/10.1007%2FJHEP03%282021%29112
   section: refereed_journals
   featured: false
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Neutrino Masses from Low Scale Partial Compositeness, Z. Chacko, P. Fox,
+    R. Harnik, Z. Liu, JHEP 03 (2021) 112, 2012.01443[hep-ph] (2020)
   journal: JHEP 03 (2021) 112
   status: ''
   venue_display: JHEP 03 (2021) 112
-  tags:
-  - bsm
-  - neutrinos
 - id: pub-l1-044-electroweak-restoration-at-the-lhc-and-beyond-the-vh-channel
   title: 'Electroweak Restoration at the LHC and Beyond: The Vh Channel'
   year: 2020
@@ -1518,13 +1485,13 @@
   journal_url: https://journals.aps.org/prd/abstract/10.1103/PhysRevD.103.053007
   section: refereed_journals
   featured: false
+  source: Material/ZhenLiu_CV.tex
+  raw_text: 'Electroweak Restoration at the LHC and Beyond: The Vh Channel, L. Huang,
+    S. Lane, I. Lewis, Z. Liu, Phys. Rev. D 103, 053007 (2021)( Editor''s Suggestion
+    ), 2012.00774[hep-ph] (2020)'
   journal: Phys. Rev. D 103, 053007 (2021)( Editor's Suggestion )
   status: ''
   venue_display: Phys. Rev. D 103, 053007 (2021)( Editor's Suggestion )
-  tags:
-  - bsm
-  - lhc
-  - eft
 - id: pub-l1-045-heavy-axion-opportunities-at-the-dune-near-detector
   title: Heavy Axion Opportunities at the DUNE Near Detector
   year: 2020
@@ -1537,14 +1504,12 @@
   journal_url: https://journals.aps.org/prd/abstract/10.1103/PhysRevD.103.095002
   section: refereed_journals
   featured: false
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Heavy Axion Opportunities at the DUNE Near Detector, K. Kelly, S. Kumar,
+    Z. Liu, Phys. Rev. D 103, 095002, 2011.05995[hep-ph] (2020)
   journal: Phys. Rev. D 103, 095002
   status: ''
   venue_display: Phys. Rev. D 103, 095002
-  tags:
-  - dark-sector
-  - axions
-  - beamdump
-  - long-lived-particles
 - id: pub-l1-046-wimps-at-high-energy-muon-colliders
   title: WIMPs at High Energy Muon Colliders
   year: 2020
@@ -1557,13 +1522,12 @@
   journal_url: https://journals.aps.org/prd/abstract/10.1103/PhysRevD.103.075004
   section: refereed_journals
   featured: true
+  source: Material/ZhenLiu_CV.tex
+  raw_text: WIMPs at High Energy Muon Colliders, T. Han, Z. Liu, L.-T. Wang, X. Wang,
+    Phys. Rev. D 103, 075004 (2021), 2009.11287 [hep-ph] (2020)
   journal: Phys. Rev. D 103, 075004
   status: ''
   venue_display: Phys. Rev. D 103, 075004
-  tags:
-  - bsm
-  - dark-sector
-  - muon-collider
 - id: pub-l3-027-an-update-to-the-letter-of-intent-for-mathusla-search-for-long-lived-particles-at-the-hl-lhc
   title: 'An Update to the Letter of Intent for MATHUSLA: Search for Long-Lived Particles
     at the HL-LHC'
@@ -1576,14 +1540,13 @@
   journal_url: ''
   section: other_publications_contributor
   featured: false
+  source: Material/ZhenLiu_CV.tex
+  raw_text: 'An Update to the Letter of Intent for MATHUSLA: Search for Long-Lived
+    Particles at the HL-LHC, MATHUSLA Collaboration, 2009.01693 [physics.ins-det]
+    (2020)'
   journal: MATHUSLA Collaboration
   status: ''
   venue_display: MATHUSLA Collaboration
-  tags:
-  - bsm
-  - long-lived-particles
-  - forward-physics
-  - lhc
 - id: pub-l3-028-mechanical-quantum-sensing-in-the-search-for-dark-matter
   title: Mechanical Quantum Sensing in the Search for Dark Matter
   year: 2020
@@ -1596,12 +1559,12 @@
   journal_url: https://iopscience.iop.org/article/10.1088/2058-9565/abcfcd
   section: other_publications_contributor
   featured: false
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Mechanical Quantum Sensing in the Search for Dark Matter, D. Carney et
+    al, Quantum Sci.Technol. 6 (2021) 024002, 2008.06074[physics.ins-det] (2020)
   journal: Quantum Sci.Technol. 6 (2021) 024002
   status: ''
   venue_display: Quantum Sci.Technol. 6 (2021) 024002
-  tags:
-  - bsm
-  - dark-sector
 - id: pub-l1-047-enhancing-sensitivities-to-long-lived-particles-with-high-granularity-calorimeters-at-the-lhc
   title: Enhancing Sensitivities to Long-lived Particles with High Granularity Calorimeters
     at the LHC
@@ -1615,13 +1578,13 @@
   journal_url: https://link.springer.com/article/10.1007/JHEP11(2020)066
   section: refereed_journals
   featured: false
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Enhancing Sensitivities to Long-lived Particles with High Granularity
+    Calorimeters at the LHC, J. Liu, Z. Liu, L.-T. Wang, X.-P. Wang, JHEP11(2020)066,
+    2005.10836 [hep-ph] (2020)
   journal: JHEP11(2020)066
   status: ''
   venue_display: JHEP11(2020)066
-  tags:
-  - bsm
-  - long-lived-particles
-  - lhc
 - id: pub-l3-029-reinterpretation-of-lhc-results-for-new-physics-status-and-recommendations-after-run-2
   title: 'Reinterpretation of LHC Results for New Physics: Status and Recommendations
     after Run 2'
@@ -1635,12 +1598,13 @@
   journal_url: https://scipost.org/10.21468/SciPostPhys.9.2.022
   section: other_publications_contributor
   featured: false
+  source: Material/ZhenLiu_CV.tex
+  raw_text: 'Reinterpretation of LHC Results for New Physics: Status and Recommendations
+    after Run 2, LHC Reinterpretation Forum Collaboration, SciPost Phys. 9, 022 (2020)2003.07868
+    [hep-ph] (2020)'
   journal: SciPost Phys. 9, 022
   status: ''
   venue_display: SciPost Phys. 9, 022
-  tags:
-  - bsm
-  - lhc
 - id: pub-l1-048-the-high-quality-qcd-axion-and-the-lhc
   title: The High Quality QCD Axion and the LHC
   year: 2019
@@ -1653,14 +1617,12 @@
   journal_url: https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.124.221801
   section: refereed_journals
   featured: true
+  source: Material/ZhenLiu_CV.tex
+  raw_text: The High Quality QCD Axion and the LHC, A. Hook, S. Kumar, Z. Liu, R.
+    Sundrum, Phys.Rev.Lett. 124, 221801 (2020), 1911.12364 [hep-ph] (2019)
   journal: Phys.Rev.Lett. 124, 221801
   status: ''
   venue_display: Phys.Rev.Lett. 124, 221801
-  tags:
-  - dark-sector
-  - axions
-  - long-lived-particles
-  - lhc
 - id: pub-l1-050-improved-limits-on-millicharged-particles-using-the-argoneut-experiment-at-fermilab
   title: Improved Limits on Millicharged Particles Using the ArgoNeuT Experiment at
     Fermilab
@@ -1674,14 +1636,13 @@
   journal_url: https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.124.131801
   section: refereed_journals
   featured: true
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Improved Limits on Millicharged Particles Using the ArgoNeuT Experiment
+    at Fermilab, ArgoNeuT Collaboration, Phys.Rev.Lett. 124, 131801 (2020), 1911.07996
+    [hep-ex] (2019)
   journal: Phys.Rev.Lett. 124, 131801
   status: ''
   venue_display: Phys.Rev.Lett. 124, 131801
-  tags:
-  - dark-sector
-  - forward-physics
-  - lhc
-  - beamdump
 - id: pub-l1-049-electroweak-phase-transition-with-spontaneous-z-2-breaking
   title: Electroweak phase transition with spontaneous Z_2-breaking
   year: 2019
@@ -1693,13 +1654,12 @@
   journal_url: https://link.springer.com/article/10.1007/JHEP08(2020)107
   section: refereed_journals
   featured: false
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Electroweak phase transition with spontaneous Z_2-breaking, M. Carena,
+    Z. Liu, Y. Wang, JHEP 08 (2020) 107, 1911.10206 [hep-ph] (2019)
   journal: JHEP 08 (2020) 107
   status: ''
   venue_display: JHEP 08 (2020) 107
-  tags:
-  - higgs
-  - bsm
-  - phase-transition
 - id: pub-l2-014-higgs-boson-pair-production-at-colliders-status-and-perspectives
   title: 'Higgs boson pair production at colliders: status and perspectives'
   year: 2019
@@ -1711,12 +1671,12 @@
   journal_url: ''
   section: other_publications_editor
   featured: false
+  source: Material/ZhenLiu_CV.tex
+  raw_text: 'Higgs boson pair production at colliders: status and perspectives, B.
+    Di Micco et al, 1910.00012 [hep-ph] (2019)'
   journal: B. Di Micco et al
   status: ''
   venue_display: B. Di Micco et al
-  tags:
-  - higgs
-  - bsm
 - id: pub-l1-051-probing-flavor-non-universal-theories-through-higgs-physics-at-the-lhc-and-future-colliders
   title: Probing Flavor Non-Universal Theories Through Higgs Physics at the LHC and
     Future Colliders
@@ -1730,13 +1690,13 @@
   journal_url: https://journals.aps.org/prd/abstract/10.1103/PhysRevD.101.035045
   section: refereed_journals
   featured: false
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Probing Flavor Non-Universal Theories Through Higgs Physics at the LHC
+    and Future Colliders, W.H. Chiu, Z. Liu, L.-T. Wang, Phys. Rev. D 101, 035045
+    (2020), 1909.04549 [hep-ph] (2019)
   journal: Phys. Rev. D 101, 035045
   status: ''
   venue_display: Phys. Rev. D 101, 035045
-  tags:
-  - higgs
-  - bsm
-  - lhc
 - id: pub-l1-052-ultralight-dark-matter-detection-with-mechanical-quantum-sensors
   title: Ultralight Dark Matter Detection with Mechanical Quantum Sensors
   year: 2019
@@ -1749,14 +1709,14 @@
   journal_url: https://iopscience.iop.org/article/10.1088/1367-2630/abd9e7
   section: refereed_journals
   featured: true
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Ultralight Dark Matter Detection with Mechanical Quantum Sensors, D. Carney,
+    A. Hook, Z. Liu, J. Taylor, New J.Phys. 23 (2021) 2, 023041, 1908.04797 [hep-ph]
+    [quant-ph] (2019)
   journal: A. Hook, Z. Liu, J. Taylor, New J.Phys. 23 (2021) 2, 023041, 1908.04797
     [hep-ph] [quant-ph]
   status: ''
   venue_display: A. Hook, Z. Liu, J. Taylor, New J.Phys. 23 (2021) 2, 023041
-  tags:
-  - bsm
-  - dark-sector
-  - quantum-sensing
 - id: pub-l1-053-seeking-for-sterile-neutrinos-with-displaced-leptons-at-the-lhc
   title: Seeking for sterile neutrinos with displaced leptons at the LHC
   year: 2019
@@ -1769,14 +1729,12 @@
   journal_url: ''
   section: refereed_journals
   featured: false
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Seeking for sterile neutrinos with displaced leptons at the LHC, J. Liu,
+    Z. Liu, L.-T. Wang, X.-P. Wang, JHEP 1907 (2019) 159, 1904.01020 [hep-ph] (2019)
   journal: JHEP 1907 (2019) 159
   status: ''
   venue_display: JHEP 1907 (2019) 159
-  tags:
-  - bsm
-  - neutrinos
-  - long-lived-particles
-  - lhc
 - id: pub-l2-015-searching-for-long-lived-particles-beyond-the-standard-model-at-the-large-hadron-collider
   title: Searching for long-lived particles beyond the Standard Model at the Large
     Hadron Collider
@@ -1790,14 +1748,13 @@
   journal_url: https://iopscience.iop.org/article/10.1088/1361-6471/ab4574
   section: other_publications_editor
   featured: false
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Searching for long-lived particles beyond the Standard Model at the Large
+    Hadron Collider, Juliette Alimena et al, J.Phys.G 47 (2020) 9, 090501, 1903.04497
+    [hep-ph] (2019)
   journal: J.Phys.G 47 (2020) 9, 090501
   status: ''
   venue_display: J.Phys.G 47 (2020) 9, 090501
-  tags:
-  - standard-model
-  - bsm
-  - long-lived-particles
-  - lhc
 - id: pub-l1-054-millicharged-particles-in-liquid-argon-neutrino-experiments
   title: Millicharged Particles in Liquid Argon Neutrino Experiments
   year: 2019
@@ -1809,14 +1766,12 @@
   journal_url: ''
   section: refereed_journals
   featured: false
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Millicharged Particles in Liquid Argon Neutrino Experiments, R. Harnik,
+    Z. Liu, O. Palamara, JHEP07(2019)170, 1902.03246 [hep-ph] (2019)
   journal: JHEP07(2019)170
   status: ''
   venue_display: JHEP07(2019)170
-  tags:
-  - bsm
-  - dark-sector
-  - forward-physics
-  - lhc
 - id: pub-l3-030-higgs-physics-at-the-hl-lhc-and-he-lhc
   title: Higgs Physics at the HL-LHC and HE-LHC
   year: 2019
@@ -1828,13 +1783,12 @@
   journal_url: ''
   section: other_publications_contributor
   featured: false
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Higgs Physics at the HL-LHC and HE-LHC, Physics of the HL-LHC Working
+    Group, 1902.00134 [hep-ph] (2019)
   journal: Physics of the HL-LHC Working Group
   status: ''
   venue_display: Physics of the HL-LHC Working Group
-  tags:
-  - higgs
-  - bsm
-  - lhc
 - id: pub-l3-031-mathusla-a-detector-proposal-to-explore-the-lifetime-frontier-at-the-hl-lhc
   title: 'MATHUSLA: A Detector Proposal to Explore the Lifetime Frontier at the HL-LHC'
   year: 2019
@@ -1846,14 +1800,12 @@
   journal_url: ''
   section: other_publications_contributor
   featured: false
+  source: Material/ZhenLiu_CV.tex
+  raw_text: 'MATHUSLA: A Detector Proposal to Explore the Lifetime Frontier at the
+    HL-LHC, Physics of the HL-LHC Working Group, 1901.04040 [hep-ph] (2019)'
   journal: Physics of the HL-LHC Working Group
   status: ''
   venue_display: Physics of the HL-LHC Working Group
-  tags:
-  - bsm
-  - long-lived-particles
-  - forward-physics
-  - lhc
 - id: pub-l3-037-the-clic-potential-for-new-physics
   title: The CLIC Potential for New Physics
   year: 2018
@@ -1866,12 +1818,12 @@
   journal_url: ''
   section: other_publications_contributor
   featured: false
+  source: Material/ZhenLiu_CV.tex
+  raw_text: The CLIC Potential for New Physics, J. de Blas et al., CERN Yellow Rep.
+    Monogr. Vol. 3 (2018), 1812.02093 [hep-ph] (2018)
   journal: CERN Yellow Rep. Monogr. Vol. 3
   status: ''
   venue_display: CERN Yellow Rep. Monogr. Vol. 3
-  tags:
-  - bsm
-  - cepc-fcc
 - id: pub-l3-036-beyond-the-standard-model-physics-at-the-hl-lhc-and-he-lhc
   title: Beyond the Standard Model Physics at the HL-LHC and HE-LHC
   year: 2018
@@ -1883,13 +1835,12 @@
   journal_url: ''
   section: other_publications_contributor
   featured: false
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Beyond the Standard Model Physics at the HL-LHC and HE-LHC, X. Cid Vidal
+    et al., 1812.07831 [hep-ph] (2018)
   journal: X. Cid Vidal et al
   status: ''
   venue_display: X. Cid Vidal et al
-  tags:
-  - standard-model
-  - bsm
-  - lhc
 - id: pub-l1-055-heavy-higgs-as-a-portal-to-the-supersymmetric-electroweak-sector
   title: Heavy Higgs as a Portal to the Supersymmetric Electroweak Sector
   year: 2018
@@ -1901,14 +1852,12 @@
   journal_url: https://link.springer.com/article/10.1007\%2FJHEP04\%282019\%29049
   section: refereed_journals
   featured: false
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Heavy Higgs as a Portal to the Supersymmetric Electroweak Sector, S. Gori,
+    Z. Liu, B. Shakya, JHEP 04 (2019) 049, 1811.11918 [hep-ph] (2018)
   journal: JHEP 04 (2019) 049
   status: ''
   venue_display: JHEP 04 (2019) 049
-  tags:
-  - higgs
-  - bsm
-  - supersymmetry
-  - dark-sector
 - id: pub-l2-016-cepc-conceptual-design-report-volume-2-physics-detector
   title: 'CEPC Conceptual Design Report: Volume 2 - Physics & Detector'
   year: 2018
@@ -1920,12 +1869,12 @@
   journal_url: ''
   section: other_publications_editor
   featured: false
+  source: Material/ZhenLiu_CV.tex
+  raw_text: 'CEPC Conceptual Design Report: Volume 2 - Physics & Detector, M. Ahmad
+    et al., 1811.10545 [hep-ph] (2018)'
   journal: M. Ahmad et al
   status: ''
   venue_display: M. Ahmad et al
-  tags:
-  - bsm
-  - cepc-fcc
 - id: pub-l1-056-precision-higgs-physics-at-cepc
   title: Precision Higgs Physics at CEPC
   year: 2018
@@ -1938,15 +1887,15 @@
   journal_url: https://iopscience.iop.org/article/10.1088/1674-1137/43/4/043002/meta
   section: refereed_journals
   featured: false
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Precision Higgs Physics at CEPC, F. An et al, Chin.Phys. C43 (2019) no.4,
+    043002 (Most Influential Paper Award of Chinese Physics Society) , 1810.09037
+    [hep-ph] (2018)
   journal: Chin.Phys. C43 (2019) no.4, 043002 (Most Influential Paper Award of Chinese
     Physics Society)
   status: ''
   venue_display: Chin.Phys. C43 (2019) no.4, 043002 (Most Influential Paper Award
     of Chinese Physics Society)
-  tags:
-  - higgs
-  - bsm
-  - cepc-fcc
 - id: pub-l2-017-new-physics-implication-of-higgs-precision-measurements
   title: New physics implication of Higgs precision measurements
   year: 2018
@@ -1959,12 +1908,12 @@
   journal_url: ''
   section: other_publications_editor
   featured: false
+  source: Material/ZhenLiu_CV.tex
+  raw_text: New physics implication of Higgs precision measurements, C. Ning et al,
+    Int.J.Mod.Phys. A34 (2019) no.13n14, 1940012, 1808.10177 [hep-ph] (2018)
   journal: Int.J.Mod.Phys. A34 (2019) no.13n14, 1940012
   status: ''
   venue_display: Int.J.Mod.Phys. A34 (2019) no.13n14, 1940012
-  tags:
-  - higgs
-  - bsm
 - id: pub-l1-057-long-lived-particles-at-the-energy-frontier-the-mathusla-physics-case
   title: 'Long-Lived Particles at the Energy Frontier: The MATHUSLA Physics Case'
   year: 2018
@@ -1977,15 +1926,13 @@
   journal_url: https://iopscience.iop.org/article/10.1088/1361-6633/ab28d6
   section: refereed_journals
   featured: false
+  source: Material/ZhenLiu_CV.tex
+  raw_text: 'Long-Lived Particles at the Energy Frontier: The MATHUSLA Physics Case,
+    D. Curtin et al, Rept.Prog.Phys. 82 (2019) no.11, 116201, 1806.07396 [hep-ph]
+    (2018)'
   journal: Rept.Prog.Phys. 82 (2019) no.11, 116201
   status: ''
   venue_display: Rept.Prog.Phys. 82 (2019) no.11, 116201
-  tags:
-  - bsm
-  - dark-sector
-  - long-lived-particles
-  - forward-physics
-  - lhc
 - id: pub-l1-058-long-lived-particles-at-the-lhc-catching-them-in-time
   title: 'Long-lived particles at the LHC: catching them in time'
   year: 2018
@@ -1998,13 +1945,12 @@
   journal_url: https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.122.131801
   section: refereed_journals
   featured: true
+  source: Material/ZhenLiu_CV.tex
+  raw_text: 'Long-lived particles at the LHC: catching them in time, J. Liu, Z. Liu,
+    L.-T. Wang, Phys.Rev.Lett.122.131801, arXiv:1805.05957 [hep-ph] (2018)'
   journal: Phys.Rev.Lett.122.131801
   status: ''
   venue_display: Phys.Rev.Lett.122.131801
-  tags:
-  - bsm
-  - long-lived-particles
-  - lhc
 - id: pub-l3-035-future-circular-collider-vol-4-the-high-energy-lhc-he-lhc
   title: 'Future Circular Collider : Vol. 4 The High-Energy LHC (HE-LHC)'
   year: 2018
@@ -2016,14 +1962,12 @@
   journal_url: ''
   section: other_publications_contributor
   featured: false
+  source: Material/ZhenLiu_CV.tex
+  raw_text: 'Future Circular Collider : Vol. 4 The High-Energy LHC (HE-LHC) , FCC
+    Collaboration, Eur.Phys.J.ST 228 (2019) no.5, 1109-1382 [hep-ph] (2018)'
   journal: Eur.Phys.J.ST 228 (2019) no.5, 1109-1382 [hep-ph]
   status: ''
   venue_display: Eur.Phys.J.ST 228 (2019) no.5, 1109-1382 [hep-ph]
-  tags:
-  - higgs
-  - bsm
-  - lhc
-  - cepc-fcc
 - id: pub-l3-034-future-circular-collider-vol-3-the-hadron-collider-fcc-hh
   title: 'Future Circular Collider : Vol. 3 The Hadron Collider (FCC-hh)'
   year: 2018
@@ -2035,14 +1979,12 @@
   journal_url: ''
   section: other_publications_contributor
   featured: false
+  source: Material/ZhenLiu_CV.tex
+  raw_text: 'Future Circular Collider : Vol. 3 The Hadron Collider (FCC-hh) , FCC
+    Collaboration, Eur.Phys.J.ST 228 (2019) no.4, 755-1107 [hep-ph] (2018)'
   journal: Eur.Phys.J.ST 228 (2019) no.4, 755-1107 [hep-ph]
   status: ''
   venue_display: Eur.Phys.J.ST 228 (2019) no.4, 755-1107 [hep-ph]
-  tags:
-  - higgs
-  - bsm
-  - lhc
-  - cepc-fcc
 - id: pub-l3-033-future-circular-collider-vol-2-the-lepton-collider-fcc-ee
   title: 'Future Circular Collider : Vol. 2 The Lepton Collider (FCC-ee)'
   year: 2018
@@ -2054,13 +1996,12 @@
   journal_url: ''
   section: other_publications_contributor
   featured: false
+  source: Material/ZhenLiu_CV.tex
+  raw_text: 'Future Circular Collider : Vol. 2 The Lepton Collider (FCC-ee) , FCC
+    Collaboration, Eur.Phys.J.ST 228 (2019) no.2, 261-623 [hep-ph] (2018)'
   journal: Eur.Phys.J.ST 228 (2019) no.2, 261-623 [hep-ph]
   status: ''
   venue_display: Eur.Phys.J.ST 228 (2019) no.2, 261-623 [hep-ph]
-  tags:
-  - higgs
-  - bsm
-  - cepc-fcc
 - id: pub-l3-032-future-circular-collider-vol-1-physics-opportunities
   title: 'Future Circular Collider : Vol. 1 Physics opportunities'
   year: 2018
@@ -2072,13 +2013,12 @@
   journal_url: ''
   section: other_publications_contributor
   featured: false
+  source: Material/ZhenLiu_CV.tex
+  raw_text: 'Future Circular Collider : Vol. 1 Physics opportunities , FCC Collaboration,
+    Eur.Phys.J. C79 (2019) no.6, 474 [hep-ph] (2018)'
   journal: Eur.Phys.J. C79 (2019) no.6, 474 [hep-ph]
   status: ''
   venue_display: Eur.Phys.J. C79 (2019) no.6, 474 [hep-ph]
-  tags:
-  - higgs
-  - bsm
-  - cepc-fcc
 - id: pub-l1-060-a-global-view-on-the-higgs-self-coupling-at-lepton-colliders
   title: A global view on the Higgs self-coupling at lepton colliders
   year: 2017
@@ -2091,13 +2031,13 @@
   journal_url: https://link.springer.com/article/10.1007\%2FJHEP02\%282018\%29178
   section: refereed_journals
   featured: false
+  source: Material/ZhenLiu_CV.tex
+  raw_text: A global view on the Higgs self-coupling at lepton colliders, S. Di Vita,
+    G. Durieux, C. Grojean, J. Gu, Z. Liu, G. Panico, M. Riembau, T. Vantalon, JHEP02
+    (2018) 178, arXiv:1711.03978 [hep-ph] (2017)
   journal: JHEP02 (2018) 178
   status: ''
   venue_display: JHEP02 (2018) 178
-  tags:
-  - higgs
-  - bsm
-  - cepc-fcc
 - id: pub-l1-059-probing-electroweak-phase-transition-via-enhanced-di-higgs-production
   title: Probing Electroweak Phase Transition via Enhanced Di-Higgs Production
   year: 2018
@@ -2110,13 +2050,13 @@
   journal_url: https://journals.aps.org/prd/abstract/10.1103/PhysRevD.97.095032
   section: refereed_journals
   featured: false
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Probing Electroweak Phase Transition via Enhanced Di-Higgs Production,
+    M. Carena, Z. Liu, M. Riembau, Phys. Rev. D 97, 095032 (2018), arXiv:1801.00794
+    [hep-ph] (2018)
   journal: Phys. Rev. D 97, 095032
   status: ''
   venue_display: Phys. Rev. D 97, 095032
-  tags:
-  - bsm
-  - phase-transition
-  - lhc
 - id: pub-l1-061-would-a-deeply-bound-bbar-b-b-bar-b-tetraquark-meson-be-observed-at-the-lhc
   title: Would a Deeply Bound bbar b b bar b Tetraquark Meson be Observed at the LHC?
   year: 2017
@@ -2147,12 +2087,12 @@
   journal_url: https://link.springer.com/article/10.1007%2FJHEP12%282017%29153
   section: refereed_journals
   featured: false
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Learning from Higgs Physics at Future Higgs Factories, J. Gu, H. Li, Z.
+    Liu, S. Su, W. Su, JHEP 1712 (2017) 153, arXiv:1709.06103 [hep-ph] (2017)
   journal: JHEP 1712 (2017) 153
   status: ''
   venue_display: JHEP 1712 (2017) 153
-  tags:
-  - higgs
-  - bsm
 - id: pub-l1-063-interference-in-the-gg-h-gammagamma-on-shell-rate-and-the-higgs-boson-total-width
   title: Interference in the gg-> h -> gammagamma On-Shell Rate and the Higgs Boson
     Total Width
@@ -2166,14 +2106,13 @@
   journal_url: https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.119.181801
   section: refereed_journals
   featured: true
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Interference in the gg-> h -> gammagamma On-Shell Rate and the Higgs Boson
+    Total Width, J. Campbell, M. Carena, R. Harnik, Z. Liu, Phys.Rev.Lett.119.181801,
+    arXiv:1704.08259 [hep-ph] (2017)
   journal: Phys.Rev.Lett.119.181801
   status: ''
   venue_display: Phys.Rev.Lett.119.181801
-  tags:
-  - higgs
-  - standard-model
-  - bsm
-  - lhc
 - id: pub-l1-064-exotic-decays-of-the-125-gev-higgs-boson-at-future-e-e-colliders
   title: Exotic decays of the 125 GeV Higgs boson at future e^+e^- colliders
   year: 2016
@@ -2186,13 +2125,13 @@
   journal_url: ''
   section: refereed_journals
   featured: true
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Exotic decays of the 125 GeV Higgs boson at future e^+e^- colliders, Z.
+    Liu, L.-T. Wang, H. Zhang, Chin.Phys. C41 (2017) no.6, 063102, arXiv:1612.09284
+    [hep-ph] (2016)
   journal: Chin.Phys. C41 (2017) no.6, 063102
   status: ''
   venue_display: Chin.Phys. C41 (2017) no.6, 063102
-  tags:
-  - higgs
-  - bsm
-  - cepc-fcc
 - id: pub-l1-065-challenges-and-opportunities-for-heavy-scalar-searches-in-the-ttbar-channel-at-the-lhc
   title: Challenges and opportunities for heavy scalar searches in the ttbar channel
     at the LHC
@@ -2205,13 +2144,12 @@
   journal_url: ''
   section: refereed_journals
   featured: true
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Challenges and opportunities for heavy scalar searches in the ttbar channel
+    at the LHC, M. Carena, Z. Liu, JHEP11(2016)159, arXiv:1608.07282 [hep-ph] (2016)
   journal: JHEP11(2016)159
   status: ''
   venue_display: JHEP11(2016)159
-  tags:
-  - higgs
-  - bsm
-  - lhc
 - id: pub-l1-066-isr-effects-for-resonant-higgs-production-at-future-lepton-colliders
   title: ISR effects for resonant Higgs production at future lepton colliders
   year: 2016
@@ -2224,13 +2162,13 @@
   journal_url: ''
   section: refereed_journals
   featured: false
+  source: Material/ZhenLiu_CV.tex
+  raw_text: ISR effects for resonant Higgs production at future lepton colliders,
+    M. Greco, T. Han, Z. Liu, Phys.Lett. B763 (2016) 409-415, arXiv:1607.03210 [hep-ph]
+    (2016)
   journal: T. Han, Z. Liu, Phys.Lett. B763 (2016) 409-415
   status: ''
   venue_display: T. Han, Z. Liu, Phys.Lett. B763 (2016) 409-415
-  tags:
-  - higgs
-  - bsm
-  - cepc-fcc
 - id: pub-l2-018-probing-the-higgs-with-angular-observables-at-future-e-e-colliders
   title: Probing the Higgs with angular observables at future e^+e^- colliders
   year: 2016
@@ -2242,13 +2180,12 @@
   journal_url: ''
   section: other_publications_editor
   featured: false
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Probing the Higgs with angular observables at future e^+e^- colliders,
+    Z. Liu, Int. J. Mod. Phys. A, 31, 1644005 (2016)
   journal: Int. J. Mod. Phys. A, 31, 1644005
   status: ''
   venue_display: Int. J. Mod. Phys. A, 31, 1644005
-  tags:
-  - higgs
-  - bsm
-  - cepc-fcc
 - id: pub-l1-067-physics-implications-of-the-diphoton-excess-from-the-perspective-of-renormalization-group-flow
   title: Physics implications of the diphoton excess from the perspective of renormalization
     group flow
@@ -2261,12 +2198,12 @@
   journal_url: http://journals.aps.org/prd/abstract/10.1103/PhysRevD.93.075006
   section: refereed_journals
   featured: false
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Physics implications of the diphoton excess from the perspective of renormalization
+    group flow, Z. Liu, J. Gu, PhysRevD.93.075006, arXiv:1512.07624 [hep-ph] (2015)
   journal: PhysRevD.93.075006
   status: ''
   venue_display: PhysRevD.93.075006
-  tags:
-  - higgs
-  - bsm
 - id: pub-l1-068-beyond-higgs-couplings-probing-the-higgs-with-angular-observables-at-future-e-e-colliders
   title: 'Beyond Higgs Couplings: Probing the Higgs with Angular Observables at Future
     e^+e^- Colliders'
@@ -2280,13 +2217,13 @@
   journal_url: http://link.springer.com/article/10.1007\%2FJHEP03\%282016\%29050
   section: refereed_journals
   featured: false
+  source: Material/ZhenLiu_CV.tex
+  raw_text: 'Beyond Higgs Couplings: Probing the Higgs with Angular Observables at
+    Future e^+e^- Colliders, N. Craig, J. Gu, Z. Liu, K. Wang, JHEP 1603 (2016) 050,
+    arXiv:1512.06877 [hep-ph] (2015)'
   journal: JHEP 1603 (2016) 050
   status: ''
   venue_display: JHEP 1603 (2016) 050
-  tags:
-  - higgs
-  - bsm
-  - cepc-fcc
 - id: pub-l1-069-heavy-higgs-bosons-and-the-2-tev-w-boson
   title: Heavy Higgs bosons and the 2 TeV W^ boson
   year: 2015
@@ -2298,14 +2235,12 @@
   journal_url: http://link.springer.com/article/10.1007\%2FJHEP10\%282015\%29118
   section: refereed_journals
   featured: false
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Heavy Higgs bosons and the 2 TeV W^ boson, B. Dobrescu, Z. Liu, JHEP 10
+    (2015) 118, arXiv:1507.01923 [hep-ph] (2015)
   journal: JHEP 10 (2015) 118
   status: ''
   venue_display: JHEP 10 (2015) 118
-  tags:
-  - higgs
-  - bsm
-  - lhc
-  - eft
 - id: pub-l1-070-a-w-boson-near-2-tev-predictions-for-run-2-of-the-lhc
   title: 'A W^ boson near 2 TeV: predictions for Run 2 of the LHC'
   year: 2015
@@ -2318,13 +2253,12 @@
   journal_url: ''
   section: refereed_journals
   featured: true
+  source: Material/ZhenLiu_CV.tex
+  raw_text: 'A W^ boson near 2 TeV: predictions for Run 2 of the LHC, B. Dobrescu,
+    Z. Liu, Phys.Rev.Lett. 115, 211802, arXiv:1506.06736 [hep-ph] (2015)'
   journal: Phys.Rev.Lett. 115, 211802
   status: ''
   venue_display: Phys.Rev.Lett. 115, 211802
-  tags:
-  - bsm
-  - lhc
-  - eft
 - id: pub-l1-071-improving-higgs-coupling-measurements-through-zz-fusion-at-the-ilc
   title: Improving Higgs coupling measurements through ZZ Fusion at the ILC
   year: 2015
@@ -2337,13 +2271,13 @@
   journal_url: http://journals.aps.org/prd/abstract/10.1103/PhysRevD.91.113007
   section: refereed_journals
   featured: false
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Improving Higgs coupling measurements through ZZ Fusion at the ILC, T.
+    Han, Z. Liu, Z. Qian, J. Sayre, Phys. Rev. D 91, 113007, arXiv:1504.01399 [hep-ph]
+    (2015)
   journal: Phys. Rev. D 91, 113007
   status: ''
   venue_display: Phys. Rev. D 91, 113007
-  tags:
-  - higgs
-  - bsm
-  - cepc-fcc
 - id: pub-l1-072-the-fate-of-long-lived-superparticles-with-hadronic-decays-after-lhc-run-1
   title: The Fate of Long-Lived Superparticles with Hadronic Decays after LHC Run
     1
@@ -2356,15 +2290,12 @@
   journal_url: http://link.springer.com/article/10.1007\%2FJHEP06\%282015\%29042
   section: refereed_journals
   featured: true
+  source: Material/ZhenLiu_CV.tex
+  raw_text: The Fate of Long-Lived Superparticles with Hadronic Decays after LHC Run
+    1 , Z. Liu, B. Tweedie,JHEP 06 (2015) 042, arXiv:1503.05923 [hep-ph] (2015)
   journal: JHEP 06 (2015) 042
   status: ''
   venue_display: JHEP 06 (2015) 042
-  tags:
-  - bsm
-  - supersymmetry
-  - dark-sector
-  - long-lived-particles
-  - lhc
 - id: pub-l2-019-cepc-sppc-preliminary-conceptual-design-report-volume-i-physics-and-detector
   title: 'CEPC-SppC Preliminary Conceptual Design Report Volume I: Physics and Detector'
   year: 2015
@@ -2376,13 +2307,12 @@
   journal_url: http://cepc.ihep.ac.cn/preCDR/main_preCDR.pdf
   section: other_publications_editor
   featured: false
+  source: Material/ZhenLiu_CV.tex
+  raw_text: 'CEPC-SppC Preliminary Conceptual Design Report Volume I: Physics and
+    Detector , M. Ahmad et al., (link) [hep-ph] (2015)'
   journal: '[hep-ph]'
   status: ''
   venue_display: '[hep-ph]'
-  tags:
-  - higgs
-  - bsm
-  - cepc-fcc
 - id: pub-l2-020-beyond-standard-model-physics-at-current-and-future-colliders
   title: Beyond Standard Model Physics at Current and Future Colliders
   year: 2015
@@ -2394,13 +2324,12 @@
   journal_url: http://inspirehep.net/record/1403940/files/thesis_ZhLiu.pdf
   section: other_publications_editor
   featured: false
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Beyond Standard Model Physics at Current and Future Colliders , Z. Liu,
+    thesis [hep-ph] (2015)
   journal: thesis [hep-ph]
   status: ''
   venue_display: thesis [hep-ph]
-  tags:
-  - bsm
-  - lhc
-  - cepc-fcc
 - id: pub-l1-073-radiative-return-for-heavy-higgs-boson-at-a-muon-collider
   title: Radiative Return for Heavy Higgs Boson at a Muon Collider
   year: 2014
@@ -2413,13 +2342,13 @@
   journal_url: http://journals.aps.org/prd/abstract/10.1103/PhysRevD.91.015008
   section: refereed_journals
   featured: false
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Radiative Return for Heavy Higgs Boson at a Muon Collider , N. Chakrabarty,
+    T. Han, Z. Liu, B. Mukhopadhyaya, Phys.Rev. D91, 015008, arXiv:1408.5912 [hep-ph]
+    (2014)
   journal: Phys.Rev. D91, 015008
   status: ''
   venue_display: Phys.Rev. D91, 015008
-  tags:
-  - higgs
-  - bsm
-  - muon-collider
 - id: pub-l1-074-light-neutralino-dark-matter-direct-indirect-detection-and-collider-searches
   title: 'Light Neutralino Dark Matter: Direct/Indirect Detection and Collider Searches'
   year: 2014
@@ -2431,13 +2360,13 @@
   journal_url: http://link.springer.com/article/10.1007\%2FJHEP08\%282014\%29093
   section: refereed_journals
   featured: true
+  source: Material/ZhenLiu_CV.tex
+  raw_text: 'Light Neutralino Dark Matter: Direct/Indirect Detection and Collider
+    Searches , T. Han, Z. Liu, S. Su, JHEP 08 (2014) 093, arXiv:1406.1181 [hep-ph]
+    (2014)'
   journal: JHEP 08 (2014) 093
   status: ''
   venue_display: JHEP 08 (2014) 093
-  tags:
-  - bsm
-  - supersymmetry
-  - dark-sector
 - id: pub-l1-075-exotic-decays-of-the-125-gev-higgs-boson
   title: Exotic Decays of the 125 GeV Higgs Boson
   year: 2013
@@ -2450,12 +2379,12 @@
   journal_url: http://journals.aps.org/prd/abstract/10.1103/PhysRevD.90.075004
   section: refereed_journals
   featured: false
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Exotic Decays of the 125 GeV Higgs Boson , D. Curtin et al., Phys. Rev.
+    D90 (2014) 075004 ( Editors suggestion ), arXiv:1312.4992 [hep-ph] (2013)
   journal: Phys. Rev. D90 (2014) 075004 ( Editors suggestion )
   status: ''
   venue_display: Phys. Rev. D90 (2014) 075004 ( Editors suggestion )
-  tags:
-  - higgs
-  - bsm
 - id: pub-l1-076-potential-precision-on-higgs-couplings-and-total-width-at-the-ilc
   title: Potential Precision on Higgs Couplings and Total Width at the ILC
   year: 2013
@@ -2468,13 +2397,12 @@
   journal_url: http://journals.aps.org/prd/abstract/10.1103/PhysRevD.89.113006
   section: refereed_journals
   featured: true
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Potential Precision on Higgs Couplings and Total Width at the ILC , T.
+    Han, Z. Liu, J. Sayre, Phys. Rev. D 89 113006, arXiv:1311.7155 [hep-ph] (2013)
   journal: Phys. Rev. D 89 113006
   status: ''
   venue_display: Phys. Rev. D 89 113006
-  tags:
-  - higgs
-  - bsm
-  - cepc-fcc
 - id: pub-l3-038-new-particles-working-group-report-of-the-snowmass-2013-community-summer-study
   title: New Particles Working Group Report of the Snowmass 2013 Community Summer
     Study
@@ -2487,12 +2415,12 @@
   journal_url: ''
   section: other_publications_contributor
   featured: false
+  source: Material/ZhenLiu_CV.tex
+  raw_text: New Particles Working Group Report of the Snowmass 2013 Community Summer
+    Study , Y. Gershtein et al., arXiv:1311.0299 [hep-ph] (2013)
   journal: Y. Gershtein et al
   status: ''
   venue_display: Y. Gershtein et al
-  tags:
-  - bsm
-  - cepc-fcc
 - id: pub-l3-039-higgs-working-group-report-of-the-snowmass-2013-community-planning-study
   title: Higgs Working Group Report of the Snowmass 2013 Community Planning Study
   year: 2013
@@ -2504,13 +2432,12 @@
   journal_url: ''
   section: other_publications_contributor
   featured: false
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Higgs Working Group Report of the Snowmass 2013 Community Planning Study
+    , S. Dawson et al., arXiv:1310.8361 [hep-ph] (2013)
   journal: S. Dawson et al
   status: ''
   venue_display: S. Dawson et al
-  tags:
-  - higgs
-  - bsm
-  - cepc-fcc
 - id: pub-l3-040-muon-collider-higgs-factory-for-snowmass-2013
   title: Muon Collider Higgs Factory for Snowmass 2013
   year: 2013
@@ -2522,14 +2449,12 @@
   journal_url: ''
   section: other_publications_contributor
   featured: false
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Muon Collider Higgs Factory for Snowmass 2013 , Y. Alexahin et al., arXiv:1308.2143
+    [hep-ph] (2013)
   journal: Y. Alexahin et al
   status: ''
   venue_display: Y. Alexahin et al
-  tags:
-  - higgs
-  - bsm
-  - muon-collider
-  - cepc-fcc
 - id: pub-l2-021-diagnosis-of-a-new-neutral-gauge-boson-at-the-lhc-and-ilc-for-snowmass-2013
   title: Diagnosis of a New Neutral Gauge Boson at the LHC and ILC for Snowmass 2013
   year: 2013
@@ -2541,13 +2466,12 @@
   journal_url: ''
   section: other_publications_editor
   featured: false
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Diagnosis of a New Neutral Gauge Boson at the LHC and ILC for Snowmass
+    2013 , T. Han, P. Langacker, Z. Liu and L.-T. Wang, 1308.2738 [hep-ph] (2013)
   journal: P. Langacker, Z. Liu and L.-T. Wang
   status: ''
   venue_display: P. Langacker, Z. Liu and L.-T. Wang
-  tags:
-  - bsm
-  - lhc
-  - cepc-fcc
 - id: pub-l3-041-the-case-for-a-muon-collider-higgs-factory
   title: The Case for a Muon Collider Higgs Factory
   year: 2013
@@ -2559,13 +2483,12 @@
   journal_url: ''
   section: other_publications_contributor
   featured: false
+  source: Material/ZhenLiu_CV.tex
+  raw_text: The Case for a Muon Collider Higgs Factory , Y. Alexahin et al., arXiv:1307.6129
+    [hep-ph] (2013)
   journal: Y. Alexahin et al
   status: ''
   venue_display: Y. Alexahin et al
-  tags:
-  - higgs
-  - bsm
-  - muon-collider
 - id: pub-l1-078-low-mass-higgs-bosons-in-the-nmssm-and-their-lhc-implications
   title: Low-Mass Higgs Bosons in the NMSSM and Their LHC Implications
   year: 2013
@@ -2578,15 +2501,12 @@
   journal_url: http://link.springer.com/article/10.1007\%2FJHEP08\%282013\%29019
   section: refereed_journals
   featured: false
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Low-Mass Higgs Bosons in the NMSSM and Their LHC Implications , N. Christensen,
+    T. Han, Z. Liu, S. Su, JHEP 1308 (2013) 019, arXiv:1303.2113 [hep-ph] (2013)
   journal: JHEP 1308 (2013) 019
   status: ''
   venue_display: JHEP 1308 (2013) 019
-  tags:
-  - higgs
-  - bsm
-  - supersymmetry
-  - dark-sector
-  - lhc
 - id: pub-l1-077-dark-matter-and-higgs-bosons-in-the-mssm
   title: Dark Matter and Higgs Bosons in the MSSM
   year: 2013
@@ -2599,14 +2519,12 @@
   journal_url: http://link.springer.com/article/10.1007\%2FJHEP11\%282013\%29008
   section: refereed_journals
   featured: true
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Dark Matter and Higgs Bosons in the MSSM , T. Han, Z. Liu, A. Natarajan,
+    JHEP 1311 (2013) 008, arXiv:1303.3040 [hep-ph] (2013)
   journal: JHEP 1311 (2013) 008
   status: ''
   venue_display: JHEP 1311 (2013) 008
-  tags:
-  - higgs
-  - bsm
-  - supersymmetry
-  - dark-sector
 - id: pub-l1-079-potential-precision-of-a-direct-measurement-of-the-higgs-boson-total-width-at-a-muon-collider
   title: Potential precision of a direct measurement of the Higgs boson total width
     at a muon collider
@@ -2620,13 +2538,13 @@
   journal_url: http://journals.aps.org/prd/abstract/10.1103/PhysRevD.87.033007
   section: refereed_journals
   featured: true
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Potential precision of a direct measurement of the Higgs boson total width
+    at a muon collider , T. Han and Z. Liu, Phys.Rev. D87 (2013) 033007, arXiv:1210.7803
+    [hep-ph] (2012)
   journal: Phys.Rev. D87 (2013) 033007
   status: ''
   venue_display: Phys.Rev. D87 (2013) 033007
-  tags:
-  - higgs
-  - bsm
-  - muon-collider
 - id: pub-l3-042-simplified-models-for-lhc-new-physics-searches
   title: Simplified Models for LHC New Physics Searches
   year: 2011
@@ -2639,12 +2557,12 @@
   journal_url: http://iopscience.iop.org/0954-3899/39/10/105005/
   section: other_publications_contributor
   featured: false
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Simplified Models for LHC New Physics Searches , Daniele Alves et al.,
+    J.Phys. G39 (2012) 105005, arXiv:1105.2838 [hep-ph] (2011)
   journal: J.Phys. G39 (2012) 105005
   status: ''
   venue_display: J.Phys. G39 (2012) 105005
-  tags:
-  - bsm
-  - lhc
 - id: pub-l1-080-colored-resonant-signals-at-the-lhc-largest-rate-and-simplest-topology
   title: 'Colored Resonant Signals at the LHC: Largest Rate and Simplest Topology'
   year: 2010
@@ -2657,9 +2575,9 @@
   journal_url: http://link.springer.com/article/10.1007\%2FJHEP12\%282010\%29085
   section: refereed_journals
   featured: true
+  source: Material/ZhenLiu_CV.tex
+  raw_text: 'Colored Resonant Signals at the LHC: Largest Rate and Simplest Topology
+    , T. Han, I. Lewis, Z. Liu, JHEP 1012 (2010) 085, arXiv:1010.4309 [hep-ph] (2010)'
   journal: JHEP 1012 (2010) 085
   status: ''
   venue_display: JHEP 1012 (2010) 085
-  tags:
-  - bsm
-  - lhc

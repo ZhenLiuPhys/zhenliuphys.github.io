@@ -25,7 +25,7 @@ CV_INPUT_CANDIDATES = (
 DEFAULT_CV_INPUT = "Material/ZhenLiu_CV.tex"
 DEFAULT_HAND_EDITS_PATH = "data/source/cv_hand_edits.yaml"
 DEFAULT_CONFLICT_APPROVALS_TEMPLATE = "backups/cv-conflict-approvals.json"
-ALLOWED_CV_SUFFIXES = {".tex", ".htm", ".html"}
+ALLOWED_CV_SUFFIXES = {".tex"}
 
 SERVICE_SECTION_TITLES = {
     "workshops": "Program&Workshop organizations",
@@ -1238,123 +1238,29 @@ def main() -> None:
     source_label = input_path.as_posix()
     rerun_suffix = f" --input {source_label}" if args.input else ""
 
-    if input_path.suffix.lower() == ".tex":
-        print(f"Detected TeX CV input: {source_label}")
-        print("Running TeX parsing pipeline.")
-        from parse_cv_tex import run_tex_pipeline
-
-        run_tex_pipeline(
-            input_path=input_path,
-            pub_out=Path(args.pub_output),
-            talk_out=Path(args.talk_output),
-            service_out=Path(args.service_output),
-            teaching_out=Path(args.teaching_output),
-            mentoring_out=Path(args.mentoring_output),
-            hand_edits_path=hand_edits_path,
-            approve_conflicts=bool(args.approve_conflicts),
-            conflict_report_path=conflict_report_path,
-            conflict_approvals_path=conflict_approvals_path,
-            approvals_template_path=approvals_template_path,
+    if input_path.suffix.lower() != ".tex":
+        raise SystemExit(
+            f"CV import requires a TeX source file (.tex). Got: {source_label}. "
+            f"Use --input Material/ZhenLiu_CV.tex"
         )
-        return
 
-    html_text = input_path.read_text(encoding="utf-8", errors="ignore")
-    print(f"Detected HTML CV input: {source_label}")
-    print("Running legacy HTML parsing pipeline.")
-    soup = BeautifulSoup(html_text, "html.parser")
-    publications, talks = parse_entries(soup, source_label)
-    lecture_talks = parse_summer_winter_lecture_talks(soup, source_label)
-    service = parse_service_data(soup)
-    teaching = parse_teaching_data(soup)
+    print(f"Detected TeX CV input: {source_label}")
+    print("Running TeX parsing pipeline.")
+    from parse_cv_tex import run_tex_pipeline
 
-    pub_out = Path(args.pub_output)
-    talk_out = Path(args.talk_output)
-    service_out = Path(args.service_output)
-    teaching_out = Path(args.teaching_output)
-    mentoring_out = Path(args.mentoring_output)
-    pub_out.parent.mkdir(parents=True, exist_ok=True)
-    talk_out.parent.mkdir(parents=True, exist_ok=True)
-    service_out.parent.mkdir(parents=True, exist_ok=True)
-    teaching_out.parent.mkdir(parents=True, exist_ok=True)
-    mentoring_out.parent.mkdir(parents=True, exist_ok=True)
-    old_pubs = load_yaml_list(pub_out)
-    old_talks = load_yaml_list(talk_out)
-    old_service = load_yaml_dict(service_out)
-    old_teaching = load_yaml_dict(teaching_out)
-    old_mentoring = load_yaml_dict(mentoring_out)
-
-    root = Path(__file__).resolve().parent.parent
-    apply_featured_flags(publications, root, pub_out)
-    from clean_bibliography_data import normalize_talk
-
-    lecture_talks = [normalize_talk(t) for t in lecture_talks]
-    talks = merge_talk_lists(talks, lecture_talks)
-    talks, preserved_count = preserve_missing_lecture_talks(talks, old_talks)
-
-    rerun_hint = (
-        f"{sys.executable} scripts/parse_cv_html.py --conflict-approvals backups/cv-conflict-approvals.json"
-        + rerun_suffix
-    )
-    resolved = finalize_cv_import(
-        old_publications=old_pubs,
-        new_publications=publications,
-        old_talks=old_talks,
-        new_talks=talks,
-        old_service=old_service,
-        new_service=service,
-        old_teaching=old_teaching,
-        new_teaching=teaching,
-        old_mentoring=old_mentoring,
-        new_mentoring={},
+    run_tex_pipeline(
+        input_path=input_path,
+        pub_out=Path(args.pub_output),
+        talk_out=Path(args.talk_output),
+        service_out=Path(args.service_output),
+        teaching_out=Path(args.teaching_output),
+        mentoring_out=Path(args.mentoring_output),
         hand_edits_path=hand_edits_path,
-        conflict_approvals_path=conflict_approvals_path,
         approve_conflicts=bool(args.approve_conflicts),
         conflict_report_path=conflict_report_path,
+        conflict_approvals_path=conflict_approvals_path,
         approvals_template_path=approvals_template_path,
-        rerun_hint=rerun_hint,
     )
-    publications = resolved["publications"]
-    talks = resolved["talks"]
-    service = resolved["service"]
-    teaching = resolved["teaching"]
-
-    from sync_publication_tags import apply_publication_tags
-
-    tag_warnings = apply_publication_tags(publications, root)
-    for msg in tag_warnings:
-        print(f"Warning: {msg}", file=sys.stderr)
-
-    pub_out.write_text(yaml.safe_dump(publications, sort_keys=False, allow_unicode=True), encoding="utf-8")
-    talk_out.write_text(yaml.safe_dump(talks, sort_keys=False, allow_unicode=True), encoding="utf-8")
-    if any(service.get(k) for k in service):
-        service_out.write_text(
-            yaml.safe_dump(service, sort_keys=False, allow_unicode=True),
-            encoding="utf-8",
-        )
-    if any(teaching.get(k) for k in teaching):
-        teaching_out.write_text(
-            yaml.safe_dump(teaching, sort_keys=False, allow_unicode=True),
-            encoding="utf-8",
-        )
-
-    print(f"Parsed CV HTML: {source_label}")
-    print(f"Wrote {len(publications)} publication entries to {pub_out}")
-    print(f"Wrote {len(talks)} talk entries to {talk_out}")
-    if lecture_talks:
-        print(f"Extracted {len(lecture_talks)} summer/winter school lecture entries.")
-    if any(service.get(k) for k in service):
-        print(f"Wrote service entries to {service_out}")
-        print(f"Extracted {len(service.get('referee_journals', []))} refereed journals.")
-    else:
-        print("Warning: no service sections detected; leaving service YAML unchanged.")
-    if any(teaching.get(k) for k in teaching):
-        print(f"Wrote teaching entries to {teaching_out}")
-    else:
-        print("Warning: no teaching section detected; leaving teaching YAML unchanged.")
-    if preserved_count:
-        print(f"Preserved {preserved_count} lecture entries missing from current CV import.")
-    summarize_changes("Publication import", old_pubs, publications)
-    summarize_changes("Talk import", old_talks, talks)
 
 
 if __name__ == "__main__":

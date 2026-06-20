@@ -84,7 +84,9 @@ If the parser reports conflicts with hand-edited YAML, review `backups/cv-confli
 
 **Usually auto-updated:** `data/publications.yaml`, `data/talks.yaml`, `data/source/service.yaml`, `data/source/teaching.yaml`, `data/source/mentoring.yaml`, `data/photos.yaml`.
 
-**Hand-edit separately:** `data/source/selected_publications.yaml`, `selected_talks.yaml`, `news.yaml`, `profile.yaml`, `research_themes.yaml`, `mentoring.yaml`.
+**Hand-edit separately:** `data/source/selected_publications.yaml`, `selected_talks.yaml`, `news.yaml`, `profile.yaml`, `research_themes.yaml`, `mentoring.yaml`, `publication_tags.yaml`.
+
+**Cross-machine session notes:** [MEMORY.md](MEMORY.md) (optional; not required for build).
 
 ---
 
@@ -95,7 +97,9 @@ If the parser reports conflicts with hand-edited YAML, review `backups/cv-confli
 | Name, email, links | `data/source/profile.yaml` |
 | Homepage publication cards | `data/source/selected_publications.yaml` |
 | Homepage publication plot GIFs | `static/images/plots/{arxiv}.gif` (one file per arXiv ID in selected list) |
-| Publication topic filters | `data/source/publication_tags.yaml` (confirmed); provisional drafts in `backups/` |
+| Publication topic filters | `data/source/publication_tags.yaml` (confirmed); labels in `data/source/publication_tag_vocab.yaml`; provisional drafts in `backups/` |
+| Talk list labels & layout | `layouts/partials/talk-line.html`, `layouts/partials/talk-labels.html`, `layouts/talks/list.html` |
+| Photo gallery metadata | `data/photos.yaml` (or `scripts/sync_random_gallery_from_folders.py`) |
 | Selected talks | `data/source/selected_talks.yaml` |
 | News feed | `data/news.yaml` |
 | Research themes | `data/source/research_themes.yaml` |

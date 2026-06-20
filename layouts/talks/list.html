@@ -2,12 +2,18 @@
 {{ $allTalks := where hugo.Data.talks "placeholder" false }}
 {{ $allTalks = sort $allTalks "date" "desc" }}
 {{ $selectedTalks := hugo.Data.source.selected_talks | default (slice) }}
+{{ $selectedTalkIds := slice }}
+{{ range $selectedTalks }}
+  {{ with .talk_id }}
+    {{ $selectedTalkIds = $selectedTalkIds | append . }}
+  {{ end }}
+{{ end }}
 
 <section class="container section-header">
   <p class="section-eyebrow">Talks</p>
   <h1>{{ .Title }}</h1>
   {{ with .Content }}<div class="section-intro">{{ . }}</div>{{ end }}
-  <p class="section-intro"><a href="#talks-selected">Jump to selected talks</a> · <a href="#full-talk-list">Full talk list</a> ({{ len $allTalks }} entries from CV import).</p>
+  <p class="section-intro"><a href="#talks-selected">Jump to selected talks</a> · <a href="#talks-full-list">Full talk list</a> ({{ len $allTalks }} entries from CV import).</p>
 </section>
 
 <section class="container page-panel" id="full-talk-list">
@@ -63,17 +69,24 @@
       <div class="talk-list">
         {{ range $selectedResolved }}
           {{ if .talk }}
-            {{ partial "talk-line.html" (dict "talk" .talk) }}
+            {{ partial "talk-line.html" (dict "talk" .talk "selectedIds" $selectedTalkIds) }}
           {{ else }}
             {{ with .entry }}
-            <article class="talk-row" data-search-text="{{ printf "%s %s %s %v" (.title | default "") (.venue | default "") (.location | default "") (.year | default "") | lower | htmlEscape }}" data-talk-category="{{ .category | default .type | default "other" }}" data-scheduled="false">
+            {{ $entryCategory := .category | default .type | default "other" }}
+            {{ $entryLabels := partial "talk-labels.html" (dict "category" $entryCategory "scheduled" false "selected" true) }}
+            <article class="talk-row" data-search-text="{{ printf "%s %s %s %v %s" (.title | default "") (.venue | default "") (.location | default "") (.year | default "") $entryLabels | lower | htmlEscape }}" data-talk-category="{{ $entryCategory }}" data-scheduled="false" data-talk-selected="true">
               <div class="talk-row-main">
                 <h3 class="talk-row-title">{{ .title }}</h3>
                 <p class="talk-row-meta">
-                  {{ with .venue }}<span class="talk-venue">{{ . }}</span>{{ end }}
-                  {{ with .location }} · <span class="talk-location">{{ . }}</span>{{ end }}
-                  {{ with .year }} · <span>{{ . }}</span>{{ end }}
+                  <span class="row-meta-primary">
+                    {{ with .venue }}<span class="talk-venue">{{ . }}</span>{{ end }}
+                    {{ with .location }} · <span class="talk-location">{{ . }}</span>{{ end }}
+                    {{ with .year }} · <span>{{ . }}</span>{{ end }}
+                  </span>
                 </p>
+              </div>
+              <div class="talk-row-aside">
+                <div class="talk-row-labels">{{ $entryLabels }}</div>
               </div>
             </article>
             {{ end }}
@@ -83,10 +96,11 @@
     </article>
     {{ end }}
 
-    <div class="talk-list-main">
-      <p class="small">Full talk list ({{ len $allTalks }} entries). Includes seminars, colloquia, conference talks, and school lectures from CV import.</p>
-      {{ partial "talk-list-by-year.html" (dict "talks" $allTalks) }}
-    </div>
+    <article class="section-block talk-list-main" id="talks-full-list">
+      {{ partial "card-header.html" (dict "eyebrow" "Bibliography" "title" "Full talk list") }}
+      <p class="small">All talks ({{ len $allTalks }} entries): seminars, colloquia, conference talks, and school lectures from CV import.</p>
+      {{ partial "talk-list-by-year.html" (dict "talks" $allTalks "selectedIds" $selectedTalkIds) }}
+    </article>
   </div>
 </section>
 

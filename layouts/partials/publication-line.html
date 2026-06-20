@@ -29,25 +29,27 @@
   <div class="pub-row-main">
     <h3 class="pub-row-title">{{ partial "format-publication-title.html" $title }}</h3>
     <p class="pub-row-meta">
-      {{ with $pub.year }}<span class="pub-year">{{ . }}</span>{{ end }}
-      {{ with $venueLine }}
-        {{ if $pub.year }} · {{ end }}
-        {{ if $journalHref }}
-          <a class="pub-inline-link pub-venue" href="{{ $journalHref }}" target="_blank" rel="noopener">{{ . }}</a>
-        {{ else }}
-          <span class="pub-venue">{{ . }}</span>
+      <span class="row-meta-primary">
+        {{ with $pub.year }}<span class="pub-year">{{ . }}</span>{{ end }}
+        {{ with $venueLine }}
+          {{ if $pub.year }} · {{ end }}
+          {{ if $journalHref }}
+            <a class="pub-inline-link pub-venue" href="{{ $journalHref }}" target="_blank" rel="noopener">{{ . }}</a>
+          {{ else }}
+            <span class="pub-venue">{{ . }}</span>
+          {{ end }}
         {{ end }}
-      {{ end }}
-      {{ with $pub.arxiv }}
-        · <a class="pub-inline-link pub-arxiv-id" href="https://arxiv.org/abs/{{ . }}" target="_blank" rel="noopener">arXiv:{{ . }}</a>
-      {{ end }}
+        {{ with $pub.arxiv }}
+          · <a class="pub-inline-link pub-arxiv-id" href="https://arxiv.org/abs/{{ . }}" target="_blank" rel="noopener">arXiv:{{ . }}</a>
+        {{ end }}
+        {{ with $status }}
+          {{ if not $statusInVenue }}
+          · <span class="pub-status">{{ . }}</span>
+          {{ end }}
+        {{ end }}
+      </span>
       {{ with $tagLabelList }}
-        · <span class="pub-tag-keywords">{{ delimit . ", " }}</span>
-      {{ end }}
-      {{ with $status }}
-        {{ if not $statusInVenue }}
-        · <span class="pub-status">{{ . }}</span>
-        {{ end }}
+        <span class="pub-tag-keywords">{{ delimit . ", " }}</span>
       {{ end }}
     </p>
   </div>

@@ -14,6 +14,7 @@
   tags:
   - higgs
   - bsm
+  - standard-model
   - muon-collider
 '1303.2113':
   tags:
@@ -62,6 +63,7 @@
   tags:
   - higgs
   - bsm
+  - lhc
 '1406.1181':
   tags:
   - bsm
@@ -104,6 +106,8 @@
   tags:
   - higgs
   - bsm
+  - lhc
+  - eft
 '1607.03210':
   tags:
   - higgs
@@ -129,6 +133,8 @@
   tags:
   - higgs
   - bsm
+  - standard-model
+  - cepc-fcc
 '1709.09605':
   tags:
   - bsm
@@ -278,6 +284,7 @@
   tags:
   - bsm
   - neutrinos
+  - eft
 '2103.14043':
   tags:
   - bsm
@@ -287,6 +294,7 @@
   - muon-collider
 '2104.00638':
   tags:
+  - higgs
   - bsm
   - phase-transition
 '2107.11405':
@@ -298,6 +306,7 @@
   tags:
   - bsm
   - lhc
+  - long-lived-particles
 '2109.03294':
   tags:
   - higgs
@@ -394,6 +403,7 @@
   tags:
   - bsm
   - lhc
+  - standard-model
 '2205.00031':
   tags:
   - bsm
@@ -457,6 +467,7 @@
   tags:
   - bsm
   - muon-collider
+  - neutrinos
 '2301.11512':
   tags:
   - dark-sector

@@ -319,6 +319,7 @@ def strip_event_prefix(text: str) -> str:
 
 def clean_talk_title(title: str, raw_text: str = "") -> str:
     title = clean_text(title)
+    title = re.sub(r"^\(scheduled\)\s*", "", title, flags=re.I).strip()
     source = raw_text or title or ""
     needs_split = bool(
         re.search(

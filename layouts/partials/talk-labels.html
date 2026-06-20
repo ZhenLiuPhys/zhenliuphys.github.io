@@ -1,0 +1,20 @@
+{{ $labels := slice }}
+{{ $category := .category | default "other" }}
+{{ if eq $category "plenary" }}
+  {{ $labels = $labels | append "Plenary talks" }}
+{{ else if eq $category "seminar" }}
+  {{ $labels = $labels | append "Seminars" }}
+{{ else if eq $category "workshop" }}
+  {{ $labels = $labels | append "Workshop talks" }}
+{{ else if eq $category "lecture" }}
+  {{ $labels = $labels | append "Lectures" }}
+{{ else if eq $category "colloquium" }}
+  {{ $labels = $labels | append "Colloquium" }}
+{{ end }}
+{{ if .scheduled }}
+  {{ $labels = $labels | append "Scheduled talks" }}
+{{ end }}
+{{ if .selected }}
+  {{ $labels = $labels | append "Selected talk" }}
+{{ end }}
+{{ range $labels }}<span class="talk-label">{{ . }}</span>{{ end }}

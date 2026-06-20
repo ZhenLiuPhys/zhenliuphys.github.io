@@ -1,5 +1,5 @@
 - id: talk-l6-002-scheduled-probing-high-quality-heavy-qcd-axions-at-colliders
-  title: (scheduled)Probing High-Quality Heavy QCD Axions at Colliders
+  title: Probing High-Quality Heavy QCD Axions at Colliders
   year: 2026
   date: '2026-09-01'
   event: 'Axion-Photon Conversion: Terrestrial and Cosmic Searches workshop, Dali,
@@ -16,12 +16,12 @@
   date_display: September 2026
   venue: 'Axion-Photon Conversion: Terrestrial and Cosmic Searches workshop, Dali'
   category: workshop
-  scheduled: true
+  scheduled: false
   event_display: 'Axion-Photon Conversion: Terrestrial and Cosmic Searches workshop,
     Dali · Yunnan, China · September 2026'
   placeholder: false
 - id: talk-l6-001-scheduled-tbd
-  title: (scheduled)Future Colliders
+  title: Future Colliders
   year: 2026
   date: '2026-09-01'
   event: New directions EXploring the Unknown beyond the Standard Model (NEXUS 2026),
@@ -38,12 +38,12 @@
   date_display: September 2026
   venue: New directions EXploring the Unknown beyond the Standard Model (NEXUS 2026)
   category: plenary
-  scheduled: true
+  scheduled: false
   event_display: New directions EXploring the Unknown beyond the Standard Model (NEXUS
     2026) · Shanghai, China · September 2026
   placeholder: false
 - id: talk-l6-002-scheduled-massive-amplitudes-and-constructibility
-  title: (scheduled)Massive Amplitudes and Constructibility
+  title: Massive Amplitudes and Constructibility
   year: 2026
   date: '2026-08-01'
   event: International Workshop on New Opportunities for Particle Physics 2026, IHEP,
@@ -60,12 +60,12 @@
   date_display: August 2026
   venue: International Workshop on New Opportunities for Particle Physics 2026
   category: plenary
-  scheduled: true
+  scheduled: false
   event_display: International Workshop on New Opportunities for Particle Physics
     2026 · Beijing, China · August 2026
   placeholder: false
 - id: talk-lecture-sw-001-scheduled-collider-phenomenology-link
-  title: (scheduled) Collider Phenomenology
+  title: Collider Phenomenology
   year: 2026
   date: '2026-08-01'
   event: Fudan Particle Physics Summer School 2026, Shanghai, China, Aug. 2026
@@ -80,7 +80,7 @@
   date_display: August 2026
   venue: Fudan Particle Physics Summer School 2026
   category: lecture
-  scheduled: true
+  scheduled: false
   event_display: Fudan Particle Physics Summer School 2026 · Shanghai, China · August
     2026
   placeholder: false

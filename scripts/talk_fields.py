@@ -462,9 +462,17 @@ def parse_talk_fields(talk: dict) -> dict:
     event = (talk.get("event") or "").strip()
     if not event:
         event = (talk.get("event_display") or "").strip()
+    original_title = talk.get("title", "") or ""
+    is_scheduled = bool(
+        re.search(
+            r"\(scheduled\)|\bscheduled\b",
+            f"{original_title} {raw} {event}",
+            re.I,
+        )
+    )
     combined = event or raw
 
-    title = clean_talk_title(talk.get("title", ""), raw)
+    title = clean_talk_title(original_title, raw)
     talk["title"] = title
 
     if raw and title:
@@ -510,8 +518,7 @@ def parse_talk_fields(talk: dict) -> dict:
     talk["location"] = location
     talk["talk_type"] = infer_talk_type(combined)
     talk["category"] = infer_talk_category(combined, title, venue, institution)
-    sched_blob = f"{title} {combined}"
-    talk["scheduled"] = bool(re.search(r"\(scheduled\)|\bscheduled\b", sched_blob, re.I))
+    talk["scheduled"] = is_scheduled
 
     # Compact line for templates / search
     bits: list[str] = []

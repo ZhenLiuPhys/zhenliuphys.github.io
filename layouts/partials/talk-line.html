@@ -6,7 +6,7 @@
 {{ $location := $talk.location | default "" }}
 {{ $dateLabel := $talk.date_display | default $talk.year }}
 {{ $category := $talk.category | default "other" }}
-{{ $scheduled := or $talk.scheduled (eq $category "scheduled") }}
+{{ $scheduled := or $talk.scheduled (eq $category "scheduled") (findRE `(?i)\(scheduled\)` ($talk.raw_text | default "")) }}
 {{ $selectedIds := .selectedIds | default (slice) }}
 {{ $isSelected := in $selectedIds $talk.id }}
 {{ $labelMarkup := partial "talk-labels.html" (dict "category" $category "scheduled" $scheduled "selected" $isSelected) }}

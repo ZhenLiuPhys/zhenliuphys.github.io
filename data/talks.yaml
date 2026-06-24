@@ -16,7 +16,7 @@
   date_display: September 2026
   venue: 'Axion-Photon Conversion: Terrestrial and Cosmic Searches workshop, Dali'
   category: workshop
-  scheduled: false
+  scheduled: true
   event_display: 'Axion-Photon Conversion: Terrestrial and Cosmic Searches workshop,
     Dali · Yunnan, China · September 2026'
   placeholder: false
@@ -38,7 +38,7 @@
   date_display: September 2026
   venue: New directions EXploring the Unknown beyond the Standard Model (NEXUS 2026)
   category: plenary
-  scheduled: false
+  scheduled: true
   event_display: New directions EXploring the Unknown beyond the Standard Model (NEXUS
     2026) · Shanghai, China · September 2026
   placeholder: false
@@ -60,7 +60,7 @@
   date_display: August 2026
   venue: International Workshop on New Opportunities for Particle Physics 2026
   category: plenary
-  scheduled: false
+  scheduled: true
   event_display: International Workshop on New Opportunities for Particle Physics
     2026 · Beijing, China · August 2026
   placeholder: false
@@ -80,7 +80,7 @@
   date_display: August 2026
   venue: Fudan Particle Physics Summer School 2026
   category: lecture
-  scheduled: false
+  scheduled: true
   event_display: Fudan Particle Physics Summer School 2026 · Shanghai, China · August
     2026
   placeholder: false

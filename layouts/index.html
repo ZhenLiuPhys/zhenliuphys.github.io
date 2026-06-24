@@ -68,7 +68,7 @@
       <article class="bento-card">
         {{ partial "card-header.html" (dict "eyebrow" "News" "title" "Recent updates" "href" (partial "rel-internal.html" (dict "href" "/news/"))) }}
         <div class="feed-list">
-          {{ range first 6 (sort (where hugo.Data.news "pinned" true) "date" "desc") }}
+          {{ range first 6 (partial "news-sorted.html" (dict "items" (where hugo.Data.news "pinned" true))) }}
             <article class="feed-item">
               <time datetime="{{ .date }}">{{ partial "feed-date.html" (dict "date" .date) }}</time>
               <p>{{ .text }}{{ with .url }} <a href="{{ partial "rel-internal.html" (dict "href" .) }}">→</a>{{ end }}</p>

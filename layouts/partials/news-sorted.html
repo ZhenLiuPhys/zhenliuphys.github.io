@@ -1,0 +1,16 @@
+{{/* dict "items" (slice of news entries from data/news.yaml) — newest first */}}
+{{ $items := .items | default (slice) }}
+{{ $ranked := slice }}
+{{ range $items }}
+  {{ $parts := split .date "-" }}
+  {{ $y := int (index $parts 0 | default "0") }}
+  {{ $mRaw := index $parts 1 | default "1" }}
+  {{ $m := int (strings.TrimLeft "0" $mRaw) }}
+  {{ $key := add (mul $y 100) $m }}
+  {{ $ranked = $ranked | append (dict "news" . "key" $key) }}
+{{ end }}
+{{ $out := slice }}
+{{ range sort $ranked "key" "desc" }}
+  {{ $out = $out | append .news }}
+{{ end }}
+{{ return $out }}

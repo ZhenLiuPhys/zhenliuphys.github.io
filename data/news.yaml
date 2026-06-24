@@ -1,12 +1,12 @@
-- date: "2026-5"
+- date: "2026-05"
   text: "Plenary talk at Pheno 2026 on new directions in collider physics."
   url: "/talks/"
   pinned: true
-- date: "2026-5"
+- date: "2026-05"
   text: "New PRL on novel Neutron Star constraints on symmetric dark matter."
   url: "https://arxiv.org/abs/2508.04961"
   pinned: true
-- date: "2026-3"
+- date: "2026-03"
   text: "New PRL on improved dark photon sensitivity from the Dark SRF experiment."
   url: "https://arxiv.org/abs/2510.02427"
   pinned: true
@@ -18,19 +18,19 @@
   text: "Zhen Liu, together with colleagues Nadja Strobbe (CMS) and Qianwen Wang (CSE) awarded GenAI4Science Seed to study AI-enabled representation of QCD."
   url: "https://arxiv.org/abs/2512.04336"
   pinned: true
-- date: "2025-9"
+- date: "2025-09"
   text: "Peiran Li (Graudate Student) awarded UMN Doctoral Dissertation Fellowship (DDF)."
   #url: "https://arxiv.org/abs/2412.14115"
   pinned: true
-- date: "2025-9"
+- date: "2025-09"
   text: "Promoted to Associate Professor at UMN."
   #url: "https://arxiv.org/abs/2412.14115"
   pinned: true
-- date: "2025-8"
+- date: "2025-08"
   text: "New PRL on Neutrnio Slice at Muon Colliders."
   url: "https://arxiv.org/abs/2412.14115"
   pinned: true
-- date: "2025-4"
+- date: "2025-04"
   text: "Wine&Cheese Seminar at Fermilab: Physics Opportunities at FCC."
   url: "/talks/"
   pinned: true

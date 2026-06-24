@@ -8,7 +8,7 @@
 <section class="container page-panel">
   <article class="section-block">
     <div class="feed-list">
-      {{ range sort (where hugo.Data.news "pinned" true) "date" "desc" }}
+      {{ range partial "news-sorted.html" (dict "items" (where hugo.Data.news "pinned" true)) }}
         <article class="feed-item">
           <time datetime="{{ .date }}">{{ partial "feed-date.html" (dict "date" .date) }}</time>
           <p>{{ .text }}{{ with .url }} <a href="{{ partial "rel-internal.html" (dict "href" .) }}">→</a>{{ end }}</p>
@@ -26,7 +26,7 @@
   <article class="section-block">
     {{ partial "card-header.html" (dict "title" "Archive") }}
     <div class="feed-list">
-      {{ range sort $other "date" "desc" }}
+      {{ range partial "news-sorted.html" (dict "items" $other) }}
         <article class="feed-item">
           <time datetime="{{ .date }}">{{ partial "feed-date.html" (dict "date" .date) }}</time>
           <p>{{ .text }}{{ with .url }} <a href="{{ partial "rel-internal.html" (dict "href" .) }}">→</a>{{ end }}</p>

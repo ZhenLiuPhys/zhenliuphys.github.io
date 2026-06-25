@@ -1,5 +1,5 @@
 (function () {
-  var SHOW_COUNT = 6;
+  var SHOW_COUNT = 8;
   var list = document.getElementById("featured-pub-showcase");
   if (!list) return;
 

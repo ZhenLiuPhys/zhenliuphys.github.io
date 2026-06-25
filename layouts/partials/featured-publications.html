@@ -1,4 +1,4 @@
-{{/* Homepage selected publications feed. All entries render; JS picks 6 at random per load, sorted by year desc. */}}
+{{/* Homepage selected publications feed. All entries render; JS picks 8 at random per load, sorted by year desc. */}}
 {{ $selected := sort hugo.Data.source.selected_publications "year" "desc" }}
 {{ $pubs := hugo.Data.publications }}
 {{ $figExts := slice "gif" "png" "webp" "jpg" "jpeg" "svg" }}

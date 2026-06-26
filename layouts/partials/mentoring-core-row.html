@@ -1,0 +1,10 @@
+{{ $person := . }}
+<article class="mentoring-core-row">
+  <h3 class="mentoring-core-name">
+    {{ if $person.profile_url }}<a href="{{ $person.profile_url }}" target="_blank" rel="noopener">{{ $person.name }}</a>{{ else }}{{ $person.name }}{{ end }}
+  </h3>
+  {{ with $person.notes }}<p class="mentoring-core-note">{{ . }}</p>{{ end }}
+  <p class="mentoring-core-meta"><span class="mentoring-core-label">UMN period:</span> {{ $person.umn_period }}</p>
+  {{ with $person.leaving_institution }}<p class="mentoring-core-meta"><span class="mentoring-core-label">Leaving UMN:</span> {{ . }}</p>{{ end }}
+  {{ with $person.current_institution }}<p class="mentoring-core-meta"><span class="mentoring-core-label">Current:</span> {{ . }}</p>{{ end }}
+</article>

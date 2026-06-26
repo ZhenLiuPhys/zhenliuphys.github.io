@@ -1970,8 +1970,20 @@ body.gallery-lightbox-open {
 
 .mentoring-grid {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
   gap: 1rem;
+  align-items: start;
+}
+
+.mentoring-grid-col {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.mentoring-grid-col .section-block {
+  margin-top: 0;
+  height: auto;
 }
 
 .mentoring-tile {
@@ -1984,6 +1996,20 @@ body.gallery-lightbox-open {
 
 .mentoring-tile-subnote {
   margin: 0 0 0.75rem;
+}
+
+.mentoring-subsection-title {
+  margin: 0 0 0.55rem;
+  font-family: var(--font-heading);
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.mentoring-subsection-title--spaced {
+  margin-top: 1rem;
 }
 
 .mentoring-core-list {

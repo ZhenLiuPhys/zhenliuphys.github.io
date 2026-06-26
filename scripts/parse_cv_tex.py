@@ -761,6 +761,7 @@ def build_graduate_student_entry(parsed: dict, arrows: list[str], *, visiting: b
         "current_institution": current,
     }
     if visiting:
+        entry["visiting"] = True
         entry["notes"] = "Visiting graduate student (UCAS fellowship)"
         if "fermilab" in current.lower():
             entry["leaving_institution"] = entry["leaving_institution"].replace(

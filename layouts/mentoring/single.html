@@ -1,6 +1,8 @@
 {{ define "main" }}
 {{ $m := hugo.Data.source.mentoring }}
 {{ $grad := $m.graduate_students | default (slice) }}
+{{ $umnGrads := where $grad "visiting" "!=" true }}
+{{ $visitingGrads := where $grad "visiting" true }}
 {{ $postdocs := $m.postdocs | default (slice) }}
 {{ $resGrad := $m.research_graduates | default (slice) }}
 {{ $resUndergrad := $m.research_undergraduates | default (slice) }}
@@ -11,22 +13,26 @@
 </section>
 
 <section class="container mentoring-grid">
+  <div class="mentoring-grid-col mentoring-grid-col--core">
   <article class="section-block page-panel mentoring-tile mentoring-tile--core">
     {{ partial "card-header.html" (dict "title" "Graduate Students") }}
-    {{ if gt (len $grad) 0 }}
-      <div class="mentoring-core-list">
-        {{ range $grad }}
-          <article class="mentoring-core-row">
-            <h3 class="mentoring-core-name">
-              {{ if .profile_url }}<a href="{{ .profile_url }}" target="_blank" rel="noopener">{{ .name }}</a>{{ else }}{{ .name }}{{ end }}
-            </h3>
-            {{ with .notes }}<p class="mentoring-core-note">{{ . }}</p>{{ end }}
-            <p class="mentoring-core-meta"><span class="mentoring-core-label">UMN period:</span> {{ .umn_period }}</p>
-            {{ with .leaving_institution }}<p class="mentoring-core-meta"><span class="mentoring-core-label">Leaving UMN:</span> {{ . }}</p>{{ end }}
-            {{ with .current_institution }}<p class="mentoring-core-meta"><span class="mentoring-core-label">Current:</span> {{ . }}</p>{{ end }}
-          </article>
-        {{ end }}
-      </div>
+    {{ if or (gt (len $umnGrads) 0) (gt (len $visitingGrads) 0) }}
+      {{ if gt (len $umnGrads) 0 }}
+        <h3 class="mentoring-subsection-title">UMN PhD students</h3>
+        <div class="mentoring-core-list">
+          {{ range $umnGrads }}
+            {{ partial "mentoring-core-row.html" . }}
+          {{ end }}
+        </div>
+      {{ end }}
+      {{ if gt (len $visitingGrads) 0 }}
+        <h3 class="mentoring-subsection-title{{ if gt (len $umnGrads) 0 }} mentoring-subsection-title--spaced{{ end }}">Visiting graduate students</h3>
+        <div class="mentoring-core-list">
+          {{ range $visitingGrads }}
+            {{ partial "mentoring-core-row.html" . }}
+          {{ end }}
+        </div>
+      {{ end }}
     {{ else }}
       <p class="small">No graduate student entries configured.</p>
     {{ end }}
@@ -52,9 +58,12 @@
       <p class="small">No postdoc entries configured.</p>
     {{ end }}
   </article>
+  </div>
 
+  <div class="mentoring-grid-col mentoring-grid-col--compact">
   <article class="section-block page-panel mentoring-tile">
     {{ partial "card-header.html" (dict "title" "Research Graduates") }}
+    <p class="small mentoring-tile-subnote">Month-level graduate-level research.</p>
     {{ if gt (len $resGrad) 0 }}
       <ul class="mentoring-compact-list">
         {{ range $resGrad }}
@@ -71,6 +80,7 @@
 
   <article class="section-block page-panel mentoring-tile">
     {{ partial "card-header.html" (dict "title" "Research Undergraduates") }}
+    <p class="small mentoring-tile-subnote">Mainly listing UMN visiting period with research.</p>
     {{ if gt (len $resUndergrad) 0 }}
       <ul class="mentoring-compact-list">
         {{ range $resUndergrad }}
@@ -84,5 +94,6 @@
       <p class="small">No research undergraduate entries configured.</p>
     {{ end }}
   </article>
+  </div>
 </section>
 {{ end }}

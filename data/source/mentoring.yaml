@@ -13,6 +13,7 @@ graduate_students:
   umn_period: Mar 2025-Feb 2026
   leaving_institution: Theory Division, Fermilab (Postdoc, 2026)
   current_institution: Fermilab
+  visiting: true
   notes: Visiting graduate student (UCAS fellowship)
 postdocs:
 - name: Kunfeng Lyu
@@ -79,7 +80,7 @@ research_graduates:
 research_undergraduates:
 - name: Nick Mazzoni
   institution: UMass Amherst
-  umn_period: Jun 2025-Jan 2026
+  umn_period: Jun 2025-Aug 2025
   program: NSF REU
 - name: Edward Morell
   institution: Florida International University
@@ -87,7 +88,7 @@ research_undergraduates:
   program: NSF REU
 - name: Yiheng Jiang
   institution: Zhejiang University
-  umn_period: May 2024-May 2025
+  umn_period: May 2024-Sept 2024
 - name: Collin (Wade) Hernandez
   institution: Appalachian State University
   umn_period: Jun 2023-Aug 2023
@@ -104,7 +105,7 @@ research_undergraduates:
   program: NSF REU
 - name: Jett Johnson
   institution: University of Minnesota, Morris
-  umn_period: Oct 2021-Aug 2023
+  umn_period: May 2022-Aug 2022
 - name: Tong Wu
   institution: University of Science and Technology of China
   umn_period: Aug 2021-Jan 2022

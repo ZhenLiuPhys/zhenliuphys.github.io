@@ -44,7 +44,7 @@ Copy [`recommendation_letters.example.yaml`](recommendation_letters.example.yaml
 
 ## Milestones
 
-Edit [`milestones.yaml`](milestones.yaml): grad school 2009–2015, MS 2011, PhD 2015, postdocs, UMN faculty bands.
+Edit [`milestones.yaml`](milestones.yaml): grad school through **2015-08**, MS **2011-12**, postdocs (Fermilab → Maryland), UMN faculty bands, and personal markers (`kind: personal`). Dates use `YYYY-MM`; bands control background shading.
 
 ## Data sources
 

@@ -1,23 +1,37 @@
 # Career milestones for trajectory plot overlays (editable).
+# Dates use YYYY-MM (or YYYY). Bands are adjacent (no overlap): each ends where the next starts.
+# The `end` field documents the role's nominal end; shading uses the next band's `start`.
+
 bands:
   - start: 2009
-    end: 2015
+    end: 2015-08
     label: Graduate school
-  - start: 2015
-    end: 2018
+  - start: 2015-08
+    end: 2018-09
     label: Postdoc, Fermilab
-  - start: 2018
-    end: 2020
+  - start: 2018-09
+    end: 2020-12
     label: Postdoc, Maryland
-  - start: 2021
-    end: 2025
+  - start: 2021-01
+    end: 2025-08
     label: Assistant Professor, UMN
-  - start: 2025
+  - start: 2025-08
     end: null
     label: Associate Professor, UMN
 
 points:
-  - year: 2011
+  - date: 2011-12
     label: Master's degree
-  - year: 2015
+    kind: academic
+  - date: 2015-08
     label: PhD
+    kind: academic
+  - date: 2015-10
+    label: Married
+    kind: personal
+  - date: 2017-08
+    label: Iris born
+    kind: personal
+  - date: 2023-12
+    label: Ivy born
+    kind: personal

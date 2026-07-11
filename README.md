@@ -103,7 +103,9 @@ If the parser reports conflicts with hand-edited YAML, review `backups/cv-confli
 | Selected talks | `data/source/selected_talks.yaml` |
 | News feed | `data/news.yaml` |
 | Research themes | `data/source/research_themes.yaml` |
-| Group members | `data/source/mentoring.yaml` |
+| Group members | `data/source/mentoring.yaml` (`visiting: true` for visiting grads); layout `layouts/mentoring/single.html` |
+| News feed dates / order | `data/news.yaml` (`YYYY-MM`); sorted via `layouts/partials/news-sorted.html` |
+| Career trajectory plots (local) | `trajectory/` — `milestones.yaml`, `plot_trajectory.py`; outputs in `trajectory/output/` (gitignored) |
 | Page titles / blurbs | `content/*.md` |
 | Look & layout | `layouts/`, `assets/css/main.css` |
 

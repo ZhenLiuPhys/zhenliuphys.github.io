@@ -1,21 +1,21 @@
-### Last Updated: 2026-06-19T14:00 | Active Environment: Mac
+### Last Updated: 2026-07-10T20:25 | Active Environment: Mac
 ### Repo Visibility: Pre-public
 
 ### Current Project State
-- **High-Level Objective:** Hugo personal website (Zhen Liu) — publications, talks, news, GitHub Pages deploy.
+- **High-Level Objective:** Hugo personal website (Zhen Liu) — publications, talks, news, research group, GitHub Pages deploy.
 - **Recent Progress:**
-  - **Talks page** (`layouts/talks/list.html`, `talk-line.html`, `talk-labels.html`, `assets/css/main.css`): full list in `section-block`; clickable year groups; multi-label badges (category + Scheduled + Selected) in fixed right aside; `(scheduled)` stripped from titles via `scripts/talk_fields.py`.
-  - **Publications page** (`publication-line.html`, `assets/css/main.css`): topic keywords right-aligned on meta line.
-  - **Publication tags** (`data/source/publication_tags.yaml`, `publication_tag_vocab.yaml`): renamed label **Dark Matter/Sector**; manual tag updates for arXiv 2109.01682, 2204.05296, 1709.06103, 1512.07624, 1312.4992, 2301.07117, 2104.00638, 2012.01443, 1210.7803; synced to `data/publications.yaml`.
-  - **Gallery:** DPF-Pheno 2024 photo (`static/images/photos/pheno_umn_award.png`, `data/photos.yaml`).
-  - Latest commit on `main`: talks labels + publication tags refresh (pushed).
+  - **Research group** (`/mentoring/`): two-column layout (grads+postdocs left; research grads/undergrads right); Graduate Students split into **UMN PhD students** vs **Visiting graduate students** (`visiting: true` on Yuxin Liu); section notes for research tiers; corrected visiting periods (Nick, Yiheng, Jett).
+  - **Homepage:** selected publications showcase shows **8** items (`featured-pubs-showcase.js`).
+  - **News:** reverse-chronological sort via `news-sorted.html`; dates normalized to `YYYY-MM`.
+  - **Trajectory (local):** month-precise career bands (no overlap), academic + personal markers in `trajectory/milestones.yaml`; plots regenerated under `trajectory/output/` (gitignored).
+  - Site content commits on `main` already pushed; wrap-up includes remaining trajectory milestone code.
 
 ### Technical Context & Constraints
-- **Active Variables/Models:** Confirmed tags in `data/source/publication_tags.yaml`; vocab labels in `data/source/publication_tag_vocab.yaml`; after tag edits run `.venv/bin/python scripts/sync_publication_tags.py`.
-- **Talk labels:** `layouts/partials/talk-labels.html` builds badge list; selected IDs from `data/source/selected_talks.yaml`.
-- **Unresolved Issues / Roadblocks:** 1 publication still on provisional tags (see `approve_publication_tags.py --list`); `data/photos.yaml` has unstaged YAML wrap-only diff from gallery sync.
+- **Mentoring:** `data/source/mentoring.yaml`; visiting flag preserved via `cv_hand_edits.yaml`; layout `layouts/mentoring/single.html` + `mentoring-core-row.html`.
+- **Trajectory:** `trajectory/milestones.yaml` uses `YYYY-MM`; bands abut at next `start`; personal points use `kind: personal`. Outputs in `trajectory/output/` are local-only.
+- **Unresolved Issues / Roadblocks:** 1 publication may still use provisional tags (`approve_publication_tags.py --list`). Reorganize long-term visitors into a separate tile when more arrive.
 
 ### Next Action Items
-1. [ ] **Immediate Next Step:** Await user edits (publications, plots, talks, gallery).
-2. [ ] **Short-Term Tasks:** Confirm provisional publication tag if desired; optionally discard or commit `photos.yaml` line-wrap.
-3. [ ] **Long-Term Backlog:** Routine CV refresh via `scripts/parse_cv_html.py` when CV source updates.
+1. [ ] **Immediate Next Step:** Await user edits.
+2. [ ] **Short-Term Tasks:** Confirm provisional publication tags if desired; push wrap-up commit when ready.
+3. [ ] **Long-Term Backlog:** CV refresh via `scripts/parse_cv_html.py`; split Visiting graduate students into own tile if roster grows.

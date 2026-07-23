@@ -6,6 +6,12 @@ talks:
     slides_url: true
   talk-l6-002-scheduled-massive-amplitudes-and-constructibility:
     slides_url: true
+  talk-l5-001-eft-amplitudes-and-colliders-massive-amplitudes-and-constructability-theory-seminar-jointly-with:
+    title: true
+    venue: true
+    event: true
+    location: true
+    host: true
 mentoring:
   research_undergraduates|Jett Johnson:
     umn_period: true
@@ -19,3 +25,35 @@ mentoring:
   graduate_students|Yuxin Liu:
     visiting: true
     notes: true
+service:
+  referee_journals|5: true
+  referee_journals|6: true
+  referee_journals|7: true
+  referee_journals|8: true
+  referee_journals|9: true
+  referee_journals|10: true
+  referee_journals|11: true
+  referee_journals|12: true
+  referee_journals|13: true
+  referee_journals|14: true
+  referee_journals|15: true
+  referee_journals|16: true
+  referee_journals|17: true
+  referee_journals|18: true
+  referee_journals|19: true
+  referee_journals|20: true
+  referee_journals|21: true
+  referee_journals|22: true
+  workshops|1: true
+  workshops|2: true
+  workshops|3: true
+  workshops|4: true
+  workshops|5: true
+  workshops|6: true
+  workshops|7: true
+  workshops|8: true
+  workshops|9: true
+  workshops|10: true
+publications:
+  pub-l1-001-new-gauge-forces:
+    title: true

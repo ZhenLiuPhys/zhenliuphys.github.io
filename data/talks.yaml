@@ -84,6 +84,26 @@
   event_display: Fudan Particle Physics Summer School 2026 · Shanghai, China · August
     2026
   placeholder: false
+- id: talk-l5-001-eft-amplitudes-and-colliders-massive-amplitudes-and-constructability-theory-seminar-jointly-with
+  title: 'EFT, Amplitudes, and Colliders: Massive Amplitudes and Constructability'
+  year: 2026
+  date: '2026-07-01'
+  event: Aspen Summer Program
+  host: Aspen Summer Program
+  location: Aspen, CO
+  talk_type: seminar
+  slides_url: ''
+  video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: 'EFT, Amplitudes, and Colliders: Massive Amplitudes and Constructability,
+    theory seminar (jointly with Yael Shadmi and Markus Luty), Aspen Summer Program,
+    Aspen, CO, Jul. 2026'
+  date_display: July 2026
+  venue: theory seminar (jointly with Yael Shadmi and Markus Luty), Aspen Summer Program
+  category: seminar
+  scheduled: false
+  event_display: Aspen Summer Program · Aspen, CO · July 2026
+  placeholder: false
 - id: talk-l6-003-a-busy-higgs-signal
   title: A Busy Higgs Signal
   year: 2026
@@ -4942,22 +4962,6 @@
   category: workshop
   scheduled: false
   event_display: Snowmass Workshop at Seattle · UW-Seattle, Washington · June 2013
-  placeholder: false
-- id: talk-l6-152-zprime-parallel-talk-at-snowmass-workshop-at-seattle-uw-seattle-washington-jun-2013
-  title: ZPrime
-  year: 2013
-  date: '2013-06-01'
-  event: ''
-  host: Washington · · UW-Seattle
-  location: UW-Seattle, Washington
-  talk_type: talk
-  slides_url: ''
-  video_url: ''
-  date_display: June 2013
-  venue: Washington ·
-  category: seminar
-  scheduled: false
-  event_display: Washington · · UW-Seattle, Washington · June 2013
   placeholder: false
 - id: talk-l6-154-dark-matter-and-higgs-bosons-in-the-mssm
   title: Dark Matter and Higgs Bosons in the MSSM

@@ -105,7 +105,7 @@ If the parser reports conflicts with hand-edited YAML, review `backups/cv-confli
 | Research themes | `data/source/research_themes.yaml` |
 | Group members | `data/source/mentoring.yaml` (`visiting: true` for visiting grads); layout `layouts/mentoring/single.html` |
 | News feed dates / order | `data/news.yaml` (`YYYY-MM`); sorted via `layouts/partials/news-sorted.html` |
-| Career trajectory plots (local) | `trajectory/` — `milestones.yaml`, `plot_trajectory.py`; outputs in `trajectory/output/` (gitignored) |
+| Career trajectory plots (local) | `trajectory/` — `milestones.yaml`, `plot_trajectory.py`; outputs in `trajectory/output/` (gitignored). Optional Cursor canvas `research-trajectory.canvas.tsx` for self-monitoring (outside this repo; not deployed) |
 | Page titles / blurbs | `content/*.md` |
 | Look & layout | `layouts/`, `assets/css/main.css` |
 

@@ -24,6 +24,10 @@ hugo.staging.toml
 hugo.mirror.toml
 local/
 
+# Personal memory archives (family / outdoor notes; not public)
+Aspen/
+Activities/
+
 # Career trajectory outputs (local reflection; scripts are committed)
 trajectory/output/
 trajectory/data/

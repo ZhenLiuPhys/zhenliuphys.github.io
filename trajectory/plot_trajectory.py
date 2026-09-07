@@ -12,7 +12,16 @@ ROOT = TRAJECTORY_DIR.parent
 if str(TRAJECTORY_DIR) not in sys.path:
     sys.path.insert(0, str(TRAJECTORY_DIR))
 
-from trajectory_lib.fetch_inspire_citations import ensure_citations, citation_series_from_cache, load_cache
+from trajectory_lib.fetch_inspire_citations import (
+    ensure_citations,
+    citation_series_from_cache,
+    load_cache,
+    list_snapshots,
+    load_snapshot,
+    growth_series,
+    write_growth_summary_csv,
+    print_citation_history,
+)
 from trajectory_lib.citation_exclusions import (
     load_exclusions,
     build_citation_inventory,
@@ -42,6 +51,10 @@ from trajectory_lib.plots import (
     plot_letters_annual_stacked,
     plot_citations_by_pub_year,
     plot_citations_cumulative_stock,
+    plot_citations_growth_total,
+    plot_citations_growth_delta,
+    plot_citations_growth_decomposition,
+    plot_citations_growth_by_cohort,
     write_summary_csv,
     SERIES_ORDER,
     today_iso,
@@ -69,8 +82,18 @@ def main() -> None:
     parser.add_argument("--citations", action="store_true", help="Fetch inSPIRE + citation plots (network)")
     parser.add_argument("--refresh-citations", action="store_true", help="Re-fetch all inSPIRE counts")
     parser.add_argument("--list-citations", action="store_true", help="Print citation inventory and write citations_inventory.csv")
+    parser.add_argument(
+        "--list-citation-history",
+        action="store_true",
+        help="Print archived snapshot dates and totals",
+    )
     parser.add_argument("--spot-check", action="store_true")
     args = parser.parse_args()
+
+    if args.list_citation_history:
+        exclusions = load_exclusions(ROOT)
+        print_citation_history(ROOT, exclusions)
+        return
 
     if not any([args.all, args.pubs, args.talks, args.service, args.letters, args.citations, args.list_citations]):
         args.pubs = args.talks = args.service = True
@@ -220,6 +243,34 @@ def main() -> None:
         summary_tables["citations_annual"] = {"refereed_citations": by_year}
         n_in = sum(1 for r in inventory if not r["excluded"])
         print(f"Wrote citation figures (snapshot {snap}, {n_in}/{len(refereed)} papers counted{suffix})")
+
+        snap_paths = list_snapshots(ROOT)
+        if len(snap_paths) >= 2:
+            snaps = [load_snapshot(p) for p in snap_paths]
+            growth = growth_series(snaps, exclusions)
+            write_growth_summary_csv(growth["summary_rows"], out_dir / "citations_growth_summary.csv")
+            plot_citations_growth_total(growth["summary_rows"], out_dir / "citations_growth_total.png")
+            plot_citations_growth_delta(growth["summary_rows"], out_dir / "citations_growth_delta.png")
+            plot_citations_growth_decomposition(
+                growth["latest_paper_deltas"],
+                growth["latest_interval"],
+                out_dir / "citations_growth_decomposition.png",
+            )
+            plot_citations_growth_by_cohort(
+                growth["latest_cohort_deltas"],
+                growth["latest_interval"],
+                out_dir / "citations_growth_by_cohort.png",
+            )
+            interval = growth["latest_interval"]
+            span = f"{interval[0]} → {interval[1]}" if interval else "n/a"
+            print(
+                f"Wrote citation growth figures ({len(snap_paths)} snapshots; latest interval {span})"
+            )
+        else:
+            print(
+                "Citation growth plots skipped "
+                f"({len(snap_paths)} snapshot(s) in trajectory/citations_history/; need ≥2)"
+            )
 
     if summary_tables:
         write_summary_csv(years, summary_tables, out_dir / "summary_table.csv")

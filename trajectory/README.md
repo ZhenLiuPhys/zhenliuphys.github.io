@@ -40,6 +40,7 @@ Copy [`recommendation_letters.example.yaml`](recommendation_letters.example.yaml
 | `letters_detail.csv` | Flat log: year, type, name, note |
 | `citations_by_pub_year.png` | inSPIRE snapshot summed by publication year |
 | `citations_cumulative_stock.png` | Cumulative citation stock through each pub year |
+| `citations_growth_*.png` / `citations_growth_summary.csv` | Snapshot-over-snapshot growth (see Citations) |
 | `summary_table.csv` | Year × all annual series |
 
 ## Milestones
@@ -61,8 +62,26 @@ Edit [`milestones.yaml`](milestones.yaml): grad school through **2015-08**, MS *
 ## Citations
 
 - **Refereed papers only** (~80); editor/contributor white papers excluded.
-- Uses today's inSPIRE `citation_count` — not citations received per calendar year.
-- Cache: `trajectory/data/inspire_citations.yaml` (gitignored).
+- Working cache: `trajectory/data/inspire_citations.yaml` (gitignored) — today's `citation_count` per paper.
+- **History:** each `--refresh-citations` also archives `trajectory/citations_history/YYYY-MM-DD.yaml` (tracked). Same-day re-runs overwrite that date.
+- Stock plots use one snapshot summed by publication year — not citations received per calendar year.
+- Growth plots compare consecutive archives (need ≥2 snapshots).
+
+```bash
+.venv/bin/python trajectory/plot_trajectory.py --citations
+.venv/bin/python trajectory/plot_trajectory.py --citations --refresh-citations
+.venv/bin/python trajectory/plot_trajectory.py --list-citation-history
+```
+
+| Growth output | Content |
+|---------------|---------|
+| `citations_growth_total.png` | Total included citations vs snapshot date |
+| `citations_growth_delta.png` | Δ total between consecutive snapshots |
+| `citations_growth_decomposition.png` | Top papers by Δ in the latest interval |
+| `citations_growth_by_cohort.png` | Latest Δ grouped by publication year |
+| `citations_growth_summary.csv` | date, total, delta, n_papers |
+
+Monthly Cursor Automation to refresh + commit history is a follow-up once this local path is stable.
 
 ### Review / exclude papers
 

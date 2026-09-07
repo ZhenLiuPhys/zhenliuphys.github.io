@@ -1,0 +1,500 @@
+version: 1
+fetched: '2026-09-07'
+papers:
+  '2605.08433':
+    arxiv: '2605.08433'
+    id: pub-l1-002-electroweak-restoration-smeft-and-heft
+    title: 'Electroweak Restoration: SMEFT and HEFT'
+    year: 2026
+    citation_count: 1
+  '2605.13964':
+    arxiv: '2605.13964'
+    id: pub-l1-001-a-new-source-of-millicharged-particles-secondary-showers-in-the-lhc-forward-absorber
+    title: 'A New Source of Millicharged Particles: Secondary Showers in the LHC Forward
+      Absorber'
+    year: 2026
+    citation_count: 0
+  '2604.13156':
+    arxiv: '2604.13156'
+    id: pub-l1-004-z-boson-radiative-decay-z-mu-mu-gamma-at-the-lhc
+    title: Z Boson Radiative Decay Z-> mu^+mu^-gamma at the LHC
+    year: 2026
+    citation_count: 0
+  '2604.14284':
+    arxiv: '2604.14284'
+    id: pub-l1-003-a-busy-higgs-signal
+    title: A Busy Higgs Signal
+    year: 2026
+    citation_count: 3
+  '2512.04336':
+    arxiv: '2512.04336'
+    id: pub-l1-005-lhc-shines-on-positivity
+    title: LHC Shines on Positivity
+    year: 2025
+    citation_count: 3
+  '2510.02427':
+    arxiv: '2510.02427'
+    id: pub-l1-006-improved-dark-photon-sensitivity-from-the-dark-srf-experiment
+    title: Improved Dark Photon Sensitivity from the Dark SRF Experiment
+    year: 2025
+    citation_count: 4
+  '2509.10605':
+    arxiv: '2509.10605'
+    id: pub-l1-007-heavy-qcd-axions-at-high-energy-muon-colliders
+    title: Heavy QCD Axions at High-Energy Muon Colliders
+    year: 2025
+    citation_count: 7
+  '2508.04961':
+    arxiv: '2508.04961'
+    id: pub-l1-008-constraints-on-symmetric-dark-matter-from-neutron-star-capture-and-collapse
+    title: Constraints on Symmetric Dark Matter from Neutron Star Capture and Collapse
+    year: 2025
+    citation_count: 7
+  '2506.02106':
+    arxiv: '2506.02106'
+    id: pub-l1-009-on-shell-recursion-relations-for-higher-spin-compton-amplitudes
+    title: On-shell recursion relations for higher-spin Compton amplitudes
+    year: 2025
+    citation_count: 6
+  '2504.15307':
+    arxiv: '2504.15307'
+    id: pub-l1-010-modeling-frequency-instability-in-high-quality-resonant-experiments
+    title: Modeling frequency instability in high-quality resonant experiments
+    year: 2025
+    citation_count: 2
+  '2412.14115':
+    arxiv: '2412.14115'
+    id: pub-l1-011-the-neutrino-slice-at-muon-colliders
+    title: The Neutrino Slice at Muon Colliders
+    year: 2024
+    citation_count: 11
+  '2412.09652':
+    arxiv: '2412.09652'
+    id: pub-l1-012-probing-millicharged-particles-at-an-electron-beam-dump-with-ultralow-threshold-sensors
+    title: Probing Millicharged Particles at an Electron Beam Dump with Ultralow-Threshold
+      Sensors
+    year: 2024
+    citation_count: 13
+  '2408.15330':
+    arxiv: '2408.15330'
+    id: pub-l1-013-ultralight-dark-matter-detection-with-levitated-ferromagnets
+    title: Ultralight dark matter detection with levitated ferromagnets
+    year: 2024
+    citation_count: 38
+  '2408.08948':
+    arxiv: '2408.08948'
+    id: pub-l1-014-accidental-suppression-of-wilson-coefficients-in-higgs-coupling
+    title: Accidental Suppression of Wilson Coefficients in Higgs Coupling
+    year: 2024
+    citation_count: 1
+  '2407.15930':
+    arxiv: '2407.15930'
+    id: pub-l1-015-w-boson-exotic-decay-into-three-charged-leptons-at-the-lhc
+    title: W-Boson Exotic Decay into Three Charged Leptons at the LHC
+    year: 2024
+    citation_count: 4
+  '2407.14587':
+    arxiv: '2407.14587'
+    id: pub-l1-016-momentum-shift-and-on-shell-recursion-relation-for-electroweak-theory
+    title: Momentum shift and on-shell recursion relation for electroweak theory
+    year: 2024
+    citation_count: 14
+  '2407.12930':
+    arxiv: '2407.12930'
+    id: pub-l1-017-a-light-qcd-axion-with-hilltop-misalignment
+    title: A Light QCD Axion with Hilltop Misalignment
+    year: 2024
+    citation_count: 11
+  '2403.15538':
+    arxiv: '2403.15538'
+    id: pub-l1-018-momentum-shift-and-on-shell-constructible-massive-amplitudes
+    title: Momentum shift and on-shell constructible massive amplitudes
+    year: 2024
+    citation_count: 20
+  '2401.08756':
+    arxiv: '2401.08756'
+    id: pub-l1-019-higgs-width-and-couplings-at-high-energy-muon-colliders-with-forward-muon-detection
+    title: Higgs Width and Couplings at High Energy Muon Colliders with Forward Muon
+      Detection
+    year: 2024
+    citation_count: 34
+  '2310.18398':
+    arxiv: '2310.18398'
+    id: pub-l1-020-maglev-for-dark-matter-dark-photon-and-axion-dark-matter-sensing-with-levitated-superconductors
+    title: 'Maglev for Dark Matter: Dark-photon and axion dark matter sensing with
+      levitated superconductors'
+    year: 2023
+    citation_count: 38
+  '2308.06323':
+    arxiv: '2308.06323'
+    id: pub-l1-022-top-yukawa-coupling-determination-at-high-energy-muon-collider
+    title: Top Yukawa Coupling Determination at High Energy Muon Collider
+    year: 2023
+    citation_count: 25
+  '2308.08589':
+    arxiv: '2308.08589'
+    id: pub-l1-021-searching-for-axions-with-kaon-decay-at-rest
+    title: Searching for axions with kaon decay at rest
+    year: 2023
+    citation_count: 9
+  '2306.07315':
+    arxiv: '2306.07315'
+    id: pub-l1-023-heavy-neutral-leptons-from-stopped-muons-and-pions
+    title: Heavy Neutral Leptons from Stopped Muons and Pions
+    year: 2023
+    citation_count: 15
+  '2306.00079':
+    arxiv: '2306.00079'
+    id: pub-l1-024-a-guide-to-diagnosing-colored-resonances-at-hadron-colliders
+    title: A Guide to Diagnosing Colored Resonances at Hadron Colliders
+    year: 2023
+    citation_count: 17
+  '2305.04964':
+    arxiv: '2305.04964'
+    id: pub-l1-025-sensei-search-for-millicharged-particles-produced-in-the-numi-beam
+    title: 'SENSEI: Search for Millicharged Particles produced in the NuMI Beam'
+    year: 2023
+    citation_count: 51
+  '2304.08625':
+    arxiv: '2304.08625'
+    id: pub-l1-026-searching-for-millicharged-particles-with-1-kg-of-skipper-ccds-using-the-numi-beam-at-fermilab
+    title: Searching for millicharged particles with 1 kg of Skipper-CCDs using the
+      NuMI beam at Fermilab
+    year: 2023
+    citation_count: 24
+  '2301.11512':
+    arxiv: '2301.11512'
+    id: pub-l1-027-new-exclusion-limit-for-dark-photons-from-an-srf-cavity-based-search-dark-srf
+    title: New Exclusion Limit for Dark Photons from an SRF Cavity-Based Search (Dark
+      SRF)
+    year: 2023
+    citation_count: 73
+  '2301.07117':
+    arxiv: '2301.07117'
+    id: pub-l1-028-heavy-neutral-leptons-at-muon-colliders
+    title: Heavy Neutral Leptons at Muon Colliders
+    year: 2023
+    citation_count: 69
+  '2211.00664':
+    arxiv: '2211.00664'
+    id: pub-l1-029-flavor-changing-light-bosons-with-accidental-longevity
+    title: Flavor-changing light bosons with accidental longevity
+    year: 2022
+    citation_count: 7
+  '2210.07291':
+    arxiv: '2210.07291'
+    id: pub-l1-031-entanglement-enhanced-optomechanical-sensor-array-for-dark-matter-searches
+    title: Entanglement-enhanced optomechanical sensor array for dark matter searches
+    year: 2022
+    citation_count: 50
+  '2210.16180':
+    arxiv: '2210.16180'
+    id: pub-l1-030-entanglement-enhanced-optomechanical-sensing
+    title: Entanglement-Enhanced Optomechanical Sensing
+    year: 2022
+    citation_count: 118
+  '2210.02462':
+    arxiv: '2210.02462'
+    id: pub-l1-032-enhancing-searches-for-heavy-qcd-axions-via-dimuon-final-states
+    title: Enhancing Searches for Heavy QCD Axions via Dimuon Final States
+    year: 2022
+    citation_count: 24
+  '2207.08448':
+    arxiv: '2207.08448'
+    id: pub-l1-033-first-constraints-on-heavy-qcd-axions-with-a-liquid-argon-time-projection-chamber-using-the-argo
+    title: First constraints on Heavy QCD Axions with a Liquid Argon Time Projection
+      Chamber using the ArgoNeuT Experiment
+    year: 2022
+    citation_count: 25
+  '2204.05296':
+    arxiv: '2204.05296'
+    id: pub-l1-034-speculations-on-the-w-mass-measurement-at-cdf
+    title: Speculations on the W-Mass Measurement at CDF
+    year: 2022
+    citation_count: 73
+  '2203.01796':
+    arxiv: '2203.01796'
+    id: pub-l1-037-sleptonic-susy-from-uv-framework-to-ir-phenomenology
+    title: 'Sleptonic SUSY: From UV Framework to IR Phenomenology'
+    year: 2022
+    citation_count: 16
+  '2203.04324':
+    arxiv: '2203.04324'
+    id: pub-l1-036-higgs-precision-at-a-125-gev-muon-collider
+    title: Higgs Precision at a 125 GeV Muon Collider
+    year: 2022
+    citation_count: 43
+  '2203.05375':
+    arxiv: '2203.05375'
+    id: pub-l1-035-entangled-sensor-networks-for-dark-matter-searches
+    title: Entangled sensor-networks for dark-matter searches
+    year: 2022
+    citation_count: 79
+  '2109.03294':
+    arxiv: '2109.03294'
+    id: pub-l1-038-probing-higgs-exotic-decay-at-the-lhc-with-machine-learning
+    title: Probing Higgs exotic decay at the LHC with machine learning
+    year: 2021
+    citation_count: 12
+  '2109.01682':
+    arxiv: '2109.01682'
+    id: pub-l1-039-jet-timing
+    title: Jet Timing
+    year: 2021
+    citation_count: 14
+  '2107.11405':
+    arxiv: '2107.11405'
+    id: pub-l1-040-exploring-uncharted-soft-displaced-vertices-in-open-data
+    title: Exploring Uncharted Soft Displaced Vertices in Open Data
+    year: 2021
+    citation_count: 7
+  '2104.00638':
+    arxiv: '2104.00638'
+    id: pub-l1-041-a-new-approach-to-electroweak-symmetry-non-restoration
+    title: A New Approach to Electroweak Symmetry Non-Restoration
+    year: 2021
+    citation_count: 45
+  '2103.14043':
+    arxiv: '2103.14043'
+    id: pub-l1-042-the-muon-smasher-s-guide
+    title: The Muon Smasher's Guide
+    year: 2021
+    citation_count: 262
+  '2012.01443':
+    arxiv: '2012.01443'
+    id: pub-l1-043-neutrino-masses-from-low-scale-partial-compositeness
+    title: Neutrino Masses from Low Scale Partial Compositeness
+    year: 2020
+    citation_count: 28
+  '2012.00774':
+    arxiv: '2012.00774'
+    id: pub-l1-044-electroweak-restoration-at-the-lhc-and-beyond-the-vh-channel
+    title: 'Electroweak Restoration at the LHC and Beyond: The Vh Channel'
+    year: 2020
+    citation_count: 14
+  '2011.05995':
+    arxiv: '2011.05995'
+    id: pub-l1-045-heavy-axion-opportunities-at-the-dune-near-detector
+    title: Heavy Axion Opportunities at the DUNE Near Detector
+    year: 2020
+    citation_count: 100
+  '2009.11287':
+    arxiv: '2009.11287'
+    id: pub-l1-046-wimps-at-high-energy-muon-colliders
+    title: WIMPs at High Energy Muon Colliders
+    year: 2020
+    citation_count: 146
+  '2005.10836':
+    arxiv: '2005.10836'
+    id: pub-l1-047-enhancing-sensitivities-to-long-lived-particles-with-high-granularity-calorimeters-at-the-lhc
+    title: Enhancing Sensitivities to Long-lived Particles with High Granularity Calorimeters
+      at the LHC
+    year: 2020
+    citation_count: 35
+  '1911.12364':
+    arxiv: '1911.12364'
+    id: pub-l1-048-the-high-quality-qcd-axion-and-the-lhc
+    title: The High Quality QCD Axion and the LHC
+    year: 2019
+    citation_count: 171
+  '1911.07996':
+    arxiv: '1911.07996'
+    id: pub-l1-050-improved-limits-on-millicharged-particles-using-the-argoneut-experiment-at-fermilab
+    title: Improved Limits on Millicharged Particles Using the ArgoNeuT Experiment
+      at Fermilab
+    year: 2019
+    citation_count: 139
+  '1911.10206':
+    arxiv: '1911.10206'
+    id: pub-l1-049-electroweak-phase-transition-with-spontaneous-z-2-breaking
+    title: Electroweak phase transition with spontaneous Z_2-breaking
+    year: 2019
+    citation_count: 112
+  '1909.04549':
+    arxiv: '1909.04549'
+    id: pub-l1-051-probing-flavor-non-universal-theories-through-higgs-physics-at-the-lhc-and-future-colliders
+    title: Probing Flavor Non-Universal Theories Through Higgs Physics at the LHC
+      and Future Colliders
+    year: 2019
+    citation_count: 7
+  '1908.04797':
+    arxiv: '1908.04797'
+    id: pub-l1-052-ultralight-dark-matter-detection-with-mechanical-quantum-sensors
+    title: Ultralight Dark Matter Detection with Mechanical Quantum Sensors
+    year: 2019
+    citation_count: 96
+  '1904.01020':
+    arxiv: '1904.01020'
+    id: pub-l1-053-seeking-for-sterile-neutrinos-with-displaced-leptons-at-the-lhc
+    title: Seeking for sterile neutrinos with displaced leptons at the LHC
+    year: 2019
+    citation_count: 55
+  '1902.03246':
+    arxiv: '1902.03246'
+    id: pub-l1-054-millicharged-particles-in-liquid-argon-neutrino-experiments
+    title: Millicharged Particles in Liquid Argon Neutrino Experiments
+    year: 2019
+    citation_count: 81
+  '1811.11918':
+    arxiv: '1811.11918'
+    id: pub-l1-055-heavy-higgs-as-a-portal-to-the-supersymmetric-electroweak-sector
+    title: Heavy Higgs as a Portal to the Supersymmetric Electroweak Sector
+    year: 2018
+    citation_count: 21
+  '1810.09037':
+    arxiv: '1810.09037'
+    id: pub-l1-056-precision-higgs-physics-at-cepc
+    title: Precision Higgs Physics at CEPC
+    year: 2018
+    citation_count: 183
+  '1806.07396':
+    arxiv: '1806.07396'
+    id: pub-l1-057-long-lived-particles-at-the-energy-frontier-the-mathusla-physics-case
+    title: 'Long-Lived Particles at the Energy Frontier: The MATHUSLA Physics Case'
+    year: 2018
+    citation_count: 564
+  '1805.05957':
+    arxiv: '1805.05957'
+    id: pub-l1-058-long-lived-particles-at-the-lhc-catching-them-in-time
+    title: 'Long-lived particles at the LHC: catching them in time'
+    year: 2018
+    citation_count: 118
+  '1711.03978':
+    arxiv: '1711.03978'
+    id: pub-l1-060-a-global-view-on-the-higgs-self-coupling-at-lepton-colliders
+    title: A global view on the Higgs self-coupling at lepton colliders
+    year: 2017
+    citation_count: 130
+  '1709.09605':
+    arxiv: '1709.09605'
+    id: pub-l1-061-would-a-deeply-bound-bbar-b-b-bar-b-tetraquark-meson-be-observed-at-the-lhc
+    title: Would a Deeply Bound bbar b b bar b Tetraquark Meson be Observed at the
+      LHC?
+    year: 2017
+    citation_count: 29
+  '1709.06103':
+    arxiv: '1709.06103'
+    id: pub-l1-062-learning-from-higgs-physics-at-future-higgs-factories
+    title: Learning from Higgs Physics at Future Higgs Factories
+    year: 2017
+    citation_count: 72
+  '1704.08259':
+    arxiv: '1704.08259'
+    id: pub-l1-063-interference-in-the-gg-h-gammagamma-on-shell-rate-and-the-higgs-boson-total-width
+    title: Interference in the gg-> h -> gammagamma On-Shell Rate and the Higgs Boson
+      Total Width
+    year: 2017
+    citation_count: 54
+  '1612.09284':
+    arxiv: '1612.09284'
+    id: pub-l1-064-exotic-decays-of-the-125-gev-higgs-boson-at-future-e-e-colliders
+    title: Exotic decays of the 125 GeV Higgs boson at future e^+e^- colliders
+    year: 2016
+    citation_count: 102
+  '1608.07282':
+    arxiv: '1608.07282'
+    id: pub-l1-065-challenges-and-opportunities-for-heavy-scalar-searches-in-the-ttbar-channel-at-the-lhc
+    title: Challenges and opportunities for heavy scalar searches in the ttbar channel
+      at the LHC
+    year: 2016
+    citation_count: 102
+  '1607.03210':
+    arxiv: '1607.03210'
+    id: pub-l1-066-isr-effects-for-resonant-higgs-production-at-future-lepton-colliders
+    title: ISR effects for resonant Higgs production at future lepton colliders
+    year: 2016
+    citation_count: 60
+  '1512.07624':
+    arxiv: '1512.07624'
+    id: pub-l1-067-physics-implications-of-the-diphoton-excess-from-the-perspective-of-renormalization-group-flow
+    title: Physics implications of the diphoton excess from the perspective of renormalization
+      group flow
+    year: 2015
+    citation_count: 98
+  '1512.06877':
+    arxiv: '1512.06877'
+    id: pub-l1-068-beyond-higgs-couplings-probing-the-higgs-with-angular-observables-at-future-e-e-colliders
+    title: 'Beyond Higgs Couplings: Probing the Higgs with Angular Observables at
+      Future e^+e^- Colliders'
+    year: 2015
+    citation_count: 56
+  '1507.01923':
+    arxiv: '1507.01923'
+    id: pub-l1-069-heavy-higgs-bosons-and-the-2-tev-w-boson
+    title: Heavy Higgs bosons and the 2 TeV W^ boson
+    year: 2015
+    citation_count: 80
+  '1506.06736':
+    arxiv: '1506.06736'
+    id: pub-l1-070-a-w-boson-near-2-tev-predictions-for-run-2-of-the-lhc
+    title: 'A W^ boson near 2 TeV: predictions for Run 2 of the LHC'
+    year: 2015
+    citation_count: 117
+  '1504.01399':
+    arxiv: '1504.01399'
+    id: pub-l1-071-improving-higgs-coupling-measurements-through-zz-fusion-at-the-ilc
+    title: Improving Higgs coupling measurements through ZZ Fusion at the ILC
+    year: 2015
+    citation_count: 18
+  '1503.05923':
+    arxiv: '1503.05923'
+    id: pub-l1-072-the-fate-of-long-lived-superparticles-with-hadronic-decays-after-lhc-run-1
+    title: The Fate of Long-Lived Superparticles with Hadronic Decays after LHC Run
+      1
+    year: 2015
+    citation_count: 88
+  '1408.5912':
+    arxiv: '1408.5912'
+    id: pub-l1-073-radiative-return-for-heavy-higgs-boson-at-a-muon-collider
+    title: Radiative Return for Heavy Higgs Boson at a Muon Collider
+    year: 2014
+    citation_count: 54
+  '1406.1181':
+    arxiv: '1406.1181'
+    id: pub-l1-074-light-neutralino-dark-matter-direct-indirect-detection-and-collider-searches
+    title: 'Light Neutralino Dark Matter: Direct/Indirect Detection and Collider Searches'
+    year: 2014
+    citation_count: 97
+  '1312.4992':
+    arxiv: '1312.4992'
+    id: pub-l1-075-exotic-decays-of-the-125-gev-higgs-boson
+    title: Exotic Decays of the 125 GeV Higgs Boson
+    year: 2013
+    citation_count: 575
+  '1311.7155':
+    arxiv: '1311.7155'
+    id: pub-l1-076-potential-precision-on-higgs-couplings-and-total-width-at-the-ilc
+    title: Potential Precision on Higgs Couplings and Total Width at the ILC
+    year: 2013
+    citation_count: 44
+  '1303.2113':
+    arxiv: '1303.2113'
+    id: pub-l1-078-low-mass-higgs-bosons-in-the-nmssm-and-their-lhc-implications
+    title: Low-Mass Higgs Bosons in the NMSSM and Their LHC Implications
+    year: 2013
+    citation_count: 84
+  '1303.3040':
+    arxiv: '1303.3040'
+    id: pub-l1-077-dark-matter-and-higgs-bosons-in-the-mssm
+    title: Dark Matter and Higgs Bosons in the MSSM
+    year: 2013
+    citation_count: 87
+  '1210.7803':
+    arxiv: '1210.7803'
+    id: pub-l1-079-potential-precision-of-a-direct-measurement-of-the-higgs-boson-total-width-at-a-muon-collider
+    title: Potential precision of a direct measurement of the Higgs boson total width
+      at a muon collider
+    year: 2012
+    citation_count: 59
+  '1010.4309':
+    arxiv: '1010.4309'
+    id: pub-l1-080-colored-resonant-signals-at-the-lhc-largest-rate-and-simplest-topology
+    title: 'Colored Resonant Signals at the LHC: Largest Rate and Simplest Topology'
+    year: 2010
+    citation_count: 212
+  '2606.20393':
+    arxiv: '2606.20393'
+    id: pub-l1-001-new-gauge-forces
+    title: New Gauge Forces, Neutron Stars and Schwinger Neutrino Production
+    year: 2026
+    citation_count: 0

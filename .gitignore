@@ -28,7 +28,8 @@ local/
 Aspen/
 Activities/
 
-# Career trajectory outputs (local reflection; scripts are committed)
+# Career trajectory outputs (local reflection; scripts + citation history are committed)
 trajectory/output/
 trajectory/data/
 trajectory/LETTERS.md
+# trajectory/citations_history/ is tracked (dated inSPIRE snapshots)

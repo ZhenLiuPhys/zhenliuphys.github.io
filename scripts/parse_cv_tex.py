@@ -143,7 +143,14 @@ def latex_to_text(text: str) -> str:
 
 def extract_links(raw_latex: str) -> list[str]:
     links = re.findall(r"\\href\{([^}]*)\}\{[^}]*\}", raw_latex or "")
-    return list(dict.fromkeys([u for u in links if u.startswith("http")]))
+    out: list[str] = []
+    for u in links:
+        u = (u or "").strip()
+        if not u:
+            continue
+        if u.startswith("http") or re.match(r"^10\.\d{4,9}/", u):
+            out.append(u)
+    return list(dict.fromkeys(out))
 
 
 def extract_sections(tex_text: str) -> list[tuple[str, str]]:
@@ -399,6 +406,8 @@ def build_publication_items(items: list[str], list_id: str, source: str) -> list
             if "arxiv.org" in link:
                 continue
             if "doi.org" in link or "dx.doi.org" in link:
+                continue
+            if re.match(r"^10\.\d{4,9}/", link):
                 continue
             journal_url = link
             break

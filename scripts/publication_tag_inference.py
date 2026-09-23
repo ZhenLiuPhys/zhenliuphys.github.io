@@ -75,6 +75,8 @@ COMPANION_TAGS: dict[str, list[str]] = {
 }
 
 ARXIV_OVERRIDES: dict[str, list[str]] = {
+    "2608.02718": ["bsm", "neutrinos", "forward-physics", "muon-collider"],
+    "2606.20393": ["bsm", "dark-sector", "neutrinos", "neutron-stars"],
     "2605.08433": ["eft", "higgs", "bsm"],
     "2605.13964": ["dark-sector", "forward-physics", "lhc"],
     "2604.13156": ["standard-model", "bsm", "lhc"],

@@ -161,6 +161,10 @@ def extract_doi(text: str, links: list[str]) -> str:
         m = re.search(r"(?:doi\.org|dx\.doi\.org)/(10\.\d{4,9}/[^\s?#]+)", link, re.I)
         if m:
             return m.group(1).rstrip(").,;")
+        # Bare DOI in \href{10.1103/...}{...} (common in this CV)
+        m_bare = re.match(r"^(10\.\d{4,9}/[^\s?#]+)$", link.strip())
+        if m_bare:
+            return m_bare.group(1).rstrip(").,;")
         m2 = re.search(r"/(10\.\d{4,9}/[^/\s?#]+(?:/[^/\s?#]+)*)", link)
         if m2 and "arxiv.org" not in link:
             return m2.group(1).rstrip(").,;")
@@ -168,12 +172,25 @@ def extract_doi(text: str, links: list[str]) -> str:
     return m.group(1).rstrip(").,;") if m else ""
 
 
+# CV pubs are "Title, A.B. Author, ..."; prefer that split over the first comma
+# so titles with internal commas (e.g. "New Gauge Forces, Neutron Stars and ...") keep.
+AUTHOR_LIST_START_RE = re.compile(
+    r",\s*(?:"
+    r"[A-Z](?:\.[A-Z])*\.?\s+[A-Z][A-Za-z\-]+"  # Z. Liu / J.Y. Choi
+    r"|[A-Z][a-zA-Z\-]+\s+et\s+al\.?"  # Name et al
+    r")"
+)
+
+
 def infer_title(text: str) -> str:
     text = re.sub(r"^\d+\.\s*", "", text)
     text = text.strip()
     if not text:
         return "Untitled Entry"
-    if "," in text:
+    m = AUTHOR_LIST_START_RE.search(text)
+    if m and m.start() >= 8:
+        text = text[: m.start()].strip()
+    elif "," in text:
         candidate = text.split(",", 1)[0].strip()
         if len(candidate) >= 8:
             text = candidate

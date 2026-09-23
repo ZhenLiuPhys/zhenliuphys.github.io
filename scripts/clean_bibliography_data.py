@@ -59,8 +59,14 @@ def extract_journal(venue: str) -> str:
     if JOURNAL_HINT_RE.search(v):
         m = JOURNAL_HINT_RE.search(v)
         if m:
-            return v[m.start() :].strip(" ,.")
-    # White-paper style: keep tail after first " , " chunk if short
+            journal = v[m.start() :].strip(" ,.")
+            # Strip trailing status words so status can live in its own field.
+            journal = STATUS_RE.sub("", journal).strip(" ,.")
+            return journal
+    # Submitted/accepted with only author lists: not a journal name.
+    if extract_status(v):
+        return ""
+    # White-paper style: keep tail after first comma chunk if short
     parts = [p.strip() for p in v.split(",") if p.strip()]
     if len(parts) >= 2 and len(parts[0]) < 60:
         return ", ".join(parts[1:])
@@ -75,10 +81,10 @@ def build_venue_display(pub: dict) -> str:
     parts: list[str] = []
     if journal:
         parts.append(journal)
-    elif venue:
-        parts.append(simplify_venue(venue, arxiv))
     if status and status not in (parts[0].lower() if parts else ""):
         parts.append(status)
+    elif not parts and venue:
+        parts.append(simplify_venue(venue, arxiv))
     if not parts and arxiv:
         parts.append(f"arXiv:{arxiv}")
     return " · ".join(parts) if parts else ""

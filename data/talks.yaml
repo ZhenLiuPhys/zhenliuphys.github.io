@@ -1,3 +1,24 @@
+- id: talk-l6-001-scheduled-fcc-theory
+  title: FCC Theory
+  year: 2026
+  date: '2026-10-01'
+  event: invited overview talk at Pioneering Session of Korean Physics Society (KPS)
+    Meeting, Jeju, Korea, Oct. 2026
+  host: ''
+  location: Jeju, Korea
+  talk_type: invited
+  slides_url: ''
+  video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: (scheduled)FCC Theory , invited overview talk at Pioneering Session of
+    Korean Physics Society (KPS) Meeting, Jeju, Korea, Oct. 2026
+  date_display: October 2026
+  venue: Pioneering Session of Korean Physics Society (KPS) Meeting
+  category: workshop
+  scheduled: true
+  event_display: Pioneering Session of Korean Physics Society (KPS) Meeting · Jeju,
+    Korea · October 2026
+  placeholder: false
 - id: talk-l6-002-scheduled-probing-high-quality-heavy-qcd-axions-at-colliders
   title: Probing High-Quality Heavy QCD Axions at Colliders
   year: 2026
@@ -10,15 +31,37 @@
   slides_url: ''
   video_url: ''
   source: Material/ZhenLiu_CV.tex
-  raw_text: '(scheduled)Probing High-Quality Heavy QCD Axions at Colliders , invited
-    talk at Axion-Photon Conversion: Terrestrial and Cosmic Searches workshop, Dali,
-    Yunnan, China, Sept. 2026'
+  raw_text: 'Probing High-Quality Heavy QCD Axions at Colliders , invited talk at
+    Axion-Photon Conversion: Terrestrial and Cosmic Searches workshop, Dali, Yunnan,
+    China, Sept. 2026'
   date_display: September 2026
   venue: 'Axion-Photon Conversion: Terrestrial and Cosmic Searches workshop, Dali'
   category: workshop
-  scheduled: true
+  scheduled: false
   event_display: 'Axion-Photon Conversion: Terrestrial and Cosmic Searches workshop,
     Dali · Yunnan, China · September 2026'
+  placeholder: false
+- id: talk-l6-002-overview-of-broad-scope-and-theory
+  title: Overview of broad scope and theory
+  year: 2026
+  date: '2026-09-01'
+  event: invited overview talk at Optomechanical Sensing for Subatomic and Astroparticle
+    Physics, Queen's University, Kingston, ON, Canada, Sept. 2026
+  host: Queen's University
+  location: ON, Canada
+  talk_type: invited
+  slides_url: https://indico.global/event/18677/contributions/168636/
+  video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Overview of broad scope and theory , invited overview talk at Optomechanical
+    Sensing for Subatomic and Astroparticle Physics, Queen's University, Kingston,
+    ON, Canada, Sept. 2026
+  date_display: September 2026
+  venue: Optomechanical Sensing for Subatomic and Astroparticle Physics, Kingston
+  category: workshop
+  scheduled: false
+  event_display: Optomechanical Sensing for Subatomic and Astroparticle Physics, Kingston
+    · ON, Canada · September 2026
   placeholder: false
 - id: talk-l6-001-scheduled-tbd
   title: Future Colliders
@@ -32,13 +75,13 @@
   slides_url: https://indico-tdli.sjtu.edu.cn/event/4873/
   video_url: ''
   source: Material/ZhenLiu_CV.tex
-  raw_text: (scheduled)Future Colliders , invited plenary talk at New directions EXploring
-    the Unknown beyond the Standard Model (NEXUS 2026), T.D. Lee Institute, Shanghai,
+  raw_text: Future Colliders , invited plenary talk at New directions EXploring the
+    Unknown beyond the Standard Model (NEXUS 2026), T.D. Lee Institute, Shanghai,
     China, Sept. 2026
   date_display: September 2026
   venue: New directions EXploring the Unknown beyond the Standard Model (NEXUS 2026)
   category: plenary
-  scheduled: true
+  scheduled: false
   event_display: New directions EXploring the Unknown beyond the Standard Model (NEXUS
     2026) · Shanghai, China · September 2026
   placeholder: false
@@ -54,35 +97,15 @@
   slides_url: https://indico.ihep.ac.cn/event/28828/
   video_url: ''
   source: Material/ZhenLiu_CV.tex
-  raw_text: (scheduled)Massive Amplitudes and Constructibility , invited plenary talk
-    at International Workshop on New Opportunities for Particle Physics 2026, IHEP,
-    Beijing, China, Aug. 2026
+  raw_text: Massive Amplitudes and Constructibility , invited plenary talk at International
+    Workshop on New Opportunities for Particle Physics 2026, IHEP, Beijing, China,
+    Aug. 2026
   date_display: August 2026
   venue: International Workshop on New Opportunities for Particle Physics 2026
   category: plenary
-  scheduled: true
+  scheduled: false
   event_display: International Workshop on New Opportunities for Particle Physics
     2026 · Beijing, China · August 2026
-  placeholder: false
-- id: talk-lecture-sw-001-scheduled-collider-phenomenology-link
-  title: Collider Phenomenology
-  year: 2026
-  date: '2026-08-01'
-  event: Fudan Particle Physics Summer School 2026, Shanghai, China, Aug. 2026
-  host: ''
-  location: Shanghai, China
-  talk_type: talk
-  slides_url: https://indico.ihep.ac.cn/event/29307/
-  video_url: ''
-  source: Material/ZhenLiu_CV.tex
-  raw_text: (scheduled) Collider Phenomenology Fudan Particle Physics Summer School
-    2026, Shanghai, China, Aug. 2026
-  date_display: August 2026
-  venue: Fudan Particle Physics Summer School 2026
-  category: lecture
-  scheduled: true
-  event_display: Fudan Particle Physics Summer School 2026 · Shanghai, China · August
-    2026
   placeholder: false
 - id: talk-l6-genai-enabled-representation-of-qcd-dsi-aug-2026
   title: GenAI-Enabled Representation of Quantum ChromoDynamics
@@ -107,11 +130,33 @@
   date_display: August 2026
   event_display: lightning talk (joint with CSE Prof. Wang) at Data-Science-Initiative
     workshop · Minneapolis, MN · August 2026
+- id: talk-lecture-sw-001-scheduled-collider-phenomenology-link
+  title: Collider Phenomenology
+  year: 2026
+  date: '2026-08-01'
+  event: Fudan Particle Physics Summer School 2026, Shanghai, China, Aug. 2026
+  host: ''
+  location: Shanghai, China
+  talk_type: talk
+  slides_url: https://indico.ihep.ac.cn/event/29307/
+  video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Collider Phenomenology Fudan Particle Physics Summer School 2026, Shanghai,
+    China, Aug. 2026
+  date_display: August 2026
+  venue: Fudan Particle Physics Summer School 2026
+  category: lecture
+  scheduled: false
+  event_display: Fudan Particle Physics Summer School 2026 · Shanghai, China · August
+    2026
+  placeholder: false
 - id: talk-l5-001-eft-amplitudes-and-colliders-massive-amplitudes-and-constructability-theory-seminar-jointly-with
-  title: 'EFT, Amplitudes, and Colliders: Massive Amplitudes and Constructability'
+  title: 'EFT, Amplitudes, and Colliders: Massive Amplitudes and Constructability,
+    theory seminar (jointly with Yael Shadmi and Markus Luty), Aspen Summer Program,
+    Aspen, CO, Jul. 2026'
   year: 2026
   date: '2026-07-01'
-  event: Aspen Summer Program
+  event: ''
   host: ''
   location: Aspen, CO
   talk_type: seminar
@@ -122,11 +167,14 @@
     theory seminar (jointly with Yael Shadmi and Markus Luty), Aspen Summer Program,
     Aspen, CO, Jul. 2026'
   date_display: July 2026
-  venue: theory seminar (jointly with Yael Shadmi and Markus Luty), Aspen Summer Program
+  venue: 'EFT, Amplitudes, and Colliders: Massive Amplitudes and Constructability,
+    theory seminar (jointly with Yael Shadmi and Markus Luty), Aspen Summer Program
+    · Aspen, CO · · Aspen, CO ·'
   category: seminar
   scheduled: false
-  event_display: theory seminar (jointly with Yael Shadmi and Markus Luty), Aspen
-    Summer Program · Aspen, CO · July 2026
+  event_display: 'EFT, Amplitudes, and Colliders: Massive Amplitudes and Constructability,
+    theory seminar (jointly with Yael Shadmi and Markus Luty), Aspen Summer Program
+    · Aspen, CO · · Aspen, CO · · Aspen, CO · July 2026'
   placeholder: false
 - id: talk-l6-003-a-busy-higgs-signal
   title: A Busy Higgs Signal
@@ -919,11 +967,11 @@
   raw_text: Pheno Opportunities in L1 Trigger , (remote) invited review talk at Level
     1 Scouting Workshop, Centro Congressi di Sappada, Italy, Sept. 2023
   date_display: September 2023
-  venue: invited review talk at Level 1 Scouting Workshop
+  venue: Level 1 Scouting Workshop
   category: workshop
   scheduled: false
-  event_display: invited review talk at Level 1 Scouting Workshop · Centro Congressi
-    di Sappada, Italy · September 2023
+  event_display: Level 1 Scouting Workshop · Centro Congressi di Sappada, Italy ·
+    September 2023
   placeholder: false
 - id: talk-l6-028-higgs-and-z-exotic-decays
   title: Higgs and Z Exotic Decays
@@ -1662,11 +1710,10 @@
   raw_text: Higgs Couplings at Muon Colliders , invited review talk at the Energy
     Frontier Workshop, Brown University, Providence, RI, Mar. 2022
   date_display: March 2022
-  venue: invited review talk at the Energy Frontier Workshop
+  venue: the Energy Frontier Workshop
   category: workshop
   scheduled: false
-  event_display: invited review talk at the Energy Frontier Workshop · Providence,
-    RI · March 2022
+  event_display: the Energy Frontier Workshop · Providence, RI · March 2022
   placeholder: false
 - id: talk-l6-054-top-and-higgs-physics-considerations-at-cepc-ttbar-run
   title: Top and Higgs Physics Considerations at CEPC ttbar run
@@ -1683,11 +1730,11 @@
   raw_text: Top and Higgs Physics Considerations at CEPC ttbar run , (remote) invited
     review talk at Higgs session (parallel) of CEPC 2021, Nanjing, China, Nov. 2021
   date_display: November 2021
-  venue: invited review talk at Higgs session (parallel) of CEPC 2021
+  venue: Higgs session (parallel) of CEPC 2021
   category: workshop
   scheduled: false
-  event_display: invited review talk at Higgs session (parallel) of CEPC 2021 · Nanjing,
-    China · November 2021
+  event_display: Higgs session (parallel) of CEPC 2021 · Nanjing, China · November
+    2021
   placeholder: false
 - id: talk-l6-055-heavy-dark-matter-at-colliders
   title: Heavy Dark Matter at Colliders
@@ -1766,12 +1813,11 @@
   raw_text: Higgs Physics at Muon Colliders , (remote) invited review talk at the
     EF01-02 joint session, Snowmass Energy Frontier workshop, Sep. 2021
   date_display: September 2021
-  venue: invited review talk at the EF01-02 joint session, Snowmass Energy Frontier
-    workshop
+  venue: the EF01-02 joint session, Snowmass Energy Frontier workshop
   category: workshop
   scheduled: false
-  event_display: invited review talk at the EF01-02 joint session, Snowmass Energy
-    Frontier workshop · September 2021
+  event_display: the EF01-02 joint session, Snowmass Energy Frontier workshop · September
+    2021
   placeholder: false
 - id: talk-l6-058-physics-at-the-125-gev-muon-collider
   title: Physics at the 125 GeV Muon Collider
@@ -1787,11 +1833,10 @@
   raw_text: Physics at the 125 GeV Muon Collider , (remote) invited review talk at
     the Snowmass Muon Collider Forum, Aug. 2021
   date_display: August 2021
-  venue: invited review talk at the Snowmass Muon Collider Forum
+  venue: the Snowmass Muon Collider Forum
   category: workshop
   scheduled: false
-  event_display: invited review talk at the Snowmass Muon Collider Forum · August
-    2021
+  event_display: the Snowmass Muon Collider Forum · August 2021
   placeholder: false
 - id: talk-l6-059-millicharged-particles-in-liquid-argon-neutrino-experiments
   title: Millicharged particles in liquid argon neutrino experiments
@@ -1891,11 +1936,10 @@
   raw_text: 'Ultra-light DM: theory overview , (remote) invited overview talk at Optomechanics
     for dark matter detection - 2nd edition, Apr. 2021'
   date_display: April 2021
-  venue: invited overview talk at Optomechanics for dark matter detection - 2nd edition
+  venue: Optomechanics for dark matter detection - 2nd edition
   category: workshop
   scheduled: false
-  event_display: invited overview talk at Optomechanics for dark matter detection
-    - 2nd edition · April 2021
+  event_display: Optomechanics for dark matter detection - 2nd edition · April 2021
   placeholder: false
 - id: talk-l6-064-top-coupling-measurement-with-360-gev-at-cepc
   title: Top coupling measurement with 360 GeV at CEPC
@@ -2662,11 +2706,10 @@
   raw_text: Direct BSM Search Opportunities Theory Overview , overview talk at West
     Coast LHC Jamboree, SLAC, Palo Alto, CA, Oct. 2019
   date_display: October 2019
-  venue: overview talk at West Coast LHC Jamboree
+  venue: West Coast LHC Jamboree
   category: seminar
   scheduled: false
-  event_display: overview talk at West Coast LHC Jamboree · Palo Alto, CA · October
-    2019
+  event_display: West Coast LHC Jamboree · Palo Alto, CA · October 2019
   placeholder: false
 - id: talk-l6-086-quantum-sensing-for-ultralight-dark-matter
   title: Quantum sensing for ultralight dark matter

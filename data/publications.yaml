@@ -1,10 +1,31 @@
+- id: pub-l1-001-the-forward-neutrino-flux-and-its-secondaries-at-a-10-tev-muon-collider
+  title: The Forward Neutrino Flux and its Secondaries at a 10 TeV Muon Collider
+  year: 2026
+  date: '2026-08-01'
+  authors: ''
+  venue: J.Y. Choi, M.Hostert, P.R. Li, Z. Liu, submitted, 2608.02718 [hep-ph](2026)
+  doi: ''
+  arxiv: '2608.02718'
+  journal_url: ''
+  section: refereed_journals
+  featured: false
+  source: Material/ZhenLiu_CV.tex
+  raw_text: The Forward Neutrino Flux and its Secondaries at a 10 TeV Muon Collider,
+    J.Y. Choi, M.Hostert, P.R. Li, Z. Liu, submitted, 2608.02718 [hep-ph](2026)
+  journal: ''
+  status: ''
+  venue_display: submitted
+  tags:
+  - bsm
+  - neutrinos
+  - forward-physics
+  - muon-collider
 - id: pub-l1-001-new-gauge-forces
   title: New Gauge Forces, Neutron Stars and Schwinger Neutrino Production
   year: 2026
   date: '2026-06-01'
   authors: ''
-  venue: Neutron Stars and Schwinger Neutrino Production, Y.X. Liu, Z. Liu, A. Shkerin,
-    J. Shu, Y. Zhao, submitted, 2606.20393 [hep-ph](2026)
+  venue: Y.X. Liu, Z. Liu, A. Shkerin, J. Shu, Y. Zhao, submitted, 2606.20393 [hep-ph](2026)
   doi: ''
   arxiv: '2606.20393'
   journal_url: ''
@@ -13,9 +34,9 @@
   source: Material/ZhenLiu_CV.tex
   raw_text: New Gauge Forces, Neutron Stars and Schwinger Neutrino Production, Y.X.
     Liu, Z. Liu, A. Shkerin, J. Shu, Y. Zhao, submitted, 2606.20393 [hep-ph](2026)
-  journal: Y.X. Liu, Z. Liu, A. Shkerin, J. Shu, Y. Zhao, submitted
+  journal: ''
   status: ''
-  venue_display: Y.X. Liu, Z. Liu, A. Shkerin, J. Shu, Y. Zhao, submitted
+  venue_display: submitted
   tags:
   - bsm
   - dark-sector
@@ -35,9 +56,9 @@
   source: Material/ZhenLiu_CV.tex
   raw_text: 'Electroweak Restoration: SMEFT and HEFT, I. Lewis, Z. Liu, I. Mahbub,
     submitted, 2605.08433 [hep-ph](2026)'
-  journal: Z. Liu, I. Mahbub, submitted
+  journal: ''
   status: ''
-  venue_display: Z. Liu, I. Mahbub, submitted
+  venue_display: submitted
   tags:
   - higgs
   - bsm
@@ -48,20 +69,20 @@
   year: 2026
   date: '2026-05-01'
   authors: ''
-  venue: J. Adhikary, P.R. Li, Z. Liu, S. Trojanowski, A. Zabihi, accepted by PRD,
-    2605.13964 [hep-ph](2026)
-  doi: ''
+  venue: J. Adhikary, P.R. Li, Z. Liu, S. Trojanowski, A. Zabihi, Phys.Rev.D 114 (2026)
+    1, 015011 , 2605.13964 [hep-ph](2026)
+  doi: 10.1103/5s3t-x8l1
   arxiv: '2605.13964'
-  journal_url: ''
+  journal_url: https://doi.org/10.1103/5s3t-x8l1
   section: refereed_journals
   featured: false
   source: Material/ZhenLiu_CV.tex
   raw_text: 'A New Source of Millicharged Particles: Secondary Showers in the LHC
-    Forward Absorber, J. Adhikary, P.R. Li, Z. Liu, S. Trojanowski, A. Zabihi, accepted
-    by PRD, 2605.13964 [hep-ph](2026)'
-  journal: PRD
+    Forward Absorber, J. Adhikary, P.R. Li, Z. Liu, S. Trojanowski, A. Zabihi, Phys.Rev.D
+    114 (2026) 1, 015011 , 2605.13964 [hep-ph](2026)'
+  journal: Phys.Rev.D 114 (2026) 1, 015011
   status: ''
-  venue_display: PRD · accepted
+  venue_display: Phys.Rev.D 114 (2026) 1, 015011
   tags:
   - dark-sector
   - forward-physics
@@ -71,18 +92,18 @@
   year: 2026
   date: '2026-04-01'
   authors: ''
-  venue: Y.F. Fei, P.R. Li, Z. Liu, M. Pospelov, submitted, 2604.13156 [hep-ph](2026)
-  doi: ''
+  venue: Y.F. Fei, P.R. Li, Z. Liu, M. Pospelov, JHEP 09 (2026) 154, 2604.13156 [hep-ph](2026)
+  doi: 10.1007/JHEP09(2026)154
   arxiv: '2604.13156'
   journal_url: ''
   section: refereed_journals
   featured: false
   source: Material/ZhenLiu_CV.tex
   raw_text: Z Boson Radiative Decay Z-> mu^+mu^-gamma at the LHC, Y.F. Fei, P.R. Li,
-    Z. Liu, M. Pospelov, submitted, 2604.13156 [hep-ph](2026)
-  journal: P.R. Li, Z. Liu, M. Pospelov, submitted
+    Z. Liu, M. Pospelov, JHEP 09 (2026) 154, 2604.13156 [hep-ph](2026)
+  journal: JHEP 09 (2026) 154
   status: ''
-  venue_display: P.R. Li, Z. Liu, M. Pospelov, submitted
+  venue_display: JHEP 09 (2026) 154
   tags:
   - standard-model
   - bsm
@@ -101,9 +122,9 @@
   source: Material/ZhenLiu_CV.tex
   raw_text: A Busy Higgs Signal, P.R. Li, Z. Liu, L.T. Wang, submitted, 2604.14284
     [hep-ph](2026)
-  journal: Z. Liu, L.T. Wang, submitted
+  journal: ''
   status: ''
-  venue_display: Z. Liu, L.T. Wang, submitted
+  venue_display: submitted
   tags:
   - higgs
   - bsm
@@ -135,18 +156,18 @@
   year: 2025
   date: '2025-12-01'
   authors: ''
-  venue: Z. Liu, K.F. Lyu, T. Wu, Accepted by CPC as a letter, 2512.04336 [hep-ph](2025)
-  doi: ''
+  venue: Z. Liu, K.F. Lyu, T. Wu, Chin.Phys.C 50 (2026) 9, 091003, 2512.04336 [hep-ph](2025)
+  doi: 10.1088/1674-1137/ae74be
   arxiv: '2512.04336'
   journal_url: ''
   section: refereed_journals
   featured: false
   source: Material/ZhenLiu_CV.tex
-  raw_text: LHC Shines on Positivity, Z. Liu, K.F. Lyu, T. Wu, Accepted by CPC as
-    a letter, 2512.04336 [hep-ph](2025)
-  journal: K.F. Lyu, T. Wu, Accepted by CPC as a letter
+  raw_text: LHC Shines on Positivity, Z. Liu, K.F. Lyu, T. Wu, Chin.Phys.C 50 (2026)
+    9, 091003, 2512.04336 [hep-ph](2025)
+  journal: Chin.Phys.C 50 (2026) 9, 091003
   status: ''
-  venue_display: K.F. Lyu, T. Wu, Accepted by CPC as a letter
+  venue_display: Chin.Phys.C 50 (2026) 9, 091003
   tags:
   - bsm
   - lhc
@@ -339,11 +360,12 @@
   - bsm
   - muon-collider
 - id: pub-l1-010-modeling-frequency-instability-in-high-quality-resonant-experiments
-  title: Modeling frequency instability in high-quality resonant experiments
+  title: Modeling frequency instability in high-quality resonant experiments , H.-R.
+    Cui
   year: 2025
   date: '2025-04-01'
   authors: ''
-  venue: H.-R. Cui, S. Kalia, Z. Liu, Phys. Rev. D 113, 052008, 2504.15307 [physics.ins-det]
+  venue: S. Kalia, Z. Liu, Phys. Rev. D 113, 052008, 2504.15307 [physics.ins-det]
     (2025)
   doi: 10.1103/w43x-xwh9
   arxiv: '2504.15307'
@@ -407,12 +429,12 @@
   - forward-physics
   - lhc
 - id: pub-l1-011-the-neutrino-slice-at-muon-colliders
-  title: The Neutrino Slice at Muon Colliders
+  title: The Neutrino Slice at Muon Colliders, Bojorquez-Lopez
   year: 2024
   date: '2024-12-01'
   authors: ''
-  venue: Bojorquez-Lopez, M. Hostert, C. Argüelles, Z. Liu, Phys.Rev.Lett. 135 (2025)
-    9, 091803, 2412.14115 [hep-ph] (2024)
+  venue: M. Hostert, C. Argüelles, Z. Liu, Phys.Rev.Lett. 135 (2025) 9, 091803, 2412.14115
+    [hep-ph] (2024)
   doi: 10.1103/4sj1-ycft
   arxiv: '2412.14115'
   journal_url: https://journals.aps.org/prl/abstract/10.1103/4sj1-ycft
@@ -1427,12 +1449,12 @@
   - supersymmetry
   - dark-sector
 - id: pub-l2-006-searches-for-new-particles
-  title: Searches for New Particles
+  title: Searches for New Particles, Dark Matter, and Gravitational Waves with SRF
+    Cavities
   year: 2022
   date: '2022-03-01'
   authors: ''
-  venue: Dark Matter, and Gravitational Waves with SRF Cavities, A. Berlin et al,
-    2203.12714[hep-ph] (2022)
+  venue: A. Berlin et al, 2203.12714[hep-ph] (2022)
   doi: ''
   arxiv: '2203.12714'
   journal_url: ''
@@ -1441,9 +1463,9 @@
   source: Material/ZhenLiu_CV.tex
   raw_text: Searches for New Particles, Dark Matter, and Gravitational Waves with
     SRF Cavities, A. Berlin et al, 2203.12714[hep-ph] (2022)
-  journal: and Gravitational Waves with SRF Cavities, A. Berlin et al
+  journal: A. Berlin et al
   status: ''
-  venue_display: and Gravitational Waves with SRF Cavities, A. Berlin et al
+  venue_display: A. Berlin et al
   tags:
   - bsm
   - dark-sector
@@ -1551,11 +1573,11 @@
   - bsm
   - muon-collider
 - id: pub-l1-036-higgs-precision-at-a-125-gev-muon-collider
-  title: Higgs Precision at a 125 GeV Muon Collider
+  title: Higgs Precision at a 125 GeV Muon Collider, J. de Blas
   year: 2022
   date: '2022-03-01'
   authors: ''
-  venue: J. de Blas, J. Gu, Z. Liu, PhysRevD.106.073007, 2203.04324[hep-ph](2022)
+  venue: J. Gu, Z. Liu, PhysRevD.106.073007, 2203.04324[hep-ph](2022)
   doi: 10.1103/PhysRevD.106.073007
   arxiv: '2203.04324'
   journal_url: https://journals.aps.org/prd/abstract/10.1103/PhysRevD.106.073007
@@ -1634,12 +1656,11 @@
   - bsm
   - lhc
 - id: pub-l3-026-the-forward-physics-facility-sites
-  title: 'The Forward Physics Facility: Sites'
+  title: 'The Forward Physics Facility: Sites, Experiments, and Physics Potential'
   year: 2021
   date: '2021-09-01'
   authors: ''
-  venue: Experiments, and Physics Potential, L. Anchordoqui et al, 2109.10905[hep-ph]
-    (2021)
+  venue: L. Anchordoqui et al, 2109.10905[hep-ph] (2021)
   doi: ''
   arxiv: '2109.10905'
   journal_url: ''
@@ -1648,9 +1669,9 @@
   source: Material/ZhenLiu_CV.tex
   raw_text: 'The Forward Physics Facility: Sites, Experiments, and Physics Potential,
     L. Anchordoqui et al, 2109.10905[hep-ph] (2021)'
-  journal: and Physics Potential, L. Anchordoqui et al
+  journal: L. Anchordoqui et al
   status: ''
-  venue_display: and Physics Potential, L. Anchordoqui et al
+  venue_display: L. Anchordoqui et al
   tags:
   - bsm
   - dark-sector
@@ -1680,12 +1701,11 @@
   - lhc
   - ai-ml
 - id: pub-l1-039-jet-timing
-  title: Jet Timing
+  title: Jet Timing, W.-H. Chiu
   year: 2021
   date: '2021-09-01'
   authors: ''
-  venue: W.-H. Chiu, Z. Liu, M. Low, L.-T. Wang, JHEP 01 (2022) 014, 2109.01682[hep-ph]
-    (2021)
+  venue: Z. Liu, M. Low, L.-T. Wang, JHEP 01 (2022) 014, 2109.01682[hep-ph] (2021)
   doi: ''
   arxiv: '2109.01682'
   journal_url: https://link.springer.com/article/10.1007\%2FJHEP01\%282022\%29014
@@ -1715,9 +1735,9 @@
   source: Material/ZhenLiu_CV.tex
   raw_text: Exploring Uncharted Soft Displaced Vertices in Open Data, H. An, Z. Hu,
     Z. Liu, D. Yang, submitted, 2107.11405[hep-ph] (2021)
-  journal: Z. Hu, Z. Liu, D. Yang, submitted
+  journal: ''
   status: ''
-  venue_display: Z. Hu, Z. Liu, D. Yang, submitted
+  venue_display: submitted
   tags:
   - bsm
   - long-lived-particles
@@ -2648,9 +2668,9 @@
   date: '2016-01-01'
   authors: ''
   venue: Z. Liu, Int. J. Mod. Phys. A, 31, 1644005 (2016)
-  doi: ''
+  doi: 10.1142/S0217751X1644005X
   arxiv: ''
-  journal_url: ''
+  journal_url: http://www.worldscientific.com/doi/abs/10.1142/S0217751X1644005X
   section: other_publications_editor
   featured: false
   source: Material/ZhenLiu_CV.tex

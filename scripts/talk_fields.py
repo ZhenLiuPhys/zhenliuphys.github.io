@@ -49,6 +49,7 @@ EVENT_PREFIX_RE = re.compile(
     r"(?:"
     r"(?:invited|contributed)\s+(?:plenary\s+)?talk at\s+"
     r"|(?:invited|contributed)\s+plenary\s+talk\s+at\s+"
+    r"|(?:invited\s+)?(?:overview|review)\s+talk at\s+"
     r"|parallel talk at\s+"
     r"|plenary talk at\s+"
     r"|talk at\s+"

@@ -663,6 +663,18 @@
   - dark-sector
   - forward-physics
   - lhc
+'2606.20393':
+  tags:
+  - bsm
+  - dark-sector
+  - neutrinos
+  - neutron-stars
+'2608.02718':
+  tags:
+  - bsm
+  - neutrinos
+  - forward-physics
+  - muon-collider
 by_id:
   pub-l2-003-a-cool-route-to-the-higgs-boson-and-beyond-the-cool-copper-collider:
     tags:

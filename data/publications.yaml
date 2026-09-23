@@ -190,7 +190,7 @@
   venue_display: Phys.Rev.Lett. 136, 111802
   tags:
   - dark-sector
-  - quantum-sensing
+  - sensing-qis
 - id: pub-l3-004-cepc-technical-design-report-reference-detector
   title: CEPC Technical Design Report - Reference Detector
   year: 2025
@@ -360,8 +360,7 @@
   tags:
   - bsm
   - dark-sector
-  - qis
-  - quantum-sensing
+  - sensing-qis
 - id: pub-l3-006-united-states-muon-collider-community-white-paper-for-the-european-strategy-for-particle-physics
   title: United States Muon Collider Community White Paper for the European Strategy
     for Particle Physics Update
@@ -454,7 +453,7 @@
   - forward-physics
   - lhc
   - beamdump
-  - quantum-sensing
+  - sensing-qis
 - id: pub-l3-008-flavor-physics-at-cepc-a-general-perspective
   title: 'Flavor Physics at CEPC: a General Perspective'
   year: 2024
@@ -535,7 +534,7 @@
   - bsm
   - dark-sector
   - axions
-  - quantum-sensing
+  - sensing-qis
 - id: pub-l1-014-accidental-suppression-of-wilson-coefficients-in-higgs-coupling
   title: Accidental Suppression of Wilson Coefficients in Higgs Coupling
   year: 2024
@@ -777,7 +776,7 @@
   tags:
   - dark-sector
   - axions
-  - quantum-sensing
+  - sensing-qis
 - id: pub-l1-022-top-yukawa-coupling-determination-at-high-energy-muon-collider
   title: Top Yukawa Coupling Determination at High Energy Muon Collider
   year: 2023
@@ -955,7 +954,7 @@
   venue_display: Phys.Rev.Lett. 130 (2023) 26, 261801
   tags:
   - dark-sector
-  - quantum-sensing
+  - sensing-qis
 - id: pub-l1-028-heavy-neutral-leptons-at-muon-colliders
   title: Heavy Neutral Leptons at Muon Colliders
   year: 2023
@@ -1083,8 +1082,7 @@
     Q. Zhuang, Commun Phys 6, 237
   tags:
   - dark-sector
-  - qis
-  - quantum-sensing
+  - sensing-qis
   - eft
 - id: pub-l1-030-entanglement-enhanced-optomechanical-sensing
   title: Entanglement-Enhanced Optomechanical Sensing
@@ -1108,8 +1106,7 @@
   tags:
   - bsm
   - dark-sector
-  - qis
-  - quantum-sensing
+  - sensing-qis
   - eft
 - id: pub-l1-032-enhancing-searches-for-heavy-qcd-axions-via-dimuon-final-states
   title: Enhancing Searches for Heavy QCD Axions via Dimuon Final States
@@ -1450,7 +1447,7 @@
   tags:
   - bsm
   - dark-sector
-  - quantum-sensing
+  - sensing-qis
 - id: pub-l3-020-recent-progress-and-next-steps-for-the-mathusla-llp-detector
   title: Recent Progress and Next Steps for the MATHUSLA LLP Detector
   year: 2022
@@ -1594,8 +1591,7 @@
   venue_display: C. Gao, R. Harnik, Z. Liu, Z. Zhang, Q. Zhuang, PRX Quantum 3, 030333
   tags:
   - dark-sector
-  - qis
-  - quantum-sensing
+  - sensing-qis
 - id: pub-l3-021-a-muon-collider-facility-for-physics-discovery
   title: A Muon Collider Facility for Physics Discovery
   year: 2022
@@ -2089,7 +2085,7 @@
   tags:
   - bsm
   - dark-sector
-  - quantum-sensing
+  - sensing-qis
 - id: pub-l1-053-seeking-for-sterile-neutrinos-with-displaced-leptons-at-the-lhc
   title: Seeking for sterile neutrinos with displaced leptons at the LHC
   year: 2019

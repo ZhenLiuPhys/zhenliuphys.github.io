@@ -383,16 +383,18 @@ WORKSHOP_HINTS = (
 
 PARALLEL_OR_SESSION_RE = re.compile(
     r"\b(?:contributed\s+)?parallel\s+talk\b|"
+    r"\bcontributed\s+talk\b|"
     r"\bparallel\s+session\b|"
     r"\bsession of\b|"
     r"\b\w[\w\s-]{0,40}\s+session of\b",
     re.I,
 )
 
+# Venues that are plenary only when the CV text says so (plenary/keynote).
+# Pheno is intentionally excluded: only Pheno 2020 and Pheno 2026 were plenaries;
+# other Pheno / Pheno-DPF talks are contributed or parallel.
 MAIN_PLENARY_VENUE_RE = re.compile(
     r"^(?:"
-    r"pheno(?:-dpf)?\s*20\d{2}|"
-    r"phenomenology symposium \(pheno20\d{2}\)|"
     r"lepton photon(?:\s+conference)?|"
     r"cepc20\d{2}|"
     r"tevpa\s*20\d{2}\s+conference|"
@@ -413,9 +415,9 @@ def _is_major_conference_plenary(venue: str, text: str) -> bool:
     venue_key = (venue or "").strip().lower()
     if venue_key and MAIN_PLENARY_VENUE_RE.match(venue_key):
         return True
-    # Pheno / CEPC listed as leading event fragment without parallel/session wording.
+    # CEPC / Lepton Photon listed as leading event fragment without parallel/session wording.
     if re.search(
-        r"(?:^|[,(]\s*)(?:pheno(?:-dpf)?\s*20\d{2}|cepc20\d{2}|lepton photon(?:\s+conference)?)\b",
+        r"(?:^|[,(]\s*)(?:cepc20\d{2}|lepton photon(?:\s+conference)?)\b",
         text,
         re.I,
     ) and not _is_subordinate_conference_talk(text):

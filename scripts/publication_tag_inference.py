@@ -39,8 +39,7 @@ TAG_ORDER = [
     "muon-collider",
     "cepc-fcc",
     "beamdump",
-    "qis",
-    "quantum-sensing",
+    "sensing-qis",
     "amplitudes",
     "eft",
     "ai-ml",
@@ -68,11 +67,10 @@ COMPANION_TAGS: dict[str, list[str]] = {
     "neutrinos": ["bsm"],
     "neutron-stars": ["dark-sector", "bsm"],
     "forward-physics": ["dark-sector", "lhc"],
-    "quantum-sensing": ["dark-sector"],
+    "sensing-qis": ["dark-sector"],
     "amplitudes": ["bsm"],
     "eft": ["bsm"],
     "ai-ml": ["bsm"],
-    "qis": ["bsm"],
     "higgs": ["bsm"],
 }
 
@@ -83,16 +81,16 @@ ARXIV_OVERRIDES: dict[str, list[str]] = {
     "2604.14284": ["higgs", "bsm", "muon-collider"],
     "2602.17582": ["ai-ml", "bsm"],
     "2512.04336": ["amplitudes", "lhc", "bsm"],
-    "2510.02427": ["quantum-sensing", "dark-sector"],
+    "2510.02427": ["sensing-qis", "dark-sector"],
     "2509.10605": ["axions", "muon-collider", "bsm"],
     "2508.04961": ["neutron-stars", "dark-sector", "bsm"],
     "2506.02106": ["amplitudes", "bsm"],
     "2403.15538": ["standard-model", "amplitudes"],
     "2306.00079": ["bsm", "amplitudes", "lhc", "ai-ml"],
-    "2301.11512": ["quantum-sensing", "dark-sector"],
-    "2203.05375": ["dark-sector", "qis", "quantum-sensing"],
-    "2210.07291": ["dark-sector", "qis", "quantum-sensing", "eft"],
-    "2210.16180": ["bsm", "dark-sector", "qis", "quantum-sensing", "eft"],
+    "2301.11512": ["sensing-qis", "dark-sector"],
+    "2203.05375": ["dark-sector", "sensing-qis"],
+    "2210.07291": ["dark-sector", "sensing-qis", "eft"],
+    "2210.16180": ["bsm", "dark-sector", "sensing-qis", "eft"],
     "2104.00638": ["bsm", "phase-transition"],
     "1709.09605": ["bsm", "phase-transition", "lhc"],
     "2009.11287": ["dark-sector", "muon-collider", "bsm"],
@@ -102,13 +100,13 @@ ARXIV_OVERRIDES: dict[str, list[str]] = {
     "2308.08589": ["dark-sector", "axions", "long-lived-particles", "beamdump"],
     "2306.07315": ["bsm", "long-lived-particles", "beamdump"],
     "2211.00664": ["bsm", "long-lived-particles", "beamdump"],
-    "2310.18398": ["dark-sector", "axions", "quantum-sensing"],
-    "2408.15330": ["bsm", "dark-sector", "axions", "quantum-sensing"],
-    "2504.15307": ["bsm", "dark-sector", "qis", "quantum-sensing"],
+    "2310.18398": ["dark-sector", "axions", "sensing-qis"],
+    "2408.15330": ["bsm", "dark-sector", "axions", "sensing-qis"],
+    "2504.15307": ["bsm", "dark-sector", "sensing-qis"],
     "1911.12364": ["dark-sector", "axions", "long-lived-particles", "lhc"],
     "1911.07996": ["dark-sector", "beamdump", "forward-physics"],
     "1911.10206": ["phase-transition", "higgs", "bsm"],
-    "1908.04797": ["quantum-sensing", "dark-sector", "bsm"],
+    "1908.04797": ["sensing-qis", "dark-sector", "bsm"],
     "1806.07396": ["long-lived-particles", "lhc", "bsm", "forward-physics"],
     "1805.05957": ["long-lived-particles", "lhc", "bsm"],
     "1704.08259": ["higgs", "lhc", "standard-model"],
@@ -203,13 +201,12 @@ def infer_tags(title: str, section: str, text: str = "") -> set[str]:
         add_tags(tags, "amplitudes")
     if re.search(r"ai-native|machine learning|\bml\b|artificial intelligence", t):
         add_tags(tags, "ai-ml")
-    if re.search(r"quantum information|\bqis\b|quantum comput", t):
-        add_tags(tags, "qis")
     if re.search(
+        r"quantum information|\bqis\b|quantum comput|"
         r"quantum sensor|mechanical sensor|dark srf|\bsrf\b|ultralow.threshold|optomechan",
         t,
     ):
-        add_tags(tags, "quantum-sensing")
+        add_tags(tags, "sensing-qis")
 
     if re.search(r"neutron star", t):
         add_tags(tags, "neutron-stars", "dark-sector")

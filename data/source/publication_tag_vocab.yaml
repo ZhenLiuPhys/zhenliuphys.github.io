@@ -29,10 +29,8 @@
   label: CEPC / FCC
 - id: beamdump
   label: Beamdumps
-- id: qis
-  label: QIS
-- id: quantum-sensing
-  label: Quantum sensing
+- id: sensing-qis
+  label: (Quantum) Sensing & QIS
 - id: amplitudes
   label: Amplitudes
 - id: eft

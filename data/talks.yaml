@@ -92,27 +92,27 @@
     Aug. 2026
   host: University of Minnesota
   location: Minneapolis, MN
-  talk_type: lightning
+  talk_type: talk
   slides_url: ''
   video_url: ''
   source: hand-edit
   raw_text: GenAI-Enabled Representation of Quantum ChromoDynamics, lightning talk
     (joint with CSE Prof. Wang) at Data-Science-Initiative workshop, University of
     Minnesota, Minneapolis, MN, Aug. 2026
-  venue: Data-Science-Initiative workshop (lightning talk, joint with CSE Prof. Wang)
+  venue: lightning talk (joint with CSE Prof. Wang) at Data-Science-Initiative workshop
   category: workshop
-  scheduled: true
+  scheduled: false
   placeholder: false
   note: Lightning talk, joint with CSE Prof. Wang. Event link TBD.
   date_display: August 2026
-  event_display: Data-Science-Initiative workshop (lightning talk, joint with CSE
-    Prof. Wang) · Minneapolis, MN · August 2026
+  event_display: lightning talk (joint with CSE Prof. Wang) at Data-Science-Initiative
+    workshop · Minneapolis, MN · August 2026
 - id: talk-l5-001-eft-amplitudes-and-colliders-massive-amplitudes-and-constructability-theory-seminar-jointly-with
   title: 'EFT, Amplitudes, and Colliders: Massive Amplitudes and Constructability'
   year: 2026
   date: '2026-07-01'
   event: Aspen Summer Program
-  host: Aspen Summer Program
+  host: ''
   location: Aspen, CO
   talk_type: seminar
   slides_url: ''
@@ -125,7 +125,8 @@
   venue: theory seminar (jointly with Yael Shadmi and Markus Luty), Aspen Summer Program
   category: seminar
   scheduled: false
-  event_display: Aspen Summer Program · Aspen, CO · July 2026
+  event_display: theory seminar (jointly with Yael Shadmi and Markus Luty), Aspen
+    Summer Program · Aspen, CO · July 2026
   placeholder: false
 - id: talk-l6-003-a-busy-higgs-signal
   title: A Busy Higgs Signal
@@ -732,7 +733,7 @@
     PA, May. 2024
   date_display: May 2024
   venue: Pheno-DPF 2024
-  category: plenary
+  category: workshop
   scheduled: false
   event_display: Pheno-DPF 2024 · Pittsburgh, PA · May 2024
   placeholder: false

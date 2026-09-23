@@ -1,7 +1,3 @@
-# Confirmed publication tag assignments (arXiv-keyed; by_id for papers without arXiv).
-# This file is the standard — edits here are your approved tags.
-# New papers: auto-drafted to backups/publication-tag-proposals.yaml; confirm before merging here.
-# Workflow: python scripts/approve_publication_tags.py --list
 '1010.4309':
   tags:
   - bsm
@@ -218,7 +214,7 @@
   tags:
   - bsm
   - dark-sector
-  - quantum-sensing
+  - sensing-qis
 '1909.04549':
   tags:
   - higgs
@@ -346,8 +342,7 @@
 '2203.05375':
   tags:
   - dark-sector
-  - qis
-  - quantum-sensing
+  - sensing-qis
 '2203.07242':
   tags:
   - bsm
@@ -394,7 +389,7 @@
   tags:
   - bsm
   - dark-sector
-  - quantum-sensing
+  - sensing-qis
 '2203.14915':
   tags:
   - bsm
@@ -444,15 +439,13 @@
 '2210.07291':
   tags:
   - dark-sector
-  - qis
-  - quantum-sensing
+  - sensing-qis
   - eft
 '2210.16180':
   tags:
   - bsm
   - dark-sector
-  - qis
-  - quantum-sensing
+  - sensing-qis
   - eft
 '2211.00664':
   tags:
@@ -471,7 +464,7 @@
 '2301.11512':
   tags:
   - dark-sector
-  - quantum-sensing
+  - sensing-qis
 '2303.08533':
   tags:
   - bsm
@@ -511,7 +504,7 @@
   tags:
   - dark-sector
   - axions
-  - quantum-sensing
+  - sensing-qis
 '2311.09915':
   tags:
   - bsm
@@ -565,7 +558,7 @@
   - bsm
   - dark-sector
   - axions
-  - quantum-sensing
+  - sensing-qis
 '2411.02966':
   tags:
   - bsm
@@ -576,7 +569,7 @@
   - forward-physics
   - lhc
   - beamdump
-  - quantum-sensing
+  - sensing-qis
 '2412.14115':
   tags:
   - bsm
@@ -600,8 +593,7 @@
   tags:
   - bsm
   - dark-sector
-  - qis
-  - quantum-sensing
+  - sensing-qis
 '2504.21417':
   tags:
   - bsm
@@ -628,7 +620,7 @@
 '2510.02427':
   tags:
   - dark-sector
-  - quantum-sensing
+  - sensing-qis
 '2510.05260':
   tags:
   - bsm

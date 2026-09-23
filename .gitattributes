@@ -1,0 +1,2 @@
+# Keep shell scripts Unix LF so CI bash does not choke on CRLF (pipefail\r).
+*.sh text eol=lf

@@ -18,6 +18,7 @@ Hugo static site deployed to GitHub Pages. YAML data drives publications, talks,
 ```
 PersonalWebsite/
 ├── hugo.toml              Site config (baseURL, params)
+├── .gitattributes         Force LF for *.sh (CI bash)
 ├── data/                  YAML content (publications, talks, news, source/*)
 ├── content/               Page intros (Markdown)
 ├── layouts/               HTML templates
@@ -26,10 +27,13 @@ PersonalWebsite/
 ├── Material/              Local portrait + research banner (CV TeX gitignored)
 ├── scripts/               prepare_site, CV parser, link check
 ├── docs/launch-checklist.md   QA and DNS checklist
+├── MEMORY.md              Cross-machine session notes (optional)
 └── .github/workflows/deploy.yml   CI: prepare → hugo → Pages
 ```
 
 **Do not commit:** `public/`, `.venv/`, `backups/`, CV TeX/PDF/HTML (see `.gitignore`).
+
+Shell scripts must stay Unix LF. `.gitattributes` sets `*.sh text eol=lf` so Drive/Windows CRLF does not break `prepare_site.sh` on GitHub Actions.
 
 ---
 
@@ -97,7 +101,7 @@ If the parser reports conflicts with hand-edited YAML, review `backups/cv-confli
 | Name, email, links | `data/source/profile.yaml` |
 | Homepage publication cards | `data/source/selected_publications.yaml` |
 | Homepage publication plot GIFs | `static/images/plots/{arxiv}.gif` (one file per arXiv ID in selected list) |
-| Publication topic filters | `data/source/publication_tags.yaml` (confirmed); labels in `data/source/publication_tag_vocab.yaml`; provisional drafts in `backups/` |
+| Publication topic filters | `data/source/publication_tags.yaml` (confirmed); labels in `data/source/publication_tag_vocab.yaml` (unified sensing chip: `sensing-qis`); provisional drafts in `backups/` |
 | Talk list labels & layout | `layouts/partials/talk-line.html`, `layouts/partials/talk-labels.html`, `layouts/talks/list.html` |
 | Photo gallery metadata | `data/photos.yaml` (or `scripts/sync_random_gallery_from_folders.py`) |
 | Selected talks | `data/source/selected_talks.yaml` |

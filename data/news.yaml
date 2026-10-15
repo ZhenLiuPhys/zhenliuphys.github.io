@@ -27,11 +27,10 @@
   url: "https://arxiv.org/abs/2512.04336"
   pinned: true
 - date: "2025-11"
-  text: "Zhen Liu, together with colleagues Nadja Strobbe (CMS) and Qianwen Wang (CSE) awarded GenAI4Science Seed to study AI-enabled representation of QCD."
-  url: "https://arxiv.org/abs/2512.04336"
+  text: "Zhen Liu, together with colleagues Nadja Strobbe (CMS) and Qianwen Wang (CSE), awarded a GenAI4Science seed grant to study AI-enabled representation of QCD."
   pinned: true
 - date: "2025-09"
-  text: "Peiran Li (Graudate Student) awarded UMN Doctoral Dissertation Fellowship (DDF)."
+  text: "Peiran Li (graduate student) awarded UMN Doctoral Dissertation Fellowship (DDF)."
   #url: "https://arxiv.org/abs/2412.14115"
   pinned: true
 - date: "2025-09"
@@ -39,7 +38,7 @@
   #url: "https://arxiv.org/abs/2412.14115"
   pinned: true
 - date: "2025-08"
-  text: "New PRL on Neutrnio Slice at Muon Colliders."
+  text: "New PRL on the Neutrino Slice at Muon Colliders."
   url: "https://arxiv.org/abs/2412.14115"
   pinned: true
 - date: "2025-04"
@@ -47,11 +46,11 @@
   url: "/talks/"
   pinned: true
 - date: "2024-11"
-  text: "PRD Editors suggestions on our Massive Amplitudes works: electroweak"
+  text: "PRD Editors' Suggestion on our Massive Amplitudes work: electroweak"
   url: "https://arxiv.org/abs/2407.14587"
   pinned: true
 - date: "2024-11"
-  text: "PRD Editors suggestions on our Massive Amplitudes works: ALT Shift"
+  text: "PRD Editors' Suggestion on our Massive Amplitudes work: ALT shift"
   url: "https://arxiv.org/abs/2403.15538"
   pinned: true
 - date: "2024-03"

@@ -1,4 +1,10 @@
 # Curated Selected Talks block on /talks/ (newest first). Prefer talk_id to match data/talks.yaml.
+- talk_id: talk-l6-002-overview-of-broad-scope-and-theory
+  title: Overview of broad scope and theory (for optomechanical sensing for fundamental physics)
+  year: 2026
+  type: workshop
+  venue: Optomechanical Sensing for Subatomic and Astroparticle Physics
+  location: Kingston, Canada
 - talk_id: talk-l6-007-genai-enabled-representation-of-quantum-chromodynamics-qcd
   title: GenAI-Enabled Representation of Quantum ChromoDynamics (QCD)
   year: 2026

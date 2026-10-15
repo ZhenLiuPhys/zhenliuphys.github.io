@@ -360,12 +360,11 @@
   - bsm
   - muon-collider
 - id: pub-l1-010-modeling-frequency-instability-in-high-quality-resonant-experiments
-  title: Modeling frequency instability in high-quality resonant experiments , H.-R.
-    Cui
+  title: Modeling frequency instability in high-quality resonant experiments
   year: 2025
   date: '2025-04-01'
   authors: ''
-  venue: S. Kalia, Z. Liu, Phys. Rev. D 113, 052008, 2504.15307 [physics.ins-det]
+  venue: H.-R. Cui, S. Kalia, Z. Liu, Phys. Rev. D 113, 052008, 2504.15307 [physics.ins-det]
     (2025)
   doi: 10.1103/w43x-xwh9
   arxiv: '2504.15307'
@@ -429,11 +428,11 @@
   - forward-physics
   - lhc
 - id: pub-l1-011-the-neutrino-slice-at-muon-colliders
-  title: The Neutrino Slice at Muon Colliders, Bojorquez-Lopez
+  title: The Neutrino Slice at Muon Colliders
   year: 2024
   date: '2024-12-01'
   authors: ''
-  venue: M. Hostert, C. Argüelles, Z. Liu, Phys.Rev.Lett. 135 (2025) 9, 091803, 2412.14115
+  venue: Bojorquez-Lopez, M. Hostert, C. Argüelles, Z. Liu, Phys.Rev.Lett. 135 (2025) 9, 091803, 2412.14115
     [hep-ph] (2024)
   doi: 10.1103/4sj1-ycft
   arxiv: '2412.14115'
@@ -1573,11 +1572,11 @@
   - bsm
   - muon-collider
 - id: pub-l1-036-higgs-precision-at-a-125-gev-muon-collider
-  title: Higgs Precision at a 125 GeV Muon Collider, J. de Blas
+  title: Higgs Precision at a 125 GeV Muon Collider
   year: 2022
   date: '2022-03-01'
   authors: ''
-  venue: J. Gu, Z. Liu, PhysRevD.106.073007, 2203.04324[hep-ph](2022)
+  venue: J. de Blas, J. Gu, Z. Liu, PhysRevD.106.073007, 2203.04324[hep-ph](2022)
   doi: 10.1103/PhysRevD.106.073007
   arxiv: '2203.04324'
   journal_url: https://journals.aps.org/prd/abstract/10.1103/PhysRevD.106.073007
@@ -1701,11 +1700,12 @@
   - lhc
   - ai-ml
 - id: pub-l1-039-jet-timing
-  title: Jet Timing, W.-H. Chiu
+  title: Jet Timing
   year: 2021
   date: '2021-09-01'
   authors: ''
-  venue: Z. Liu, M. Low, L.-T. Wang, JHEP 01 (2022) 014, 2109.01682[hep-ph] (2021)
+  venue: W.-H. Chiu, Z. Liu, M. Low, L.-T. Wang, JHEP 01 (2022) 014, 2109.01682[hep-ph]
+    (2021)
   doi: ''
   arxiv: '2109.01682'
   journal_url: https://link.springer.com/article/10.1007\%2FJHEP01\%282022\%29014

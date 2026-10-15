@@ -37,7 +37,7 @@ from trajectory_lib.load_data import (
     refereed_publications,
     year_range_from_series,
 )
-from trajectory_lib.parse_service import service_series
+from trajectory_lib.parse_service import review_series, service_series
 from trajectory_lib.parse_letters import (
     load_recommendation_letters,
     letter_series,
@@ -121,11 +121,12 @@ def main() -> None:
     pub_s = publication_series(pubs)
     talk_s = talk_series(talks)
     svc_s, svc_notes = service_series(service, ROOT)
+    rev_s, rev_notes = review_series(service, ROOT)
 
     if args.spot_check:
         spot_check(pubs, talks)
 
-    years = year_range_from_series([pub_s, talk_s, svc_s])
+    years = year_range_from_series([pub_s, talk_s, svc_s, rev_s])
 
     summary_tables: dict[str, dict[str, dict[int, int]]] = {}
 
@@ -162,16 +163,30 @@ def main() -> None:
             print(f"service note: {note}")
         plot_multi_series(
             years, svc_s, order=SERIES_ORDER["service"],
-            title="Service (organization & chairing)", ylabel="Count", root=ROOT,
+            title="Service (organization, chairing, university)", ylabel="Count", root=ROOT,
             out_path=out_dir / "service_annual.png", cumulative_mode=False,
         )
         plot_multi_series(
             years, svc_s, order=SERIES_ORDER["service"],
-            title="Service (organization & chairing)", ylabel="Cumulative count", root=ROOT,
+            title="Service (organization, chairing, university)", ylabel="Cumulative count", root=ROOT,
             out_path=out_dir / "service_cumulative.png", cumulative_mode=True,
         )
         summary_tables["service"] = {k: v for k, v in svc_s.items() if k != "Total"}
         print("Wrote service_annual.png, service_cumulative.png")
+        for note in rev_notes:
+            print(f"review note: {note}")
+        plot_multi_series(
+            years, rev_s, order=SERIES_ORDER["review"],
+            title="Referee and editorial review", ylabel="Count", root=ROOT,
+            out_path=out_dir / "review_annual.png", cumulative_mode=False,
+        )
+        plot_multi_series(
+            years, rev_s, order=SERIES_ORDER["review"],
+            title="Referee and editorial review", ylabel="Cumulative count", root=ROOT,
+            out_path=out_dir / "review_cumulative.png", cumulative_mode=True,
+        )
+        summary_tables["review"] = {k: v for k, v in rev_s.items() if k != "Total"}
+        print("Wrote review_annual.png, review_cumulative.png")
 
     if args.all or args.letters:
         try:
@@ -182,7 +197,9 @@ def main() -> None:
             letter_rows = letter_detail_rows(letter_data)
             letter_fine = letter_series(letter_data)
             letter_s = letter_series_grouped(letter_data)
-            letter_years = year_range_from_series([letter_s], xmin=2010)
+            letter_years = year_range_from_series(
+                [letter_s], xmin=2020, xmax_floor=2026
+            )
             print_letters_summary(letter_rows, letter_s, fine_series=letter_fine)
             plot_letters_annual_stacked(
                 letter_years,

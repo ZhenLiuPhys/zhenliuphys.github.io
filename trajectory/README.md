@@ -26,7 +26,7 @@ Recommendation letters (local log, not on GitHub):
 
 Copy [`recommendation_letters.example.yaml`](recommendation_letters.example.yaml) to `trajectory/data/recommendation_letters.yaml` if needed. Prose index: [`LETTERS.md`](LETTERS.md) (gitignored). Tell your agent in chat to append records; each calendar year under a type counts as one letter.
 
-**Plot groups:** career letters (grad / postdoc / faculty / industrial / promotion) each plot separately; fellowships & programs merged; national/international faculty award nominations merged (reserved, empty until added); immigration merged.
+**Plot groups:** career letters (grad / postdoc / faculty / industrial / promotion) each plot separately; fellowships & programs merged; national/international faculty award nominations merged (reserved, empty until added); immigration merged. Postdoc fellowships count as postdoc letters, and graduate or predoctoral fellowships count as graduate letters. Summer schools, REUs, and undergraduate scholarships stay in fellowships and programs. The counted log starts in 2020; earlier letters whose files are lost are not included.
 
 ## Outputs (`trajectory/output/`, gitignored)
 
@@ -34,7 +34,8 @@ Copy [`recommendation_letters.example.yaml`](recommendation_letters.example.yaml
 |------|---------|
 | `pubs_annual.png`, `pubs_cumulative.png` | Refereed / Editor / Contributor + Total |
 | `talks_annual.png`, `talks_cumulative.png` | Talk categories + Total |
-| `service_annual.png`, `service_cumulative.png` | Chair, Workshop organizer, Committee, Session convener + Total |
+| `service_annual.png`, `service_cumulative.png` | Chair, Workshop organizer, Committee, Session convener, University service + Total |
+| `review_annual.png`, `review_cumulative.png` | Journal referee, Grant review, Editorial + Total |
 | `letters_annual.png` | Stacked bar by plot group (career types explicit) |
 | `letters_cumulative.png` | Cumulative letter counts by type |
 | `letters_detail.csv` | Flat log: year, type, name, note |
@@ -57,6 +58,9 @@ Edit [`milestones.yaml`](milestones.yaml): grad school through **2015-08**, MS *
 
 - Snowmass convener (`2020---2022`) counts in **2020** only.
 - Panelist entries are omitted from curves (noted in console).
+- University service is read from `university_service` in `data/source/service.yaml` (one count per listed year). Undated lines, including PhD-committee totals, are noted and omitted.
+- Editorial board years come from `editorial_referee`. An open end such as `2025-` runs through the current calendar year.
+- Journal-referee and grant-review counts live in gitignored `trajectory/data/referee_activity.yaml` (one count per manuscript or proposal, not per revision round).
 - Optional overrides: `trajectory/data/service_overrides.yaml` (gitignored).
 
 ## Citations

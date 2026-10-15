@@ -27,6 +27,13 @@ SERVICE_ROLES = [
     "Workshop organizer",
     "Committee",
     "Session convener",
+    "University service",
+]
+
+REVIEW_ROLES = [
+    "Journal referee",
+    "Grant review",
+    "Editorial",
 ]
 
 

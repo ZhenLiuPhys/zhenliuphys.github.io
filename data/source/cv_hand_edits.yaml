@@ -13,6 +13,10 @@ talks:
     location: true
     host: true
 mentoring:
+  graduate_students|Peiran Li:
+    umn_period: true
+    leaving_institution: true
+    current_institution: true
   research_undergraduates|Jett Johnson:
     umn_period: true
   research_undergraduates|Nick Mazzoni:
@@ -54,6 +58,14 @@ service:
   workshops|8: true
   workshops|9: true
   workshops|10: true
+  committee_membership|0: true
+  referee_services|0: true
+  referee_services|1: true
+  referee_services|2: true
+  university_service|5: true
+  university_service|6: true
+  university_service|7: true
+  university_service|8: true
 publications:
   pub-l1-001-new-gauge-forces:
     title: true

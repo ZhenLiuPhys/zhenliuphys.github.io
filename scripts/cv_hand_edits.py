@@ -47,12 +47,19 @@ def publication_match_key(item: dict) -> tuple | None:
     return ("title", title, int(item.get("year") or 0))
 
 
+_TALK_EVENT_PREFIX_RE = re.compile(
+    r"^(?:\(scheduled\)\s*)?(?:invited\s+|contributed\s+)?(?:plenary\s+|overview\s+|review\s+|parallel\s+)?talk\s+at\s+",
+    re.I,
+)
+
+
 def talk_match_key(item: dict) -> tuple | None:
     title = _norm_key_text(item.get("title") or "")
     if not title:
         return None
-    event = _norm_key_text(item.get("event") or item.get("venue") or "")
-    return (title, int(item.get("year") or 0), event)
+    event = re.sub(r"\s+", " ", str(item.get("event") or item.get("venue") or "")).strip()
+    event = _TALK_EVENT_PREFIX_RE.sub("", event)
+    return (title, int(item.get("year") or 0), _norm_key_text(event))
 
 
 def dedupe_list_items(items: list[dict], key_fn) -> list[dict]:

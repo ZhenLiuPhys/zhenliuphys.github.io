@@ -532,7 +532,7 @@ def parse_service_from_tex_sections(sections: list[tuple[str, str]]) -> dict:
             tab("Committee and Membership", "continuation")
         ),
         "editorial_referee": tab("Journal Services", "flat"),
-        "referee_services": tab("Other Referee Services", "flat"),
+        "referee_services": tab("Other Referee Services", "continuation"),
         "grant_review": tab("Grant (proposal) Review", "flat"),
         "university_service": tab("Departmental Service", "flat"),
     }

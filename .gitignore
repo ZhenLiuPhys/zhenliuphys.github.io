@@ -28,8 +28,10 @@ local/
 Aspen/
 Activities/
 
-# Career trajectory outputs (local reflection; scripts + citation history are committed)
+# Career trajectory analysis stays local. Do not commit letter logs, referee
+# counts, or plot outputs. Public citation snapshots and the plotting scripts
+# may be committed. The canvas lives outside this repo and is not deployed.
 trajectory/output/
 trajectory/data/
 trajectory/LETTERS.md
-# trajectory/citations_history/ is tracked (dated inSPIRE snapshots)
+# trajectory/citations_history/ is tracked (dated public inSPIRE snapshots)

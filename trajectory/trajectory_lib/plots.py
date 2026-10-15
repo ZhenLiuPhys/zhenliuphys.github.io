@@ -25,7 +25,15 @@ SERIES_ORDER = {
         "other",
         "Total",
     ],
-    "service": ["Chair", "Workshop organizer", "Committee", "Session convener", "Total"],
+    "service": [
+        "Chair",
+        "Workshop organizer",
+        "Committee",
+        "Session convener",
+        "University service",
+        "Total",
+    ],
+    "review": ["Journal referee", "Grant review", "Editorial", "Total"],
     "letters": [
         "Grad RL",
         "Postdoc RL",

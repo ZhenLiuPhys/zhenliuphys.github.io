@@ -1,3 +1,24 @@
+- id: talk-l6-001-scheduled-theory-overview
+  title: Theory Overview
+  year: 2027
+  date: '2027-01-01'
+  event: invited overview talk at MITP topical workshop “Mechanical Quantum Sensors
+    for New Physics Searches”, Mainz, Germany, Jan. 2027
+  host: MITP topical workshop “Mechanical Quantum Sensors for New Physics Searches”
+  location: Mainz, Germany
+  talk_type: invited
+  slides_url: ''
+  video_url: ''
+  source: Material/ZhenLiu_CV.tex
+  raw_text: (scheduled)Theory Overview , invited overview talk at MITP topical workshop
+    “Mechanical Quantum Sensors for New Physics Searches”, Mainz, Germany, Jan. 2027
+  date_display: January 2027
+  venue: ''
+  category: workshop
+  scheduled: true
+  event_display: MITP topical workshop “Mechanical Quantum Sensors for New Physics
+    Searches” · Mainz, Germany · January 2027
+  placeholder: false
 - id: talk-l6-001-scheduled-fcc-theory
   title: FCC Theory
   year: 2026
@@ -42,26 +63,28 @@
     Dali · Yunnan, China · September 2026'
   placeholder: false
 - id: talk-l6-002-overview-of-broad-scope-and-theory
-  title: Overview of broad scope and theory
+  title: Overview of broad scope and theory (for optomechanical sensing for fundamental
+    physics)
   year: 2026
   date: '2026-09-01'
   event: invited overview talk at Optomechanical Sensing for Subatomic and Astroparticle
     Physics, Queen's University, Kingston, ON, Canada, Sept. 2026
   host: Queen's University
-  location: ON, Canada
+  location: Kingston, ON, Canada
   talk_type: invited
   slides_url: https://indico.global/event/18677/contributions/168636/
   video_url: ''
   source: Material/ZhenLiu_CV.tex
-  raw_text: Overview of broad scope and theory , invited overview talk at Optomechanical
+  raw_text: Overview of broad scope and theory (for optomechanical sensing for fundamental
+    physics), invited overview talk at Optomechanical
     Sensing for Subatomic and Astroparticle Physics, Queen's University, Kingston,
     ON, Canada, Sept. 2026
   date_display: September 2026
-  venue: Optomechanical Sensing for Subatomic and Astroparticle Physics, Kingston
+  venue: Optomechanical Sensing for Subatomic and Astroparticle Physics
   category: workshop
   scheduled: false
-  event_display: Optomechanical Sensing for Subatomic and Astroparticle Physics, Kingston
-    · ON, Canada · September 2026
+  event_display: Optomechanical Sensing for Subatomic and Astroparticle Physics · Queen's
+    University · Kingston, ON, Canada · September 2026
   placeholder: false
 - id: talk-l6-001-scheduled-tbd
   title: Future Colliders
@@ -151,12 +174,11 @@
     2026
   placeholder: false
 - id: talk-l5-001-eft-amplitudes-and-colliders-massive-amplitudes-and-constructability-theory-seminar-jointly-with
-  title: 'EFT, Amplitudes, and Colliders: Massive Amplitudes and Constructability,
-    theory seminar (jointly with Yael Shadmi and Markus Luty), Aspen Summer Program,
-    Aspen, CO, Jul. 2026'
+  title: 'EFT, Amplitudes, and Colliders: Massive Amplitudes and Constructability'
   year: 2026
   date: '2026-07-01'
-  event: ''
+  event: theory seminar (jointly with Yael Shadmi and Markus Luty), Aspen Summer Program,
+    Aspen, CO, Jul. 2026
   host: ''
   location: Aspen, CO
   talk_type: seminar
@@ -167,14 +189,10 @@
     theory seminar (jointly with Yael Shadmi and Markus Luty), Aspen Summer Program,
     Aspen, CO, Jul. 2026'
   date_display: July 2026
-  venue: 'EFT, Amplitudes, and Colliders: Massive Amplitudes and Constructability,
-    theory seminar (jointly with Yael Shadmi and Markus Luty), Aspen Summer Program
-    · Aspen, CO · · Aspen, CO ·'
+  venue: Aspen Summer Program
   category: seminar
   scheduled: false
-  event_display: 'EFT, Amplitudes, and Colliders: Massive Amplitudes and Constructability,
-    theory seminar (jointly with Yael Shadmi and Markus Luty), Aspen Summer Program
-    · Aspen, CO · · Aspen, CO · · Aspen, CO · July 2026'
+  event_display: Aspen Summer Program · Aspen, CO · July 2026
   placeholder: false
 - id: talk-l6-003-a-busy-higgs-signal
   title: A Busy Higgs Signal

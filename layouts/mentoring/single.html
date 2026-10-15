@@ -26,12 +26,32 @@
         </div>
       {{ end }}
       {{ if gt (len $visitingGrads) 0 }}
+        {{ $visitingCurrent := slice }}
+        {{ $visitingFormer := slice }}
+        {{ range $visitingGrads }}
+          {{ $period := lower (.umn_period | default "") }}
+          {{ if or (in $period "present") (in $period "now") }}
+            {{ $visitingCurrent = $visitingCurrent | append . }}
+          {{ else }}
+            {{ $visitingFormer = $visitingFormer | append . }}
+          {{ end }}
+        {{ end }}
+        {{ if gt (len $visitingCurrent) 0 }}
         <h3 class="mentoring-subsection-title{{ if gt (len $umnGrads) 0 }} mentoring-subsection-title--spaced{{ end }}">Visiting graduate students</h3>
         <div class="mentoring-core-list">
-          {{ range $visitingGrads }}
+          {{ range $visitingCurrent }}
             {{ partial "mentoring-core-row.html" . }}
           {{ end }}
         </div>
+        {{ end }}
+        {{ if gt (len $visitingFormer) 0 }}
+        <h3 class="mentoring-subsection-title mentoring-subsection-title--spaced">Former visiting graduate students</h3>
+        <div class="mentoring-core-list">
+          {{ range $visitingFormer }}
+            {{ partial "mentoring-core-row.html" . }}
+          {{ end }}
+        </div>
+        {{ end }}
       {{ end }}
     {{ else }}
       <p class="small">No graduate student entries configured.</p>

@@ -176,17 +176,29 @@ def extract_doi(text: str, links: list[str]) -> str:
 # so titles with internal commas (e.g. "New Gauge Forces, Neutron Stars and ...") keep.
 AUTHOR_LIST_START_RE = re.compile(
     r",\s*(?:"
-    r"[A-Z](?:\.[A-Z])*\.?\s+[A-Z][A-Za-z\-]+"  # Z. Liu / J.Y. Choi
+    r"[A-Z](?:\.-[A-Z]|\.[A-Z])*\.?\s+[A-Z][A-Za-z\-]+"  # Z. Liu / J.Y. Choi / H.-R. Cui
     r"|[A-Z][a-zA-Z\-]+\s+et\s+al\.?"  # Name et al
     r")"
+)
+TALK_ROLE_AFTER_COMMA_RE = re.compile(
+    r",\s*(?:\(scheduled\)\s*)?(?:invited|contributed|parallel|plenary|overview|review|seminar|colloquium)\b",
+    re.I,
 )
 
 
 def infer_title(text: str) -> str:
     text = re.sub(r"^\d+\.\s*", "", text)
     text = text.strip()
+    # CV entries put "(link)" between the title and the comma, which otherwise
+    # pulls the venue into the title.
+    text = re.sub(r"\(\s*link\s*\)", "", text, flags=re.I)
+    text = re.sub(r"\[\s*link\s*\]", "", text, flags=re.I)
+    text = re.sub(r"\s+", " ", text).strip()
     if not text:
         return "Untitled Entry"
+    role = TALK_ROLE_AFTER_COMMA_RE.search(text)
+    if role and role.start() >= 8:
+        text = text[: role.start()].strip()
     m = AUTHOR_LIST_START_RE.search(text)
     if m and m.start() >= 8:
         text = text[: m.start()].strip()

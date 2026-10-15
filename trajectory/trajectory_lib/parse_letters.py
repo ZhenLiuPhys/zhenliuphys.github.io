@@ -73,6 +73,9 @@ FACULTY_AWARD_NOMINATION_TYPES = frozenset(
 
 IMMIGRATION_TYPES = frozenset({"visa_letter", "greencard_letter"})
 
+# The counted log starts here. Earlier years may be recorded locally and are skipped.
+LETTER_COUNT_FROM_YEAR = 2020
+
 CAREER_TYPES = frozenset(
     {
         "grad_rl",
@@ -159,9 +162,12 @@ def letter_detail_rows(data: dict) -> list[dict]:
             note = (entry.get("note") or "").strip()
             plot_group = plot_group_for_type(type_id, data)
             for year in entry.get("years", []) or []:
+                year_i = int(year)
+                if year_i < LETTER_COUNT_FROM_YEAR:
+                    continue
                 rows.append(
                     {
-                        "year": int(year),
+                        "year": year_i,
                         "type_id": type_id,
                         "type": label,
                         "plot_group": plot_group,

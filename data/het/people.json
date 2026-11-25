@@ -44,6 +44,13 @@
           "start": 2013,
           "end": null
         }
+      ],
+      "careers": [
+        {
+          "label": "Between UMN appointments",
+          "position": "Professor and ARC Federation Fellow, University of Melbourne (2008–2013)",
+          "source": "https://cse.umn.edu/college/news/umn-college-science-and-engineering-welcomes-23-new-faculty"
+        }
       ]
     },
     {
@@ -94,7 +101,14 @@
       "start": 1957,
       "end": 1964,
       "atMinnesota": false,
-      "profile": "https://ecommons.cornell.edu/entities/publication/2d5281a2-b678-4870-9135-8f7819293c14"
+      "profile": "https://ecommons.cornell.edu/entities/publication/2d5281a2-b678-4870-9135-8f7819293c14",
+      "careers": [
+        {
+          "label": "First position after UMN",
+          "position": "Professor, Cornell University (1964–1993)",
+          "source": "https://www.lns.cornell.edu/Research/ParticleTheory/TheoryFaculty.html"
+        }
+      ]
     },
     {
       "slug": "stephen-gasiorowicz",
@@ -104,7 +118,14 @@
       "start": 1961,
       "end": 1997,
       "atMinnesota": false,
-      "profile": "https://cse.umn.edu/ftpi/stephen-g-gasiorowicz"
+      "profile": "https://cse.umn.edu/ftpi/stephen-g-gasiorowicz",
+      "careers": [
+        {
+          "label": "Last appointment",
+          "position": "Professor, University of Minnesota (retired 1997)",
+          "source": "https://cse.umn.edu/ftpi/stephen-g-gasiorowicz"
+        }
+      ]
     },
     {
       "slug": "jonathan-l-rosner",
@@ -114,7 +135,19 @@
       "start": 1969,
       "end": 1982,
       "atMinnesota": false,
-      "profile": "https://hep.uchicago.edu/~rosner/"
+      "profile": "https://hep.uchicago.edu/~rosner/",
+      "careers": [
+        {
+          "label": "First position after UMN",
+          "position": "Professor, University of Chicago (1982)",
+          "source": "https://hep.uchicago.edu/~rosner/cv.pdf"
+        },
+        {
+          "label": "Last appointment",
+          "position": "Professor Emeritus, University of Chicago",
+          "source": "https://physics.uchicago.edu/people/emeriti-faculty/"
+        }
+      ]
     },
     {
       "slug": "thomas-f-tom-walsh",
@@ -135,7 +168,19 @@
       "start": 1984,
       "end": 2000,
       "atMinnesota": false,
-      "profile": ""
+      "profile": "",
+      "careers": [
+        {
+          "label": "First position after UMN",
+          "position": "Professor, Osaka University (2000)",
+          "source": "https://www.phys.sci.osaka-u.ac.jp/en/research_groups/group/02-0_hosotani/hosotani/index.html"
+        },
+        {
+          "label": "Current position",
+          "position": "Professor Emeritus, The University of Osaka",
+          "source": "https://kabuto.phys.sci.osaka-u.ac.jp/~hosotani/"
+        }
+      ]
     },
     {
       "slug": "larry-mclerran",
@@ -145,7 +190,19 @@
       "start": 1988,
       "end": 2000,
       "atMinnesota": false,
-      "profile": "https://phys.washington.edu/people/larry-mclerran"
+      "profile": "https://phys.washington.edu/people/larry-mclerran",
+      "careers": [
+        {
+          "label": "Brookhaven appointment",
+          "position": "Senior Scientist, Brookhaven National Laboratory (joined 1999)",
+          "source": "https://www.bnl.gov/newsroom/news.php?a=25243"
+        },
+        {
+          "label": "Current position",
+          "position": "Professor Emeritus, University of Washington",
+          "source": "https://phys.washington.edu/people/larry-mclerran"
+        }
+      ]
     },
     {
       "slug": "arkady-vainshtein",
@@ -178,7 +235,14 @@
       "start": 1990,
       "end": 2020,
       "atMinnesota": false,
-      "profile": "https://cse.umn.edu/physics/news/mikhail-misha-voloshin-1953-2020"
+      "profile": "https://cse.umn.edu/physics/news/mikhail-misha-voloshin-1953-2020",
+      "careers": [
+        {
+          "label": "Last appointment",
+          "position": "Professor, University of Minnesota",
+          "source": "https://cse.umn.edu/physics/news/mikhail-misha-voloshin-1953-2020"
+        }
+      ]
     },
     {
       "slug": "marco-peloso",
@@ -188,7 +252,14 @@
       "start": 2004,
       "end": 2018,
       "atMinnesota": false,
-      "profile": "https://www.unipd.it/contatti/marco.peloso"
+      "profile": "https://www.unipd.it/contatti/marco.peloso",
+      "careers": [
+        {
+          "label": "Current position",
+          "position": "Professor, University of Padova",
+          "source": "https://www.unipd.it/contatti/marco.peloso"
+        }
+      ]
     },
     {
       "slug": "hiroshi-suura",
@@ -230,7 +301,13 @@
       "start": 2023,
       "end": 2026,
       "atMinnesota": false,
-      "profile": "https://inspirehep.net/authors/1709977"
+      "profile": "https://inspirehep.net/authors/1709977",
+      "careers": [
+        {
+          "label": "First position after UMN",
+          "position": "The Chinese University of Hong Kong, Shenzhen"
+        }
+      ]
     },
     {
       "slug": "gongjun-choi",
@@ -240,7 +317,19 @@
       "start": 2023,
       "end": 2026,
       "atMinnesota": false,
-      "profile": "https://inspirehep.net/authors/1478454"
+      "profile": "https://inspirehep.net/authors/1478454",
+      "careers": [
+        {
+          "label": "First position after UMN",
+          "position": "Junior Chief Investigator, Institute for Basic Science",
+          "source": "https://cse.umn.edu/ftpi/former-researchers"
+        },
+        {
+          "label": "Latest known position",
+          "position": "Junior Chief Investigator, Institute for Basic Science",
+          "source": "https://cse.umn.edu/ftpi/former-researchers"
+        }
+      ]
     },
     {
       "slug": "robert-mcgehee",
@@ -260,7 +349,19 @@
       "start": 2023,
       "end": 2026,
       "atMinnesota": false,
-      "profile": "https://inspirehep.net/authors/1939887"
+      "profile": "https://inspirehep.net/authors/1939887",
+      "careers": [
+        {
+          "label": "First position after UMN",
+          "position": "Postdoctoral Researcher, IFAE, Barcelona",
+          "source": "https://zhenliu.net/mentoring/"
+        },
+        {
+          "label": "Current position",
+          "position": "Postdoctoral Researcher, IFAE, Barcelona",
+          "source": "https://www.ifae.es/groups/theory/"
+        }
+      ]
     },
     {
       "slug": "saarik-kalia",
@@ -270,7 +371,19 @@
       "start": 2022,
       "end": 2025,
       "atMinnesota": false,
-      "profile": "https://inspirehep.net/authors/1878226"
+      "profile": "https://inspirehep.net/authors/1878226",
+      "careers": [
+        {
+          "label": "First position after UMN",
+          "position": "Postdoctoral Researcher, IFAE, Barcelona",
+          "source": "https://zhenliu.net/mentoring/"
+        },
+        {
+          "label": "Current position",
+          "position": "Kadanoff Fellow, University of Chicago",
+          "source": "https://litp.uchicago.edu/people/profile/saarik-kalia/"
+        }
+      ]
     },
     {
       "slug": "kunfeng-lyu",
@@ -280,7 +393,19 @@
       "start": 2021,
       "end": 2024,
       "atMinnesota": false,
-      "profile": "https://inspirehep.net/authors/1815973"
+      "profile": "https://inspirehep.net/authors/1815973",
+      "careers": [
+        {
+          "label": "First position after UMN",
+          "position": "Postdoctoral Researcher, University of Utah",
+          "source": "https://www.ou.edu/cas/physics-astronomy/people/directory/post-docs/kunfeng-lyu"
+        },
+        {
+          "label": "Current position",
+          "position": "Postdoctoral Researcher, University of Oklahoma",
+          "source": "https://www.ou.edu/cas/physics-astronomy/people/directory/post-docs/kunfeng-lyu"
+        }
+      ]
     },
     {
       "slug": "mikhail-goykhman",
@@ -290,7 +415,14 @@
       "start": 2021,
       "end": 2022,
       "atMinnesota": false,
-      "profile": "https://inspirehep.net/authors/1078265"
+      "profile": "https://inspirehep.net/authors/1078265",
+      "careers": [
+        {
+          "label": "Latest known position",
+          "position": "Quantitative Finance Analyst, Bank of America",
+          "source": "https://cse.umn.edu/ftpi/former-researchers"
+        }
+      ]
     },
     {
       "slug": "yohei-ema",
@@ -300,7 +432,19 @@
       "start": 2021,
       "end": 2024,
       "atMinnesota": false,
-      "profile": "https://inspirehep.net/authors/1346215"
+      "profile": "https://inspirehep.net/authors/1346215",
+      "careers": [
+        {
+          "label": "First position after UMN",
+          "position": "Postdoctoral Researcher, CERN",
+          "source": "https://zhenliu.net/mentoring/"
+        },
+        {
+          "label": "Current position",
+          "position": "Assistant Professor, University of Florida",
+          "source": "https://phys.ufl.edu/People/Faculty/"
+        }
+      ]
     },
     {
       "slug": "andrey-shkerin",
@@ -310,7 +454,18 @@
       "start": 2020,
       "end": 2023,
       "atMinnesota": false,
-      "profile": "https://inspirehep.net/authors/1272212"
+      "profile": "https://inspirehep.net/authors/1272212",
+      "careers": [
+        {
+          "label": "First position after UMN",
+          "position": "Postdoctoral Researcher, Perimeter Institute"
+        },
+        {
+          "label": "Current position",
+          "position": "Postdoctoral Researcher, Perimeter Institute",
+          "source": "https://perimeterinstitute.ca/people/andrey-shkerin"
+        }
+      ]
     },
     {
       "slug": "raymond-co",
@@ -320,7 +475,19 @@
       "start": 2020,
       "end": 2023,
       "atMinnesota": false,
-      "profile": "https://inspirehep.net/authors/1380376"
+      "profile": "https://inspirehep.net/authors/1380376",
+      "careers": [
+        {
+          "label": "First position after UMN",
+          "position": "Assistant Professor, Indiana University",
+          "source": "https://zhenliu.net/mentoring/"
+        },
+        {
+          "label": "Current position",
+          "position": "Assistant Professor, Indiana University",
+          "source": "https://physics.indiana.edu/about/directory/all-faculty-scientists/co-raymond.html"
+        }
+      ]
     },
     {
       "slug": "matheus-hostert",
@@ -330,7 +497,19 @@
       "start": 2019,
       "end": 2023,
       "atMinnesota": false,
-      "profile": "https://inspirehep.net/authors/1621061"
+      "profile": "https://inspirehep.net/authors/1621061",
+      "careers": [
+        {
+          "label": "First position after UMN",
+          "position": "Postdoctoral Researcher, Harvard University",
+          "source": "https://zhenliu.net/mentoring/"
+        },
+        {
+          "label": "Current position",
+          "position": "Assistant Professor, University of Iowa",
+          "source": "https://physics.uiowa.edu/people/matheus-hostert"
+        }
+      ]
     },
     {
       "slug": "kunio-kaneta",
@@ -340,7 +519,19 @@
       "start": 2018,
       "end": 2020,
       "atMinnesota": false,
-      "profile": "https://inspirehep.net/authors/1078184"
+      "profile": "https://inspirehep.net/authors/1078184",
+      "careers": [
+        {
+          "label": "First position after UMN",
+          "position": "Postdoctoral Researcher, Korea Institute for Advanced Study",
+          "source": "https://indico.in2p3.fr/event/35664/contributions/154076/attachments/92429/141299/FKPPN2025_hmlee.pdf"
+        },
+        {
+          "label": "Current position",
+          "position": "Assistant Professor, Niigata University",
+          "source": "https://researchers.adm.niigata-u.ac.jp/html/200003343_en.html"
+        }
+      ]
     },
     {
       "slug": "edwin-ireson",
@@ -350,7 +541,14 @@
       "start": 2017,
       "end": 2019,
       "atMinnesota": false,
-      "profile": "https://inspirehep.net/authors/1498208"
+      "profile": "https://inspirehep.net/authors/1498208",
+      "careers": [
+        {
+          "label": "Latest known position",
+          "position": "Developer, Kamael",
+          "source": "https://cse.umn.edu/ftpi/former-researchers"
+        }
+      ]
     },
     {
       "slug": "lauren-pearce",
@@ -360,7 +558,19 @@
       "start": 2014,
       "end": 2017,
       "atMinnesota": false,
-      "profile": "https://inspirehep.net/authors/1124239"
+      "profile": "https://inspirehep.net/authors/1124239",
+      "careers": [
+        {
+          "label": "First position after UMN",
+          "position": "Postdoctoral Researcher, University of Illinois Urbana-Champaign",
+          "source": "https://connect.parkland.edu/News/ArtMID/10011/ArticleID/344"
+        },
+        {
+          "label": "Current position",
+          "position": "Director of Research Development, James Madison University",
+          "source": "https://www.jmu.edu/news/research/2026/09-30-ord-qa.shtml"
+        }
+      ]
     },
     {
       "slug": "natsumi-nagata",
@@ -370,7 +580,18 @@
       "start": 2014,
       "end": 2016,
       "atMinnesota": false,
-      "profile": "https://inspirehep.net/authors/1257544"
+      "profile": "https://inspirehep.net/authors/1257544",
+      "careers": [
+        {
+          "label": "First position after UMN",
+          "position": "University of Tokyo"
+        },
+        {
+          "label": "Current position",
+          "position": "Assistant Professor, University of Tokyo",
+          "source": "https://www-hep.phys.s.u-tokyo.ac.jp/en/members.html"
+        }
+      ]
     },
     {
       "slug": "zoe-thomas",
@@ -390,7 +611,19 @@
       "start": 2012,
       "end": 2015,
       "atMinnesota": false,
-      "profile": "https://inspirehep.net/authors/1040290"
+      "profile": "https://inspirehep.net/authors/1040290",
+      "careers": [
+        {
+          "label": "First position after UMN",
+          "position": "Postdoctoral Researcher, University of Washington",
+          "source": "https://cse.umn.edu/physics/aleksey-cherman"
+        },
+        {
+          "label": "Current position",
+          "position": "Associate Professor, University of Minnesota",
+          "source": "https://cse.umn.edu/physics/aleksey-cherman"
+        }
+      ]
     },
     {
       "slug": "emanuela-dimastrogiovanni",
@@ -400,7 +633,14 @@
       "start": 2012,
       "end": 2014,
       "atMinnesota": false,
-      "profile": "https://inspirehep.net/authors/1056770"
+      "profile": "https://inspirehep.net/authors/1056770",
+      "careers": [
+        {
+          "label": "Current position",
+          "position": "Associate Professor, University of Groningen",
+          "source": "https://www.rug.nl/staff/e.dimastrogiovanni/research?lang=en"
+        }
+      ]
     },
     {
       "slug": "jason-l-evans",
@@ -410,7 +650,19 @@
       "start": 2012,
       "end": 2015,
       "atMinnesota": false,
-      "profile": "https://inspirehep.net/authors/1273380"
+      "profile": "https://inspirehep.net/authors/1273380",
+      "careers": [
+        {
+          "label": "First position after UMN",
+          "position": "Assistant Professor, Korea Institute for Advanced Study",
+          "source": "https://journals.aps.org/prd/staff"
+        },
+        {
+          "label": "Current position",
+          "position": "Associate Editor, Physical Review D, American Physical Society",
+          "source": "https://journals.aps.org/prd/staff"
+        }
+      ]
     },
     {
       "slug": "david-tran",
@@ -450,7 +702,19 @@
       "start": 2009,
       "end": 2012,
       "atMinnesota": false,
-      "profile": "https://inspirehep.net/authors/1019358"
+      "profile": "https://inspirehep.net/authors/1019358",
+      "careers": [
+        {
+          "label": "First position after UMN",
+          "position": "Postdoctoral Researcher, University of Hawaii",
+          "source": "https://inspirehep.net/authors/1019358"
+        },
+        {
+          "label": "Latest known position",
+          "position": "Quantitative Analyst, U.S. Bank",
+          "source": "https://cse.umn.edu/ftpi/former-researchers"
+        }
+      ]
     },
     {
       "slug": "walter-vinci",
@@ -460,7 +724,14 @@
       "start": 2009,
       "end": 2011,
       "atMinnesota": false,
-      "profile": "https://inspirehep.net/authors/1040379"
+      "profile": "https://inspirehep.net/authors/1040379",
+      "careers": [
+        {
+          "label": "First position after UMN",
+          "position": "Postdoctoral Researcher, University of Pisa",
+          "source": "https://inspirehep.net/authors/1040379"
+        }
+      ]
     },
     {
       "slug": "osamu-seto",
@@ -470,7 +741,14 @@
       "start": 2008,
       "end": 2009,
       "atMinnesota": false,
-      "profile": "https://inspirehep.net/authors/989245"
+      "profile": "https://inspirehep.net/authors/989245",
+      "careers": [
+        {
+          "label": "Current position",
+          "position": "Professor, Hokkaido University",
+          "source": "https://orange.ep.sci.hokudai.ac.jp/~cosmo/en/intro_member.html"
+        }
+      ]
     },
     {
       "slug": "jose-alberto-ruiz-cembranos",
@@ -480,7 +758,15 @@
       "start": 2007,
       "end": 2010,
       "atMinnesota": false,
-      "profile": "https://inspirehep.net/authors/1031647"
+      "profile": "https://inspirehep.net/authors/1031647",
+      "careers": [
+        {
+          "label": "Latest known position",
+          "position": "Associate Professor, Universidad Complutense de Madrid",
+          "asOf": "2022",
+          "source": "https://fisicas.ucm.es/data/cont/docs/18-2022-12-23-CV_2022_v2_Cembranos.pdf"
+        }
+      ]
     },
     {
       "slug": "stefano-bolognesi",
@@ -490,7 +776,19 @@
       "start": 2007,
       "end": 2009,
       "atMinnesota": false,
-      "profile": "https://inspirehep.net/authors/1034864"
+      "profile": "https://inspirehep.net/authors/1034864",
+      "careers": [
+        {
+          "label": "First position after UMN",
+          "position": "Postdoctoral Researcher, University of Cambridge",
+          "source": "https://www.unipi.it/ateneo/organizzazione/persone/stefano-bolognesi-103675/"
+        },
+        {
+          "label": "Current position",
+          "position": "Associate Professor, University of Pisa",
+          "source": "https://www.unipi.it/ateneo/organizzazione/persone/stefano-bolognesi-103675/"
+        }
+      ]
     },
     {
       "slug": "christopher-savage",
@@ -500,7 +798,14 @@
       "start": 2006,
       "end": 2009,
       "atMinnesota": false,
-      "profile": "https://inspirehep.net/authors/1036220"
+      "profile": "https://inspirehep.net/authors/1036220",
+      "careers": [
+        {
+          "label": "First position after UMN",
+          "position": "Postdoctoral Researcher, Stockholm University",
+          "source": "https://inspirehep.net/authors/1036220"
+        }
+      ]
     },
     {
       "slug": "kenji-kadota",
@@ -510,7 +815,20 @@
       "start": 2006,
       "end": 2008,
       "atMinnesota": false,
-      "profile": "https://inspirehep.net/authors/1019396"
+      "profile": "https://inspirehep.net/authors/1019396",
+      "careers": [
+        {
+          "label": "First position after UMN",
+          "position": "Postdoctoral Researcher, University of Michigan",
+          "source": "https://indico-tdli.sjtu.edu.cn/event/2785/?print=1"
+        },
+        {
+          "label": "Latest known position",
+          "position": "Senior Faculty Scientist, Hangzhou Institute for Advanced Study, UCAS",
+          "asOf": "2024",
+          "source": "https://indico-tdli.sjtu.edu.cn/event/2785/?print=1"
+        }
+      ]
     },
     {
       "slug": "joel-giedt",
@@ -520,7 +838,19 @@
       "start": 2005,
       "end": 2007,
       "atMinnesota": false,
-      "profile": "https://inspirehep.net/authors/1008407"
+      "profile": "https://inspirehep.net/authors/1008407",
+      "careers": [
+        {
+          "label": "First position after UMN",
+          "position": "Faculty, Rensselaer Polytechnic Institute",
+          "source": "https://inspirehep.net/authors/1008407"
+        },
+        {
+          "label": "Current position",
+          "position": "Professor and Associate Department Head, Rensselaer Polytechnic Institute",
+          "source": "https://faculty.rpi.edu/joel-giedt"
+        }
+      ]
     },
     {
       "slug": "liliana-velasco-sevilla",
@@ -530,7 +860,14 @@
       "start": 2005,
       "end": 2007,
       "atMinnesota": false,
-      "profile": "https://inspirehep.net/authors/1024318"
+      "profile": "https://inspirehep.net/authors/1024318",
+      "careers": [
+        {
+          "label": "Latest known position",
+          "position": "Researcher, CQUeST, Sogang University",
+          "source": "https://cse.umn.edu/ftpi/former-researchers"
+        }
+      ]
     },
     {
       "slug": "nelson-nunes",
@@ -540,7 +877,19 @@
       "start": 2004,
       "end": 2006,
       "atMinnesota": false,
-      "profile": "https://inspirehep.net/authors/1033818"
+      "profile": "https://inspirehep.net/authors/1033818",
+      "careers": [
+        {
+          "label": "First position after UMN",
+          "position": "Postdoctoral Researcher, University of Cambridge",
+          "source": "https://inspirehep.net/authors/1033818"
+        },
+        {
+          "label": "Latest known position",
+          "position": "Assistant Professor, University of Lisbon",
+          "source": "https://www.cienciavitae.pt/portal/0018-FD2E-0B03"
+        }
+      ]
     },
     {
       "slug": "roberto-auzzi",
@@ -550,7 +899,19 @@
       "start": 2004,
       "end": 2006,
       "atMinnesota": false,
-      "profile": "https://inspirehep.net/authors/1037430"
+      "profile": "https://inspirehep.net/authors/1037430",
+      "careers": [
+        {
+          "label": "First position after UMN",
+          "position": "Research Officer, Swansea University",
+          "source": "https://docenti.unicatt.it/ppd2/it/docenti/38907/roberto-auzzi/profilo"
+        },
+        {
+          "label": "Current position",
+          "position": "Associate Professor, Università Cattolica del Sacro Cuore, Brescia",
+          "source": "https://publires.unicatt.it/en/persons/roberto-auzzi-2/"
+        }
+      ]
     },
     {
       "slug": "roman-zwicky",
@@ -560,7 +921,19 @@
       "start": 2003,
       "end": 2005,
       "atMinnesota": false,
-      "profile": "https://inspirehep.net/authors/1024286"
+      "profile": "https://inspirehep.net/authors/1024286",
+      "careers": [
+        {
+          "label": "First position after UMN",
+          "position": "Postdoctoral Researcher, Durham University",
+          "source": "https://inspirehep.net/authors/1024286"
+        },
+        {
+          "label": "Current position",
+          "position": "Professor, University of Edinburgh",
+          "source": "https://www.ph.ed.ac.uk/particle-physics-theory/people"
+        }
+      ]
     },
     {
       "slug": "stefan-groot-nibbelink",
@@ -570,7 +943,19 @@
       "start": 2003,
       "end": 2005,
       "atMinnesota": false,
-      "profile": "https://inspirehep.net/authors/1019388"
+      "profile": "https://inspirehep.net/authors/1019388",
+      "careers": [
+        {
+          "label": "First position after UMN",
+          "position": "Assistant Professor, Shanghai Institute of Advanced Studies",
+          "source": "https://www.hogeschoolrotterdam.nl/onderzoek/lectoren/zorginnovatie/hoofddocenten/stefan-groot-nibbelink/"
+        },
+        {
+          "label": "Current position",
+          "position": "Senior Lecturer, Rotterdam University of Applied Sciences",
+          "source": "https://www.hogeschoolrotterdam.nl/onderzoek/lectoren/zorginnovatie/hoofddocenten/stefan-groot-nibbelink/"
+        }
+      ]
     },
     {
       "slug": "vassilis-c-spanos",
@@ -580,7 +965,19 @@
       "start": 2002,
       "end": 2006,
       "atMinnesota": false,
-      "profile": "https://inspirehep.net/authors/987949"
+      "profile": "https://inspirehep.net/authors/987949",
+      "careers": [
+        {
+          "label": "First position after UMN",
+          "position": "Postdoctoral researcher, University of Patras",
+          "source": "https://inspirehep.net/authors/987949"
+        },
+        {
+          "label": "Latest known position",
+          "position": "Associate Professor, National and Kapodistrian University of Athens",
+          "source": "https://cse.umn.edu/ftpi/former-researchers"
+        }
+      ]
     },
     {
       "slug": "yudi-santoso",
@@ -590,7 +987,14 @@
       "start": 2001,
       "end": 2004,
       "atMinnesota": false,
-      "profile": "https://inspirehep.net/authors/990342"
+      "profile": "https://inspirehep.net/authors/990342",
+      "careers": [
+        {
+          "label": "First position after UMN",
+          "position": "Postdoctoral researcher, University of Victoria",
+          "source": "https://inspirehep.net/authors/990342"
+        }
+      ]
     },
     {
       "slug": "durmus-ali-demir",
@@ -600,7 +1004,20 @@
       "start": 2000,
       "end": 2003,
       "atMinnesota": false,
-      "profile": "https://inspirehep.net/authors/1012062"
+      "profile": "https://inspirehep.net/authors/1012062",
+      "careers": [
+        {
+          "label": "First position after UMN",
+          "position": "Faculty member, İzmir Institute of Technology",
+          "source": "https://fens.sabanciuniv.edu/en/prof-dr-durmus-ali-demir"
+        },
+        {
+          "label": "Last appointment",
+          "position": "Professor, Sabancı University",
+          "asOf": "2024",
+          "source": "https://fens.sabanciuniv.edu/en/prof-dr-durmus-ali-demir"
+        }
+      ]
     },
     {
       "slug": "gregory-gabadadze",
@@ -610,7 +1027,19 @@
       "start": 2000,
       "end": 2002,
       "atMinnesota": false,
-      "profile": "https://inspirehep.net/authors/1009140"
+      "profile": "https://inspirehep.net/authors/1009140",
+      "careers": [
+        {
+          "label": "First position after UMN",
+          "position": "Fellow, CERN Theory Division",
+          "source": "https://www.yumpu.com/en/document/view/17602029/curriculum-vitae-center-for-cosmology-and-particle-physics-"
+        },
+        {
+          "label": "Current position",
+          "position": "Professor, New York University",
+          "source": "https://bulletins.nyu.edu/nyu/faculty-information/"
+        }
+      ]
     },
     {
       "slug": "ralf-hofmann",
@@ -620,7 +1049,19 @@
       "start": 2000,
       "end": 2000,
       "atMinnesota": false,
-      "profile": "https://inspirehep.net/authors/1005767"
+      "profile": "https://inspirehep.net/authors/1005767",
+      "careers": [
+        {
+          "label": "First position after UMN",
+          "position": "Postdoctoral fellow, Max Planck Institute for Physics, Munich",
+          "source": "https://www.thphys.uni-heidelberg.de/~hofmann/CV_Ralf_Hofmann_2026.pdf"
+        },
+        {
+          "label": "Current position",
+          "position": "Data scientist and AI specialist, IAV GmbH; Privatdozent, Heidelberg University",
+          "source": "https://www.thphys.uni-heidelberg.de/~hofmann/CV_Ralf_Hofmann_2026.pdf"
+        }
+      ]
     },
     {
       "slug": "tonnis-ter-veldhuis",
@@ -630,7 +1071,14 @@
       "start": 1999,
       "end": 2002,
       "atMinnesota": false,
-      "profile": "https://inspirehep.net/authors/984843"
+      "profile": "https://inspirehep.net/authors/984843",
+      "careers": [
+        {
+          "label": "Current position",
+          "position": "Professor, Macalester College",
+          "source": "https://www.macalester.edu/physics-astronomy/facultystaff/tonnisterveldhuis/"
+        }
+      ]
     },
     {
       "slug": "adam-ritz",
@@ -640,7 +1088,19 @@
       "start": 1998,
       "end": 1999,
       "atMinnesota": false,
-      "profile": "https://inspirehep.net/authors/991642"
+      "profile": "https://inspirehep.net/authors/991642",
+      "careers": [
+        {
+          "label": "First position after UMN",
+          "position": "Research Fellow, University of Cambridge (DAMTP and Caius College)",
+          "source": "https://www.uvic.ca/science/physics/people/people/faculty/ritz_adam.php"
+        },
+        {
+          "label": "Current position",
+          "position": "Professor of Physics and Astronomy, University of Victoria",
+          "source": "https://www.uvic.ca/science/physics/people/people/faculty/ritz_adam.php"
+        }
+      ]
     },
     {
       "slug": "alon-faraggi",
@@ -650,7 +1110,19 @@
       "start": 1998,
       "end": 2000,
       "atMinnesota": false,
-      "profile": "https://inspirehep.net/authors/1010356"
+      "profile": "https://inspirehep.net/authors/1010356",
+      "careers": [
+        {
+          "label": "First position after UMN",
+          "position": "PPARC Advanced Fellow, University of Oxford",
+          "source": "https://inspirehep.net/authors/1010356"
+        },
+        {
+          "label": "Current position",
+          "position": "Professor, University of Liverpool",
+          "source": "https://www.liverpool.ac.uk/people/alon-faraggi"
+        }
+      ]
     },
     {
       "slug": "panagiota-kanti",
@@ -660,7 +1132,19 @@
       "start": 1998,
       "end": 2000,
       "atMinnesota": false,
-      "profile": "https://inspirehep.net/authors/1003710"
+      "profile": "https://inspirehep.net/authors/1003710",
+      "careers": [
+        {
+          "label": "First position after UMN",
+          "position": "Postdoctoral researcher, Scuola Normale Superiore, Pisa",
+          "source": "https://inspirehep.net/authors/1003710"
+        },
+        {
+          "label": "Current position",
+          "position": "Professor, University of Ioannina",
+          "source": "https://theory.physics.uoi.gr/people/"
+        }
+      ]
     },
     {
       "slug": "yuri-kovchegov",
@@ -670,7 +1154,19 @@
       "start": 1998,
       "end": 1999,
       "atMinnesota": false,
-      "profile": "https://inspirehep.net/authors/1001991"
+      "profile": "https://inspirehep.net/authors/1001991",
+      "careers": [
+        {
+          "label": "First position after UMN",
+          "position": "Theoretical Research Associate, Brookhaven National Laboratory",
+          "source": "https://www.asc.ohio-state.edu/kovchegov.1/my_CV.pdf"
+        },
+        {
+          "label": "Current position",
+          "position": "Professor, The Ohio State University",
+          "source": "https://www.asc.ohio-state.edu/kovchegov.1/my_CV.pdf"
+        }
+      ]
     },
     {
       "slug": "brian-d-fields",
@@ -680,7 +1176,14 @@
       "start": 1997,
       "end": 1999,
       "atMinnesota": false,
-      "profile": "https://inspirehep.net/authors/1010019"
+      "profile": "https://inspirehep.net/authors/1010019",
+      "careers": [
+        {
+          "label": "Current position",
+          "position": "Professor, University of Illinois Urbana-Champaign",
+          "source": "https://astro.illinois.edu/research/areas/cosmology"
+        }
+      ]
     },
     {
       "slug": "junji-hisano",
@@ -690,7 +1193,19 @@
       "start": 1996,
       "end": 1997,
       "atMinnesota": false,
-      "profile": "https://inspirehep.net/authors/1005891"
+      "profile": "https://inspirehep.net/authors/1005891",
+      "careers": [
+        {
+          "label": "First position after UMN",
+          "position": "Assistant Professor, KEK",
+          "source": "https://www.phys.nagoya-u.ac.jp/docs/profiles/HPtemplate_Hisano_e.pdf"
+        },
+        {
+          "label": "Current position",
+          "position": "Professor, Nagoya University",
+          "source": "https://profs.provost.nagoya-u.ac.jp/html/100003909_en.html"
+        }
+      ]
     },
     {
       "slug": "sangyong-jeon",
@@ -700,7 +1215,19 @@
       "start": 1995,
       "end": 1998,
       "atMinnesota": false,
-      "profile": "https://inspirehep.net/authors/1004376"
+      "profile": "https://inspirehep.net/authors/1004376",
+      "careers": [
+        {
+          "label": "First position after UMN",
+          "position": "Postdoctoral researcher, Lawrence Berkeley National Laboratory",
+          "source": "https://inspirehep.net/authors/1004376"
+        },
+        {
+          "label": "Current position",
+          "position": "Professor and Macdonald Chair, McGill University",
+          "source": "https://www.physics.mcgill.ca/people/faculty-a.html"
+        }
+      ]
     },
     {
       "slug": "alexander-kovner",
@@ -710,7 +1237,19 @@
       "start": 1994,
       "end": 1997,
       "atMinnesota": false,
-      "profile": "https://inspirehep.net/authors/1001989"
+      "profile": "https://inspirehep.net/authors/1001989",
+      "careers": [
+        {
+          "label": "First position after UMN",
+          "position": "PPARC Advanced Fellow, University of Oxford",
+          "source": "https://physics.uconn.edu/person/alexander-kovner/"
+        },
+        {
+          "label": "Current position",
+          "position": "Professor, University of Connecticut",
+          "source": "https://physics.uconn.edu/person/alexander-kovner/"
+        }
+      ]
     },
     {
       "slug": "heribert-weigert",
@@ -720,7 +1259,14 @@
       "start": 1994,
       "end": 1996,
       "atMinnesota": false,
-      "profile": "https://inspirehep.net/authors/983878"
+      "profile": "https://inspirehep.net/authors/983878",
+      "careers": [
+        {
+          "label": "Current position",
+          "position": "Associate Professor and Director, Centre for Theoretical and Mathematical Physics, University of Cape Town",
+          "source": "https://science.uct.ac.za/department-physics/people-academic-staff/heribert-weigert"
+        }
+      ]
     },
     {
       "slug": "leszek-roszkowski",
@@ -730,7 +1276,20 @@
       "start": 1994,
       "end": 1996,
       "atMinnesota": false,
-      "profile": "https://inspirehep.net/authors/991159"
+      "profile": "https://inspirehep.net/authors/991159",
+      "careers": [
+        {
+          "label": "First position after UMN",
+          "position": "Faculty member, Lancaster University",
+          "source": "https://web.phys.ntu.edu.tw/~jwc/2011_Fall_colloquia/Joint%20colloquia%20fall.html"
+        },
+        {
+          "label": "Latest known position",
+          "position": "Director, Astrocent International Institute for Particle Astrophysics, Polish Academy of Sciences",
+          "asOf": "2026",
+          "source": "https://akademiakopernikanska.gov.pl/en/coming-soon-to-nauka-to-lubie-a-debate-on-astronomy-with-members-of-the-nicolaus-copernicus-academy/"
+        }
+      ]
     },
     {
       "slug": "toby-falk",
@@ -740,7 +1299,14 @@
       "start": 1994,
       "end": 1997,
       "atMinnesota": false,
-      "profile": "https://inspirehep.net/authors/1010398"
+      "profile": "https://inspirehep.net/authors/1010398",
+      "careers": [
+        {
+          "label": "Latest known position",
+          "position": "Managing Director, Credit Suisse",
+          "source": "https://cse.umn.edu/ftpi/former-researchers"
+        }
+      ]
     },
     {
       "slug": "dietrich-bodeker",
@@ -750,7 +1316,14 @@
       "start": 1993,
       "end": 1996,
       "atMinnesota": false,
-      "profile": "https://inspirehep.net/authors/1016033"
+      "profile": "https://inspirehep.net/authors/1016033",
+      "careers": [
+        {
+          "label": "Current position",
+          "position": "Professor, Bielefeld University",
+          "source": "https://www.uni-bielefeld.de/fakultaeten/physik/studium-und-lehre/studienberatung/"
+        }
+      ]
     },
     {
       "slug": "james-cline",
@@ -760,7 +1333,19 @@
       "start": 1993,
       "end": 1995,
       "atMinnesota": false,
-      "profile": "https://inspirehep.net/authors/1013358"
+      "profile": "https://inspirehep.net/authors/1013358",
+      "careers": [
+        {
+          "label": "First position after UMN",
+          "position": "Faculty appointment, McGill University",
+          "source": "https://inspirehep.net/authors/1013358"
+        },
+        {
+          "label": "Current position",
+          "position": "Professor, McGill University",
+          "source": "https://www.physics.mcgill.ca/people/faculty-f.html"
+        }
+      ]
     },
     {
       "slug": "kimmo-kainulainen",
@@ -770,7 +1355,19 @@
       "start": 1993,
       "end": 1994,
       "atMinnesota": false,
-      "profile": "https://inspirehep.net/authors/1003927"
+      "profile": "https://inspirehep.net/authors/1003927",
+      "careers": [
+        {
+          "label": "First position after UMN",
+          "position": "Visiting researcher, CERN",
+          "source": "https://tim.jyu.fi/velp/tiedekunnat/mltk/historia/matrikkeli2026"
+        },
+        {
+          "label": "Current position",
+          "position": "Professor, University of Jyväskylä",
+          "source": "https://www.jyu.fi/fi/henkilot/kimmo-kainulainen"
+        }
+      ]
     },
     {
       "slug": "paolo-provero",
@@ -780,7 +1377,19 @@
       "start": 1992,
       "end": 1994,
       "atMinnesota": false,
-      "profile": "https://inspirehep.net/authors/992689"
+      "profile": "https://inspirehep.net/authors/992689",
+      "careers": [
+        {
+          "label": "First position after UMN",
+          "position": "Postdoctoral fellow, University of Turin",
+          "source": "https://www.campusnet.unito.it/docenti/att/pprovero.cv.pdf"
+        },
+        {
+          "label": "Current position",
+          "position": "Associate Professor, University of Turin; Senior Research Fellow, San Raffaele Center for Omics Sciences",
+          "source": "https://research.hsr.it/en/centers/omics-sciences/paolo-provero.html"
+        }
+      ]
     },
     {
       "slug": "raju-venugopalan",
@@ -790,7 +1399,19 @@
       "start": 1992,
       "end": 1994,
       "atMinnesota": false,
-      "profile": "https://inspirehep.net/authors/984812"
+      "profile": "https://inspirehep.net/authors/984812",
+      "careers": [
+        {
+          "label": "First position after UMN",
+          "position": "Research Associate, Institute for Nuclear Theory, University of Washington",
+          "source": "https://www.stonybrook.edu/commcms/physics/people/_profiles/_cvs/venugopalanr.pdf"
+        },
+        {
+          "label": "Current position",
+          "position": "Distinguished Scientist, Brookhaven National Laboratory",
+          "source": "https://www.bnl.gov/staff/Rvenugopalan/"
+        }
+      ]
     },
     {
       "slug": "sonia-paban",
@@ -800,7 +1421,19 @@
       "start": 1992,
       "end": 1994,
       "atMinnesota": false,
-      "profile": "https://inspirehep.net/authors/994560"
+      "profile": "https://inspirehep.net/authors/994560",
+      "careers": [
+        {
+          "label": "First position after UMN",
+          "position": "Postdoctoral researcher, University of Texas at Austin",
+          "source": "https://zippy.ph.utexas.edu/~paban/CV-web.pdf"
+        },
+        {
+          "label": "Current position",
+          "position": "Senior Lecturer on Physics and Senior Research Scientist in Physics, Harvard University",
+          "source": "https://www.physics.harvard.edu/people/facpages/paban"
+        }
+      ]
     },
     {
       "slug": "pyungwon-ko",
@@ -810,7 +1443,19 @@
       "start": 1991,
       "end": 1994,
       "atMinnesota": false,
-      "profile": "https://inspirehep.net/authors/1002530"
+      "profile": "https://inspirehep.net/authors/1002530",
+      "careers": [
+        {
+          "label": "First position after UMN",
+          "position": "Assistant Professor, Hongik University",
+          "source": "https://kias.re.kr/files/B0000035/202105/1c35303c61b8481bb17a1d7263807213.pdf"
+        },
+        {
+          "label": "Current position",
+          "position": "QUC KIAS Senior Fellow, Korea Institute for Advanced Study",
+          "source": "https://www.kias.re.kr/kias/people/faculty/viewMember.do?memberId=10214&menuNo=408002&pageIndex=&trget=listFaculty"
+        }
+      ]
     },
     {
       "slug": "michele-maggiore",
@@ -820,7 +1465,19 @@
       "start": 1990,
       "end": 1991,
       "atMinnesota": false,
-      "profile": "https://inspirehep.net/authors/999267"
+      "profile": "https://inspirehep.net/authors/999267",
+      "careers": [
+        {
+          "label": "First position after UMN",
+          "position": "Researcher, INFN Pisa",
+          "source": "https://fiteoweb.unige.ch/~maggiore/CV/CV2023.pdf"
+        },
+        {
+          "label": "Current position",
+          "position": "Professor, University of Geneva",
+          "source": "https://gwsc.unige.ch/members/"
+        }
+      ]
     },
     {
       "slug": "ajit-m-srivastava",
@@ -830,7 +1487,19 @@
       "start": 1989,
       "end": 1992,
       "atMinnesota": false,
-      "profile": "https://inspirehep.net/authors/987816"
+      "profile": "https://inspirehep.net/authors/987816",
+      "careers": [
+        {
+          "label": "First position after UMN",
+          "position": "Research Associate, University of California, Santa Barbara (Institute for Theoretical Physics)",
+          "source": "https://www.iopb.res.in/~ajit/"
+        },
+        {
+          "label": "Current position",
+          "position": "Raja Ramanna Chair Professor, Institute of Physics, Bhubaneswar",
+          "source": "https://www.iopb.res.in/~ajit/"
+        }
+      ]
     },
     {
       "slug": "bum-hoon-lee",
@@ -840,7 +1509,20 @@
       "start": 1989,
       "end": 1990,
       "atMinnesota": false,
-      "profile": "https://inspirehep.net/authors/1000819"
+      "profile": "https://inspirehep.net/authors/1000819",
+      "careers": [
+        {
+          "label": "First position after UMN",
+          "position": "Faculty member, Hanyang University",
+          "source": "https://indicocquest.sogang.ac.kr/event/13/"
+        },
+        {
+          "label": "Latest known position",
+          "position": "Professor Emeritus, Sogang University",
+          "asOf": "2025",
+          "source": "https://indicocquest.sogang.ac.kr/event/36/registrations/participants"
+        }
+      ]
     },
     {
       "slug": "john-mcdonald",
@@ -850,7 +1532,14 @@
       "start": 1989,
       "end": 1990,
       "atMinnesota": false,
-      "profile": "https://inspirehep.net/authors/1045955"
+      "profile": "https://inspirehep.net/authors/1045955",
+      "careers": [
+        {
+          "label": "Current position",
+          "position": "Reader, Lancaster University",
+          "source": "https://www.lancaster.ac.uk/physics/about-us/people/john-mcdonald"
+        }
+      ]
     },
     {
       "slug": "malcolm-duncan",
@@ -860,7 +1549,19 @@
       "start": 1989,
       "end": 1992,
       "atMinnesota": false,
-      "profile": "https://inspirehep.net/authors/1011227"
+      "profile": "https://inspirehep.net/authors/1011227",
+      "careers": [
+        {
+          "label": "First position after UMN",
+          "position": "Faculty appointment, University of Iowa",
+          "source": "https://inspirehep.net/authors/1011227"
+        },
+        {
+          "label": "Latest known position",
+          "position": "Fried, Frank, Harris, Shriver & Jacobson LLP",
+          "source": "https://inspirehep.net/authors/1011227"
+        }
+      ]
     },
     {
       "slug": "ricardo-a-flores",
@@ -870,7 +1571,19 @@
       "start": 1988,
       "end": 1990,
       "atMinnesota": false,
-      "profile": "https://inspirehep.net/authors/1009795"
+      "profile": "https://inspirehep.net/authors/1009795",
+      "careers": [
+        {
+          "label": "First position after UMN",
+          "position": "Assistant Professor, University of Missouri–St. Louis",
+          "source": "https://www.umsl.edu/~floresr/CV.pdf"
+        },
+        {
+          "label": "Current position",
+          "position": "Professor, University of Missouri–St. Louis",
+          "source": "https://www.umsl.edu/mpas/directory/flores-ricardo.html"
+        }
+      ]
     },
     {
       "slug": "frank-graziani",
@@ -880,7 +1593,19 @@
       "start": 1986,
       "end": 1989,
       "atMinnesota": false,
-      "profile": "https://inspirehep.net/authors/1007671"
+      "profile": "https://inspirehep.net/authors/1007671",
+      "careers": [
+        {
+          "label": "First position after UMN",
+          "position": "Computational physicist, Lawrence Livermore National Laboratory",
+          "source": "https://heds-center.llnl.gov/research/scientist-spotlights/researcher-spotlight-frank-graziani"
+        },
+        {
+          "label": "Current position",
+          "position": "Director, High Energy Density Science Center, Lawrence Livermore National Laboratory",
+          "source": "https://heds-center.llnl.gov/contact-us"
+        }
+      ]
     },
     {
       "slug": "sunil-kalara",
@@ -890,7 +1615,13 @@
       "start": 1986,
       "end": 1989,
       "atMinnesota": false,
-      "profile": "https://inspirehep.net/authors/1003889"
+      "profile": "https://inspirehep.net/authors/1003889",
+      "careers": [
+        {
+          "label": "First position after UMN",
+          "position": "Texas A&M University"
+        }
+      ]
     },
     {
       "slug": "larry-carson",
@@ -910,7 +1641,19 @@
       "start": 1983,
       "end": 1987,
       "atMinnesota": false,
-      "profile": "https://inspirehep.net/authors/992004"
+      "profile": "https://inspirehep.net/authors/992004",
+      "careers": [
+        {
+          "label": "First position after UMN",
+          "position": "University of Wisconsin–Madison",
+          "source": "https://inspirehep.net/authors/992004"
+        },
+        {
+          "label": "Latest known position",
+          "position": "Mathematica consultant",
+          "source": "https://education.wolfram.com/summer-research-institute/faculty/2012/"
+        }
+      ]
     },
     {
       "slug": "alexey-yung",
@@ -1009,7 +1752,19 @@
       "end": 2025,
       "atMinnesota": false,
       "profile": "https://inspirehep.net/authors/2085098",
-      "title": "PhD alumnus"
+      "title": "PhD alumnus",
+      "careers": [
+        {
+          "label": "First position after UMN",
+          "position": "Postdoctoral researcher, KAIST",
+          "source": "https://inspirehep.net/authors/2085098"
+        },
+        {
+          "label": "Current position",
+          "position": "Postdoctoral researcher, KAIST",
+          "source": "https://het.kaist.ac.kr/people"
+        }
+      ]
     },
     {
       "slug": "ting-gao",
@@ -1020,7 +1775,20 @@
       "end": 2025,
       "atMinnesota": false,
       "profile": "https://inspirehep.net/authors/2103809",
-      "title": "PhD alumnus"
+      "title": "PhD alumnus",
+      "careers": [
+        {
+          "label": "First position after UMN",
+          "position": "Postdoctoral scholar, University of Alberta",
+          "asOf": "2025",
+          "source": "https://inspirehep.net/authors/2103809"
+        },
+        {
+          "label": "Current position",
+          "position": "Postdoctoral scholar, University of Alberta",
+          "source": "https://apps.ualberta.ca/directory/person/tgao7"
+        }
+      ]
     },
     {
       "slug": "chao-hsiang-sheu",
@@ -1031,7 +1799,19 @@
       "end": 2024,
       "atMinnesota": false,
       "profile": "https://inspirehep.net/authors/1826754",
-      "title": "PhD alumnus"
+      "title": "PhD alumnus",
+      "careers": [
+        {
+          "label": "First position after UMN",
+          "position": "Postdoctoral researcher, University of California, Irvine",
+          "source": "https://inspirehep.net/authors/1826754"
+        },
+        {
+          "label": "Current position",
+          "position": "QUC Research Fellow, Korea Institute for Advanced Study",
+          "source": "https://www.kias.re.kr/kias/people/rsrchFellows/listRsrchFellows.do?menuNo=401012"
+        }
+      ]
     },
     {
       "slug": "evgeny-kurianovych",
@@ -1053,7 +1833,14 @@
       "end": 2022,
       "atMinnesota": false,
       "profile": "https://inspirehep.net/authors/1272185",
-      "title": "PhD alumnus"
+      "title": "PhD alumnus",
+      "careers": [
+        {
+          "label": "First position after UMN",
+          "position": "Postdoctoral researcher, City University of New York",
+          "source": "https://cse.umn.edu/ftpi/alumni"
+        }
+      ]
     },
     {
       "slug": "sarunas-verner",
@@ -1064,7 +1851,20 @@
       "end": 2022,
       "atMinnesota": false,
       "profile": "https://inspirehep.net/authors/1813573",
-      "title": "PhD alumnus"
+      "title": "PhD alumnus",
+      "careers": [
+        {
+          "label": "First position after UMN",
+          "position": "Postdoctoral researcher, University of Florida",
+          "asOf": "2022",
+          "source": "https://kavlicosmo.uchicago.edu/people/profile/sarunas-verner/"
+        },
+        {
+          "label": "Current position",
+          "position": "KICP Fellow, University of Chicago",
+          "source": "https://kavlicosmo.uchicago.edu/people/profile/sarunas-verner/"
+        }
+      ]
     },
     {
       "slug": "alexandros-papageorgiou",
@@ -1075,7 +1875,21 @@
       "end": 2021,
       "atMinnesota": false,
       "profile": "https://inspirehep.net/authors/1662555",
-      "title": "PhD alumnus"
+      "title": "PhD alumnus",
+      "careers": [
+        {
+          "label": "First position after UMN",
+          "position": "Postdoctoral researcher, Institute for Basic Science, CTPU",
+          "asOf": "2021",
+          "source": "https://inspirehep.net/authors/1662555"
+        },
+        {
+          "label": "Latest known position",
+          "position": "Postdoctoral researcher, Karlsruhe Institute of Technology",
+          "asOf": "2026",
+          "source": "https://inspirehep.net/authors/1662555"
+        }
+      ]
     },
     {
       "slug": "minh-nguyen",
@@ -1086,7 +1900,14 @@
       "end": 2021,
       "atMinnesota": false,
       "profile": "https://inspirehep.net/authors/1635403",
-      "title": "PhD alumnus"
+      "title": "PhD alumnus",
+      "careers": [
+        {
+          "label": "Latest known position",
+          "position": "Wells Fargo",
+          "asOf": "2025"
+        }
+      ]
     },
     {
       "slug": "andrew-miller",
@@ -1097,7 +1918,15 @@
       "end": 2020,
       "atMinnesota": false,
       "profile": "https://inspirehep.net/authors/2644085",
-      "title": "PhD alumnus"
+      "title": "PhD alumnus",
+      "careers": [
+        {
+          "label": "Latest known position",
+          "position": "Senior staff, Johns Hopkins University Applied Physics Laboratory",
+          "asOf": "2020",
+          "source": "https://inspirehep.net/authors/2644085"
+        }
+      ]
     },
     {
       "slug": "yusuf-buyukdag",
@@ -1119,7 +1948,21 @@
       "end": 2018,
       "atMinnesota": false,
       "profile": "https://inspirehep.net/authors/1311789",
-      "title": "PhD alumnus"
+      "title": "PhD alumnus",
+      "careers": [
+        {
+          "label": "First position after UMN",
+          "position": "Postdoctoral researcher, Institute of Physics, Czech Academy of Sciences",
+          "asOf": "2018",
+          "source": "https://inspirehep.net/authors/1311789"
+        },
+        {
+          "label": "Latest known position",
+          "position": "Postdoctoral researcher, Middle East Technical University",
+          "asOf": "2024",
+          "source": "https://inspirehep.net/authors/1311789"
+        }
+      ]
     },
     {
       "slug": "jiaming-zheng",
@@ -1130,7 +1973,21 @@
       "end": 2017,
       "atMinnesota": false,
       "profile": "https://inspirehep.net/authors/1403749",
-      "title": "PhD alumnus"
+      "title": "PhD alumnus",
+      "careers": [
+        {
+          "label": "First position after UMN",
+          "position": "Postdoctoral researcher, University of Tokyo",
+          "asOf": "2017",
+          "source": "https://inspirehep.net/authors/1403749"
+        },
+        {
+          "label": "Latest known position",
+          "position": "Postdoctoral researcher, Shanghai Jiao Tong University",
+          "asOf": "2023",
+          "source": "https://inspirehep.net/authors/1403749"
+        }
+      ]
     },
     {
       "slug": "sergey-monin",
@@ -1141,7 +1998,14 @@
       "end": 2017,
       "atMinnesota": false,
       "profile": "https://inspirehep.net/authors/1444459",
-      "title": "PhD alumnus"
+      "title": "PhD alumnus",
+      "careers": [
+        {
+          "label": "Latest known position",
+          "position": "Impulse Company",
+          "source": "https://cse.umn.edu/ftpi/alumni"
+        }
+      ]
     },
     {
       "slug": "adam-peterson",
@@ -1152,7 +2016,15 @@
       "end": 2016,
       "atMinnesota": false,
       "profile": "https://inspirehep.net/authors/1274552",
-      "title": "PhD alumnus"
+      "title": "PhD alumnus",
+      "careers": [
+        {
+          "label": "Latest known position",
+          "position": "Project scientist, Lawrence Berkeley National Laboratory",
+          "asOf": "2025",
+          "source": "https://cse.umn.edu/ftpi/alumni"
+        }
+      ]
     },
     {
       "slug": "ivan-gordeliy",
@@ -1163,7 +2035,14 @@
       "end": 2016,
       "atMinnesota": false,
       "profile": "https://inspirehep.net/authors/2347857",
-      "title": "PhD alumnus"
+      "title": "PhD alumnus",
+      "careers": [
+        {
+          "label": "Latest known position",
+          "position": "EDHEC Business School",
+          "source": "https://cse.umn.edu/ftpi/alumni"
+        }
+      ]
     },
     {
       "slug": "jin-chen",
@@ -1174,7 +2053,14 @@
       "end": 2016,
       "atMinnesota": false,
       "profile": "https://inspirehep.net/authors/1409401",
-      "title": "PhD alumnus"
+      "title": "PhD alumnus",
+      "careers": [
+        {
+          "label": "Latest known position",
+          "position": "Xiamen University",
+          "source": "https://cse.umn.edu/ftpi/alumni"
+        }
+      ]
     },
     {
       "slug": "marcos-garcia-garcia",
@@ -1185,7 +2071,20 @@
       "end": 2016,
       "atMinnesota": false,
       "profile": "https://inspirehep.net/authors/1327985",
-      "title": "PhD alumnus"
+      "title": "PhD alumnus",
+      "careers": [
+        {
+          "label": "First position after UMN",
+          "position": "Postdoctoral researcher, Rice University",
+          "asOf": "2016",
+          "source": "https://inspirehep.net/authors/1327985"
+        },
+        {
+          "label": "Latest known position",
+          "position": "Instituto de Física, Universidad Nacional Autónoma de México",
+          "source": "https://cse.umn.edu/ftpi/alumni"
+        }
+      ]
     },
     {
       "slug": "xin-li",
@@ -1196,7 +2095,14 @@
       "end": 2015,
       "atMinnesota": false,
       "profile": "https://inspirehep.net/authors/1936065",
-      "title": "PhD alumnus"
+      "title": "PhD alumnus",
+      "careers": [
+        {
+          "label": "Latest known position",
+          "position": "PIMCO",
+          "source": "https://cse.umn.edu/ftpi/alumni"
+        }
+      ]
     },
     {
       "slug": "ryo-namba",
@@ -1207,7 +2113,20 @@
       "end": 2013,
       "atMinnesota": false,
       "profile": "https://inspirehep.net/authors/1273989",
-      "title": "PhD alumnus"
+      "title": "PhD alumnus",
+      "careers": [
+        {
+          "label": "First position after UMN",
+          "position": "Postdoctoral researcher, Kavli IPMU, University of Tokyo",
+          "asOf": "2013",
+          "source": "https://inspirehep.net/authors/1273989"
+        },
+        {
+          "label": "Current position",
+          "position": "Lecturer, Shizuoka University",
+          "source": "https://ithems.riken.jp/ja/members/ryo-namba"
+        }
+      ]
     },
     {
       "slug": "erik-aver",
@@ -1218,7 +2137,20 @@
       "end": 2012,
       "atMinnesota": false,
       "profile": "https://inspirehep.net/authors/1122739",
-      "title": "PhD alumnus"
+      "title": "PhD alumnus",
+      "careers": [
+        {
+          "label": "First position after UMN",
+          "position": "Faculty member, Gonzaga University",
+          "asOf": "2012",
+          "source": "https://inspirehep.net/authors/1122739"
+        },
+        {
+          "label": "Current position",
+          "position": "Professor of Physics, Gonzaga University",
+          "source": "https://www.gonzaga.edu/academics/faculty-listing/detail?person=erik-aver-phd-86a478f2"
+        }
+      ]
     },
     {
       "slug": "feng-luo",
@@ -1229,7 +2161,20 @@
       "end": 2012,
       "atMinnesota": false,
       "profile": "https://inspirehep.net/authors/1024855",
-      "title": "PhD alumnus"
+      "title": "PhD alumnus",
+      "careers": [
+        {
+          "label": "First position after UMN",
+          "position": "Postdoctoral researcher, King's College London",
+          "asOf": "2012",
+          "source": "https://inspirehep.net/authors/1024855"
+        },
+        {
+          "label": "Latest known position",
+          "position": "Sun Yat-sen University",
+          "source": "https://cse.umn.edu/ftpi/alumni"
+        }
+      ]
     },
     {
       "slug": "peter-koroteev",
@@ -1240,7 +2185,20 @@
       "end": 2012,
       "atMinnesota": false,
       "profile": "https://inspirehep.net/authors/1051468",
-      "title": "PhD alumnus"
+      "title": "PhD alumnus",
+      "careers": [
+        {
+          "label": "First position after UMN",
+          "position": "Postdoctoral Research Fellow, Perimeter Institute",
+          "asOf": "2012",
+          "source": "https://www.bimsa.cn/detail/PeterKoroteev.html"
+        },
+        {
+          "label": "Current position",
+          "position": "Associate Professor, Beijing Institute of Mathematical Sciences and Applications",
+          "source": "https://www.bimsa.cn/detail/PeterKoroteev.html"
+        }
+      ]
     },
     {
       "slug": "xiaoyi-cui",
@@ -1251,7 +2209,20 @@
       "end": 2012,
       "atMinnesota": false,
       "profile": "https://inspirehep.net/authors/1069187",
-      "title": "PhD alumnus"
+      "title": "PhD alumnus",
+      "careers": [
+        {
+          "label": "First position after UMN",
+          "position": "Postdoctoral researcher, Max Planck Institute for Mathematics, Bonn",
+          "asOf": "2012",
+          "source": "https://inspirehep.net/authors/1069187"
+        },
+        {
+          "label": "Latest known position",
+          "position": "Sun Yat-sen University",
+          "source": "https://cse.umn.edu/ftpi/alumni"
+        }
+      ]
     },
     {
       "slug": "serkay-olmez",
@@ -1262,7 +2233,14 @@
       "end": 2012,
       "atMinnesota": false,
       "profile": "",
-      "title": "PhD alumnus"
+      "title": "PhD alumnus",
+      "careers": [
+        {
+          "label": "Latest known position",
+          "position": "Seagate Technology",
+          "source": "https://cse.umn.edu/ftpi/alumni"
+        }
+      ]
     },
     {
       "slug": "daniel-gregory-sword",
@@ -1295,7 +2273,21 @@
       "end": 2010,
       "atMinnesota": false,
       "profile": "https://inspirehep.net/authors/1042671",
-      "title": "PhD alumnus"
+      "title": "PhD alumnus",
+      "careers": [
+        {
+          "label": "First position after UMN",
+          "position": "Postdoctoral researcher, IPMU, University of Tokyo",
+          "asOf": "2010",
+          "source": "https://inspirehep.net/authors/1042671"
+        },
+        {
+          "label": "Latest known position",
+          "position": "Institute of Cosmology and Gravitation, University of Portsmouth",
+          "asOf": "2017",
+          "source": "https://inspirehep.net/authors/1042671"
+        }
+      ]
     },
     {
       "slug": "alexander-monin",
@@ -1306,7 +2298,14 @@
       "end": 2010,
       "atMinnesota": false,
       "profile": "https://inspirehep.net/authors/1034798",
-      "title": "PhD alumnus"
+      "title": "PhD alumnus",
+      "careers": [
+        {
+          "label": "Current position",
+          "position": "Assistant Professor, University of South Carolina",
+          "source": "https://ftp.sc.edu/study/colleges_schools/artsandsciences/physics_and_astronomy/our_people/directory/monin_alexander.php"
+        }
+      ]
     },
     {
       "slug": "burak-himmetoglu",
@@ -1328,7 +2327,14 @@
       "end": 2009,
       "atMinnesota": false,
       "profile": "https://inspirehep.net/authors/1039256",
-      "title": "PhD alumnus"
+      "title": "PhD alumnus",
+      "careers": [
+        {
+          "label": "Latest known position",
+          "position": "Microsoft",
+          "source": "https://cse.umn.edu/ftpi/alumni"
+        }
+      ]
     },
     {
       "slug": "brian-t-batell",
@@ -1339,7 +2345,20 @@
       "end": 2008,
       "atMinnesota": false,
       "profile": "https://inspirehep.net/authors/1041682",
-      "title": "PhD alumnus"
+      "title": "PhD alumnus",
+      "careers": [
+        {
+          "label": "First position after UMN",
+          "position": "Postdoctoral researcher, Perimeter Institute",
+          "asOf": "2008",
+          "source": "https://inspirehep.net/authors/1041682"
+        },
+        {
+          "label": "Current position",
+          "position": "Associate Professor, University of Pittsburgh",
+          "source": "https://www.physicsandastronomy.pitt.edu/people/brian-batell"
+        }
+      ]
     },
     {
       "slug": "matthew-g-sexton",
@@ -1361,7 +2380,20 @@
       "end": 2008,
       "atMinnesota": false,
       "profile": "https://inspirehep.net/authors/1024682",
-      "title": "PhD alumnus"
+      "title": "PhD alumnus",
+      "careers": [
+        {
+          "label": "First position after UMN",
+          "position": "Postdoctoral fellow, University of Texas at Austin",
+          "asOf": "2008",
+          "source": "https://profiles.faculty.utah.edu/u0786002"
+        },
+        {
+          "label": "Current position",
+          "position": "Professor of Physics and Dean of the College of Science, University of Utah",
+          "source": "https://profiles.faculty.utah.edu/u0786002"
+        }
+      ]
     },
     {
       "slug": "robert-wellington",
@@ -1372,7 +2404,14 @@
       "end": null,
       "atMinnesota": false,
       "profile": "",
-      "title": "Former graduate student"
+      "title": "Former graduate student",
+      "careers": [
+        {
+          "label": "Latest known position",
+          "position": "Normandale Community College",
+          "source": "https://cse.umn.edu/ftpi/alumni"
+        }
+      ]
     },
     {
       "slug": "dmitri-ryzhikh",
@@ -1383,7 +2422,14 @@
       "end": 2006,
       "atMinnesota": false,
       "profile": "https://inspirehep.net/authors/2458966",
-      "title": "PhD alumnus"
+      "title": "PhD alumnus",
+      "careers": [
+        {
+          "label": "Latest known position",
+          "position": "Homesite Insurance",
+          "source": "https://cse.umn.edu/ftpi/alumni"
+        }
+      ]
     },
     {
       "slug": "seokcheon-lee",
@@ -1394,7 +2440,20 @@
       "end": 2005,
       "atMinnesota": false,
       "profile": "https://inspirehep.net/authors/1023542",
-      "title": "PhD alumnus"
+      "title": "PhD alumnus",
+      "careers": [
+        {
+          "label": "First position after UMN",
+          "position": "Postdoctoral researcher, Institute of Physics, Academia Sinica",
+          "asOf": "2005",
+          "source": "https://inspirehep.net/authors/1023542"
+        },
+        {
+          "label": "Latest known position",
+          "position": "Sungkyunkwan University",
+          "source": "https://cse.umn.edu/ftpi/alumni"
+        }
+      ]
     },
     {
       "slug": "soo-hyeon-nam",
@@ -1405,7 +2464,14 @@
       "end": 2005,
       "atMinnesota": false,
       "profile": "https://inspirehep.net/authors/1033285",
-      "title": "PhD alumnus"
+      "title": "PhD alumnus",
+      "careers": [
+        {
+          "label": "Latest known position",
+          "position": "Korea University",
+          "source": "https://cse.umn.edu/ftpi/alumni"
+        }
+      ]
     },
     {
       "slug": "hassib-amini",
@@ -1416,7 +2482,14 @@
       "end": 2003,
       "atMinnesota": false,
       "profile": "",
-      "title": "PhD alumnus"
+      "title": "PhD alumnus",
+      "careers": [
+        {
+          "label": "Latest known position",
+          "position": "Seagate Technology",
+          "source": "https://cse.umn.edu/ftpi/alumni"
+        }
+      ]
     },
     {
       "slug": "xinrui-hou",
@@ -1438,7 +2511,14 @@
       "end": 2000,
       "atMinnesota": false,
       "profile": "",
-      "title": "PhD alumnus"
+      "title": "PhD alumnus",
+      "careers": [
+        {
+          "label": "Latest known position",
+          "position": "Winona State University",
+          "source": "https://cse.umn.edu/ftpi/alumni"
+        }
+      ]
     },
     {
       "slug": "boris-chibisov",
@@ -1449,7 +2529,14 @@
       "end": 1998,
       "atMinnesota": false,
       "profile": "",
-      "title": "PhD alumnus"
+      "title": "PhD alumnus",
+      "careers": [
+        {
+          "label": "Latest known position",
+          "position": "Morgan Stanley Smith Barney",
+          "source": "https://cse.umn.edu/ftpi/alumni"
+        }
+      ]
     },
     {
       "slug": "henley-sean-quadling",
@@ -1471,7 +2558,14 @@
       "end": 1998,
       "atMinnesota": false,
       "profile": "",
-      "title": "PhD alumnus"
+      "title": "PhD alumnus",
+      "careers": [
+        {
+          "label": "Latest known position",
+          "position": "Lockheed Martin",
+          "source": "https://cse.umn.edu/ftpi/alumni"
+        }
+      ]
     },
     {
       "slug": "jamal-jalilian-marian",
@@ -1482,7 +2576,14 @@
       "end": 1997,
       "atMinnesota": false,
       "profile": "https://baruch.cuny.edu/profiles/faculty/Jamal-Jalilian_marian",
-      "title": "PhD alumnus"
+      "title": "PhD alumnus",
+      "careers": [
+        {
+          "label": "Current position",
+          "position": "Professor of Physics, Baruch College, City University of New York",
+          "source": "https://baruch.cuny.edu/profiles/faculty/Jamal-Jalilian_marian"
+        }
+      ]
     },
     {
       "slug": "sean-scully",
@@ -1493,7 +2594,14 @@
       "end": 1997,
       "atMinnesota": false,
       "profile": "",
-      "title": "PhD alumnus"
+      "title": "PhD alumnus",
+      "careers": [
+        {
+          "label": "Latest known position",
+          "position": "James Madison University",
+          "source": "https://cse.umn.edu/ftpi/alumni"
+        }
+      ]
     },
     {
       "slug": "lev-a-koyrakh",
@@ -1526,7 +2634,20 @@
       "end": 1995,
       "atMinnesota": false,
       "profile": "https://sigi.nucleares.unam.mx/sgiicn/people/user/view/id/5/Project_sort/title.desc",
-      "title": "PhD alumnus"
+      "title": "PhD alumnus",
+      "careers": [
+        {
+          "label": "First position after UMN",
+          "position": "Postdoctoral researcher, University of Illinois Urbana-Champaign",
+          "asOf": "1995",
+          "source": "https://www.juntadegobierno.unam.mx/files_web/2020/Ins-nucleares/Ayala/Ayala%20semblanza.pdf"
+        },
+        {
+          "label": "Current position",
+          "position": "Researcher, Instituto de Ciencias Nucleares, Universidad Nacional Autónoma de México",
+          "source": "https://sigi.nucleares.unam.mx/sgiicn/people/user/view/id/5/Project_sort/title.desc"
+        }
+      ]
     },
     {
       "slug": "brian-h-smith",
@@ -1592,7 +2713,20 @@
       "end": 1992,
       "atMinnesota": false,
       "profile": "https://inspirehep.net/authors/1003851",
-      "title": "PhD alumnus"
+      "title": "PhD alumnus",
+      "careers": [
+        {
+          "label": "First position after UMN",
+          "position": "Postdoctoral researcher, University of Alberta",
+          "asOf": "1992",
+          "source": "https://physics.ucdavis.edu/people/faculty/nemanja-kaloper"
+        },
+        {
+          "label": "Current position",
+          "position": "Professor, University of California, Davis",
+          "source": "https://physics.ucdavis.edu/people/faculty/nemanja-kaloper"
+        }
+      ]
     },
     {
       "slug": "xu-li",
@@ -1614,7 +2748,15 @@
       "end": 1991,
       "atMinnesota": false,
       "profile": "https://inspirehep.net/authors/986206",
-      "title": "PhD alumnus"
+      "title": "PhD alumnus",
+      "careers": [
+        {
+          "label": "First position after UMN",
+          "position": "Postdoctoral researcher, University of Chicago",
+          "asOf": "1991",
+          "source": "https://inspirehep.net/authors/986206"
+        }
+      ]
     },
     {
       "slug": "james-e-hetrick",
@@ -1625,7 +2767,20 @@
       "end": 1990,
       "atMinnesota": false,
       "profile": "",
-      "title": "PhD alumnus"
+      "title": "PhD alumnus",
+      "careers": [
+        {
+          "label": "First position after UMN",
+          "position": "Postdoctoral researcher, ETH Zürich",
+          "source": "https://www.pacific.edu/sites/default/files/2020-09/cvjhetrick2015%20%281%29.pdf"
+        },
+        {
+          "label": "Latest known position",
+          "position": "Professor, University of the Pacific",
+          "asOf": "2015",
+          "source": "https://www.pacific.edu/sites/default/files/2020-09/cvjhetrick2015%20%281%29.pdf"
+        }
+      ]
     },
     {
       "slug": "choon-lin-ho",
@@ -1636,7 +2791,14 @@
       "end": 1989,
       "atMinnesota": false,
       "profile": "https://inspirehep.net/authors/1005869",
-      "title": "PhD alumnus"
+      "title": "PhD alumnus",
+      "careers": [
+        {
+          "label": "Latest known position",
+          "position": "Professor, Tamkang University",
+          "source": "https://qut.tku.edu.tw/phys/?page_id=29307"
+        }
+      ]
     },
     {
       "slug": "kin-wang-ng",
@@ -1647,7 +2809,19 @@
       "end": 1989,
       "atMinnesota": false,
       "profile": "https://inspirehep.net/authors/995762",
-      "title": "PhD alumnus"
+      "title": "PhD alumnus",
+      "careers": [
+        {
+          "label": "First position after UMN",
+          "position": "Postdoctoral researcher, Institute of Physics, Academia Sinica",
+          "source": "https://inspirehep.net/authors/995762"
+        },
+        {
+          "label": "Latest known position",
+          "position": "Senior researcher, Institute of Physics, Academia Sinica",
+          "source": "https://inspirehep.net/authors/995762"
+        }
+      ]
     },
     {
       "slug": "ina-sarcevic",
@@ -1657,8 +2831,15 @@
       "start": null,
       "end": 1986,
       "atMinnesota": false,
-      "profile": "",
-      "title": "PhD alumnus"
+      "profile": "https://physics.arizona.edu/people/ina-sarcevic",
+      "title": "PhD alumnus",
+      "careers": [
+        {
+          "label": "Current position",
+          "position": "Professor of Physics and Astronomy, University of Arizona",
+          "source": "https://physics.arizona.edu/people/ina-sarcevic"
+        }
+      ]
     },
     {
       "slug": "miroslav-nikolic",
@@ -1691,7 +2872,21 @@
       "end": 1985,
       "atMinnesota": false,
       "profile": "https://physics.nankai.edu.cn/2022/0928/c571a481052/page.htm",
-      "title": "PhD alumnus"
+      "title": "PhD alumnus",
+      "careers": [
+        {
+          "label": "First position after UMN",
+          "position": "Postdoctoral researcher, Institute of Theoretical Physics, Chinese Academy of Sciences",
+          "asOf": "1985",
+          "source": "https://physics.nankai.edu.cn/2022/0928/c571a481052/page.htm"
+        },
+        {
+          "label": "Latest known position",
+          "position": "Professor, Nankai University",
+          "asOf": "2022",
+          "source": "https://physics.nankai.edu.cn/2022/0928/c571a481052/page.htm"
+        }
+      ]
     },
     {
       "slug": "peter-j-moxhay",
@@ -1713,7 +2908,14 @@
       "end": 1983,
       "atMinnesota": false,
       "profile": "https://www.udel.edu/academics/colleges/cas/units/departments/physics-astronomy/our-people/",
-      "title": "PhD alumnus"
+      "title": "PhD alumnus",
+      "careers": [
+        {
+          "label": "Current position",
+          "position": "Professor Emeritus, University of Delaware",
+          "source": "https://www.udel.edu/academics/colleges/cas/units/departments/physics-astronomy/our-people/"
+        }
+      ]
     },
     {
       "slug": "richard-w-robinett",
@@ -1724,7 +2926,20 @@
       "end": 1981,
       "atMinnesota": false,
       "profile": "https://science.aws.science.psu.edu/physics/people/rq9",
-      "title": "PhD alumnus"
+      "title": "PhD alumnus",
+      "careers": [
+        {
+          "label": "First position after UMN",
+          "position": "Research Associate, University of Wisconsin–Madison",
+          "asOf": "1981",
+          "source": "https://bpb-us-e1.wpmucdn.com/sites.psu.edu/dist/8/194096/files/2025/04/LaTex_Robinett_CV_2025.pdf"
+        },
+        {
+          "label": "Current position",
+          "position": "Professor Emeritus of Physics, Penn State",
+          "source": "https://cpest.psu.edu/people/"
+        }
+      ]
     },
     {
       "slug": "john-b-babcock",
@@ -1746,7 +2961,15 @@
       "end": 1973,
       "atMinnesota": false,
       "profile": "https://math.ethz.ch/the-department/people.html?u=wpp",
-      "title": "PhD alumnus"
+      "title": "PhD alumnus",
+      "careers": [
+        {
+          "label": "Latest known position",
+          "position": "Professor (retired), ETH Zürich",
+          "asOf": "2010",
+          "source": "https://math.ethz.ch/sam/the-institute/history.html"
+        }
+      ]
     },
     {
       "slug": "william-a-bardeen",
@@ -1757,7 +2980,20 @@
       "end": 1968,
       "atMinnesota": false,
       "profile": "",
-      "title": "PhD alumnus"
+      "title": "PhD alumnus",
+      "careers": [
+        {
+          "label": "Postdoctoral appointment before PhD conferral",
+          "position": "Postdoctoral researcher, Stony Brook University",
+          "asOf": "1966",
+          "source": "https://lss.fnal.gov/archive/2026/pub/fermilab-pub-26-0259.pdf"
+        },
+        {
+          "label": "Last appointment",
+          "position": "Scientist (retired), Fermilab",
+          "source": "https://lss.fnal.gov/archive/2026/pub/fermilab-pub-26-0259.pdf"
+        }
+      ]
     },
     {
       "slug": "stanley-j-brodsky",
@@ -1768,7 +3004,20 @@
       "end": 1964,
       "atMinnesota": false,
       "profile": "https://faculty.slac.stanford.edu/person/stanley-brodsky-0",
-      "title": "PhD alumnus"
+      "title": "PhD alumnus",
+      "careers": [
+        {
+          "label": "First position after UMN",
+          "position": "Research Associate, Columbia University",
+          "asOf": "1964",
+          "source": "https://cap.stanford.edu/profiles/viewCV?facultyId=86111&name=Stanley_Brodsky"
+        },
+        {
+          "label": "Current position",
+          "position": "Professor Emeritus of Particle Physics and Astrophysics, Stanford University / SLAC",
+          "source": "https://faculty.slac.stanford.edu/person/stanley-brodsky-0"
+        }
+      ]
     }
   ]
 }

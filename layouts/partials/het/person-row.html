@@ -7,7 +7,19 @@
   <summary><span class="person-name">{{ $p.name }}</span><span class="role-label">{{ delimit (uniq $roles) " · " }}{{ if in ($p.title | default "") "Emeritus" }} · Emeritus{{ end }}</span><span class="period-label">{{ $p.period }}</span><span class="expand-mark" aria-hidden="true">+</span></summary>
   <div class="person-details {{ if $hasPhoto }}has-photo{{ end }}">
     {{ if $hasPhoto }}<img class="detail-portrait" src="{{ $photo | relURL }}" alt="{{ $p.name }}" loading="lazy" width="120" height="150">{{ end }}
-    <div><p class="detail-label">At Minnesota</p><p>{{ $p.period }}</p>{{ with $p.title }}<p>{{ . }}</p>{{ end }}{{ with $p.topics }}<p>{{ . }}</p>{{ end }}</div>
+    <div class="person-biography">
+      <p class="detail-label">At Minnesota</p><p>{{ $p.period }}</p>{{ with $p.title }}<p>{{ . }}</p>{{ end }}{{ with $p.topics }}<p>{{ . }}</p>{{ end }}
+      {{ with $p.careers }}
+      <dl class="career-details">
+        {{ range . }}
+        <div class="career-entry">
+          <dt>{{ .label }}</dt>
+          <dd>{{ if .source }}<a class="career-position" href="{{ .source }}">{{ .position }}</a>{{ else }}{{ .position }}{{ end }}{{ with .asOf }}<span class="career-date">As of {{ . }}</span>{{ end }}</dd>
+        </div>
+        {{ end }}
+      </dl>
+      {{ end }}
+    </div>
     <div class="person-links">{{ with $p.profile }}<a class="text-link" href="{{ . }}">Professional profile<span class="sr-only"> of {{ $p.name }}</span></a>{{ end }}<a class="quiet-link" href="mailto:zliuphys@umn.edu?subject={{ printf "Minnesota HET roster: %s" $p.name | urlquery }}">Suggest a correction<span class="sr-only"> for {{ $p.name }}</span></a></div>
   </div>
 </details>

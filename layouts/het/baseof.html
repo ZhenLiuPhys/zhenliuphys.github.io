@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="robots" content="noindex,nofollow,noarchive">
+  <meta name="description" content="{{ .Description }}">
+  <title>UMNHET</title>
+  <link rel="stylesheet" href="{{ "het/css/site.css" | relURL }}">
+  <script defer src="{{ "het/js/site.js" | relURL }}"></script>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<div class="university-line"><div class="container">University of Minnesota <span>People and alumni</span></div></div>
+<header class="site-header container">
+  <a class="wordmark" href="{{ .RelPermalink }}"><strong>High Energy Theory</strong><span>at Minnesota</span></a>
+  <a class="header-contribute text-link" href="#contribute">Contribute to the archive</a>
+</header>
+<main id="main" tabindex="-1">{{ block "main" . }}{{ end }}</main>
+<footer class="site-footer">
+  <div class="container directory-footer">
+    <p>Maintained by <a href="{{ "" | relURL }}">Zhen Liu</a></p>
+    <div class="footer-links"><a href="https://cse.umn.edu/physics/research/heptheory">UMN High Energy Theory</a><a href="https://cse.umn.edu/physics">UMN Physics</a><a href="https://cse.umn.edu/ftpi">Fine Theoretical Physics Institute</a></div>
+    <p class="hosting-note" id="development-note" tabindex="-1"><sup>*</sup> This is a temporary development home for the UMN High Energy Theory people archive. We intend to move it to a permanent home on the UMN Physics website. <a href="#page-title">Back to title</a></p>
+  </div>
+</footer>
+</body></html>

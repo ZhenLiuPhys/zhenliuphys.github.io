@@ -58,13 +58,75 @@ if (legacy) {
       history.replaceState(null, '', url);
     }
   }
+  const expandButtons = [...document.querySelectorAll('.expand-button[data-expand]')];
+  let expandMode = null; // null | 'current' | 'all'
+  let suppressToggleSync = false;
+  function paintExpandButtons() {
+    for (const button of expandButtons) {
+      const mode = button.dataset.expand;
+      const active = expandMode === mode;
+      button.setAttribute('aria-pressed', active ? 'true' : 'false');
+      button.textContent = active
+        ? (button.dataset.labelCollapse || 'Collapse')
+        : (button.dataset.labelExpand || 'Expand');
+    }
+  }
+  function inferExpandMode() {
+    const visible = rows.filter(row => !row.hidden);
+    if (!visible.length) return null;
+    if (visible.every(row => row.open)) return 'all';
+    const current = visible.filter(row => row.dataset.current === 'true');
+    const alumni = visible.filter(row => row.dataset.current !== 'true');
+    if (current.length && current.every(row => row.open) && alumni.every(row => !row.open)) return 'current';
+    return null;
+  }
+  function setDirectoryOpen(mode) {
+    suppressToggleSync = true;
+    for (const row of rows) {
+      if (row.hidden) {
+        row.open = false;
+        continue;
+      }
+      if (mode === 'all') row.open = true;
+      else if (mode === 'current') row.open = row.dataset.current === 'true';
+      else row.open = false;
+    }
+    // Keep suppression until after any deferred details "toggle" events.
+    setTimeout(() => { suppressToggleSync = false; }, 0);
+  }
+  function applyExpandMode(mode) {
+    if (expandMode === mode) {
+      expandMode = null;
+      setDirectoryOpen(null);
+    } else {
+      expandMode = mode;
+      setDirectoryOpen(mode);
+    }
+    paintExpandButtons();
+  }
+  function syncExpandModeFromRows() {
+    if (suppressToggleSync) return;
+    expandMode = inferExpandMode();
+    paintExpandButtons();
+  }
+  for (const button of expandButtons) {
+    button.addEventListener('click', event => {
+      event.preventDefault();
+      event.stopPropagation();
+      applyExpandMode(button.dataset.expand);
+    });
+  }
+  for (const row of rows) {
+    row.addEventListener('toggle', syncExpandModeFromRows);
+  }
   if (people && form) {
     form.addEventListener('submit',event=>{ event.preventDefault(); applyFilters(); });
-    form.addEventListener('input',()=>applyFilters());
-    form.addEventListener('change',()=>applyFilters());
-    form.addEventListener('reset',()=>setTimeout(()=>applyFilters(),0));
+    form.addEventListener('input',()=>{ applyFilters(); if (expandMode) setDirectoryOpen(expandMode); paintExpandButtons(); });
+    form.addEventListener('change',()=>{ applyFilters(); if (expandMode) setDirectoryOpen(expandMode); paintExpandButtons(); });
+    form.addEventListener('reset',()=>setTimeout(()=>{ applyFilters(); if (expandMode) setDirectoryOpen(expandMode); paintExpandButtons(); },0));
     readDirectoryURL();
   }
+  paintExpandButtons();
   function revealHash(scroll = true) {
     let id;
     try { id = decodeURIComponent(location.hash.slice(1)); } catch (_) { return; }

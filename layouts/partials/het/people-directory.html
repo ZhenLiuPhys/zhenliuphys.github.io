@@ -1,7 +1,13 @@
 {{ $people := hugo.Data.het.people.people }}
 <p class="scope-note">Current members and emeritus colleagues appear first, followed by earlier members of the community.</p>
 <form class="filters enhanced-only" role="search" id="directory-filters"><div class="search-field"><label for="name-search">Find a person</label><input id="name-search" type="search" placeholder="Search by name" autocomplete="off"></div><div><label for="role-filter">Role at Minnesota</label><select id="role-filter"><option value="">All roles</option><option>Faculty</option><option>Postdoc</option><option value="Student">Student</option><option value="Visitor">Visitor</option></select></div><div><label for="decade-filter">Period</label><select id="decade-filter"><option value="">All years</option>{{ range seq 1950 10 2020 }}<option value="{{ . }}">{{ . }}s</option>{{ end }}<option value="undated">Dates not documented</option></select></div><button type="reset" class="reset-button">Clear filters</button></form>
-<div class="results-meta"><p id="result-count" aria-live="polite" aria-atomic="true">{{ len $people }} people in the roster</p><span>Select a name to expand</span></div>
+<div class="results-meta">
+  <p id="result-count" aria-live="polite" aria-atomic="true">{{ len $people }} people in the roster</p>
+  <div class="expand-actions">
+    <button type="button" class="expand-button" id="expand-current" data-expand="current" data-label-expand="Expand all current" data-label-collapse="Collapse current" aria-pressed="false">Expand all current</button>
+    <button type="button" class="expand-button" id="expand-all" data-expand="all" data-label-expand="Expand all" data-label-collapse="Collapse all" aria-pressed="false">Expand all</button>
+  </div>
+</div>
 <div class="directory-head" aria-hidden="true"><span>Name</span><span>Role at Minnesota</span><span>Years / degree</span><span></span></div>
 <div id="directory-rows">
 {{ $roster := (where $people "atMinnesota" true) | append (where $people "atMinnesota" false) }}

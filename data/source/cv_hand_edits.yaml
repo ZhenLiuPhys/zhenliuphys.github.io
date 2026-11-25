@@ -23,9 +23,9 @@ mentoring:
     umn_period: true
   research_undergraduates|Yiheng Jiang:
     umn_period: true
-  research_graduates|Zong-En Chen:
+  graduate_students|Zong-En Chen:
     umn_period: true
-    institution: true
+    current_institution: true
   graduate_students|Yuxin Liu:
     visiting: true
     notes: true
@@ -66,6 +66,12 @@ service:
   university_service|6: true
   university_service|7: true
   university_service|8: true
+  grant_review|0: true
+  grant_review|1: true
+  grant_review|3: true
+  grant_review|4: true
+  grant_review|5: true
+  grant_review|6: true
 publications:
   pub-l1-001-new-gauge-forces:
     title: true

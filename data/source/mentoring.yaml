@@ -1,12 +1,16 @@
 graduate_students:
 - name: Peiran Li
   profile_url: ''
-  umn_period: Apr 2022-present
+  umn_period: Apr 2022-Aug 2026
   leaving_institution: Perimeter Institute (Postdoc, pending visa)
   current_institution: University of Minnesota
 - name: Ishmam Mahbub
   profile_url: ''
   umn_period: Apr 2022-present
+  current_institution: University of Minnesota
+- name: Zong-En Chen
+  profile_url: ''
+  umn_period: May 2026-present
   current_institution: University of Minnesota
 - name: Yuxin Liu
   profile_url: ''
@@ -47,9 +51,6 @@ postdocs:
   leaving_institution: IFAE Barcelona (Postdoc)
   current_institution: IFAE Barcelona
 research_graduates:
-- name: Zong-En Chen
-  institution: University of Minnesota
-  umn_period: May 2026-present
 - name: Abhinaya Sinha
   institution: University of Minnesota
   umn_period: May 2025-Aug 2025

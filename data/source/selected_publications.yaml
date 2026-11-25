@@ -3,6 +3,28 @@
 # topic, theme_ids, and highlight_note are curation metadata for /publications/ cards.
 # Homepage figures: drop static/images/plots/{arxiv}.gif (preferred) or .png/.webp/.jpg/.svg; optional
 # figure: block below for caption and alt only.
+- arxiv: "2611.10115"
+  title: "Fast, training-free simplification of spinor-helicity amplitudes"
+  year: 2026
+  topic: amplitudes
+  theme_ids: ["amplitudes-bsm"]
+  highlight_note: "Training-free AmpZip simplification of massless spinor-helicity amplitudes."
+  figure:
+    alt: "AmpZip UI simplifying a scrambled six-point spinor-helicity amplitude"
+    caption: |
+      AmpZip local UI on a six-point scrambled example: greedy best-first search
+      compresses a long spinor-helicity expression with an auditable rewrite trail.
+- arxiv: "2611.26844"
+  title: "Unstable particle collisions in space and time"
+  year: 2026
+  topic: standard_model
+  theme_ids: ["muon-colliders"]
+  highlight_note: "Space-time formalism for unstable particle scattering beyond the plane-wave description."
+  figure:
+    alt: "Schematic of unstable particle scattering in space-time versus a Feynman diagram"
+    caption: |
+      Unstable-beam scattering beyond plane waves: decay and on-shell intermediate
+      propagation in space-time, contrasted with a direct beam–beam collision.
 - arxiv: "2604.14284"
   title: "A Busy Higgs Signal"
   year: 2026

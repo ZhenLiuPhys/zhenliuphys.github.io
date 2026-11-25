@@ -11,7 +11,7 @@
       {{ range partial "news-sorted.html" (dict "items" (where hugo.Data.news "pinned" true)) }}
         <article class="feed-item">
           <time datetime="{{ .date }}">{{ partial "feed-date.html" (dict "date" .date) }}</time>
-          <p>{{ .text }}{{ with .url }} <a href="{{ partial "rel-internal.html" (dict "href" .) }}">→</a>{{ end }}</p>
+          <p>{{ .text | safeHTML }}{{ with .url }} <a href="{{ partial "rel-internal.html" (dict "href" .) }}">→</a>{{ end }}</p>
         </article>
       {{ else }}
         <p class="small">No announcements yet. Add items to <code>data/news.yaml</code>.</p>
@@ -29,7 +29,7 @@
       {{ range partial "news-sorted.html" (dict "items" $other) }}
         <article class="feed-item">
           <time datetime="{{ .date }}">{{ partial "feed-date.html" (dict "date" .date) }}</time>
-          <p>{{ .text }}{{ with .url }} <a href="{{ partial "rel-internal.html" (dict "href" .) }}">→</a>{{ end }}</p>
+          <p>{{ .text | safeHTML }}{{ with .url }} <a href="{{ partial "rel-internal.html" (dict "href" .) }}">→</a>{{ end }}</p>
         </article>
       {{ end }}
     </div>

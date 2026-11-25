@@ -1,3 +1,19 @@
+- date: "2026-11"
+  text: "Celebrating the history of the UMN high energy theory group — see more on the UMNHET archive."
+  url: "/umnhet/"
+  pinned: true
+- date: "2026-11"
+  text: 'Yifan Fei (visiting student) and Zhen worked out new simplifications for massless amplitudes, with better performance for theory exploration and discovery. New package <a href="https://github.com/AmpLens/AmpLens">AmpZip</a>.'
+  url: "https://arxiv.org/abs/2611.10115"
+  pinned: true
+- date: "2026-11"
+  text: "New paper with Wulzer et al. on an intriguing formalism for unstable particle scattering — a unique singularity that appears once one goes beyond the plane-wave description."
+  url: "https://arxiv.org/abs/2611.26844"
+  pinned: true
+- date: "2026-10"
+  text: "Welcome Zong-En Chen, joining the group as our newest graduate student."
+  url: "/mentoring/"
+  pinned: true
 - date: "2026-09"
   text: "Invited overview talk on the theory landscape and optomechanical sensing at the McDonald Institute, Queen's University, Canada."
   url: "https://indico.global/event/18677/contributions/168636/"

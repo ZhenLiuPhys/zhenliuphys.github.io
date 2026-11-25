@@ -675,6 +675,18 @@
   - neutrinos
   - forward-physics
   - muon-collider
+'2611.10115':
+  tags:
+  - amplitudes
+  - ai-ml
+'2611.13096':
+  tags:
+  - amplitudes
+  - bsm
+'2611.26844':
+  tags:
+  - standard-model
+  - muon-collider
 by_id:
   pub-l2-003-a-cool-route-to-the-higgs-boson-and-beyond-the-cool-copper-collider:
     tags:

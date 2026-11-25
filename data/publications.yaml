@@ -1,3 +1,63 @@
+- id: pub-l1-001-unstable-particle-collisions-in-space-and-time
+  title: Unstable particle collisions in space and time
+  year: 2026
+  date: '2026-11-01'
+  authors: ''
+  venue: I. Lorences, Z. Liu, G. Panico, A. Wulzer, submitted, 2611.26844 [hep-ph](2026)
+  doi: ''
+  arxiv: '2611.26844'
+  journal_url: ''
+  section: refereed_journals
+  featured: true
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Unstable particle collisions in space and time, I. Lorences, Z. Liu, G.
+    Panico, A. Wulzer, submitted, 2611.26844 [hep-ph](2026)
+  journal: ''
+  status: ''
+  venue_display: submitted
+  tags:
+  - standard-model
+  - muon-collider
+- id: pub-l1-002-off-shell-continuation-from-on-shell-recursion
+  title: Off-shell continuation from on-shell recursion
+  year: 2026
+  date: '2026-11-01'
+  authors: ''
+  venue: W. Ke, Z.Liu, I. Mahbub, submitted, 2611.13096 [hep-ph](2026)
+  doi: ''
+  arxiv: '2611.13096'
+  journal_url: ''
+  section: refereed_journals
+  featured: false
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Off-shell continuation from on-shell recursion, W. Ke, Z.Liu, I. Mahbub,
+    submitted, 2611.13096 [hep-ph](2026)
+  journal: ''
+  status: ''
+  venue_display: submitted
+  tags:
+  - amplitudes
+  - bsm
+- id: pub-l1-003-fast-training-free-simplification-of-spinor-helicity-amplitudes
+  title: Fast, training-free simplification of spinor-helicity amplitudes
+  year: 2026
+  date: '2026-11-01'
+  authors: ''
+  venue: Y. Fei, Z. Liu, submitted, 2611.10115 [hep-th](2026)
+  doi: ''
+  arxiv: '2611.10115'
+  journal_url: ''
+  section: refereed_journals
+  featured: true
+  source: Material/ZhenLiu_CV.tex
+  raw_text: Fast, training-free simplification of spinor-helicity amplitudes, Y. Fei,
+    Z. Liu, submitted, 2611.10115 [hep-th](2026)
+  journal: ''
+  status: ''
+  venue_display: submitted
+  tags:
+  - amplitudes
+  - ai-ml
 - id: pub-l1-001-the-forward-neutrino-flux-and-its-secondaries-at-a-10-tev-muon-collider
   title: The Forward Neutrino Flux and its Secondaries at a 10 TeV Muon Collider
   year: 2026
@@ -73,7 +133,7 @@
     1, 015011 , 2605.13964 [hep-ph](2026)
   doi: 10.1103/5s3t-x8l1
   arxiv: '2605.13964'
-  journal_url: https://doi.org/10.1103/5s3t-x8l1
+  journal_url: ''
   section: refereed_journals
   featured: false
   source: Material/ZhenLiu_CV.tex
@@ -432,7 +492,7 @@
   year: 2024
   date: '2024-12-01'
   authors: ''
-  venue: Bojorquez-Lopez, M. Hostert, C. Argüelles, Z. Liu, Phys.Rev.Lett. 135 (2025) 9, 091803, 2412.14115
+  venue: M. Hostert, C. Argüelles, Z. Liu, Phys.Rev.Lett. 135 (2025) 9, 091803, 2412.14115
     [hep-ph] (2024)
   doi: 10.1103/4sj1-ycft
   arxiv: '2412.14115'
@@ -1576,7 +1636,7 @@
   year: 2022
   date: '2022-03-01'
   authors: ''
-  venue: J. de Blas, J. Gu, Z. Liu, PhysRevD.106.073007, 2203.04324[hep-ph](2022)
+  venue: J. Gu, Z. Liu, PhysRevD.106.073007, 2203.04324[hep-ph](2022)
   doi: 10.1103/PhysRevD.106.073007
   arxiv: '2203.04324'
   journal_url: https://journals.aps.org/prd/abstract/10.1103/PhysRevD.106.073007
